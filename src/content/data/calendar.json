@@ -1,0 +1,47 @@
+{
+  "events": [
+    { "id": "new-year", "name": "New Year", "window": { "from": "12-26", "to": "01-03" }, "themes": ["clock", "calendar", "fireworks", "party", "balloons"] },
+    { "id": "tet", "name": "Lunar New Year (Tết / Spring Festival)", "window": { "dates": {
+      "2027": { "from": "2027-01-23", "to": "2027-02-13" },
+      "2028": { "from": "2028-01-12", "to": "2028-02-02" },
+      "2029": { "from": "2029-01-30", "to": "2029-02-20" }
+    } }, "themes": ["red envelope", "lantern", "fireworks", "flowers", "family", "zodiac animal of the year", "traditional food"] },
+    { "id": "spring", "name": "Spring", "window": { "from": "03-01", "to": "04-15" }, "themes": ["flowers", "butterflies", "birds", "rain", "garden"] },
+    { "id": "earth-day", "name": "Earth Day", "window": { "from": "04-10", "to": "04-25" }, "themes": ["planet", "trees", "recycling", "nature", "water"] },
+    { "id": "rainy-season", "name": "Rainy season", "window": { "from": "05-15", "to": "07-15" }, "themes": ["weather", "umbrella", "boots", "puddles", "clouds"] },
+    { "id": "childrens-day", "name": "International Children's Day (June 1)", "window": { "from": "05-20", "to": "06-03" }, "themes": ["toys", "games", "balloons", "friends", "playground"] },
+    { "id": "summer", "name": "Summer holidays", "window": { "from": "06-04", "to": "08-15" }, "themes": ["beach", "sea animals", "ice cream", "swimming", "sun", "travel"] },
+    { "id": "back-to-school", "name": "Back to school", "window": { "from": "08-16", "to": "09-12" }, "themes": ["school things", "classroom", "backpack", "books", "teacher"] },
+    { "id": "mid-autumn", "name": "Mid-Autumn Festival (Tết Trung thu)", "window": { "dates": {
+      "2026": { "from": "2026-09-10", "to": "2026-09-26" },
+      "2027": { "from": "2027-08-31", "to": "2027-09-16" },
+      "2028": { "from": "2028-09-18", "to": "2028-10-04" }
+    } }, "themes": ["moon", "moon cake", "lantern", "rabbit", "stars", "night"] },
+    { "id": "autumn", "name": "Autumn", "window": { "from": "09-27", "to": "10-20" }, "themes": ["leaves", "harvest", "fruits", "wind", "nuts"] },
+    { "id": "halloween", "name": "Halloween (cute, never scary)", "window": { "from": "10-15", "to": "10-31" }, "themes": ["pumpkin", "costume", "candy", "friendly ghost", "bat", "moon", "owl"] },
+    { "id": "teachers-day-vn", "name": "Vietnamese Teachers' Day (Nov 20)", "window": { "from": "11-06", "to": "11-20" }, "themes": ["school", "flowers", "books", "thank you"] },
+    { "id": "winter", "name": "Winter", "window": { "from": "11-21", "to": "12-10" }, "themes": ["snow", "warm clothes", "hot drinks", "cold weather", "winter animals"] },
+    { "id": "christmas", "name": "Christmas", "window": { "from": "12-11", "to": "12-25" }, "themes": ["tree", "gift", "star", "bell", "snowman", "reindeer"] }
+  ],
+  "coreTopics": [
+    { "id": "animals", "description": "pets, farm, wild animals, birds" },
+    { "id": "sea-animals", "description": "fish, whale, octopus, crab..." },
+    { "id": "insects", "description": "bugs and small creatures (friendly, not scary)" },
+    { "id": "food", "description": "fruits, vegetables, meals, snacks, drinks (no alcohol, no coffee)" },
+    { "id": "things", "description": "objects at home, toys, kitchen, bathroom" },
+    { "id": "school", "description": "school things and classroom" },
+    { "id": "clothes", "description": "clothes and accessories" },
+    { "id": "body", "description": "body parts (hand, foot, ear, eye, nose...)" },
+    { "id": "family-people", "description": "family members and jobs (baby, grandma, doctor, farmer...)" },
+    { "id": "feelings", "description": "feelings and faces (happy, sad, sleepy, surprised...)" },
+    { "id": "weather-sky", "description": "weather, sky, day and night" },
+    { "id": "nature", "description": "plants, flowers, trees, mountains, rivers" },
+    { "id": "vehicles", "description": "cars, trains, planes, boats" },
+    { "id": "places", "description": "house, school, hospital, park, shop" },
+    { "id": "sports", "description": "sports and games" },
+    { "id": "music", "description": "musical instruments" },
+    { "id": "shapes-numbers", "description": "shapes and numbers" },
+    { "id": "colors", "description": "colors" },
+    { "id": "actions", "description": "everyday verbs a child can act out" }
+  ]
+}

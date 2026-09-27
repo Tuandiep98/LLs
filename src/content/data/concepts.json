@@ -28,7 +28,10 @@
       "ja": {
         "text": "ねこ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "dog",
@@ -59,7 +62,10 @@
       "ja": {
         "text": "いぬ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "fish",
@@ -90,7 +96,10 @@
       "ja": {
         "text": "さかな"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "bird",
@@ -121,7 +130,10 @@
       "ja": {
         "text": "とり"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "rabbit",
@@ -152,7 +164,10 @@
       "ja": {
         "text": "うさぎ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "elephant",
@@ -183,7 +198,10 @@
       "ja": {
         "text": "ぞう"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "lion",
@@ -214,7 +232,10 @@
       "ja": {
         "text": "ライオン"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "monkey",
@@ -245,7 +266,10 @@
       "ja": {
         "text": "さる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "pig",
@@ -276,7 +300,10 @@
       "ja": {
         "text": "ぶた"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "cow",
@@ -307,7 +334,10 @@
       "ja": {
         "text": "うし"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "duck",
@@ -338,7 +368,10 @@
       "ja": {
         "text": "あひる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "frog",
@@ -369,7 +402,10 @@
       "ja": {
         "text": "かえる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "apple",
@@ -400,7 +436,10 @@
       "ja": {
         "text": "りんご"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "banana",
@@ -431,7 +470,10 @@
       "ja": {
         "text": "バナナ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "orange",
@@ -462,7 +504,10 @@
       "ja": {
         "text": "みかん"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "grapes",
@@ -493,7 +538,10 @@
       "ja": {
         "text": "ぶどう"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "watermelon",
@@ -524,7 +572,10 @@
       "ja": {
         "text": "すいか"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "strawberry",
@@ -555,7 +606,10 @@
       "ja": {
         "text": "いちご"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "bread",
@@ -586,7 +640,10 @@
       "ja": {
         "text": "パン"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "egg",
@@ -617,7 +674,10 @@
       "ja": {
         "text": "たまご"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "milk",
@@ -648,7 +708,10 @@
       "ja": {
         "text": "ミルク"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "cake",
@@ -679,7 +742,10 @@
       "ja": {
         "text": "ケーキ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "rice",
@@ -710,7 +776,10 @@
       "ja": {
         "text": "ごはん"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "carrot",
@@ -741,7 +810,10 @@
       "ja": {
         "text": "にんじん"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "ball",
@@ -772,7 +844,10 @@
       "ja": {
         "text": "ボール"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "book",
@@ -803,7 +878,10 @@
       "ja": {
         "text": "ほん"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "car",
@@ -834,7 +912,10 @@
       "ja": {
         "text": "くるま"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "bus",
@@ -865,7 +946,10 @@
       "ja": {
         "text": "バス"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "house",
@@ -896,7 +980,10 @@
       "ja": {
         "text": "いえ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "chair",
@@ -927,7 +1014,10 @@
       "ja": {
         "text": "いす"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "clock",
@@ -958,7 +1048,10 @@
       "ja": {
         "text": "とけい"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "umbrella",
@@ -989,7 +1082,10 @@
       "ja": {
         "text": "かさ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "hat",
@@ -1020,7 +1116,10 @@
       "ja": {
         "text": "ぼうし"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "shoe",
@@ -1051,7 +1150,10 @@
       "ja": {
         "text": "くつ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "teddy-bear",
@@ -1082,7 +1184,10 @@
       "ja": {
         "text": "くまのぬいぐるみ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "pencil",
@@ -1113,7 +1218,10 @@
       "ja": {
         "text": "えんぴつ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "run",
@@ -1144,7 +1252,10 @@
       "ja": {
         "text": "はしる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "swim",
@@ -1175,7 +1286,10 @@
       "ja": {
         "text": "およぐ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "ride-bike",
@@ -1206,7 +1320,10 @@
       "ja": {
         "text": "じてんしゃにのる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "climb",
@@ -1237,7 +1354,10 @@
       "ja": {
         "text": "のぼる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "sleep",
@@ -1268,7 +1388,10 @@
       "ja": {
         "text": "ねる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "dance",
@@ -1299,7 +1422,10 @@
       "ja": {
         "text": "おどる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "clap",
@@ -1330,7 +1456,10 @@
       "ja": {
         "text": "てをたたく"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "wave",
@@ -1361,7 +1490,10 @@
       "ja": {
         "text": "てをふる"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "sing",
@@ -1392,7 +1524,10 @@
       "ja": {
         "text": "うたう"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "cook",
@@ -1423,7 +1558,10 @@
       "ja": {
         "text": "りょうりする"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "laugh",
@@ -1454,7 +1592,10 @@
       "ja": {
         "text": "わらう"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "cry",
@@ -1485,7 +1626,10 @@
       "ja": {
         "text": "なく"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "red",
@@ -1516,7 +1660,10 @@
       "ja": {
         "text": "あか"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "orange-color",
@@ -1547,7 +1694,10 @@
       "ja": {
         "text": "オレンジ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "yellow",
@@ -1578,7 +1728,10 @@
       "ja": {
         "text": "きいろ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "green",
@@ -1609,7 +1762,10 @@
       "ja": {
         "text": "みどり"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "blue",
@@ -1640,7 +1796,10 @@
       "ja": {
         "text": "あお"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "purple",
@@ -1671,7 +1830,10 @@
       "ja": {
         "text": "むらさき"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "brown",
@@ -1702,7 +1864,10 @@
       "ja": {
         "text": "ちゃいろ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "black",
@@ -1733,7 +1898,10 @@
       "ja": {
         "text": "くろ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   },
   {
     "id": "white",
@@ -1764,6 +1932,9 @@
       "ja": {
         "text": "しろ"
       }
-    }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   }
 ]

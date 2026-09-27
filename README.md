@@ -85,10 +85,21 @@ and saving are shared. A new quiz game is a manifest + one screen component usin
 
 ## Add words
 
-Add entries to `src/content/data/concepts.json`. For Fluent Emoji images set
-`"source": "fluent-emoji", "sourceRef": "<Fluent folder name>"` and run `npm run images`.
-`npm test` checks translations and image files. Later an AI job can generate entries in the
-same format (validated by `schema.ts`) and open a PR for review.
+Add entries to `src/content/data/concepts.json`. Pictures come from the allowed Fluent Emoji
+catalog (`npm run content:catalog -- --search <word>`); set `"sourceRef"` to the catalog name and
+run `npm run images`. `npm run content:check` is the content safety gate (translations, blocklist,
+catalog images, duplicates, topic sizes, daily limit); it also runs in `npm test` and before deploy.
+
+**Nightly content routine:** a Claude Code routine runs every night at 02:00 (Asia/Ho_Chi_Minh),
+follows [`docs/content-routine.md`](docs/content-routine.md), adds 25–30 seasonal/core words,
+passes all checks and merges automatically. Manage it at https://claude.ai/code/routines.
+
+Content data files:
+
+- `concepts.json` / `topics.json` — words and topics (`featured` dates show a seasonal banner)
+- `calendar.json` — seasons and holidays the routine plans around, plus core topics
+- `blocklist.json` — banned words (4 languages) and banned/limited image groups
+- `fluent-catalog.json` — allowed Fluent Emoji images (rebuild: `node scripts/build-fluent-catalog.mjs`)
 
 ## Before release
 

@@ -14,6 +14,7 @@ export const terms: LegalDoc = {
         heading: "2. The service",
         paragraphs: [
           "LLs provides free educational mini games for learning words in several languages. We work hard to keep content accurate and child-friendly, but translations and pronunciations may occasionally contain mistakes. We may add, change or remove features and content at any time.",
+          `Some word lists are created with the help of AI and published after automated checks for safety, age-appropriateness and accuracy. If you find anything unsuitable or wrong, please tell us at ${CONTACT_EMAIL} and we will fix it quickly.`,
         ],
       },
       {
@@ -62,6 +63,7 @@ export const terms: LegalDoc = {
         heading: "2. Dịch vụ",
         paragraphs: [
           "LLs cung cấp miễn phí các mini game giáo dục để học từ vựng ở nhiều ngôn ngữ. Chúng tôi cố gắng giữ nội dung chính xác và phù hợp với trẻ em, nhưng bản dịch và phát âm đôi khi có thể có sai sót. Chúng tôi có thể thêm, thay đổi hoặc gỡ bỏ tính năng và nội dung bất kỳ lúc nào.",
+          `Một số bộ từ vựng được tạo với sự hỗ trợ của AI và được đăng sau khi qua các bước kiểm tra tự động về an toàn, độ phù hợp lứa tuổi và độ chính xác. Nếu bạn thấy nội dung nào không phù hợp hoặc sai, hãy báo cho chúng tôi qua ${CONTACT_EMAIL} để chúng tôi sửa ngay.`,
         ],
       },
       {

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { useState, type ComponentType } from "react";
 import { LangChoices } from "@/components/LangPicker";
-import { conceptsFor } from "@/content";
+import { conceptsFor, getTopic } from "@/content";
 import type { Locale } from "@/i18n/config";
 import { needsReview } from "@/lib/core/leitner";
 import { useSettings } from "@/lib/settings";
@@ -46,11 +46,13 @@ type Props = {
 export function QuizFlow({ game, Screen }: Props) {
   const t = useTranslations();
   const mounted = useMounted();
-  const reviewOnly = useSearchParams().get("review") === "1";
+  const params = useSearchParams();
+  const reviewOnly = params.get("review") === "1";
+  const topicParam = params.get("topic");
   const { native, learn } = useLanguagePair();
   const { timer, roundSize } = useSettings();
   const [choice, setChoice] = useState<SetupChoice>({
-    topic: null,
+    topic: topicParam && getTopic(topicParam) ? topicParam : null,
     mode: reviewOnly && game.modes.includes("play") ? "play" : game.modes[0],
   });
   const [stage, setStage] = useState<Stage>({ name: "setup" });

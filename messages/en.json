@@ -33,7 +33,8 @@
     "subtitle": "Pick a game to start",
     "comingSoon": "Soon",
     "review": "Practice {count, plural, one {# word} other {# words}}",
-    "reviewHint": "Words you missed last time"
+    "reviewHint": "Words you missed last time",
+    "featured": "This season"
   },
   "langPicker": {
     "title": "What do you want to learn?",

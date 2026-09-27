@@ -33,7 +33,8 @@
     "subtitle": "ゲームをえらんでね",
     "comingSoon": "もうすぐ",
     "review": "{count}このことばを ふくしゅう",
-    "reviewHint": "まえに まちがえた ことば"
+    "reviewHint": "まえに まちがえた ことば",
+    "featured": "いまの テーマ"
   },
   "langPicker": {
     "title": "なにごを まなぶ？",

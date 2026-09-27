@@ -33,7 +33,8 @@
     "subtitle": "选一个游戏开始",
     "comingSoon": "即将推出",
     "review": "复习 {count} 个词",
-    "reviewHint": "上次没答对的词"
+    "reviewHint": "上次没答对的词",
+    "featured": "本季主题"
   },
   "langPicker": {
     "title": "你想学什么语言？",

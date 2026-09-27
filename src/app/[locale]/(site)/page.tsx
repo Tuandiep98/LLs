@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { FeaturedTopic } from "@/components/home/FeaturedTopic";
 import { HomeHero } from "@/components/home/HomeHero";
 import { ReviewBanner } from "@/components/home/ReviewBanner";
 import { games } from "@/games/registry";
@@ -14,6 +15,7 @@ export default function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <div className="flex flex-col gap-6 pt-2">
       <HomeHero />
+      <FeaturedTopic />
       <ReviewBanner />
       <section aria-label={t("home.subtitle")} className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {games.map((game, i) => {

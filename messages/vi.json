@@ -33,7 +33,8 @@
     "subtitle": "Chọn một trò chơi để bắt đầu",
     "comingSoon": "Sắp có",
     "review": "Ôn lại {count} từ",
-    "reviewHint": "Những từ bé chưa nhớ lần trước"
+    "reviewHint": "Những từ bé chưa nhớ lần trước",
+    "featured": "Chủ đề mùa này"
   },
   "langPicker": {
     "title": "Bé muốn học tiếng gì?",
