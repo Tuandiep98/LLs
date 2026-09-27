@@ -53,5 +53,31 @@
       "zh-Hans": "颜色",
       "ja": "いろ"
     }
+  },
+  {
+    "id": "autumn",
+    "icon": "🍂",
+    "color": "yellow",
+    "names": {
+      "en": "Autumn",
+      "vi": "Mùa thu",
+      "zh-Hans": "秋天",
+      "ja": "あき"
+    },
+    "featured": {
+      "from": "2026-09-27",
+      "to": "2026-10-31"
+    }
+  },
+  {
+    "id": "body",
+    "icon": "✋",
+    "color": "sky",
+    "names": {
+      "en": "My Body",
+      "vi": "Cơ thể",
+      "zh-Hans": "身体",
+      "ja": "からだ"
+    }
   }
 ]

@@ -1936,5 +1936,903 @@
     "addedAt": "2026-09-28",
     "origin": "seed",
     "level": "easy"
+  },
+  {
+    "id": "leaf",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/leaf.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Maple leaf"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "leaf"
+      },
+      "vi": {
+        "text": "chiếc lá"
+      },
+      "zh-Hans": {
+        "text": "树叶",
+        "reading": "shùyè"
+      },
+      "ja": {
+        "text": "はっぱ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "mushroom",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mushroom.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mushroom"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mushroom"
+      },
+      "vi": {
+        "text": "nấm"
+      },
+      "zh-Hans": {
+        "text": "蘑菇",
+        "reading": "mógū"
+      },
+      "ja": {
+        "text": "きのこ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "squirrel",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/squirrel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Chipmunk"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "squirrel"
+      },
+      "vi": {
+        "text": "con sóc"
+      },
+      "zh-Hans": {
+        "text": "松鼠",
+        "reading": "sōngshǔ"
+      },
+      "ja": {
+        "text": "りす"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "corn",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/corn.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ear of corn"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "corn"
+      },
+      "vi": {
+        "text": "bắp ngô"
+      },
+      "zh-Hans": {
+        "text": "玉米",
+        "reading": "yùmǐ"
+      },
+      "ja": {
+        "text": "とうもろこし"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pear",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pear.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pear"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pear"
+      },
+      "vi": {
+        "text": "quả lê"
+      },
+      "zh-Hans": {
+        "text": "梨",
+        "reading": "lí"
+      },
+      "ja": {
+        "text": "なし"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "basket",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/basket.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Basket"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "basket"
+      },
+      "vi": {
+        "text": "cái giỏ"
+      },
+      "zh-Hans": {
+        "text": "篮子",
+        "reading": "lánzi"
+      },
+      "ja": {
+        "text": "かご"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "scarf",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/scarf.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Scarf"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "scarf"
+      },
+      "vi": {
+        "text": "khăn quàng cổ"
+      },
+      "zh-Hans": {
+        "text": "围巾",
+        "reading": "wéijīn"
+      },
+      "ja": {
+        "text": "マフラー"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "kite",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:autumn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/kite.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Kite"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "kite"
+      },
+      "vi": {
+        "text": "con diều"
+      },
+      "zh-Hans": {
+        "text": "风筝",
+        "reading": "fēngzheng"
+      },
+      "ja": {
+        "text": "たこ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pumpkin",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pumpkin.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Jack-o-lantern"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pumpkin"
+      },
+      "vi": {
+        "text": "quả bí ngô"
+      },
+      "zh-Hans": {
+        "text": "南瓜",
+        "reading": "nánguā"
+      },
+      "ja": {
+        "text": "かぼちゃ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ghost",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ghost.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ghost"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ghost"
+      },
+      "vi": {
+        "text": "con ma"
+      },
+      "zh-Hans": {
+        "text": "小幽灵",
+        "reading": "xiǎo yōulíng"
+      },
+      "ja": {
+        "text": "おばけ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bat",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bat"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bat"
+      },
+      "vi": {
+        "text": "con dơi"
+      },
+      "zh-Hans": {
+        "text": "蝙蝠",
+        "reading": "biānfú"
+      },
+      "ja": {
+        "text": "こうもり"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "owl",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/owl.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Owl"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "owl"
+      },
+      "vi": {
+        "text": "con cú"
+      },
+      "zh-Hans": {
+        "text": "猫头鹰",
+        "reading": "māotóuyīng"
+      },
+      "ja": {
+        "text": "ふくろう"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "candy",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/candy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Candy"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "candy"
+      },
+      "vi": {
+        "text": "kẹo"
+      },
+      "zh-Hans": {
+        "text": "糖果",
+        "reading": "tángguǒ"
+      },
+      "ja": {
+        "text": "あめ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "moon",
+    "topic": "autumn",
+    "pos": "noun",
+    "tags": [
+      "autumn",
+      "season:halloween"
+    ],
+    "images": [
+      {
+        "src": "/content/images/moon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Crescent moon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "moon"
+      },
+      "vi": {
+        "text": "mặt trăng"
+      },
+      "zh-Hans": {
+        "text": "月亮",
+        "reading": "yuèliàng"
+      },
+      "ja": {
+        "text": "つき"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ear",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ear.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ear"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ear"
+      },
+      "vi": {
+        "text": "tai"
+      },
+      "zh-Hans": {
+        "text": "耳朵",
+        "reading": "ěrduo"
+      },
+      "ja": {
+        "text": "みみ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "eye",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/eye.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Eye"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "eye"
+      },
+      "vi": {
+        "text": "mắt"
+      },
+      "zh-Hans": {
+        "text": "眼睛",
+        "reading": "yǎnjīng"
+      },
+      "ja": {
+        "text": "め"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "nose",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/nose.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Nose"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "nose"
+      },
+      "vi": {
+        "text": "mũi"
+      },
+      "zh-Hans": {
+        "text": "鼻子",
+        "reading": "bízi"
+      },
+      "ja": {
+        "text": "はな"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "mouth",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mouth.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mouth"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mouth"
+      },
+      "vi": {
+        "text": "miệng"
+      },
+      "zh-Hans": {
+        "text": "嘴巴",
+        "reading": "zuǐba"
+      },
+      "ja": {
+        "text": "くち"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tooth",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tooth.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tooth"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tooth"
+      },
+      "vi": {
+        "text": "răng"
+      },
+      "zh-Hans": {
+        "text": "牙齿",
+        "reading": "yáchǐ"
+      },
+      "ja": {
+        "text": "は"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "tongue",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tongue.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tongue"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tongue"
+      },
+      "vi": {
+        "text": "lưỡi"
+      },
+      "zh-Hans": {
+        "text": "舌头",
+        "reading": "shétou"
+      },
+      "ja": {
+        "text": "した"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hand",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hand.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Raised hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hand"
+      },
+      "vi": {
+        "text": "bàn tay"
+      },
+      "zh-Hans": {
+        "text": "手",
+        "reading": "shǒu"
+      },
+      "ja": {
+        "text": "て"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "foot",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/foot.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Foot"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "foot"
+      },
+      "vi": {
+        "text": "bàn chân"
+      },
+      "zh-Hans": {
+        "text": "脚",
+        "reading": "jiǎo"
+      },
+      "ja": {
+        "text": "あし"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "walk",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/walk.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person walking"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "walk"
+      },
+      "vi": {
+        "text": "đi bộ"
+      },
+      "zh-Hans": {
+        "text": "走路",
+        "reading": "zǒulù"
+      },
+      "ja": {
+        "text": "あるく"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "stand",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/stand.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person standing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "stand"
+      },
+      "vi": {
+        "text": "đứng"
+      },
+      "zh-Hans": {
+        "text": "站立",
+        "reading": "zhànlì"
+      },
+      "ja": {
+        "text": "たつ"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hug",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hug.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "People hugging"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hug"
+      },
+      "vi": {
+        "text": "ôm"
+      },
+      "zh-Hans": {
+        "text": "拥抱",
+        "reading": "yōngbào"
+      },
+      "ja": {
+        "text": "だきしめる"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "write",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/write.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Writing hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "write"
+      },
+      "vi": {
+        "text": "viết"
+      },
+      "zh-Hans": {
+        "text": "写字",
+        "reading": "xiězì"
+      },
+      "ja": {
+        "text": "かく"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
