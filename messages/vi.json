@@ -49,6 +49,10 @@
       "name": "Nghe và chọn",
       "desc": "Nghe từ, chạm vào hình đúng"
     },
+    "true-false": {
+      "name": "Đúng hay Sai",
+      "desc": "Nhìn hình, nghe từ: đúng hay sai?"
+    },
     "memory-match": {
       "name": "Lật thẻ",
       "desc": "Lật thẻ và tìm cặp giống nhau"
@@ -95,6 +99,11 @@
     "moves": "{n} lượt",
     "result": "Tìm được {pairs} cặp sau {moves} lượt lật",
     "cardBack": "Thẻ số {n}"
+  },
+  "tf": {
+    "prompt": "Có đúng không?",
+    "yes": "Đúng",
+    "no": "Sai"
   },
   "summary": {
     "title": "Bé làm tốt lắm!",

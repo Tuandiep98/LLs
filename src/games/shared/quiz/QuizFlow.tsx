@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useState, type ComponentType } from "react";
 import { LangChoices } from "@/components/LangPicker";
 import { conceptsFor, getTopic } from "@/content";
+import type { Concept } from "@/content/schema";
 import type { Locale } from "@/i18n/config";
 import { needsReview } from "@/lib/core/leitner";
 import { useSettings } from "@/lib/settings";
@@ -34,16 +35,22 @@ type Stage =
   | { name: "playing"; id: number; rounds: Round[]; startedAt: number }
   | { name: "summary"; state: GameState; startedAt: number };
 
+/** Builds the rounds for a session; defaults to 4-choice rounds (or none in watch mode). */
+export type MakeRounds = (deck: Concept[], all: Concept[], learn: Locale, mode: Mode) => Round[];
+
+const defaultMakeRounds: MakeRounds = (deck, all, learn, mode) => buildRounds(deck, all, learn, mode === "play");
+
 type Props = {
   game: GameManifest & { modes: readonly Mode[] };
   Screen: ComponentType<QuizScreenProps>;
+  makeRounds?: MakeRounds;
 };
 
 /**
  * Shared flow for word quiz games: pick language → setup → play → summary.
  * A game only supplies its manifest and its play screen.
  */
-export function QuizFlow({ game, Screen }: Props) {
+export function QuizFlow({ game, Screen, makeRounds = defaultMakeRounds }: Props) {
   const t = useTranslations();
   const mounted = useMounted();
   const params = useSearchParams();
@@ -78,7 +85,7 @@ export function QuizFlow({ game, Screen }: Props) {
       ? all.filter((c) => reviewIds.includes(c.id))
       : conceptsFor(learn, native, choice.topic ?? undefined);
     const deck = buildDeck(pool.length ? pool : all, roundSize, reviewIds);
-    const rounds = buildRounds(deck, all, learn, choice.mode === "play");
+    const rounds = makeRounds(deck, all, learn, choice.mode);
     setStage({ name: "playing", id: now, rounds, startedAt: now });
   };
 

@@ -49,7 +49,8 @@ src/games/
     QuizFlow / Setup / Summary / QuizChrome.tsx
   picture-guess/                game 1: see a picture, pick the word (watch + play)
   listen-pick/                  game 2: hear a word, pick the picture
-  memory-match/                 game 3: flip cards, find pairs (picture–picture or picture–word)
+  true-false/                   game 3: picture + word, tap ✓ or ✗
+  memory-match/                 game 4: flip cards, find pairs (picture–picture or picture–word)
   shared/SetupParts.tsx         topic picker, mode cards, chips, page shell (any game)
   shared/Summary.tsx            end screen + saving (any game)
 src/lib/

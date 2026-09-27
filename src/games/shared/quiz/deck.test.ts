@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { concepts, conceptsFor } from "@/content";
 import { seededRng } from "@/lib/core/random";
-import { buildDeck, buildOptions } from "./deck";
+import { buildDeck, buildOptions, buildTrueFalseRounds, trueFalseChoice } from "./deck";
 
 const all = conceptsFor("en", "vi");
 
@@ -28,5 +28,26 @@ describe("deck", () => {
       const sameTopic = options.filter((id) => all.find((c) => c.id === id)!.topic === target.topic);
       expect(sameTopic.length).toBe(4);
     }
+  });
+});
+
+describe("true or false rounds", () => {
+  it("shows either the answer or a same-topic distractor, and maps yes/no to options", () => {
+    const deck = buildDeck(all, 15, [], seededRng(5));
+    const rounds = buildTrueFalseRounds(deck, all, "en", seededRng(6));
+    let shownRight = 0;
+    for (const r of rounds) {
+      expect(r.options).toHaveLength(2);
+      expect(r.options).toContain(r.conceptId);
+      expect(r.options).toContain(r.shown);
+      const [a, b] = r.options.map((id) => all.find((c) => c.id === id)!);
+      expect(a.topic).toBe(b.topic);
+      if (r.shown === r.conceptId) shownRight++;
+      // "yes" is right exactly when the shown word is the answer; "no" otherwise.
+      expect(trueFalseChoice(r, true) === r.conceptId).toBe(r.shown === r.conceptId);
+      expect(trueFalseChoice(r, false) === r.conceptId).toBe(r.shown !== r.conceptId);
+    }
+    expect(shownRight).toBeGreaterThan(0);
+    expect(shownRight).toBeLessThan(rounds.length);
   });
 });

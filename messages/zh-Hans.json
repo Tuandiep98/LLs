@@ -49,6 +49,10 @@
       "name": "听音选图",
       "desc": "听一个词，点对应的图片"
     },
+    "true-false": {
+      "name": "对还是错",
+      "desc": "看一看，听一听：说得对吗？"
+    },
     "memory-match": {
       "name": "翻牌配对",
       "desc": "翻开卡片，找出相同的一对"
@@ -95,6 +99,11 @@
     "moves": "{n} 次",
     "result": "翻了 {moves} 次，找到 {pairs} 对",
     "cardBack": "第 {n} 张卡片"
+  },
+  "tf": {
+    "prompt": "对不对？",
+    "yes": "对",
+    "no": "错"
   },
   "summary": {
     "title": "做得好！",

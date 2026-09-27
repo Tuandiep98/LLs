@@ -2,7 +2,12 @@ import type { Concept } from "@/content/schema";
 import type { Locale } from "@/i18n/config";
 import { shuffle, type Rng } from "@/lib/core/random";
 
-export type Round = { conceptId: string; options: string[] };
+export type Round = {
+  conceptId: string;
+  options: string[];
+  /** True or False: the word shown with the picture (the answer or a distractor). */
+  shown?: string;
+};
 
 /** Picks `size` words, putting words that need review first (up to half the deck). */
 export function buildDeck(pool: Concept[], size: number, reviewIds: string[], rng: Rng = Math.random): Concept[] {
@@ -61,4 +66,28 @@ export function buildRounds(
     conceptId: c.id,
     options: withOptions ? buildOptions(c, allConcepts, learn, 4, rng) : [],
   }));
+}
+
+/**
+ * True or False rounds: two options (the answer and one same-topic distractor);
+ * the word shown with the picture is one of them at random. Tapping "yes" answers
+ * the shown word, "no" answers the other one, so the quiz engine scores it as usual.
+ */
+export function buildTrueFalseRounds(
+  deck: Concept[],
+  allConcepts: Concept[],
+  learn: Locale,
+  rng: Rng = Math.random,
+): Round[] {
+  return deck.map((c) => {
+    const distractor = buildOptions(c, allConcepts, learn, 2, rng).find((id) => id !== c.id) ?? c.id;
+    const options = [c.id, distractor];
+    return { conceptId: c.id, options, shown: rng() < 0.5 ? c.id : distractor };
+  });
+}
+
+/** For a True or False round: which option a "yes" or "no" tap stands for. */
+export function trueFalseChoice(round: Round, yes: boolean): string {
+  const shown = round.shown ?? round.conceptId;
+  return yes ? shown : (round.options.find((id) => id !== shown) ?? shown);
 }
