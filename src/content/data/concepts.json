@@ -1,0 +1,1769 @@
+[
+  {
+    "id": "cat",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cat"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cat"
+      },
+      "vi": {
+        "text": "con mèo"
+      },
+      "zh-Hans": {
+        "text": "猫",
+        "reading": "māo"
+      },
+      "ja": {
+        "text": "ねこ"
+      }
+    }
+  },
+  {
+    "id": "dog",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dog.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dog"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dog"
+      },
+      "vi": {
+        "text": "con chó"
+      },
+      "zh-Hans": {
+        "text": "狗",
+        "reading": "gǒu"
+      },
+      "ja": {
+        "text": "いぬ"
+      }
+    }
+  },
+  {
+    "id": "fish",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fish.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fish"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fish"
+      },
+      "vi": {
+        "text": "con cá"
+      },
+      "zh-Hans": {
+        "text": "鱼",
+        "reading": "yú"
+      },
+      "ja": {
+        "text": "さかな"
+      }
+    }
+  },
+  {
+    "id": "bird",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bird.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bird"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bird"
+      },
+      "vi": {
+        "text": "con chim"
+      },
+      "zh-Hans": {
+        "text": "鸟",
+        "reading": "niǎo"
+      },
+      "ja": {
+        "text": "とり"
+      }
+    }
+  },
+  {
+    "id": "rabbit",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rabbit.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rabbit"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rabbit"
+      },
+      "vi": {
+        "text": "con thỏ"
+      },
+      "zh-Hans": {
+        "text": "兔子",
+        "reading": "tùzi"
+      },
+      "ja": {
+        "text": "うさぎ"
+      }
+    }
+  },
+  {
+    "id": "elephant",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/elephant.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Elephant"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "elephant"
+      },
+      "vi": {
+        "text": "con voi"
+      },
+      "zh-Hans": {
+        "text": "大象",
+        "reading": "dàxiàng"
+      },
+      "ja": {
+        "text": "ぞう"
+      }
+    }
+  },
+  {
+    "id": "lion",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lion.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lion"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lion"
+      },
+      "vi": {
+        "text": "con sư tử"
+      },
+      "zh-Hans": {
+        "text": "狮子",
+        "reading": "shīzi"
+      },
+      "ja": {
+        "text": "ライオン"
+      }
+    }
+  },
+  {
+    "id": "monkey",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/monkey.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Monkey"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "monkey"
+      },
+      "vi": {
+        "text": "con khỉ"
+      },
+      "zh-Hans": {
+        "text": "猴子",
+        "reading": "hóuzi"
+      },
+      "ja": {
+        "text": "さる"
+      }
+    }
+  },
+  {
+    "id": "pig",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pig.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pig"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pig"
+      },
+      "vi": {
+        "text": "con lợn"
+      },
+      "zh-Hans": {
+        "text": "猪",
+        "reading": "zhū"
+      },
+      "ja": {
+        "text": "ぶた"
+      }
+    }
+  },
+  {
+    "id": "cow",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cow"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cow"
+      },
+      "vi": {
+        "text": "con bò"
+      },
+      "zh-Hans": {
+        "text": "牛",
+        "reading": "niú"
+      },
+      "ja": {
+        "text": "うし"
+      }
+    }
+  },
+  {
+    "id": "duck",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/duck.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Duck"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "duck"
+      },
+      "vi": {
+        "text": "con vịt"
+      },
+      "zh-Hans": {
+        "text": "鸭子",
+        "reading": "yāzi"
+      },
+      "ja": {
+        "text": "あひる"
+      }
+    }
+  },
+  {
+    "id": "frog",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/frog.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Frog"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "frog"
+      },
+      "vi": {
+        "text": "con ếch"
+      },
+      "zh-Hans": {
+        "text": "青蛙",
+        "reading": "qīngwā"
+      },
+      "ja": {
+        "text": "かえる"
+      }
+    }
+  },
+  {
+    "id": "apple",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/apple.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Red apple"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "apple"
+      },
+      "vi": {
+        "text": "quả táo"
+      },
+      "zh-Hans": {
+        "text": "苹果",
+        "reading": "píngguǒ"
+      },
+      "ja": {
+        "text": "りんご"
+      }
+    }
+  },
+  {
+    "id": "banana",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/banana.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Banana"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "banana"
+      },
+      "vi": {
+        "text": "quả chuối"
+      },
+      "zh-Hans": {
+        "text": "香蕉",
+        "reading": "xiāngjiāo"
+      },
+      "ja": {
+        "text": "バナナ"
+      }
+    }
+  },
+  {
+    "id": "orange",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/orange.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tangerine"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "orange"
+      },
+      "vi": {
+        "text": "quả cam"
+      },
+      "zh-Hans": {
+        "text": "橙子",
+        "reading": "chéngzi"
+      },
+      "ja": {
+        "text": "みかん"
+      }
+    }
+  },
+  {
+    "id": "grapes",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/grapes.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Grapes"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "grapes"
+      },
+      "vi": {
+        "text": "chùm nho"
+      },
+      "zh-Hans": {
+        "text": "葡萄",
+        "reading": "pútao"
+      },
+      "ja": {
+        "text": "ぶどう"
+      }
+    }
+  },
+  {
+    "id": "watermelon",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/watermelon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Watermelon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "watermelon"
+      },
+      "vi": {
+        "text": "quả dưa hấu"
+      },
+      "zh-Hans": {
+        "text": "西瓜",
+        "reading": "xīguā"
+      },
+      "ja": {
+        "text": "すいか"
+      }
+    }
+  },
+  {
+    "id": "strawberry",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/strawberry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Strawberry"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "strawberry"
+      },
+      "vi": {
+        "text": "quả dâu tây"
+      },
+      "zh-Hans": {
+        "text": "草莓",
+        "reading": "cǎoméi"
+      },
+      "ja": {
+        "text": "いちご"
+      }
+    }
+  },
+  {
+    "id": "bread",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bread.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bread"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bread"
+      },
+      "vi": {
+        "text": "bánh mì"
+      },
+      "zh-Hans": {
+        "text": "面包",
+        "reading": "miànbāo"
+      },
+      "ja": {
+        "text": "パン"
+      }
+    }
+  },
+  {
+    "id": "egg",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/egg.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Egg"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "egg"
+      },
+      "vi": {
+        "text": "quả trứng"
+      },
+      "zh-Hans": {
+        "text": "鸡蛋",
+        "reading": "jīdàn"
+      },
+      "ja": {
+        "text": "たまご"
+      }
+    }
+  },
+  {
+    "id": "milk",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/milk.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Glass of milk"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "milk"
+      },
+      "vi": {
+        "text": "sữa"
+      },
+      "zh-Hans": {
+        "text": "牛奶",
+        "reading": "niúnǎi"
+      },
+      "ja": {
+        "text": "ミルク"
+      }
+    }
+  },
+  {
+    "id": "cake",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cake.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shortcake"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cake"
+      },
+      "vi": {
+        "text": "bánh kem"
+      },
+      "zh-Hans": {
+        "text": "蛋糕",
+        "reading": "dàngāo"
+      },
+      "ja": {
+        "text": "ケーキ"
+      }
+    }
+  },
+  {
+    "id": "rice",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rice.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cooked rice"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rice"
+      },
+      "vi": {
+        "text": "cơm"
+      },
+      "zh-Hans": {
+        "text": "米饭",
+        "reading": "mǐfàn"
+      },
+      "ja": {
+        "text": "ごはん"
+      }
+    }
+  },
+  {
+    "id": "carrot",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/carrot.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Carrot"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "carrot"
+      },
+      "vi": {
+        "text": "củ cà rốt"
+      },
+      "zh-Hans": {
+        "text": "胡萝卜",
+        "reading": "húluóbo"
+      },
+      "ja": {
+        "text": "にんじん"
+      }
+    }
+  },
+  {
+    "id": "ball",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ball.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Soccer ball"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ball"
+      },
+      "vi": {
+        "text": "quả bóng"
+      },
+      "zh-Hans": {
+        "text": "球",
+        "reading": "qiú"
+      },
+      "ja": {
+        "text": "ボール"
+      }
+    }
+  },
+  {
+    "id": "book",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/book.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Green book"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "book"
+      },
+      "vi": {
+        "text": "quyển sách"
+      },
+      "zh-Hans": {
+        "text": "书",
+        "reading": "shū"
+      },
+      "ja": {
+        "text": "ほん"
+      }
+    }
+  },
+  {
+    "id": "car",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/car.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Automobile"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "car"
+      },
+      "vi": {
+        "text": "ô tô"
+      },
+      "zh-Hans": {
+        "text": "汽车",
+        "reading": "qìchē"
+      },
+      "ja": {
+        "text": "くるま"
+      }
+    }
+  },
+  {
+    "id": "bus",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bus"
+      },
+      "vi": {
+        "text": "xe buýt"
+      },
+      "zh-Hans": {
+        "text": "公共汽车",
+        "reading": "gōnggòng qìchē"
+      },
+      "ja": {
+        "text": "バス"
+      }
+    }
+  },
+  {
+    "id": "house",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/house.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "House"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "house"
+      },
+      "vi": {
+        "text": "ngôi nhà"
+      },
+      "zh-Hans": {
+        "text": "房子",
+        "reading": "fángzi"
+      },
+      "ja": {
+        "text": "いえ"
+      }
+    }
+  },
+  {
+    "id": "chair",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/chair.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Chair"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "chair"
+      },
+      "vi": {
+        "text": "cái ghế"
+      },
+      "zh-Hans": {
+        "text": "椅子",
+        "reading": "yǐzi"
+      },
+      "ja": {
+        "text": "いす"
+      }
+    }
+  },
+  {
+    "id": "clock",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/clock.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Alarm clock"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "clock"
+      },
+      "vi": {
+        "text": "đồng hồ"
+      },
+      "zh-Hans": {
+        "text": "钟",
+        "reading": "zhōng"
+      },
+      "ja": {
+        "text": "とけい"
+      }
+    }
+  },
+  {
+    "id": "umbrella",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/umbrella.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Umbrella"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "umbrella"
+      },
+      "vi": {
+        "text": "cái ô"
+      },
+      "zh-Hans": {
+        "text": "雨伞",
+        "reading": "yǔsǎn"
+      },
+      "ja": {
+        "text": "かさ"
+      }
+    }
+  },
+  {
+    "id": "hat",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Billed cap"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hat"
+      },
+      "vi": {
+        "text": "cái mũ"
+      },
+      "zh-Hans": {
+        "text": "帽子",
+        "reading": "màozi"
+      },
+      "ja": {
+        "text": "ぼうし"
+      }
+    }
+  },
+  {
+    "id": "shoe",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shoe.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Running shoe"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shoe"
+      },
+      "vi": {
+        "text": "chiếc giày"
+      },
+      "zh-Hans": {
+        "text": "鞋",
+        "reading": "xié"
+      },
+      "ja": {
+        "text": "くつ"
+      }
+    }
+  },
+  {
+    "id": "teddy-bear",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/teddy-bear.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Teddy bear"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "teddy bear"
+      },
+      "vi": {
+        "text": "gấu bông"
+      },
+      "zh-Hans": {
+        "text": "泰迪熊",
+        "reading": "tàidí xióng"
+      },
+      "ja": {
+        "text": "くまのぬいぐるみ"
+      }
+    }
+  },
+  {
+    "id": "pencil",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pencil.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pencil"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pencil"
+      },
+      "vi": {
+        "text": "bút chì"
+      },
+      "zh-Hans": {
+        "text": "铅笔",
+        "reading": "qiānbǐ"
+      },
+      "ja": {
+        "text": "えんぴつ"
+      }
+    }
+  },
+  {
+    "id": "run",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/run.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person running"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "run"
+      },
+      "vi": {
+        "text": "chạy"
+      },
+      "zh-Hans": {
+        "text": "跑步",
+        "reading": "pǎobù"
+      },
+      "ja": {
+        "text": "はしる"
+      }
+    }
+  },
+  {
+    "id": "swim",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/swim.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person swimming"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "swim"
+      },
+      "vi": {
+        "text": "bơi"
+      },
+      "zh-Hans": {
+        "text": "游泳",
+        "reading": "yóuyǒng"
+      },
+      "ja": {
+        "text": "およぐ"
+      }
+    }
+  },
+  {
+    "id": "ride-bike",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ride-bike.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person biking"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ride a bike"
+      },
+      "vi": {
+        "text": "đạp xe"
+      },
+      "zh-Hans": {
+        "text": "骑自行车",
+        "reading": "qí zìxíngchē"
+      },
+      "ja": {
+        "text": "じてんしゃにのる"
+      }
+    }
+  },
+  {
+    "id": "climb",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/climb.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person climbing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "climb"
+      },
+      "vi": {
+        "text": "leo trèo"
+      },
+      "zh-Hans": {
+        "text": "爬",
+        "reading": "pá"
+      },
+      "ja": {
+        "text": "のぼる"
+      }
+    }
+  },
+  {
+    "id": "sleep",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sleep.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person in bed"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sleep"
+      },
+      "vi": {
+        "text": "ngủ"
+      },
+      "zh-Hans": {
+        "text": "睡觉",
+        "reading": "shuìjiào"
+      },
+      "ja": {
+        "text": "ねる"
+      }
+    }
+  },
+  {
+    "id": "dance",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dance.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Woman dancing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dance"
+      },
+      "vi": {
+        "text": "nhảy múa"
+      },
+      "zh-Hans": {
+        "text": "跳舞",
+        "reading": "tiàowǔ"
+      },
+      "ja": {
+        "text": "おどる"
+      }
+    }
+  },
+  {
+    "id": "clap",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/clap.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Clapping hands"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "clap"
+      },
+      "vi": {
+        "text": "vỗ tay"
+      },
+      "zh-Hans": {
+        "text": "拍手",
+        "reading": "pāishǒu"
+      },
+      "ja": {
+        "text": "てをたたく"
+      }
+    }
+  },
+  {
+    "id": "wave",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wave.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Waving hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wave"
+      },
+      "vi": {
+        "text": "vẫy tay"
+      },
+      "zh-Hans": {
+        "text": "挥手",
+        "reading": "huīshǒu"
+      },
+      "ja": {
+        "text": "てをふる"
+      }
+    }
+  },
+  {
+    "id": "sing",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sing.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Singer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sing"
+      },
+      "vi": {
+        "text": "hát"
+      },
+      "zh-Hans": {
+        "text": "唱歌",
+        "reading": "chànggē"
+      },
+      "ja": {
+        "text": "うたう"
+      }
+    }
+  },
+  {
+    "id": "cook",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cook.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cook"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cook"
+      },
+      "vi": {
+        "text": "nấu ăn"
+      },
+      "zh-Hans": {
+        "text": "做饭",
+        "reading": "zuòfàn"
+      },
+      "ja": {
+        "text": "りょうりする"
+      }
+    }
+  },
+  {
+    "id": "laugh",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/laugh.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Grinning squinting face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "laugh"
+      },
+      "vi": {
+        "text": "cười"
+      },
+      "zh-Hans": {
+        "text": "笑",
+        "reading": "xiào"
+      },
+      "ja": {
+        "text": "わらう"
+      }
+    }
+  },
+  {
+    "id": "cry",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Loudly crying face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cry"
+      },
+      "vi": {
+        "text": "khóc"
+      },
+      "zh-Hans": {
+        "text": "哭",
+        "reading": "kū"
+      },
+      "ja": {
+        "text": "なく"
+      }
+    }
+  },
+  {
+    "id": "red",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/red.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Red circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "red"
+      },
+      "vi": {
+        "text": "màu đỏ"
+      },
+      "zh-Hans": {
+        "text": "红色",
+        "reading": "hóngsè"
+      },
+      "ja": {
+        "text": "あか"
+      }
+    }
+  },
+  {
+    "id": "orange-color",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/orange-color.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Orange circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "orange"
+      },
+      "vi": {
+        "text": "màu cam"
+      },
+      "zh-Hans": {
+        "text": "橙色",
+        "reading": "chéngsè"
+      },
+      "ja": {
+        "text": "オレンジ"
+      }
+    }
+  },
+  {
+    "id": "yellow",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/yellow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Yellow circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "yellow"
+      },
+      "vi": {
+        "text": "màu vàng"
+      },
+      "zh-Hans": {
+        "text": "黄色",
+        "reading": "huángsè"
+      },
+      "ja": {
+        "text": "きいろ"
+      }
+    }
+  },
+  {
+    "id": "green",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/green.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Green circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "green"
+      },
+      "vi": {
+        "text": "màu xanh lá"
+      },
+      "zh-Hans": {
+        "text": "绿色",
+        "reading": "lǜsè"
+      },
+      "ja": {
+        "text": "みどり"
+      }
+    }
+  },
+  {
+    "id": "blue",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/blue.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Blue circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "blue"
+      },
+      "vi": {
+        "text": "màu xanh dương"
+      },
+      "zh-Hans": {
+        "text": "蓝色",
+        "reading": "lánsè"
+      },
+      "ja": {
+        "text": "あお"
+      }
+    }
+  },
+  {
+    "id": "purple",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/purple.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Purple circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "purple"
+      },
+      "vi": {
+        "text": "màu tím"
+      },
+      "zh-Hans": {
+        "text": "紫色",
+        "reading": "zǐsè"
+      },
+      "ja": {
+        "text": "むらさき"
+      }
+    }
+  },
+  {
+    "id": "brown",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/brown.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Brown circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "brown"
+      },
+      "vi": {
+        "text": "màu nâu"
+      },
+      "zh-Hans": {
+        "text": "棕色",
+        "reading": "zōngsè"
+      },
+      "ja": {
+        "text": "ちゃいろ"
+      }
+    }
+  },
+  {
+    "id": "black",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/black.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Black circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "black"
+      },
+      "vi": {
+        "text": "màu đen"
+      },
+      "zh-Hans": {
+        "text": "黑色",
+        "reading": "hēisè"
+      },
+      "ja": {
+        "text": "くろ"
+      }
+    }
+  },
+  {
+    "id": "white",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/white.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "White circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "white"
+      },
+      "vi": {
+        "text": "màu trắng"
+      },
+      "zh-Hans": {
+        "text": "白色",
+        "reading": "báisè"
+      },
+      "ja": {
+        "text": "しろ"
+      }
+    }
+  }
+]

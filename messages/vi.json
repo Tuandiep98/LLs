@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "LLs – Vừa chơi vừa học ngoại ngữ",
+    "description": "Mini game đơn giản, vui nhộn giúp bé học tiếng Anh và các ngôn ngữ khác qua hình ảnh và âm thanh."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "progress": "Sổ sticker",
+    "parents": "Phụ huynh",
+    "back": "Quay lại",
+    "close": "Đóng"
+  },
+  "theme": {
+    "label": "Giao diện",
+    "auto": "Tự động",
+    "light": "Sáng",
+    "dark": "Tối"
+  },
+  "common": {
+    "start": "Bắt đầu",
+    "next": "Tiếp",
+    "prev": "Lùi",
+    "pause": "Tạm dừng",
+    "play": "Chạy",
+    "listen": "Nghe",
+    "loading": "Đang tải…",
+    "yes": "Có",
+    "no": "Không",
+    "learning": "Đang học"
+  },
+  "home": {
+    "hello": "Chào bé! Cùng chơi nào!",
+    "subtitle": "Chọn một trò chơi để bắt đầu",
+    "comingSoon": "Sắp có",
+    "review": "Ôn lại {count} từ",
+    "reviewHint": "Những từ bé chưa nhớ lần trước"
+  },
+  "langPicker": {
+    "title": "Bé muốn học tiếng gì?",
+    "change": "Đổi ngôn ngữ"
+  },
+  "games": {
+    "picture-guess": { "name": "Đoán hình", "desc": "Nhìn hình và tìm đúng từ" },
+    "listen-pick": { "name": "Nghe và chọn", "desc": "Nghe từ, chạm vào hình đúng" },
+    "memory-match": { "name": "Lật thẻ", "desc": "Lật thẻ và tìm cặp giống nhau" }
+  },
+  "setup": {
+    "topic": "Chọn chủ đề",
+    "allTopics": "Trộn",
+    "mode": "Cách chơi",
+    "modeWatch": "Xem và học",
+    "modeWatchDesc": "Hình và từ tự chạy lần lượt",
+    "modePlay": "Chơi",
+    "modePlayDesc": "Chạm đáp án đúng để nhận sao",
+    "timer": "Thời gian mỗi hình",
+    "timerSec": "{n} giây",
+    "timerNone": "Không giới hạn",
+    "count": "Số từ"
+  },
+  "play": {
+    "question": "Đây là gì?",
+    "timeUp": "Hết giờ!",
+    "correct": "Giỏi quá!",
+    "wrong": "Cố lên nhé!",
+    "answerIs": "Đáp án là",
+    "score": "Điểm",
+    "progress": "{current}/{total}",
+    "quitTitle": "Dừng chơi nhé?",
+    "quitYes": "Dừng",
+    "quitNo": "Chơi tiếp",
+    "tapToContinue": "Chạm để tiếp tục"
+  },
+  "summary": {
+    "title": "Bé làm tốt lắm!",
+    "watchTitle": "Xong rồi!",
+    "correct": "Đúng {correct}/{total} câu",
+    "score": "{score} điểm",
+    "bestStreak": "Chuỗi đúng dài nhất: {n}",
+    "newStickers": "Sticker mới!",
+    "newBadges": "Huy hiệu mới!",
+    "practice": "Từ cần ôn lại",
+    "playAgain": "Chơi lại",
+    "home": "Trang chủ"
+  },
+  "progress": {
+    "title": "Sổ sticker của bé",
+    "stickers": "{n}/{total} sticker",
+    "badges": "Huy hiệu",
+    "history": "Lượt chơi gần đây",
+    "noHistory": "Chưa có lượt chơi nào. Cùng chơi nhé!",
+    "dayStreak": "{n} ngày liên tiếp",
+    "gamesPlayed": "Số lượt chơi",
+    "totalScore": "Tổng điểm",
+    "locked": "Chưa mở khoá"
+  },
+  "badges": {
+    "first-game": { "name": "Lượt đầu tiên", "desc": "Chơi xong lượt đầu tiên" },
+    "perfect": { "name": "Hoàn hảo!", "desc": "Trả lời đúng tất cả (từ 5 từ trở lên)" },
+    "streak-5": { "name": "Bùng cháy", "desc": "Đúng 5 câu liên tiếp" },
+    "games-10": { "name": "Chăm chỉ", "desc": "Chơi 10 lượt" },
+    "stickers-10": { "name": "Nhà sưu tầm", "desc": "Sưu tầm 10 sticker" },
+    "stickers-30": { "name": "Siêu sưu tầm", "desc": "Sưu tầm 30 sticker" },
+    "topic-master": { "name": "Vua chủ đề", "desc": "Sưu tầm đủ sticker của một chủ đề" },
+    "daily-3": { "name": "3 ngày liền", "desc": "Chơi 3 ngày liên tiếp" }
+  },
+  "modes": {
+    "watch": "Xem",
+    "play": "Chơi"
+  },
+  "parents": {
+    "title": "Dành cho phụ huynh",
+    "gateTitle": "Chỉ dành cho người lớn",
+    "gateHint": "Nhấn giữ nút trong 3 giây",
+    "gateHold": "Giữ",
+    "settings": "Cài đặt",
+    "uiLanguage": "Ngôn ngữ ứng dụng (tiếng mẹ đẻ)",
+    "learnLanguage": "Ngôn ngữ đang học",
+    "sound": "Hiệu ứng âm thanh",
+    "voice": "Đọc to từ vựng",
+    "voiceTest": "Thử giọng đọc",
+    "voiceMissing": "Thiết bị này chưa có giọng đọc cho ngôn ngữ này. Từ vẫn được hiển thị bình thường.",
+    "on": "Bật",
+    "off": "Tắt",
+    "data": "Dữ liệu trên thiết bị",
+    "dataDesc": "Tiến độ chỉ được lưu trong trình duyệt này. Chúng tôi không thu thập dữ liệu cá nhân.",
+    "clearData": "Xoá toàn bộ tiến độ",
+    "clearConfirm": "Xoá toàn bộ tiến độ, sticker và huy hiệu? Không thể khôi phục.",
+    "cleared": "Đã xoá toàn bộ tiến độ",
+    "support": "Ủng hộ LLs",
+    "supportDesc": "LLs miễn phí và không có quảng cáo. Hình thức ủng hộ sẽ sớm được cập nhật.",
+    "legal": "Pháp lý",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "credits": "Nguồn hình ảnh"
+  },
+  "legal": {
+    "updated": "Cập nhật lần cuối: {date}",
+    "englishOnly": "Trang này đang hiển thị bằng tiếng Anh.",
+    "draftNotice": "Bản nháp – sẽ được rà soát trước khi phát hành chính thức."
+  },
+  "credits": {
+    "title": "Nguồn hình ảnh",
+    "intro": "LLs sử dụng các hình ảnh sau, xin chân thành cảm ơn:",
+    "fluent": "Microsoft Fluent Emoji – Giấy phép MIT",
+    "font": "Phông chữ: Baloo 2 và Nunito – Giấy phép SIL Open Font"
+  },
+  "footer": {
+    "tagline": "Làm bằng ❤️ cho các bạn nhỏ"
+  }
+}

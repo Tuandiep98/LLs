@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "LLs – 边玩边学外语",
+    "description": "简单有趣的小游戏，用图片和声音帮助孩子学习英语和其他语言。"
+  },
+  "nav": {
+    "home": "首页",
+    "progress": "我的贴纸",
+    "parents": "家长",
+    "back": "返回",
+    "close": "关闭"
+  },
+  "theme": {
+    "label": "主题",
+    "auto": "自动",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "common": {
+    "start": "开始",
+    "next": "下一个",
+    "prev": "上一个",
+    "pause": "暂停",
+    "play": "播放",
+    "listen": "听",
+    "loading": "加载中…",
+    "yes": "是",
+    "no": "否",
+    "learning": "正在学"
+  },
+  "home": {
+    "hello": "你好！一起玩吧！",
+    "subtitle": "选一个游戏开始",
+    "comingSoon": "即将推出",
+    "review": "复习 {count} 个词",
+    "reviewHint": "上次没答对的词"
+  },
+  "langPicker": {
+    "title": "你想学什么语言？",
+    "change": "更换语言"
+  },
+  "games": {
+    "picture-guess": { "name": "看图猜词", "desc": "看图片，找出正确的词" },
+    "listen-pick": { "name": "听音选图", "desc": "听一个词，点对应的图片" },
+    "memory-match": { "name": "翻牌配对", "desc": "翻开卡片，找出相同的一对" }
+  },
+  "setup": {
+    "topic": "选择主题",
+    "allTopics": "混合",
+    "mode": "玩法",
+    "modeWatch": "看一看学一学",
+    "modeWatchDesc": "图片和单词自动播放",
+    "modePlay": "玩游戏",
+    "modePlayDesc": "点出正确答案，赢得星星",
+    "timer": "每张图片的时间",
+    "timerSec": "{n} 秒",
+    "timerNone": "不限时",
+    "count": "单词数量"
+  },
+  "play": {
+    "question": "这是什么？",
+    "timeUp": "时间到！",
+    "correct": "真棒！",
+    "wrong": "再接再厉！",
+    "answerIs": "答案是",
+    "score": "分数",
+    "progress": "{current}/{total}",
+    "quitTitle": "不玩了吗？",
+    "quitYes": "停止",
+    "quitNo": "继续玩",
+    "tapToContinue": "点击继续"
+  },
+  "summary": {
+    "title": "做得好！",
+    "watchTitle": "全部看完啦！",
+    "correct": "答对 {correct}/{total}",
+    "score": "{score} 分",
+    "bestStreak": "最长连对：{n}",
+    "newStickers": "新贴纸！",
+    "newBadges": "新徽章！",
+    "practice": "需要复习的词",
+    "playAgain": "再玩一次",
+    "home": "首页"
+  },
+  "progress": {
+    "title": "我的贴纸本",
+    "stickers": "{n}/{total} 张贴纸",
+    "badges": "徽章",
+    "history": "最近的游戏",
+    "noHistory": "还没有玩过，一起玩吧！",
+    "dayStreak": "连续 {n} 天",
+    "gamesPlayed": "游戏次数",
+    "totalScore": "总分",
+    "locked": "尚未解锁"
+  },
+  "badges": {
+    "first-game": { "name": "第一局", "desc": "完成第一局游戏" },
+    "perfect": { "name": "全对！", "desc": "全部答对（至少 5 个词）" },
+    "streak-5": { "name": "火力全开", "desc": "连续答对 5 个" },
+    "games-10": { "name": "游戏达人", "desc": "玩 10 局" },
+    "stickers-10": { "name": "收藏家", "desc": "收集 10 张贴纸" },
+    "stickers-30": { "name": "超级收藏家", "desc": "收集 30 张贴纸" },
+    "topic-master": { "name": "主题大师", "desc": "收集一个主题的全部贴纸" },
+    "daily-3": { "name": "连续 3 天", "desc": "连续 3 天玩游戏" }
+  },
+  "modes": {
+    "watch": "观看",
+    "play": "游戏"
+  },
+  "parents": {
+    "title": "家长专区",
+    "gateTitle": "仅限大人",
+    "gateHint": "按住按钮 3 秒",
+    "gateHold": "按住",
+    "settings": "设置",
+    "uiLanguage": "应用语言（母语）",
+    "learnLanguage": "学习的语言",
+    "sound": "音效",
+    "voice": "朗读单词",
+    "voiceTest": "试听",
+    "voiceMissing": "此设备没有该语言的语音，单词仍会正常显示。",
+    "on": "开",
+    "off": "关",
+    "data": "本设备上的数据",
+    "dataDesc": "进度只保存在此浏览器中。我们不收集个人数据。",
+    "clearData": "删除所有进度",
+    "clearConfirm": "删除所有进度、贴纸和徽章？此操作无法撤销。",
+    "cleared": "已删除所有进度",
+    "support": "支持 LLs",
+    "supportDesc": "LLs 免费且无广告。支持方式即将推出。",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "credits": "图片来源"
+  },
+  "legal": {
+    "updated": "最后更新：{date}",
+    "englishOnly": "此页面以英文显示。",
+    "draftNotice": "草稿 – 正式发布前将进行审核。"
+  },
+  "credits": {
+    "title": "图片来源",
+    "intro": "LLs 使用了以下图片，特此感谢：",
+    "fluent": "Microsoft Fluent Emoji – MIT 许可证",
+    "font": "字体：Baloo 2 和 Nunito – SIL 开放字体许可证"
+  },
+  "footer": {
+    "tagline": "用 ❤️ 为小朋友制作"
+  }
+}

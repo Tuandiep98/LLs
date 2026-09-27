@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "LLs – Play & Learn Languages",
+    "description": "Fun, simple mini games that help kids learn English and other languages with pictures and sounds."
+  },
+  "nav": {
+    "home": "Home",
+    "progress": "My stickers",
+    "parents": "Grown-ups",
+    "back": "Back",
+    "close": "Close"
+  },
+  "theme": {
+    "label": "Theme",
+    "auto": "Auto",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "common": {
+    "start": "Start",
+    "next": "Next",
+    "prev": "Back",
+    "pause": "Pause",
+    "play": "Play",
+    "listen": "Listen",
+    "loading": "Loading…",
+    "yes": "Yes",
+    "no": "No",
+    "learning": "Learning"
+  },
+  "home": {
+    "hello": "Hi! Let's play!",
+    "subtitle": "Pick a game to start",
+    "comingSoon": "Soon",
+    "review": "Practice {count, plural, one {# word} other {# words}}",
+    "reviewHint": "Words you missed last time"
+  },
+  "langPicker": {
+    "title": "What do you want to learn?",
+    "change": "Change language"
+  },
+  "games": {
+    "picture-guess": { "name": "Guess the Picture", "desc": "Look at the picture and find the word" },
+    "listen-pick": { "name": "Listen & Pick", "desc": "Hear a word, tap the picture" },
+    "memory-match": { "name": "Memory Match", "desc": "Flip cards and find pairs" }
+  },
+  "setup": {
+    "topic": "Pick a topic",
+    "allTopics": "Mix",
+    "mode": "How to play",
+    "modeWatch": "Watch & Learn",
+    "modeWatchDesc": "Pictures and words play by themselves",
+    "modePlay": "Play",
+    "modePlayDesc": "Tap the right answer to win stars",
+    "timer": "Time for each picture",
+    "timerSec": "{n}s",
+    "timerNone": "No limit",
+    "count": "Number of words"
+  },
+  "play": {
+    "question": "What is this?",
+    "timeUp": "Time's up!",
+    "correct": "Great job!",
+    "wrong": "Nice try!",
+    "answerIs": "It's",
+    "score": "Score",
+    "progress": "{current} of {total}",
+    "quitTitle": "Stop playing?",
+    "quitYes": "Stop",
+    "quitNo": "Keep playing",
+    "tapToContinue": "Tap to continue"
+  },
+  "summary": {
+    "title": "Well done!",
+    "watchTitle": "All done!",
+    "correct": "{correct} of {total} correct",
+    "score": "{score} points",
+    "bestStreak": "Best streak: {n}",
+    "newStickers": "New stickers!",
+    "newBadges": "New badges!",
+    "practice": "Words to practice",
+    "playAgain": "Play again",
+    "home": "Home"
+  },
+  "progress": {
+    "title": "My sticker book",
+    "stickers": "{n} of {total} stickers",
+    "badges": "Badges",
+    "history": "Recent games",
+    "noHistory": "No games yet. Let's play!",
+    "dayStreak": "{n, plural, one {# day} other {# days}} in a row",
+    "gamesPlayed": "Games played",
+    "totalScore": "Total points",
+    "locked": "Not yet unlocked"
+  },
+  "badges": {
+    "first-game": { "name": "First game", "desc": "Finish your first game" },
+    "perfect": { "name": "Perfect!", "desc": "Get every answer right (5+ words)" },
+    "streak-5": { "name": "On fire", "desc": "5 right answers in a row" },
+    "games-10": { "name": "Game fan", "desc": "Play 10 games" },
+    "stickers-10": { "name": "Collector", "desc": "Collect 10 stickers" },
+    "stickers-30": { "name": "Super collector", "desc": "Collect 30 stickers" },
+    "topic-master": { "name": "Topic master", "desc": "Collect every sticker in a topic" },
+    "daily-3": { "name": "3 days in a row", "desc": "Play 3 days in a row" }
+  },
+  "modes": {
+    "watch": "Watch",
+    "play": "Play"
+  },
+  "parents": {
+    "title": "For grown-ups",
+    "gateTitle": "Grown-ups only",
+    "gateHint": "Press and hold the button for 3 seconds",
+    "gateHold": "Hold",
+    "settings": "Settings",
+    "uiLanguage": "App language (your language)",
+    "learnLanguage": "Language to learn",
+    "sound": "Sound effects",
+    "voice": "Read words aloud",
+    "voiceTest": "Test voice",
+    "voiceMissing": "This device has no voice for this language. Words will still be shown.",
+    "on": "On",
+    "off": "Off",
+    "data": "Data on this device",
+    "dataDesc": "Progress is saved only in this browser. We don't collect personal data.",
+    "clearData": "Delete all progress",
+    "clearConfirm": "Delete all progress, stickers and badges? This can't be undone.",
+    "cleared": "All progress deleted",
+    "support": "Support LLs",
+    "supportDesc": "LLs is free and has no ads. Support options will be available soon.",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "credits": "Image credits"
+  },
+  "legal": {
+    "updated": "Last updated: {date}",
+    "englishOnly": "This page is shown in English.",
+    "draftNotice": "Draft – to be reviewed before public release."
+  },
+  "credits": {
+    "title": "Image credits",
+    "intro": "LLs uses these images with thanks:",
+    "fluent": "Microsoft Fluent Emoji – MIT License",
+    "font": "Fonts: Baloo 2 and Nunito – SIL Open Font License"
+  },
+  "footer": {
+    "tagline": "Made with ❤️ for little learners"
+  }
+}

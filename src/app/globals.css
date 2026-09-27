@@ -1,0 +1,254 @@
+@import "tailwindcss";
+
+/* ---------- Design tokens: "Sunny Playground" ---------- */
+:root {
+  --bg: #fff7e8;
+  --bg-dot: #f5e6c8;
+  --surface: #ffffff;
+  --surface-2: #fff1d6;
+  --ink: #2b2140;
+  --ink-soft: #6b5f80;
+  --outline: #2b2140;
+  --on-color: #2b2140;
+  --sticker-edge: #ffffff;
+
+  --orange: #ff8a3d;
+  --sky: #4cc3f5;
+  --yellow: #ffd23f;
+  --grape: #8c6cf0;
+  --green: #3dbe6b;
+  --red: #ff5a5f;
+
+  --correct: #3dbe6b;
+  --wrong: #ff5a5f;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1e1a2e;
+    --bg-dot: #2a2440;
+    --surface: #2a2440;
+    --surface-2: #342d4f;
+    --ink: #fff4e0;
+    --ink-soft: #c2b8d9;
+    --outline: #0f0c1a;
+    --sticker-edge: #fff4e0;
+    --orange: #ff9f5c;
+    --sky: #6dd0f7;
+    --yellow: #ffdb66;
+    --grape: #a58bf5;
+    --green: #5ad184;
+    --red: #ff7a7e;
+    --correct: #5ad184;
+    --wrong: #ff7a7e;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #1e1a2e;
+  --bg-dot: #2a2440;
+  --surface: #2a2440;
+  --surface-2: #342d4f;
+  --ink: #fff4e0;
+  --ink-soft: #c2b8d9;
+  --outline: #0f0c1a;
+  --sticker-edge: #fff4e0;
+  --orange: #ff9f5c;
+  --sky: #6dd0f7;
+  --yellow: #ffdb66;
+  --grape: #a58bf5;
+  --green: #5ad184;
+  --red: #ff7a7e;
+  --correct: #5ad184;
+  --wrong: #ff7a7e;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-outline: var(--outline);
+  --color-on-color: var(--on-color);
+  --color-orange: var(--orange);
+  --color-sky: var(--sky);
+  --color-yellow: var(--yellow);
+  --color-grape: var(--grape);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-correct: var(--correct);
+  --color-wrong: var(--wrong);
+  --font-display: var(--font-baloo), var(--font-cjk);
+  --font-sans: var(--font-nunito), var(--font-cjk);
+}
+
+:root {
+  --font-cjk:
+    "PingFang SC", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans SC",
+    "Noto Sans JP", "Microsoft YaHei", "Yu Gothic", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  /* Paper dots for the sticker-book feel */
+  background-image: radial-gradient(var(--bg-dot) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+  min-height: 100dvh;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* ---------- Components ---------- */
+@layer components {
+  /* Chunky toy button: thick outline + bottom shadow that "presses" in */
+  .btn-chunky {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 64px;
+    padding: 0.75rem 1.5rem;
+    border: 3px solid var(--outline);
+    border-radius: 1.25rem;
+    box-shadow: 0 6px 0 var(--outline);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.35rem;
+    line-height: 1.1;
+    color: var(--on-color);
+    background: var(--yellow);
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+    transition:
+      transform 80ms ease,
+      box-shadow 80ms ease,
+      background-color 150ms ease;
+  }
+  .btn-chunky:active:not(:disabled) {
+    transform: translateY(5px);
+    box-shadow: 0 1px 0 var(--outline);
+  }
+  .btn-chunky:disabled {
+    opacity: 0.55;
+    cursor: default;
+  }
+  .btn-chunky:focus-visible {
+    outline: 4px solid var(--sky);
+    outline-offset: 3px;
+  }
+
+  .btn-icon {
+    min-height: 56px;
+    min-width: 56px;
+    padding: 0.5rem;
+    border-radius: 999px;
+    font-size: 1.5rem;
+  }
+
+  /* Header buttons: a bit smaller on phones so four fit next to the logo */
+  .btn-header {
+    min-height: 48px;
+    min-width: 48px;
+    height: 48px;
+    width: 48px;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 0 var(--outline);
+  }
+  @media (min-width: 640px) {
+    .btn-header {
+      min-height: 56px;
+      min-width: 56px;
+      height: 56px;
+      width: 56px;
+      font-size: 1.5rem;
+      box-shadow: 0 6px 0 var(--outline);
+    }
+  }
+
+  .card-chunky {
+    background: var(--surface);
+    border: 3px solid var(--outline);
+    border-radius: 1.5rem;
+    box-shadow: 0 6px 0 var(--outline);
+  }
+
+  /* Die-cut sticker look for transparent PNGs */
+  .sticker {
+    filter: drop-shadow(3px 0 0 var(--sticker-edge))
+      drop-shadow(-3px 0 0 var(--sticker-edge))
+      drop-shadow(0 3px 0 var(--sticker-edge))
+      drop-shadow(0 -3px 0 var(--sticker-edge))
+      drop-shadow(0 8px 10px rgb(0 0 0 / 0.22));
+  }
+}
+
+.bg-topic-orange {
+  background-color: var(--orange);
+}
+.bg-topic-red {
+  background-color: var(--red);
+}
+.bg-topic-sky {
+  background-color: var(--sky);
+}
+.bg-topic-green {
+  background-color: var(--green);
+}
+.bg-topic-grape {
+  background-color: var(--grape);
+}
+.bg-topic-yellow {
+  background-color: var(--yellow);
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+.animate-wiggle {
+  animation: wiggle 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes lls-fill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes lls-grow {
+  from { height: 0%; }
+  to { height: 100%; }
+}

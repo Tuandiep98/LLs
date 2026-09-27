@@ -1,0 +1,57 @@
+[
+  {
+    "id": "animals",
+    "icon": "🐶",
+    "color": "orange",
+    "names": {
+      "en": "Animals",
+      "vi": "Động vật",
+      "zh-Hans": "动物",
+      "ja": "どうぶつ"
+    }
+  },
+  {
+    "id": "food",
+    "icon": "🍎",
+    "color": "red",
+    "names": {
+      "en": "Food",
+      "vi": "Đồ ăn",
+      "zh-Hans": "食物",
+      "ja": "たべもの"
+    }
+  },
+  {
+    "id": "things",
+    "icon": "⚽",
+    "color": "sky",
+    "names": {
+      "en": "Things",
+      "vi": "Đồ vật",
+      "zh-Hans": "物品",
+      "ja": "もの"
+    }
+  },
+  {
+    "id": "actions",
+    "icon": "🏃",
+    "color": "green",
+    "names": {
+      "en": "Actions",
+      "vi": "Hành động",
+      "zh-Hans": "动作",
+      "ja": "うごき"
+    }
+  },
+  {
+    "id": "colors",
+    "icon": "🎨",
+    "color": "grape",
+    "names": {
+      "en": "Colors",
+      "vi": "Màu sắc",
+      "zh-Hans": "颜色",
+      "ja": "いろ"
+    }
+  }
+]

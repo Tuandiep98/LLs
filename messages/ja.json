@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "LLs – あそんでまなぶ ことば",
+    "description": "えとおとで、こどもが えいごや ほかのことばを たのしくまなべる ミニゲーム。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "progress": "シールちょう",
+    "parents": "おうちのかた",
+    "back": "もどる",
+    "close": "とじる"
+  },
+  "theme": {
+    "label": "テーマ",
+    "auto": "自動",
+    "light": "ライト",
+    "dark": "ダーク"
+  },
+  "common": {
+    "start": "スタート",
+    "next": "つぎへ",
+    "prev": "まえへ",
+    "pause": "ていし",
+    "play": "さいせい",
+    "listen": "きく",
+    "loading": "よみこみちゅう…",
+    "yes": "はい",
+    "no": "いいえ",
+    "learning": "まなんでいる ことば"
+  },
+  "home": {
+    "hello": "こんにちは！あそぼう！",
+    "subtitle": "ゲームをえらんでね",
+    "comingSoon": "もうすぐ",
+    "review": "{count}このことばを ふくしゅう",
+    "reviewHint": "まえに まちがえた ことば"
+  },
+  "langPicker": {
+    "title": "なにごを まなぶ？",
+    "change": "ことばを かえる"
+  },
+  "games": {
+    "picture-guess": { "name": "えあてクイズ", "desc": "えをみて ことばを さがそう" },
+    "listen-pick": { "name": "きいてえらぼう", "desc": "ことばをきいて えをタップ" },
+    "memory-match": { "name": "しんけいすいじゃく", "desc": "カードをめくって ペアをさがそう" }
+  },
+  "setup": {
+    "topic": "テーマをえらぶ",
+    "allTopics": "ミックス",
+    "mode": "あそびかた",
+    "modeWatch": "みてまなぶ",
+    "modeWatchDesc": "えとことばが じどうで ながれるよ",
+    "modePlay": "あそぶ",
+    "modePlayDesc": "ただしいこたえを タップして ほしをあつめよう",
+    "timer": "1まいの じかん",
+    "timerSec": "{n}びょう",
+    "timerNone": "むせいげん",
+    "count": "ことばのかず"
+  },
+  "play": {
+    "question": "これは なあに？",
+    "timeUp": "じかんぎれ！",
+    "correct": "すごい！",
+    "wrong": "おしい！",
+    "answerIs": "こたえは",
+    "score": "スコア",
+    "progress": "{current}/{total}",
+    "quitTitle": "やめる？",
+    "quitYes": "やめる",
+    "quitNo": "つづける",
+    "tapToContinue": "タップして つづける"
+  },
+  "summary": {
+    "title": "よくできました！",
+    "watchTitle": "おしまい！",
+    "correct": "{total}もんちゅう {correct}もん せいかい",
+    "score": "{score}てん",
+    "bestStreak": "れんぞくせいかい：{n}",
+    "newStickers": "あたらしいシール！",
+    "newBadges": "あたらしいバッジ！",
+    "practice": "ふくしゅうする ことば",
+    "playAgain": "もういちど",
+    "home": "ホーム"
+  },
+  "progress": {
+    "title": "わたしの シールちょう",
+    "stickers": "シール {n}/{total}",
+    "badges": "バッジ",
+    "history": "さいきんの ゲーム",
+    "noHistory": "まだ あそんでいないよ。あそぼう！",
+    "dayStreak": "{n}にち れんぞく",
+    "gamesPlayed": "あそんだ かいすう",
+    "totalScore": "ごうけい てんすう",
+    "locked": "まだ ひみつ"
+  },
+  "badges": {
+    "first-game": { "name": "はじめての ゲーム", "desc": "はじめて ゲームを おわらせる" },
+    "perfect": { "name": "パーフェクト！", "desc": "ぜんぶ せいかい（5もん いじょう）" },
+    "streak-5": { "name": "もえてる！", "desc": "5もん れんぞく せいかい" },
+    "games-10": { "name": "ゲームだいすき", "desc": "10かい あそぶ" },
+    "stickers-10": { "name": "コレクター", "desc": "シールを 10まい あつめる" },
+    "stickers-30": { "name": "スーパーコレクター", "desc": "シールを 30まい あつめる" },
+    "topic-master": { "name": "テーママスター", "desc": "1つのテーマの シールを ぜんぶ あつめる" },
+    "daily-3": { "name": "3にち れんぞく", "desc": "3にち れんぞくで あそぶ" }
+  },
+  "modes": {
+    "watch": "みる",
+    "play": "あそぶ"
+  },
+  "parents": {
+    "title": "保護者の方へ",
+    "gateTitle": "大人の方のみ",
+    "gateHint": "ボタンを3秒間長押ししてください",
+    "gateHold": "長押し",
+    "settings": "設定",
+    "uiLanguage": "アプリの言語（母語）",
+    "learnLanguage": "学ぶ言語",
+    "sound": "効果音",
+    "voice": "単語の読み上げ",
+    "voiceTest": "音声をテスト",
+    "voiceMissing": "この端末にはこの言語の音声がありません。単語は通常どおり表示されます。",
+    "on": "オン",
+    "off": "オフ",
+    "data": "この端末のデータ",
+    "dataDesc": "進捗はこのブラウザにのみ保存されます。個人データは収集しません。",
+    "clearData": "すべての進捗を削除",
+    "clearConfirm": "すべての進捗、シール、バッジを削除しますか？元に戻せません。",
+    "cleared": "すべての進捗を削除しました",
+    "support": "LLsを応援する",
+    "supportDesc": "LLsは無料で広告もありません。応援方法は近日公開予定です。",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "credits": "画像クレジット"
+  },
+  "legal": {
+    "updated": "最終更新日：{date}",
+    "englishOnly": "このページは英語で表示されています。",
+    "draftNotice": "草案 – 正式公開前に確認予定です。"
+  },
+  "credits": {
+    "title": "画像クレジット",
+    "intro": "LLsでは以下の画像を使用しています。感謝いたします。",
+    "fluent": "Microsoft Fluent Emoji – MITライセンス",
+    "font": "フォント：Baloo 2・Nunito – SIL Open Font License"
+  },
+  "footer": {
+    "tagline": "ちいさな まなびての ために ❤️ をこめて"
+  }
+}
