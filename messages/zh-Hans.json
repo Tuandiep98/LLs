@@ -40,9 +40,18 @@
     "change": "更换语言"
   },
   "games": {
-    "picture-guess": { "name": "看图猜词", "desc": "看图片，找出正确的词" },
-    "listen-pick": { "name": "听音选图", "desc": "听一个词，点对应的图片" },
-    "memory-match": { "name": "翻牌配对", "desc": "翻开卡片，找出相同的一对" }
+    "picture-guess": {
+      "name": "看图猜词",
+      "desc": "看图片，找出正确的词"
+    },
+    "listen-pick": {
+      "name": "听音选图",
+      "desc": "听一个词，点对应的图片"
+    },
+    "memory-match": {
+      "name": "翻牌配对",
+      "desc": "翻开卡片，找出相同的一对"
+    }
   },
   "setup": {
     "topic": "选择主题",
@@ -70,6 +79,10 @@
     "quitNo": "继续玩",
     "tapToContinue": "点击继续"
   },
+  "listen": {
+    "prompt": "听一听，点出正确的图片",
+    "replay": "点一下再听一遍"
+  },
   "summary": {
     "title": "做得好！",
     "watchTitle": "全部看完啦！",
@@ -94,14 +107,38 @@
     "locked": "尚未解锁"
   },
   "badges": {
-    "first-game": { "name": "第一局", "desc": "完成第一局游戏" },
-    "perfect": { "name": "全对！", "desc": "全部答对（至少 5 个词）" },
-    "streak-5": { "name": "火力全开", "desc": "连续答对 5 个" },
-    "games-10": { "name": "游戏达人", "desc": "玩 10 局" },
-    "stickers-10": { "name": "收藏家", "desc": "收集 10 张贴纸" },
-    "stickers-30": { "name": "超级收藏家", "desc": "收集 30 张贴纸" },
-    "topic-master": { "name": "主题大师", "desc": "收集一个主题的全部贴纸" },
-    "daily-3": { "name": "连续 3 天", "desc": "连续 3 天玩游戏" }
+    "first-game": {
+      "name": "第一局",
+      "desc": "完成第一局游戏"
+    },
+    "perfect": {
+      "name": "全对！",
+      "desc": "全部答对（至少 5 个词）"
+    },
+    "streak-5": {
+      "name": "火力全开",
+      "desc": "连续答对 5 个"
+    },
+    "games-10": {
+      "name": "游戏达人",
+      "desc": "玩 10 局"
+    },
+    "stickers-10": {
+      "name": "收藏家",
+      "desc": "收集 10 张贴纸"
+    },
+    "stickers-30": {
+      "name": "超级收藏家",
+      "desc": "收集 30 张贴纸"
+    },
+    "topic-master": {
+      "name": "主题大师",
+      "desc": "收集一个主题的全部贴纸"
+    },
+    "daily-3": {
+      "name": "连续 3 天",
+      "desc": "连续 3 天玩游戏"
+    }
   },
   "modes": {
     "watch": "观看",

@@ -1,38 +1,24 @@
 "use client";
 
-import { motion, useAnimationControls } from "motion/react";
+import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { useEffect, useReducer, useRef, useState } from "react";
 import { Mascot, type MascotMood } from "@/components/Mascot";
-import { Modal } from "@/components/Modal";
 import { getConcept, termOf } from "@/content";
-import { localeMeta, type Locale } from "@/i18n/config";
-import { useAudio, vibrate } from "@/lib/audio";
-import { burst } from "../shared/confetti";
+import { localeMeta } from "@/i18n/config";
+import { useAudio } from "@/lib/audio";
 import { CountdownRing } from "../shared/CountdownRing";
-import { Sticker } from "../shared/Sticker";
-import { useCountdown } from "../shared/useCountdown";
-import type { Round } from "./deck";
 import {
-  createGame,
-  currentRound,
-  reduce,
-  type GameState,
-  type Mode,
-} from "./engine";
+  NextButton,
+  QuitModal,
+  QuizTopBar,
+  screenShell,
+  useFeedbackText,
+} from "../shared/quiz/QuizChrome";
+import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
+import { useQuizSession } from "../shared/quiz/useQuizSession";
+import { Sticker } from "../shared/Sticker";
 
-const REVEAL_MS = { watch: 2600, play: 3000 };
-
-type Props = {
-  mode: Mode;
-  rounds: Round[];
-  timeLimit: number;
-  learn: Locale;
-  native: Locale;
-  onFinish: (state: GameState) => void;
-  onQuit: () => void;
-};
-
+/** Picture Guess: see a picture, find the word (or just watch in watch mode). */
 export function GameScreen({
   mode,
   rounds,
@@ -41,100 +27,26 @@ export function GameScreen({
   native,
   onFinish,
   onQuit,
-}: Props) {
+}: QuizScreenProps) {
   const t = useTranslations();
-  const { sfx, say } = useAudio();
-  const [state, dispatch] = useReducer(reduce, undefined, () =>
-    createGame(mode, rounds, timeLimit),
-  );
-  const [paused, setPaused] = useState(false);
-  const [quitOpen, setQuitOpen] = useState(false);
-  const cardControls = useAnimationControls();
-  const questionStartedAt = useRef(0);
+  const { say } = useAudio();
+  const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish });
+  const {
+    state,
+    dispatch,
+    round,
+    concept,
+    learnTerm,
+    lastResult,
+    speechLang,
+    remaining,
+    paused,
+    setPaused,
+  } = session;
+  const feedback = useFeedbackText(session);
 
-  const round = currentRound(state);
-  const concept = round ? getConcept(round.conceptId) : undefined;
-  const learnTerm = concept ? termOf(concept, learn) : undefined;
-  const nativeTerm = concept ? termOf(concept, native) : undefined;
-  const lastResult =
-    state.phase === "reveal" && mode === "play"
-      ? state.results.at(-1)
-      : undefined;
-  const halted = paused || quitOpen;
-
-  const remaining = useCountdown({
-    seconds: timeLimit,
-    running: state.phase === "question" && !halted,
-    resetKey: state.index,
-    onDone: () => dispatch({ type: "timeout" }),
-    onSecond: (s) => s <= 3 && sfx("tick"),
-  });
-
-  // New question: remember when it started (for the speed bonus).
-  useEffect(() => {
-    if (state.phase === "question")
-      questionStartedAt.current = performance.now();
-  }, [state.phase, state.index]);
-
-  // Reveal: say the word and give feedback.
-  useEffect(() => {
-    if (state.phase !== "reveal" || !learnTerm) return;
-    const speakLater = window.setTimeout(
-      () => say(learnTerm.text, localeMeta[learn].speechLang),
-      250,
-    );
-    if (mode === "play") {
-      const correct = state.results.at(-1)?.correct;
-      if (correct) {
-        sfx("correct");
-        vibrate(40);
-        burst(0.5, 0.35);
-        void cardControls.start({
-          scale: [1, 1.08, 1],
-          transition: { duration: 0.45 },
-        });
-      } else {
-        sfx("wrong");
-        vibrate([30, 40, 30]);
-        void cardControls.start({
-          x: [0, -12, 12, -8, 8, 0],
-          transition: { duration: 0.45 },
-        });
-      }
-    } else {
-      sfx("pop");
-    }
-    return () => window.clearTimeout(speakLater);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per reveal
-  }, [state.phase, state.index]);
-
-  // Auto-advance after the answer has been shown.
-  useEffect(() => {
-    if (state.phase !== "reveal" || halted) return;
-    const id = window.setTimeout(
-      () => dispatch({ type: "next" }),
-      REVEAL_MS[mode],
-    );
-    return () => window.clearTimeout(id);
-  }, [state.phase, state.index, halted, mode]);
-
-  useEffect(() => {
-    if (state.phase === "done") onFinish(state);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- fire once when done
-  }, [state.phase]);
-
-  if (!round || !concept || !learnTerm || !nativeTerm) return null;
-
-  // `timeStamp` shares the performance.now() clock.
-  const answer = (choiceId: string, timeStamp: number) => {
-    if (state.phase !== "question") return;
-    sfx("tap");
-    dispatch({
-      type: "answer",
-      choiceId,
-      ms: timeStamp - questionStartedAt.current,
-    });
-  };
+  if (!round || !concept || !learnTerm) return null;
+  const nativeTerm = termOf(concept, native);
 
   const mood: MascotMood =
     state.phase === "question"
@@ -143,47 +55,13 @@ export function GameScreen({
         ? "cheer"
         : "oops";
 
-  const feedback =
-    mode === "play" && lastResult
-      ? lastResult.correct
-        ? t("play.correct")
-        : lastResult.choiceId === null
-          ? t("play.timeUp")
-          : t("play.wrong")
-      : null;
-
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-5xl flex-col gap-3 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))]">
-      {/* Top bar */}
-      <div className="flex items-center gap-3">
-        <button
-          type="button"
-          className="btn-chunky btn-icon bg-surface text-ink"
-          onClick={() => setQuitOpen(true)}
-          aria-label={t("nav.close")}
-        >
-          ✕
-        </button>
-        <ProgressDots state={state} />
-        {mode === "play" && (
-          <div
-            className="card-chunky flex items-center gap-1 px-3 py-1.5 font-display text-xl font-extrabold"
-            aria-label={t("play.score")}
-          >
-            <span aria-hidden>⭐</span>
-            {state.score}
-            {state.streak >= 2 && (
-              <span className="ml-1 text-base" aria-hidden>
-                🔥{state.streak}
-              </span>
-            )}
-          </div>
-        )}
-      </div>
+    <div className={screenShell}>
+      <QuizTopBar session={session} />
 
       <div className="grid flex-1 content-center gap-4 md:landscape:grid-cols-2 md:landscape:items-center">
         {/* Picture */}
-        <motion.div animate={cardControls} className="relative">
+        <motion.div animate={session.cardControls} className="relative">
           <button
             type="button"
             className="card-chunky flex h-[34dvh] min-h-44 w-full items-center justify-center overflow-visible p-4 md:landscape:h-[60dvh]"
@@ -261,9 +139,7 @@ export function GameScreen({
                   <button
                     type="button"
                     className="btn-chunky btn-icon bg-sky"
-                    onClick={() =>
-                      say(learnTerm.text, localeMeta[learn].speechLang)
-                    }
+                    onClick={() => say(learnTerm.text, speechLang)}
                     aria-label={t("common.listen")}
                   >
                     🔊
@@ -305,7 +181,7 @@ export function GameScreen({
                     <button
                       type="button"
                       disabled={revealed}
-                      onClick={(e) => answer(id, e.timeStamp)}
+                      onClick={(e) => session.answer(id, e.timeStamp)}
                       className={`btn-chunky min-h-20 w-full pr-12 text-xl break-words sm:min-h-24 sm:text-2xl ${tone} disabled:opacity-100`}
                     >
                       {revealed && isAnswer && <span aria-hidden>✓</span>}
@@ -317,7 +193,7 @@ export function GameScreen({
                     <button
                       type="button"
                       className="absolute top-1/2 right-2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-black/10 text-lg"
-                      onClick={() => say(text, localeMeta[learn].speechLang)}
+                      onClick={() => say(text, speechLang)}
                       aria-label={`${t("common.listen")}: ${text}`}
                     >
                       🔊
@@ -356,87 +232,11 @@ export function GameScreen({
             </div>
           )}
 
-          {mode === "play" && state.phase === "reveal" && (
-            <button
-              type="button"
-              className="btn-chunky relative w-full overflow-hidden bg-yellow"
-              onClick={() => dispatch({ type: "next" })}
-            >
-              {!halted && (
-                <span
-                  key={state.index}
-                  className="absolute inset-y-0 left-0 bg-black/10"
-                  style={{
-                    animation: `lls-fill ${REVEAL_MS.play}ms linear forwards`,
-                  }}
-                  aria-hidden
-                />
-              )}
-              <span className="relative">{t("common.next")} ➜</span>
-            </button>
-          )}
+          <NextButton session={session} />
         </div>
       </div>
 
-      <Modal
-        open={quitOpen}
-        onClose={() => setQuitOpen(false)}
-        title={t("play.quitTitle")}
-      >
-        <div className="flex flex-col items-center gap-4">
-          <Mascot mood="oops" className="w-32" />
-          <div className="grid w-full grid-cols-2 gap-3">
-            <button
-              type="button"
-              className="btn-chunky bg-surface text-ink"
-              onClick={onQuit}
-            >
-              {t("play.quitYes")}
-            </button>
-            <button
-              type="button"
-              className="btn-chunky bg-green"
-              onClick={() => setQuitOpen(false)}
-            >
-              {t("play.quitNo")}
-            </button>
-          </div>
-        </div>
-      </Modal>
-    </div>
-  );
-}
-
-function ProgressDots({ state }: { state: GameState }) {
-  const t = useTranslations("play");
-  return (
-    <div
-      className="flex flex-1 flex-wrap items-center justify-center gap-1.5"
-      role="progressbar"
-      aria-valuemin={1}
-      aria-valuemax={state.rounds.length}
-      aria-valuenow={state.index + 1}
-      aria-label={t("progress", {
-        current: state.index + 1,
-        total: state.rounds.length,
-      })}
-    >
-      {state.rounds.map((r, i) => {
-        const result = state.mode === "play" ? state.results[i] : undefined;
-        const color = result
-          ? result.correct
-            ? "bg-correct"
-            : "bg-wrong"
-          : i < state.index || (i === state.index && state.phase === "reveal")
-            ? "bg-sky"
-            : "bg-surface";
-        return (
-          <span
-            key={r.conceptId + i}
-            className={`h-3.5 rounded-full border-2 border-outline transition-all ${color} ${i === state.index ? "w-7" : "w-3.5"}`}
-          />
-        );
-      })}
+      <QuitModal session={session} onQuit={onQuit} />
     </div>
   );
 }

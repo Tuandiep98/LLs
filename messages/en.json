@@ -40,9 +40,18 @@
     "change": "Change language"
   },
   "games": {
-    "picture-guess": { "name": "Guess the Picture", "desc": "Look at the picture and find the word" },
-    "listen-pick": { "name": "Listen & Pick", "desc": "Hear a word, tap the picture" },
-    "memory-match": { "name": "Memory Match", "desc": "Flip cards and find pairs" }
+    "picture-guess": {
+      "name": "Guess the Picture",
+      "desc": "Look at the picture and find the word"
+    },
+    "listen-pick": {
+      "name": "Listen & Pick",
+      "desc": "Hear a word, tap the picture"
+    },
+    "memory-match": {
+      "name": "Memory Match",
+      "desc": "Flip cards and find pairs"
+    }
   },
   "setup": {
     "topic": "Pick a topic",
@@ -70,6 +79,10 @@
     "quitNo": "Keep playing",
     "tapToContinue": "Tap to continue"
   },
+  "listen": {
+    "prompt": "Listen and tap the right picture",
+    "replay": "Tap to listen again"
+  },
   "summary": {
     "title": "Well done!",
     "watchTitle": "All done!",
@@ -94,14 +107,38 @@
     "locked": "Not yet unlocked"
   },
   "badges": {
-    "first-game": { "name": "First game", "desc": "Finish your first game" },
-    "perfect": { "name": "Perfect!", "desc": "Get every answer right (5+ words)" },
-    "streak-5": { "name": "On fire", "desc": "5 right answers in a row" },
-    "games-10": { "name": "Game fan", "desc": "Play 10 games" },
-    "stickers-10": { "name": "Collector", "desc": "Collect 10 stickers" },
-    "stickers-30": { "name": "Super collector", "desc": "Collect 30 stickers" },
-    "topic-master": { "name": "Topic master", "desc": "Collect every sticker in a topic" },
-    "daily-3": { "name": "3 days in a row", "desc": "Play 3 days in a row" }
+    "first-game": {
+      "name": "First game",
+      "desc": "Finish your first game"
+    },
+    "perfect": {
+      "name": "Perfect!",
+      "desc": "Get every answer right (5+ words)"
+    },
+    "streak-5": {
+      "name": "On fire",
+      "desc": "5 right answers in a row"
+    },
+    "games-10": {
+      "name": "Game fan",
+      "desc": "Play 10 games"
+    },
+    "stickers-10": {
+      "name": "Collector",
+      "desc": "Collect 10 stickers"
+    },
+    "stickers-30": {
+      "name": "Super collector",
+      "desc": "Collect 30 stickers"
+    },
+    "topic-master": {
+      "name": "Topic master",
+      "desc": "Collect every sticker in a topic"
+    },
+    "daily-3": {
+      "name": "3 days in a row",
+      "desc": "Play 3 days in a row"
+    }
   },
   "modes": {
     "watch": "Watch",

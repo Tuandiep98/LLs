@@ -6,7 +6,7 @@ import { conceptsFor, topics } from "@/content";
 import type { Locale } from "@/i18n/config";
 import { useAudio } from "@/lib/audio";
 import { ROUND_SIZE_OPTIONS, TIMER_OPTIONS, useSettings } from "@/lib/settings";
-import { Sticker } from "../shared/Sticker";
+import { Sticker } from "../Sticker";
 import type { Mode } from "./engine";
 
 export type SetupChoice = { topic: string | null; mode: Mode };
@@ -14,12 +14,14 @@ export type SetupChoice = { topic: string | null; mode: Mode };
 type Props = {
   learn: Locale;
   native: Locale;
+  /** Modes this game offers; the mode step is hidden when there is only one. */
+  modes: readonly Mode[];
   choice: SetupChoice;
   onChange: (choice: SetupChoice) => void;
   onStart: () => void;
 };
 
-export function Setup({ learn, native, choice, onChange, onStart }: Props) {
+export function Setup({ learn, native, modes, choice, onChange, onStart }: Props) {
   const t = useTranslations();
   const { sfx } = useAudio();
   const { timer, roundSize, set } = useSettings();
@@ -64,6 +66,7 @@ export function Setup({ learn, native, choice, onChange, onStart }: Props) {
         </div>
       </Step>
 
+      {modes.length > 1 && (
       <Step title={t("setup.mode")}>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {(
@@ -71,7 +74,7 @@ export function Setup({ learn, native, choice, onChange, onStart }: Props) {
               { mode: "watch", icon: "👀", name: t("setup.modeWatch"), desc: t("setup.modeWatchDesc"), color: "bg-sky" },
               { mode: "play", icon: "🎮", name: t("setup.modePlay"), desc: t("setup.modePlayDesc"), color: "bg-orange" },
             ] as const
-          ).map((m) => {
+          ).filter((m) => modes.includes(m.mode)).map((m) => {
             const active = choice.mode === m.mode;
             return (
               <button
@@ -93,6 +96,7 @@ export function Setup({ learn, native, choice, onChange, onStart }: Props) {
           })}
         </div>
       </Step>
+      )}
 
       <div className="grid grid-cols-1 gap-7 sm:grid-cols-2">
         <Step title={t("setup.timer")}>

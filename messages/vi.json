@@ -40,9 +40,18 @@
     "change": "Đổi ngôn ngữ"
   },
   "games": {
-    "picture-guess": { "name": "Đoán hình", "desc": "Nhìn hình và tìm đúng từ" },
-    "listen-pick": { "name": "Nghe và chọn", "desc": "Nghe từ, chạm vào hình đúng" },
-    "memory-match": { "name": "Lật thẻ", "desc": "Lật thẻ và tìm cặp giống nhau" }
+    "picture-guess": {
+      "name": "Đoán hình",
+      "desc": "Nhìn hình và tìm đúng từ"
+    },
+    "listen-pick": {
+      "name": "Nghe và chọn",
+      "desc": "Nghe từ, chạm vào hình đúng"
+    },
+    "memory-match": {
+      "name": "Lật thẻ",
+      "desc": "Lật thẻ và tìm cặp giống nhau"
+    }
   },
   "setup": {
     "topic": "Chọn chủ đề",
@@ -70,6 +79,10 @@
     "quitNo": "Chơi tiếp",
     "tapToContinue": "Chạm để tiếp tục"
   },
+  "listen": {
+    "prompt": "Nghe và chạm vào hình đúng",
+    "replay": "Chạm để nghe lại"
+  },
   "summary": {
     "title": "Bé làm tốt lắm!",
     "watchTitle": "Xong rồi!",
@@ -94,14 +107,38 @@
     "locked": "Chưa mở khoá"
   },
   "badges": {
-    "first-game": { "name": "Lượt đầu tiên", "desc": "Chơi xong lượt đầu tiên" },
-    "perfect": { "name": "Hoàn hảo!", "desc": "Trả lời đúng tất cả (từ 5 từ trở lên)" },
-    "streak-5": { "name": "Bùng cháy", "desc": "Đúng 5 câu liên tiếp" },
-    "games-10": { "name": "Chăm chỉ", "desc": "Chơi 10 lượt" },
-    "stickers-10": { "name": "Nhà sưu tầm", "desc": "Sưu tầm 10 sticker" },
-    "stickers-30": { "name": "Siêu sưu tầm", "desc": "Sưu tầm 30 sticker" },
-    "topic-master": { "name": "Vua chủ đề", "desc": "Sưu tầm đủ sticker của một chủ đề" },
-    "daily-3": { "name": "3 ngày liền", "desc": "Chơi 3 ngày liên tiếp" }
+    "first-game": {
+      "name": "Lượt đầu tiên",
+      "desc": "Chơi xong lượt đầu tiên"
+    },
+    "perfect": {
+      "name": "Hoàn hảo!",
+      "desc": "Trả lời đúng tất cả (từ 5 từ trở lên)"
+    },
+    "streak-5": {
+      "name": "Bùng cháy",
+      "desc": "Đúng 5 câu liên tiếp"
+    },
+    "games-10": {
+      "name": "Chăm chỉ",
+      "desc": "Chơi 10 lượt"
+    },
+    "stickers-10": {
+      "name": "Nhà sưu tầm",
+      "desc": "Sưu tầm 10 sticker"
+    },
+    "stickers-30": {
+      "name": "Siêu sưu tầm",
+      "desc": "Sưu tầm 30 sticker"
+    },
+    "topic-master": {
+      "name": "Vua chủ đề",
+      "desc": "Sưu tầm đủ sticker của một chủ đề"
+    },
+    "daily-3": {
+      "name": "3 ngày liền",
+      "desc": "Chơi 3 ngày liên tiếp"
+    }
   },
   "modes": {
     "watch": "Xem",

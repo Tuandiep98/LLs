@@ -10,12 +10,12 @@ import { Link } from "@/i18n/navigation";
 import { achievements } from "@/lib/achievements";
 import { useAudio } from "@/lib/audio";
 import { recordSession, type SessionOutcome } from "@/lib/storage/record";
-import { celebrate } from "../shared/confetti";
-import { Sticker } from "../shared/Sticker";
+import { celebrate } from "../confetti";
+import { Sticker } from "../Sticker";
 import { summary, type GameState } from "./engine";
-import { pictureGuess } from "./manifest";
 
 type Props = {
+  gameId: string;
   state: GameState;
   learn: Locale;
   native: Locale;
@@ -24,7 +24,7 @@ type Props = {
   onPlayAgain: () => void;
 };
 
-export function Summary({ state, learn, native, topic, startedAt, onPlayAgain }: Props) {
+export function Summary({ gameId, state, learn, native, topic, startedAt, onPlayAgain }: Props) {
   const t = useTranslations();
   const { sfx, say } = useAudio();
   const result = summary(state);
@@ -38,7 +38,7 @@ export function Summary({ state, learn, native, topic, startedAt, onPlayAgain }:
     celebrate();
     recordSession(
       {
-        gameId: pictureGuess.id,
+        gameId,
         mode: state.mode,
         learn,
         native,

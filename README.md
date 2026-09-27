@@ -42,10 +42,13 @@ src/games/
   registry.ts                   list of games shown on the home page
   types.ts                      GameManifest
   shared/                       countdown, sticker, confetti – reusable by every game
-  picture-guess/                game 1
+  shared/quiz/                  shared quiz flow for word games
     engine.ts                   pure state machine (tested)
     deck.ts                     deck + answer options (tested)
-    Setup / GameScreen / Summary / PictureGuess.tsx
+    useQuizSession.ts           timer, feedback, auto-advance, finishing
+    QuizFlow / Setup / Summary / QuizChrome.tsx
+  picture-guess/                game 1: see a picture, pick the word (watch + play)
+  listen-pick/                  game 2: hear a word, pick the picture
 src/lib/
   settings.ts                   settings (localStorage) + theme
   storage/                      IndexedDB: sessions, word progress, badges
@@ -56,6 +59,13 @@ public/content/images/          sticker images (Fluent Emoji, MIT)
 ```
 
 ## Add a mini game
+
+**Word quiz games** (like Picture Guess and Listen & Pick) reuse `src/games/shared/quiz/`:
+the flow (language → setup → play → summary), engine, deck, scoring, countdown, reveal feedback
+and saving are shared. A new quiz game is a manifest + one screen component using
+`useQuizSession()` + a one-line `<QuizFlow game={...} Screen={...} />` wrapper.
+
+**Other games:**
 
 1. Create `src/games/<id>/` with `manifest.ts`, a pure `engine.ts` (+ tests) and the UI.
 2. Add the manifest to `src/games/registry.ts`.
