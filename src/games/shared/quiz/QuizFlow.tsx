@@ -6,17 +6,17 @@ import { useState, type ComponentType } from "react";
 import { LangChoices } from "@/components/LangPicker";
 import { conceptsFor } from "@/content";
 import type { Locale } from "@/i18n/config";
-import { Link } from "@/i18n/navigation";
 import { needsReview } from "@/lib/core/leitner";
 import { useSettings } from "@/lib/settings";
 import { db } from "@/lib/storage/db";
 import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
 import type { GameManifest } from "../../types";
+import { GameShell } from "../SetupParts";
 import { buildDeck, buildRounds, type Round } from "./deck";
-import type { GameState, Mode } from "./engine";
+import { summary, type GameState, type Mode } from "./engine";
 import { Setup, type SetupChoice } from "./Setup";
-import { Summary } from "./Summary";
+import { Summary } from "../Summary";
 
 /** Props every quiz screen receives from the flow. */
 export type QuizScreenProps = {
@@ -60,10 +60,10 @@ export function QuizFlow({ game, Screen }: Props) {
 
   if (!learn) {
     return (
-      <Shell title={title}>
+      <GameShell title={title}>
         <h2 className="mb-4 text-2xl font-extrabold">{t("langPicker.title")}</h2>
         <LangChoices />
-      </Shell>
+      </GameShell>
     );
   }
 
@@ -99,7 +99,14 @@ export function QuizFlow({ game, Screen }: Props) {
     return (
       <Summary
         gameId={game.id}
-        state={stage.state}
+        mode={stage.state.mode}
+        result={summary(stage.state)}
+        scored={stage.state.mode === "play"}
+        answers={
+          stage.state.mode === "play"
+            ? stage.state.results.map((r) => ({ conceptId: r.conceptId, correct: r.correct }))
+            : []
+        }
         learn={learn}
         native={native}
         topic={choice.topic}
@@ -110,7 +117,7 @@ export function QuizFlow({ game, Screen }: Props) {
   }
 
   return (
-    <Shell title={title}>
+    <GameShell title={title}>
       <Setup
         learn={learn}
         native={native}
@@ -119,21 +126,6 @@ export function QuizFlow({ game, Screen }: Props) {
         onChange={setChoice}
         onStart={() => void start()}
       />
-    </Shell>
-  );
-}
-
-function Shell({ title, children }: { title: string; children: React.ReactNode }) {
-  const t = useTranslations("nav");
-  return (
-    <div className="mx-auto w-full max-w-5xl px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
-      <div className="mb-5 flex items-center gap-3">
-        <Link href="/" className="btn-chunky btn-icon bg-surface text-ink" aria-label={t("back")}>
-          ←
-        </Link>
-        <h1 className="text-3xl font-extrabold sm:text-4xl">{title}</h1>
-      </div>
-      {children}
-    </div>
+    </GameShell>
   );
 }

@@ -252,3 +252,23 @@ h3,
   from { height: 0%; }
   to { height: 100%; }
 }
+
+/* Memory Match board: columns and max width adapt to orientation so the whole board fits on screen */
+.memory-grid {
+  display: grid;
+  gap: 0.75rem;
+  width: 100%;
+  margin-inline: auto;
+  grid-template-columns: repeat(var(--cols-p), minmax(0, 1fr));
+  max-width: min(100%, calc((100dvh - 8.5rem) * var(--ratio-p)));
+}
+@media (orientation: landscape) {
+  .memory-grid {
+    grid-template-columns: repeat(var(--cols-l), minmax(0, 1fr));
+    max-width: min(100%, calc((100dvh - 8.5rem) * var(--ratio-l)));
+  }
+}
+.flip-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

@@ -14,6 +14,8 @@ export type Settings = {
   /** Countdown seconds per word, 0 = no limit. */
   timer: number;
   roundSize: number;
+  /** Memory Match board size. */
+  memoryPairs: number;
 };
 
 type SettingsStore = Settings & {
@@ -27,6 +29,7 @@ const defaults: Settings = {
   voice: true,
   timer: 5,
   roundSize: 10,
+  memoryPairs: 4,
 };
 
 // Stored only in this browser (localStorage). Nothing is sent to a server.

@@ -83,6 +83,18 @@
     "prompt": "Nghe và chạm vào hình đúng",
     "replay": "Chạm để nghe lại"
   },
+  "memory": {
+    "modePictures": "Hình giống nhau",
+    "modePicturesDesc": "Tìm 2 thẻ có hình giống nhau",
+    "modeWords": "Hình và chữ",
+    "modeWordsDesc": "Ghép mỗi hình với từ của nó",
+    "pairs": "Số cặp",
+    "pairsN": "{n} cặp",
+    "found": "Cặp đã tìm",
+    "moves": "{n} lượt",
+    "result": "Tìm được {pairs} cặp sau {moves} lượt lật",
+    "cardBack": "Thẻ số {n}"
+  },
   "summary": {
     "title": "Bé làm tốt lắm!",
     "watchTitle": "Xong rồi!",

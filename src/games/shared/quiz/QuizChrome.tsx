@@ -39,17 +39,18 @@ export function QuizTopBar({ session }: { session: QuizSession }) {
   );
 }
 
-export function QuitModal({ session, onQuit }: { session: QuizSession; onQuit: () => void }) {
+/** "Stop playing?" dialog, used by every game. */
+export function QuitModal({ open, onClose, onQuit }: { open: boolean; onClose: () => void; onQuit: () => void }) {
   const t = useTranslations("play");
   return (
-    <Modal open={session.quitOpen} onClose={() => session.setQuitOpen(false)} title={t("quitTitle")}>
+    <Modal open={open} onClose={onClose} title={t("quitTitle")}>
       <div className="flex flex-col items-center gap-4">
         <Mascot mood="oops" className="w-32" />
         <div className="grid w-full grid-cols-2 gap-3">
           <button type="button" className="btn-chunky bg-surface text-ink" onClick={onQuit}>
             {t("quitYes")}
           </button>
-          <button type="button" className="btn-chunky bg-green" onClick={() => session.setQuitOpen(false)}>
+          <button type="button" className="btn-chunky bg-green" onClick={onClose}>
             {t("quitNo")}
           </button>
         </div>
@@ -90,7 +91,7 @@ export function useFeedbackText(session: QuizSession) {
   return r.correct ? t("correct") : r.choiceId === null ? t("timeUp") : t("wrong");
 }
 
-function ProgressDots({ state }: { state: GameState }) {
+export function ProgressDots({ state }: { state: GameState }) {
   const t = useTranslations("play");
   return (
     <div

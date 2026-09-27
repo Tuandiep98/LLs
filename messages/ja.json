@@ -83,6 +83,18 @@
     "prompt": "きいて ただしい えを タップしてね",
     "replay": "タップして もういちど きく"
   },
+  "memory": {
+    "modePictures": "おなじえ",
+    "modePicturesDesc": "おなじ えの カードを 2まい さがそう",
+    "modeWords": "えとことば",
+    "modeWordsDesc": "えと ことばを ペアにしよう",
+    "pairs": "ペアのかず",
+    "pairsN": "{n}ペア",
+    "found": "みつけた ペア",
+    "moves": "{n}かい",
+    "result": "{moves}かいで {pairs}ペア みつけたよ",
+    "cardBack": "カード {n}"
+  },
   "summary": {
     "title": "よくできました！",
     "watchTitle": "おしまい！",

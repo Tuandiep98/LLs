@@ -83,6 +83,18 @@
     "prompt": "听一听，点出正确的图片",
     "replay": "点一下再听一遍"
   },
+  "memory": {
+    "modePictures": "相同图片",
+    "modePicturesDesc": "找出两张图片相同的卡片",
+    "modeWords": "图片配单词",
+    "modeWordsDesc": "把每张图片和它的单词配对",
+    "pairs": "配对数量",
+    "pairsN": "{n} 对",
+    "found": "已找到",
+    "moves": "{n} 次",
+    "result": "翻了 {moves} 次，找到 {pairs} 对",
+    "cardBack": "第 {n} 张卡片"
+  },
   "summary": {
     "title": "做得好！",
     "watchTitle": "全部看完啦！",

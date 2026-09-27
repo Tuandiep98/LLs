@@ -9,14 +9,29 @@ import { localeMeta, type Locale } from "@/i18n/config";
 import { Link } from "@/i18n/navigation";
 import { achievements } from "@/lib/achievements";
 import { useAudio } from "@/lib/audio";
-import { recordSession, type SessionOutcome } from "@/lib/storage/record";
-import { celebrate } from "../confetti";
-import { Sticker } from "../Sticker";
-import { summary, type GameState } from "./engine";
+import { recordSession, type AnswerRecord, type SessionOutcome } from "@/lib/storage/record";
+import { celebrate } from "./confetti";
+import { Sticker } from "./Sticker";
+
+export type SessionResult = {
+  total: number;
+  correct: number;
+  score: number;
+  stars: number;
+  bestStreak: number;
+  wrongIds: string[];
+};
 
 type Props = {
   gameId: string;
-  state: GameState;
+  mode: string;
+  result: SessionResult;
+  /** Answers that update review boxes and stickers. */
+  answers: AnswerRecord[];
+  /** Show stars and score (false for watch-only sessions). */
+  scored: boolean;
+  /** Main result line; defaults to "x of y correct". */
+  headline?: string;
   learn: Locale;
   native: Locale;
   topic: string | null;
@@ -24,10 +39,22 @@ type Props = {
   onPlayAgain: () => void;
 };
 
-export function Summary({ gameId, state, learn, native, topic, startedAt, onPlayAgain }: Props) {
+/** End-of-session screen shared by all games; also saves the session. */
+export function Summary({
+  gameId,
+  mode,
+  result,
+  answers,
+  scored,
+  headline,
+  learn,
+  native,
+  topic,
+  startedAt,
+  onPlayAgain,
+}: Props) {
   const t = useTranslations();
   const { sfx, say } = useAudio();
-  const result = summary(state);
   const [outcome, setOutcome] = useState<SessionOutcome | null>(null);
   const saved = useRef(false);
 
@@ -39,7 +66,7 @@ export function Summary({ gameId, state, learn, native, topic, startedAt, onPlay
     recordSession(
       {
         gameId,
-        mode: state.mode,
+        mode,
         learn,
         native,
         topic,
@@ -52,7 +79,7 @@ export function Summary({ gameId, state, learn, native, topic, startedAt, onPlay
         bestStreak: result.bestStreak,
         wrongIds: result.wrongIds,
       },
-      state.mode === "play" ? state.results.map((r) => ({ conceptId: r.conceptId, correct: r.correct })) : [],
+      answers,
     )
       .then(setOutcome)
       .catch(() => setOutcome({ newStickers: [], newAchievements: [] }));
@@ -67,9 +94,9 @@ export function Summary({ gameId, state, learn, native, topic, startedAt, onPlay
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-col items-center gap-5 px-4 py-6 text-center">
       <Mascot mood="cheer" className="animate-wiggle w-40" />
-      <h1 className="text-4xl font-extrabold">{state.mode === "play" ? t("summary.title") : t("summary.watchTitle")}</h1>
+      <h1 className="text-4xl font-extrabold">{scored ? t("summary.title") : t("summary.watchTitle")}</h1>
 
-      {state.mode === "play" && (
+      {scored && (
         <>
           <div className="flex gap-2" aria-label={`${result.stars}/3`}>
             {[1, 2, 3].map((n) => (
@@ -87,7 +114,7 @@ export function Summary({ gameId, state, learn, native, topic, startedAt, onPlay
             ))}
           </div>
           <div className="card-chunky flex w-full flex-col gap-1 p-4 text-lg font-bold">
-            <p className="font-display text-2xl">{t("summary.correct", { correct: result.correct, total: result.total })}</p>
+            <p className="font-display text-2xl">{headline ?? t("summary.correct", { correct: result.correct, total: result.total })}</p>
             <p>{t("summary.score", { score: result.score })}</p>
             {result.bestStreak >= 2 && <p>🔥 {t("summary.bestStreak", { n: result.bestStreak })}</p>}
           </div>

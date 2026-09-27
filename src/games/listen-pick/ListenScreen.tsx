@@ -158,7 +158,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
         </div>
       </div>
 
-      <QuitModal session={session} onQuit={onQuit} />
+      <QuitModal open={session.quitOpen} onClose={() => session.setQuitOpen(false)} onQuit={onQuit} />
     </div>
   );
 }

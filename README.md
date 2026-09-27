@@ -49,6 +49,9 @@ src/games/
     QuizFlow / Setup / Summary / QuizChrome.tsx
   picture-guess/                game 1: see a picture, pick the word (watch + play)
   listen-pick/                  game 2: hear a word, pick the picture
+  memory-match/                 game 3: flip cards, find pairs (picture–picture or picture–word)
+  shared/SetupParts.tsx         topic picker, mode cards, chips, page shell (any game)
+  shared/Summary.tsx            end screen + saving (any game)
 src/lib/
   settings.ts                   settings (localStorage) + theme
   storage/                      IndexedDB: sessions, word progress, badges
@@ -65,7 +68,8 @@ the flow (language → setup → play → summary), engine, deck, scoring, count
 and saving are shared. A new quiz game is a manifest + one screen component using
 `useQuizSession()` + a one-line `<QuizFlow game={...} Screen={...} />` wrapper.
 
-**Other games:**
+**Other games** (like Memory Match) build their own board and reuse `SetupParts`,
+`Summary`, `QuitModal` and the audio/confetti helpers:
 
 1. Create `src/games/<id>/` with `manifest.ts`, a pure `engine.ts` (+ tests) and the UI.
 2. Add the manifest to `src/games/registry.ts`.

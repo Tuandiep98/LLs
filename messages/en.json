@@ -83,6 +83,18 @@
     "prompt": "Listen and tap the right picture",
     "replay": "Tap to listen again"
   },
+  "memory": {
+    "modePictures": "Same pictures",
+    "modePicturesDesc": "Find two cards with the same picture",
+    "modeWords": "Picture + word",
+    "modeWordsDesc": "Match each picture with its word",
+    "pairs": "Number of pairs",
+    "pairsN": "{n} pairs",
+    "found": "Pairs found",
+    "moves": "{n, plural, one {# try} other {# tries}}",
+    "result": "Found {pairs} pairs in {moves} tries",
+    "cardBack": "Card {n}"
+  },
   "summary": {
     "title": "Well done!",
     "watchTitle": "All done!",

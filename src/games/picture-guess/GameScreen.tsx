@@ -236,7 +236,7 @@ export function GameScreen({
         </div>
       </div>
 
-      <QuitModal session={session} onQuit={onQuit} />
+      <QuitModal open={session.quitOpen} onClose={() => session.setQuitOpen(false)} onQuit={onQuit} />
     </div>
   );
 }
