@@ -10,10 +10,19 @@ npm install
 npm run dev        # http://localhost:3000
 npm test           # unit tests (game engine, deck, review boxes, content, messages)
 npm run lint
-npm run build
+npm run build        # normal build (Node host, e.g. Vercel)
+npm run build:pages  # static build for GitHub Pages → out/ (served under /LLs)
 ```
 
-Deploy: import the GitHub repo in Vercel (no env vars needed).
+## Deploy
+
+**GitHub Pages (current):** every push to `main` runs `.github/workflows/pages.yml`
+(lint → test → static build → deploy) to https://tuandiep98.github.io/LLs/.
+Static hosting has no server, so `/` detects the language in the browser (`src/app/page.tsx`)
+and the CSP is a `<meta>` tag instead of a header.
+
+**Vercel (later):** import the repo in Vercel, no env vars needed. The language-detecting proxy
+and full security headers are used automatically.
 
 ## Stack
 

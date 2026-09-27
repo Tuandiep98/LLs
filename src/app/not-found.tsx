@@ -1,11 +1,12 @@
-// Requests outside any locale (rare, the proxy redirects them) fall back here.
+import { basePath } from "@/lib/basePath";
+
+// Requests outside any locale fall back here (also exported as 404.html on static hosting).
 export default function RootNotFound() {
   return (
     <html lang="en">
-      <body style={{ fontFamily: "sans-serif", textAlign: "center", padding: "4rem" }}>
+      <body style={{ fontFamily: "sans-serif", textAlign: "center", padding: "4rem", background: "#fff7e8" }}>
         <h1>404</h1>
-        {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- outside the app layout */}
-        <a href="/">LLs</a>
+        <a href={`${basePath}/`}>LLs</a>
       </body>
     </html>
   );

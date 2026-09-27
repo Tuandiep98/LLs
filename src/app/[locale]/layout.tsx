@@ -4,7 +4,10 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { InlineScript } from "@/components/InlineScript";
+import { LocaleMemory } from "@/components/LocaleMemory";
 import { routing } from "@/i18n/routing";
+import { basePath } from "@/lib/basePath";
+import { contentSecurityPolicy } from "@/lib/csp";
 import { themeInitScript } from "@/lib/settings";
 import "../globals.css";
 
@@ -31,7 +34,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     applicationName: "LLs",
     appleWebApp: { capable: true, title: "LLs", statusBarStyle: "default" },
     alternates: {
-      languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}`])),
+      languages: Object.fromEntries(routing.locales.map((l) => [l, `${basePath}/${l}`])),
     },
   };
 }
@@ -54,10 +57,17 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   return (
     <html lang={locale} className={`${baloo.variable} ${nunito.variable}`} suppressHydrationWarning>
       <head>
+        {/* Static hosting can't send headers, so the CSP goes in a meta tag there. */}
+        {process.env.NEXT_PUBLIC_STATIC_EXPORT && (
+          <meta httpEquiv="Content-Security-Policy" content={contentSecurityPolicy()} />
+        )}
         <InlineScript html={themeInitScript} />
       </head>
       <body className="flex min-h-dvh flex-col antialiased">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <LocaleMemory />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
