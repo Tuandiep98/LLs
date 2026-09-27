@@ -272,3 +272,37 @@ h3,
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
+
+/* Balloon Pop: balloons rise from the bottom of the sky and loop */
+/* From just below the sky to just above it: visible for the whole trip */
+@keyframes lls-rise {
+  from { top: 100%; transform: translateY(0); }
+  to { top: 0%; transform: translateY(-100%); }
+}
+@keyframes lls-sway {
+  0%, 100% { transform: translateX(-6%) rotate(-4deg); }
+  50% { transform: translateX(6%) rotate(4deg); }
+}
+.balloon-lane {
+  position: absolute;
+  animation: lls-rise var(--rise) linear infinite;
+  animation-delay: var(--delay);
+}
+.balloon-sway {
+  animation: lls-sway 2.6s ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+.balloons-paused .balloon-lane,
+.balloons-paused .balloon-sway {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  /* No floating: balloons wait at staggered heights */
+  .balloon-lane,
+  .balloon-sway {
+    animation: none !important;
+  }
+  .balloon-lane {
+    top: var(--static-top);
+  }
+}

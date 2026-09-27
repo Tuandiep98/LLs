@@ -53,6 +53,10 @@
       "name": "True or False",
       "desc": "Look and listen: is it the right word?"
     },
+    "balloon-pop": {
+      "name": "Balloon Pop",
+      "desc": "Hear a word, pop the right balloon"
+    },
     "memory-match": {
       "name": "Memory Match",
       "desc": "Flip cards and find pairs"
@@ -104,6 +108,9 @@
     "prompt": "Is this right?",
     "yes": "Yes",
     "no": "No"
+  },
+  "balloon": {
+    "prompt": "Pop the right balloon!"
   },
   "summary": {
     "title": "Well done!",

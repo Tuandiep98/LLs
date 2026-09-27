@@ -2,16 +2,15 @@
 
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
 import { Mascot, type MascotMood } from "@/components/Mascot";
 import { getConcept, termOf } from "@/content";
 import { localeMeta } from "@/i18n/config";
-import { useAudio, useCanHear } from "@/lib/audio";
 import { CountdownRing } from "../shared/CountdownRing";
 import { trueFalseChoice } from "../shared/quiz/deck";
 import { NextButton, QuitModal, QuizTopBar, screenShell, useFeedbackText } from "../shared/quiz/QuizChrome";
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
+import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
 import { Sticker } from "../shared/Sticker";
 
 /**
@@ -21,40 +20,15 @@ import { Sticker } from "../shared/Sticker";
  */
 export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFinish, onQuit }: QuizScreenProps) {
   const t = useTranslations();
-  const { say } = useAudio();
-  const canHear = useCanHear();
-  const [readyIndex, setReadyIndex] = useState(-1);
-  const [speaking, setSpeaking] = useState(false);
-
-  const session = useQuizSession({
-    mode,
-    rounds,
-    timeLimit,
-    learn,
-    onFinish,
-    isTimerReady: (index) => !canHear || readyIndex === index,
-  });
-  const { state, round, concept, learnTerm, lastResult, speechLang, remaining } = session;
+  const prompt = useSpokenPrompt(() => localeMeta[learn].speechLang);
+  const { speaking, read } = prompt;
+  const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTimerReady: prompt.isTimerReady });
+  const { state, round, concept, learnTerm, lastResult, remaining } = session;
   const feedback = useFeedbackText(session);
   const shownConcept = round ? getConcept(round.shown ?? round.conceptId) : undefined;
   const shownTerm = shownConcept ? termOf(shownConcept, learn) : undefined;
 
-  const read = (index: number, text: string) => {
-    setSpeaking(true);
-    say(text, speechLang, () => {
-      setSpeaking(false);
-      setReadyIndex(index);
-    });
-  };
-
-  // Read the shown word when a new question appears.
-  const isQuestion = state.phase === "question";
-  useEffect(() => {
-    if (!isQuestion || !shownTerm || !canHear) return;
-    const id = window.setTimeout(() => read(state.index, shownTerm.text), 450);
-    return () => window.clearTimeout(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- once per question
-  }, [state.index, isQuestion]);
+  useReadOnQuestion(prompt, state.phase === "question", state.index, shownTerm?.text);
 
   if (!round || !concept || !learnTerm || !shownTerm) return null;
   const revealed = state.phase === "reveal";
@@ -118,7 +92,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
               <Sticker concept={concept} className="h-full w-auto object-contain" />
             </motion.div>
           </div>
-          {timeLimit > 0 && !revealed && (!canHear || readyIndex === state.index) && (
+          {timeLimit > 0 && !revealed && prompt.isTimerReady(state.index) && (
             <div className="absolute -top-3 right-1">
               <CountdownRing remainingMs={remaining} totalMs={timeLimit * 1000} />
             </div>

@@ -2,15 +2,14 @@
 
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
 import { Mascot, type MascotMood } from "@/components/Mascot";
 import { getConcept, termOf } from "@/content";
 import { localeMeta } from "@/i18n/config";
-import { useAudio, useCanHear } from "@/lib/audio";
 import { CountdownRing } from "../shared/CountdownRing";
 import { NextButton, QuitModal, QuizTopBar, screenShell, useFeedbackText } from "../shared/quiz/QuizChrome";
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
+import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
 import { Sticker } from "../shared/Sticker";
 
 /**
@@ -20,39 +19,14 @@ import { Sticker } from "../shared/Sticker";
  */
 export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish, onQuit }: QuizScreenProps) {
   const t = useTranslations();
-  const { say } = useAudio();
-  const canHear = useCanHear();
-  const [readyIndex, setReadyIndex] = useState(-1);
-  const [speaking, setSpeaking] = useState(false);
-
-  const session = useQuizSession({
-    mode,
-    rounds,
-    timeLimit,
-    learn,
-    onFinish,
-    isTimerReady: (index) => !canHear || readyIndex === index,
-  });
-  const { state, round, concept, learnTerm, lastResult, speechLang, remaining } = session;
+  const prompt = useSpokenPrompt(() => localeMeta[learn].speechLang);
+  const { canHear, speaking, read: play } = prompt;
+  const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTimerReady: prompt.isTimerReady });
+  const { state, round, concept, learnTerm, lastResult, remaining } = session;
   const feedback = useFeedbackText(session);
-  const ready = !canHear || readyIndex === state.index;
+  const ready = prompt.isTimerReady(state.index);
 
-  const play = (index: number, text: string) => {
-    setSpeaking(true);
-    say(text, speechLang, () => {
-      setSpeaking(false);
-      setReadyIndex(index);
-    });
-  };
-
-  // Read the word when a new question appears.
-  const isQuestion = state.phase === "question";
-  useEffect(() => {
-    if (!isQuestion || !learnTerm || !canHear) return;
-    const id = window.setTimeout(() => play(state.index, learnTerm.text), 450);
-    return () => window.clearTimeout(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- once per question
-  }, [state.index, isQuestion]);
+  useReadOnQuestion(prompt, state.phase === "question", state.index, learnTerm?.text);
 
   if (!round || !concept || !learnTerm) return null;
   const nativeTerm = termOf(concept, native);
