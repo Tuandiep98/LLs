@@ -57,6 +57,10 @@
       "name": "Bắt bóng bay",
       "desc": "Nghe từ, chạm vào quả bóng đúng"
     },
+    "connect-pairs": {
+      "name": "Nối cặp",
+      "desc": "Chạm vào hình, rồi chạm vào từ đúng của nó"
+    },
     "memory-match": {
       "name": "Lật thẻ",
       "desc": "Lật thẻ và tìm cặp giống nhau"
@@ -111,6 +115,9 @@
   },
   "balloon": {
     "prompt": "Chạm vào quả bóng có hình đúng!"
+  },
+  "connect": {
+    "pickPicture": "Hình số {n}"
   },
   "summary": {
     "title": "Bé làm tốt lắm!",

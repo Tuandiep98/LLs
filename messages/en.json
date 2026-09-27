@@ -57,6 +57,10 @@
       "name": "Balloon Pop",
       "desc": "Hear a word, pop the right balloon"
     },
+    "connect-pairs": {
+      "name": "Connect Pairs",
+      "desc": "Tap a picture, then its matching word"
+    },
     "memory-match": {
       "name": "Memory Match",
       "desc": "Flip cards and find pairs"
@@ -111,6 +115,9 @@
   },
   "balloon": {
     "prompt": "Pop the right balloon!"
+  },
+  "connect": {
+    "pickPicture": "Picture {n}"
   },
   "summary": {
     "title": "Well done!",

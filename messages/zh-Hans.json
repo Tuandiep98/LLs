@@ -57,6 +57,10 @@
       "name": "打气球",
       "desc": "听一听，戳破正确的气球"
     },
+    "connect-pairs": {
+      "name": "连连看",
+      "desc": "点一张图片，再点它对应的单词"
+    },
     "memory-match": {
       "name": "翻牌配对",
       "desc": "翻开卡片，找出相同的一对"
@@ -111,6 +115,9 @@
   },
   "balloon": {
     "prompt": "戳破正确的气球！"
+  },
+  "connect": {
+    "pickPicture": "第 {n} 张图片"
   },
   "summary": {
     "title": "做得好！",

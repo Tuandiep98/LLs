@@ -16,6 +16,8 @@ export type Settings = {
   roundSize: number;
   /** Memory Match board size. */
   memoryPairs: number;
+  /** Connect Pairs board size. */
+  connectPairs: number;
 };
 
 type SettingsStore = Settings & {
@@ -30,6 +32,7 @@ const defaults: Settings = {
   timer: 5,
   roundSize: 10,
   memoryPairs: 4,
+  connectPairs: 4,
 };
 
 // Stored only in this browser (localStorage). Nothing is sent to a server.

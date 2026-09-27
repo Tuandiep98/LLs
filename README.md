@@ -51,7 +51,8 @@ src/games/
   listen-pick/                  game 2: hear a word, pick the picture
   true-false/                   game 3: picture + word, tap ✓ or ✗
   balloon-pop/                  game 4: hear a word, pop the balloon with its picture
-  memory-match/                 game 5: flip cards, find pairs (picture–picture or picture–word)
+  connect-pairs/                game 5: tap a picture, then its matching word
+  memory-match/                 game 6: flip cards, find pairs (picture–picture or picture–word)
   shared/SetupParts.tsx         topic picker, mode cards, chips, page shell (any game)
   shared/Summary.tsx            end screen + saving (any game)
 src/lib/
