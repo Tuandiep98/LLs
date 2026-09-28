@@ -4333,5 +4333,893 @@
     "addedAt": "2026-09-28",
     "origin": "seed",
     "level": "easy"
+  },
+  {
+    "id": "octopus",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/octopus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Octopus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "octopus"
+      },
+      "vi": {
+        "text": "con bạch tuộc"
+      },
+      "zh-Hans": {
+        "text": "章鱼",
+        "reading": "zhāngyú"
+      },
+      "ja": {
+        "text": "たこ",
+        "reading": "tako",
+        "tts": "蛸"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "crab",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/crab.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Crab"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "crab"
+      },
+      "vi": {
+        "text": "con cua"
+      },
+      "zh-Hans": {
+        "text": "螃蟹",
+        "reading": "pángxiè"
+      },
+      "ja": {
+        "text": "かに",
+        "reading": "kani",
+        "tts": "蟹"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "turtle",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/turtle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Turtle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "turtle"
+      },
+      "vi": {
+        "text": "con rùa"
+      },
+      "zh-Hans": {
+        "text": "乌龟",
+        "reading": "wūguī"
+      },
+      "ja": {
+        "text": "かめ",
+        "reading": "kame",
+        "tts": "亀"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "dolphin",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dolphin.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dolphin"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dolphin"
+      },
+      "vi": {
+        "text": "con cá heo"
+      },
+      "zh-Hans": {
+        "text": "海豚",
+        "reading": "hǎitún"
+      },
+      "ja": {
+        "text": "いるか",
+        "reading": "iruka"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "whale",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/whale.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Whale"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "whale"
+      },
+      "vi": {
+        "text": "con cá voi"
+      },
+      "zh-Hans": {
+        "text": "鲸鱼",
+        "reading": "jīngyú"
+      },
+      "ja": {
+        "text": "くじら",
+        "reading": "kujira"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "jellyfish",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/jellyfish.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Jellyfish"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "jellyfish"
+      },
+      "vi": {
+        "text": "con sứa"
+      },
+      "zh-Hans": {
+        "text": "水母",
+        "reading": "shuǐmǔ"
+      },
+      "ja": {
+        "text": "くらげ",
+        "reading": "kurage"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "shrimp",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shrimp.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shrimp"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shrimp"
+      },
+      "vi": {
+        "text": "con tôm"
+      },
+      "zh-Hans": {
+        "text": "虾",
+        "reading": "xiā"
+      },
+      "ja": {
+        "text": "えび",
+        "reading": "ebi",
+        "tts": "海老"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "truck",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/truck.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Delivery truck"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "truck"
+      },
+      "vi": {
+        "text": "xe tải"
+      },
+      "zh-Hans": {
+        "text": "卡车",
+        "reading": "kǎchē"
+      },
+      "ja": {
+        "text": "トラック",
+        "reading": "torakku"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "train",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/train.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Train"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "train"
+      },
+      "vi": {
+        "text": "tàu hỏa"
+      },
+      "zh-Hans": {
+        "text": "火车",
+        "reading": "huǒchē"
+      },
+      "ja": {
+        "text": "でんしゃ",
+        "reading": "densha"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "airplane",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/airplane.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Airplane"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "airplane"
+      },
+      "vi": {
+        "text": "máy bay"
+      },
+      "zh-Hans": {
+        "text": "飞机",
+        "reading": "fēijī"
+      },
+      "ja": {
+        "text": "ひこうき",
+        "reading": "hikouki"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "boat",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/boat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sailboat"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "boat"
+      },
+      "vi": {
+        "text": "thuyền"
+      },
+      "zh-Hans": {
+        "text": "船",
+        "reading": "chuán"
+      },
+      "ja": {
+        "text": "ふね",
+        "reading": "fune"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bicycle",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bicycle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bicycle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bicycle"
+      },
+      "vi": {
+        "text": "xe đạp"
+      },
+      "zh-Hans": {
+        "text": "自行车",
+        "reading": "zìxíngchē"
+      },
+      "ja": {
+        "text": "じてんしゃ",
+        "reading": "jitensha"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "helicopter",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/helicopter.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Helicopter"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "helicopter"
+      },
+      "vi": {
+        "text": "máy bay trực thăng"
+      },
+      "zh-Hans": {
+        "text": "直升机",
+        "reading": "zhíshēngjī"
+      },
+      "ja": {
+        "text": "ヘリコプター",
+        "reading": "herikoputā"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "motorcycle",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/motorcycle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Motorcycle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "motorcycle"
+      },
+      "vi": {
+        "text": "xe máy"
+      },
+      "zh-Hans": {
+        "text": "摩托车",
+        "reading": "mótuōchē"
+      },
+      "ja": {
+        "text": "オートバイ",
+        "reading": "ōtobai"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "tired",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tired.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tired face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tired"
+      },
+      "vi": {
+        "text": "mệt"
+      },
+      "zh-Hans": {
+        "text": "累",
+        "reading": "lèi"
+      },
+      "ja": {
+        "text": "つかれた",
+        "reading": "tsukareta"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "worried",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/worried.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Worried face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "worried"
+      },
+      "vi": {
+        "text": "lo lắng"
+      },
+      "zh-Hans": {
+        "text": "担心",
+        "reading": "dānxīn"
+      },
+      "ja": {
+        "text": "しんぱい",
+        "reading": "shinpai"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "confused",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/confused.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Confused face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "confused"
+      },
+      "vi": {
+        "text": "bối rối"
+      },
+      "zh-Hans": {
+        "text": "困惑",
+        "reading": "kùnhuò"
+      },
+      "ja": {
+        "text": "こまった",
+        "reading": "komatta"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "farmer",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/farmer.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Farmer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "farmer"
+      },
+      "vi": {
+        "text": "nông dân"
+      },
+      "zh-Hans": {
+        "text": "农民",
+        "reading": "nóngmín"
+      },
+      "ja": {
+        "text": "のうか",
+        "reading": "nouka",
+        "tts": "農家"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "police-officer",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/police-officer.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Police officer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "police officer"
+      },
+      "vi": {
+        "text": "cảnh sát"
+      },
+      "zh-Hans": {
+        "text": "警察",
+        "reading": "jǐngchá"
+      },
+      "ja": {
+        "text": "おまわりさん",
+        "reading": "omawarisan"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "doctor",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/doctor.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Health worker"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "doctor"
+      },
+      "vi": {
+        "text": "bác sĩ"
+      },
+      "zh-Hans": {
+        "text": "医生",
+        "reading": "yīshēng"
+      },
+      "ja": {
+        "text": "おいしゃさん",
+        "reading": "oishasan"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sunrise",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sunrise.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sunrise over mountains"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sunrise"
+      },
+      "vi": {
+        "text": "bình minh"
+      },
+      "zh-Hans": {
+        "text": "日出",
+        "reading": "rìchū"
+      },
+      "ja": {
+        "text": "ひので",
+        "reading": "hinode"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "pink",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pink.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pink heart"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pink"
+      },
+      "vi": {
+        "text": "màu hồng"
+      },
+      "zh-Hans": {
+        "text": "粉色",
+        "reading": "fěnsè"
+      },
+      "ja": {
+        "text": "ピンク",
+        "reading": "pinku"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "happy-birthday",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/happy-birthday.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Birthday cake"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "happy birthday"
+      },
+      "vi": {
+        "text": "chúc mừng sinh nhật"
+      },
+      "zh-Hans": {
+        "text": "生日快乐",
+        "reading": "shēngrì kuàilè"
+      },
+      "ja": {
+        "text": "たんじょうびおめでとう",
+        "reading": "tanjoubi omedetou"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ambulance",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ambulance.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ambulance"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ambulance"
+      },
+      "vi": {
+        "text": "xe cứu thương"
+      },
+      "zh-Hans": {
+        "text": "救护车",
+        "reading": "jiùhùchē"
+      },
+      "ja": {
+        "text": "きゅうきゅうしゃ",
+        "reading": "kyuukyuusha"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "seal",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals",
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/seal.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Seal"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "seal"
+      },
+      "vi": {
+        "text": "con hải cẩu"
+      },
+      "zh-Hans": {
+        "text": "海豹",
+        "reading": "hǎibào"
+      },
+      "ja": {
+        "text": "あざらし",
+        "reading": "azarashi"
+      }
+    },
+    "addedAt": "2026-09-29",
+    "origin": "ai",
+    "level": "easy"
   }
 ]

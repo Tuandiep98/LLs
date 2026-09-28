@@ -134,5 +134,27 @@
       "zh-Hans": "打招呼",
       "ja": "あいさつ"
     }
+  },
+  {
+    "id": "sea-animals",
+    "icon": "🐠",
+    "color": "sky",
+    "names": {
+      "en": "Sea Animals",
+      "vi": "Động vật biển",
+      "zh-Hans": "海洋动物",
+      "ja": "うみのどうぶつ"
+    }
+  },
+  {
+    "id": "vehicles",
+    "icon": "🚗",
+    "color": "green",
+    "names": {
+      "en": "Vehicles",
+      "vi": "Phương tiện",
+      "zh-Hans": "交通工具",
+      "ja": "のりもの"
+    }
   }
 ]
