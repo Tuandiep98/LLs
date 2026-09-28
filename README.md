@@ -53,6 +53,7 @@ src/games/
   balloon-pop/                  game 4: hear a word, pop the balloon with its picture
   connect-pairs/                game 5: tap a picture, then its matching word
   memory-match/                 game 6: flip cards, find pairs (picture–picture or picture–word)
+  word-builder/                 game 7: see + hear a word, tap letters / characters / kana in order
   shared/SetupParts.tsx         topic picker, mode cards, chips, page shell (any game)
   shared/Summary.tsx            end screen + saving (any game)
 src/lib/
@@ -92,6 +93,11 @@ Add entries to `src/content/data/concepts.json`. Pictures come from the allowed 
 catalog (`npm run content:catalog -- --search <word>`); set `"sourceRef"` to the catalog name and
 run `npm run images`. `npm run content:check` is the content safety gate (translations, blocklist,
 catalog images, duplicates, topic sizes, daily limit); it also runs in `npm test` and before deploy.
+
+- `reading`: pinyin for `zh-Hans`, romaji for `ja` (both required); shown under the word.
+- `tts` (optional): what the voice reads when the text alone is ambiguous (ja `あめ` → `飴`).
+- `tags`: other topic ids list the word in those topics too (pumpkin: `autumn` + `food`).
+- `level`: games start with `easy` words and bring in harder ones as words get learned.
 
 **Nightly content routine:** a Claude Code routine runs every night at 02:00 (Asia/Ho_Chi_Minh),
 follows [`docs/content-routine.md`](docs/content-routine.md), adds 25–30 seasonal/core words,

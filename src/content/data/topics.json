@@ -79,5 +79,60 @@
       "zh-Hans": "身体",
       "ja": "からだ"
     }
+  },
+  {
+    "id": "numbers",
+    "icon": "🔢",
+    "color": "green",
+    "names": {
+      "en": "Numbers",
+      "vi": "Số đếm",
+      "zh-Hans": "数字",
+      "ja": "かず"
+    }
+  },
+  {
+    "id": "family-people",
+    "icon": "👪",
+    "color": "orange",
+    "names": {
+      "en": "Family",
+      "vi": "Gia đình",
+      "zh-Hans": "家人",
+      "ja": "かぞく"
+    }
+  },
+  {
+    "id": "weather-sky",
+    "icon": "🌤️",
+    "color": "sky",
+    "names": {
+      "en": "Weather",
+      "vi": "Thời tiết",
+      "zh-Hans": "天气",
+      "ja": "てんき"
+    }
+  },
+  {
+    "id": "feelings",
+    "icon": "😊",
+    "color": "grape",
+    "names": {
+      "en": "Feelings",
+      "vi": "Cảm xúc",
+      "zh-Hans": "心情",
+      "ja": "きもち"
+    }
+  },
+  {
+    "id": "greetings",
+    "icon": "👋",
+    "color": "yellow",
+    "names": {
+      "en": "Hello!",
+      "vi": "Chào hỏi",
+      "zh-Hans": "打招呼",
+      "ja": "あいさつ"
+    }
   }
 ]

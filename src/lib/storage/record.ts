@@ -2,8 +2,17 @@
 
 import { concepts } from "@/content";
 import { achievements, dayStreak, type Stats } from "../achievements";
-import { applyAnswer, emptyProgress, isUnlocked } from "../core/leitner";
+import { applyAnswer, emptyProgress, isKnown, isUnlocked, needsReview } from "../core/leitner";
 import { db, type SessionRecord } from "./db";
+
+/** Words due for review and words already known in `learn`, for building a new game. */
+export async function learningState(learn: string, now = Date.now()) {
+  const progress = await db.progress.where("learn").equals(learn).toArray();
+  return {
+    reviewIds: progress.filter((p) => needsReview(p, now)).map((p) => p.conceptId),
+    knownIds: progress.filter(isKnown).map((p) => p.conceptId),
+  };
+}
 
 export type AnswerRecord = { conceptId: string; correct: boolean };
 

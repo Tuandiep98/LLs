@@ -2956,5 +2956,1382 @@
     "addedAt": "2026-09-28",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "one",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/one.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 1"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "one"
+      },
+      "vi": {
+        "text": "một"
+      },
+      "zh-Hans": {
+        "text": "一",
+        "reading": "yī"
+      },
+      "ja": {
+        "text": "いち",
+        "reading": "ichi"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "two",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/two.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 2"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "two"
+      },
+      "vi": {
+        "text": "hai"
+      },
+      "zh-Hans": {
+        "text": "二",
+        "reading": "èr"
+      },
+      "ja": {
+        "text": "に",
+        "reading": "ni",
+        "tts": "2"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "three",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/three.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 3"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "three"
+      },
+      "vi": {
+        "text": "ba"
+      },
+      "zh-Hans": {
+        "text": "三",
+        "reading": "sān"
+      },
+      "ja": {
+        "text": "さん",
+        "reading": "san",
+        "tts": "3"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "four",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/four.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 4"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "four"
+      },
+      "vi": {
+        "text": "bốn"
+      },
+      "zh-Hans": {
+        "text": "四",
+        "reading": "sì"
+      },
+      "ja": {
+        "text": "よん",
+        "reading": "yon"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "five",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/five.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 5"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "five"
+      },
+      "vi": {
+        "text": "năm"
+      },
+      "zh-Hans": {
+        "text": "五",
+        "reading": "wǔ"
+      },
+      "ja": {
+        "text": "ご",
+        "reading": "go",
+        "tts": "5"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "six",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/six.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 6"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "six"
+      },
+      "vi": {
+        "text": "sáu"
+      },
+      "zh-Hans": {
+        "text": "六",
+        "reading": "liù"
+      },
+      "ja": {
+        "text": "ろく",
+        "reading": "roku"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "seven",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/seven.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 7"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "seven"
+      },
+      "vi": {
+        "text": "bảy"
+      },
+      "zh-Hans": {
+        "text": "七",
+        "reading": "qī"
+      },
+      "ja": {
+        "text": "なな",
+        "reading": "nana"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "eight",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/eight.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 8"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "eight"
+      },
+      "vi": {
+        "text": "tám"
+      },
+      "zh-Hans": {
+        "text": "八",
+        "reading": "bā"
+      },
+      "ja": {
+        "text": "はち",
+        "reading": "hachi"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "nine",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/nine.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 9"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "nine"
+      },
+      "vi": {
+        "text": "chín"
+      },
+      "zh-Hans": {
+        "text": "九",
+        "reading": "jiǔ"
+      },
+      "ja": {
+        "text": "きゅう",
+        "reading": "kyuu"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "ten",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ten.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 10"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ten"
+      },
+      "vi": {
+        "text": "mười"
+      },
+      "zh-Hans": {
+        "text": "十",
+        "reading": "shí"
+      },
+      "ja": {
+        "text": "じゅう",
+        "reading": "juu"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "baby",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/baby.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Baby"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "baby"
+      },
+      "vi": {
+        "text": "em bé"
+      },
+      "zh-Hans": {
+        "text": "宝宝",
+        "reading": "bǎobao"
+      },
+      "ja": {
+        "text": "あかちゃん",
+        "reading": "akachan"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "boy",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/boy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Boy"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "boy"
+      },
+      "vi": {
+        "text": "bé trai"
+      },
+      "zh-Hans": {
+        "text": "男孩",
+        "reading": "nánhái"
+      },
+      "ja": {
+        "text": "おとこのこ",
+        "reading": "otoko no ko"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "girl",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/girl.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Girl"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "girl"
+      },
+      "vi": {
+        "text": "bé gái"
+      },
+      "zh-Hans": {
+        "text": "女孩",
+        "reading": "nǚhái"
+      },
+      "ja": {
+        "text": "おんなのこ",
+        "reading": "onna no ko"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "dad",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dad.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Man"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dad"
+      },
+      "vi": {
+        "text": "bố"
+      },
+      "zh-Hans": {
+        "text": "爸爸",
+        "reading": "bàba"
+      },
+      "ja": {
+        "text": "パパ",
+        "reading": "papa"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "mom",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mom.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Woman"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mom"
+      },
+      "vi": {
+        "text": "mẹ"
+      },
+      "zh-Hans": {
+        "text": "妈妈",
+        "reading": "māma"
+      },
+      "ja": {
+        "text": "ママ",
+        "reading": "mama"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "grandpa",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/grandpa.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Old man"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "grandpa"
+      },
+      "vi": {
+        "text": "ông"
+      },
+      "zh-Hans": {
+        "text": "爷爷",
+        "reading": "yéye"
+      },
+      "ja": {
+        "text": "おじいちゃん",
+        "reading": "ojiichan"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "grandma",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/grandma.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Old woman"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "grandma"
+      },
+      "vi": {
+        "text": "bà"
+      },
+      "zh-Hans": {
+        "text": "奶奶",
+        "reading": "nǎinai"
+      },
+      "ja": {
+        "text": "おばあちゃん",
+        "reading": "obaachan"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "teacher",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/teacher.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Teacher"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "teacher"
+      },
+      "vi": {
+        "text": "giáo viên"
+      },
+      "zh-Hans": {
+        "text": "老师",
+        "reading": "lǎoshī"
+      },
+      "ja": {
+        "text": "せんせい",
+        "reading": "sensei",
+        "tts": "先生"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "sun",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sun.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sun"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sun"
+      },
+      "vi": {
+        "text": "mặt trời"
+      },
+      "zh-Hans": {
+        "text": "太阳",
+        "reading": "tàiyáng"
+      },
+      "ja": {
+        "text": "たいよう",
+        "reading": "taiyou",
+        "tts": "太陽"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "cloud",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cloud.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cloud"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cloud"
+      },
+      "vi": {
+        "text": "đám mây"
+      },
+      "zh-Hans": {
+        "text": "云",
+        "reading": "yún"
+      },
+      "ja": {
+        "text": "くも",
+        "reading": "kumo",
+        "tts": "雲"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "rain",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rain.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cloud with rain"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rain"
+      },
+      "vi": {
+        "text": "mưa"
+      },
+      "zh-Hans": {
+        "text": "雨",
+        "reading": "yǔ"
+      },
+      "ja": {
+        "text": "あめ",
+        "reading": "ame",
+        "tts": "雨"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "snow",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/snow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Snowflake"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "snow"
+      },
+      "vi": {
+        "text": "tuyết"
+      },
+      "zh-Hans": {
+        "text": "雪",
+        "reading": "xuě"
+      },
+      "ja": {
+        "text": "ゆき",
+        "reading": "yuki",
+        "tts": "雪"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "rainbow",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rainbow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rainbow"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rainbow"
+      },
+      "vi": {
+        "text": "cầu vồng"
+      },
+      "zh-Hans": {
+        "text": "彩虹",
+        "reading": "cǎihóng"
+      },
+      "ja": {
+        "text": "にじ",
+        "reading": "niji",
+        "tts": "虹"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "star",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/star.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Star"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "star"
+      },
+      "vi": {
+        "text": "ngôi sao"
+      },
+      "zh-Hans": {
+        "text": "星星",
+        "reading": "xīngxing"
+      },
+      "ja": {
+        "text": "ほし",
+        "reading": "hoshi",
+        "tts": "星"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "lightning",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lightning.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cloud with lightning"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lightning"
+      },
+      "vi": {
+        "text": "tia chớp"
+      },
+      "zh-Hans": {
+        "text": "闪电",
+        "reading": "shǎndiàn"
+      },
+      "ja": {
+        "text": "かみなり",
+        "reading": "kaminari",
+        "tts": "雷"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "wind",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wind.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Wind face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wind"
+      },
+      "vi": {
+        "text": "gió"
+      },
+      "zh-Hans": {
+        "text": "风",
+        "reading": "fēng"
+      },
+      "ja": {
+        "text": "かぜ",
+        "reading": "kaze",
+        "tts": "風"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "happy",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/happy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Smiling face with smiling eyes"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "happy"
+      },
+      "vi": {
+        "text": "vui vẻ"
+      },
+      "zh-Hans": {
+        "text": "开心",
+        "reading": "kāixīn"
+      },
+      "ja": {
+        "text": "うれしい",
+        "reading": "ureshii"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "sad",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sad.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Frowning face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sad"
+      },
+      "vi": {
+        "text": "buồn"
+      },
+      "zh-Hans": {
+        "text": "难过",
+        "reading": "nánguò"
+      },
+      "ja": {
+        "text": "かなしい",
+        "reading": "kanashii"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "angry",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/angry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Angry face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "angry"
+      },
+      "vi": {
+        "text": "tức giận"
+      },
+      "zh-Hans": {
+        "text": "生气",
+        "reading": "shēngqì"
+      },
+      "ja": {
+        "text": "おこってる",
+        "reading": "okotteru"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "sleepy",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sleepy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sleepy face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sleepy"
+      },
+      "vi": {
+        "text": "buồn ngủ"
+      },
+      "zh-Hans": {
+        "text": "困",
+        "reading": "kùn"
+      },
+      "ja": {
+        "text": "ねむい",
+        "reading": "nemui"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "surprised",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/surprised.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Astonished face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "surprised"
+      },
+      "vi": {
+        "text": "ngạc nhiên"
+      },
+      "zh-Hans": {
+        "text": "惊讶",
+        "reading": "jīngyà"
+      },
+      "ja": {
+        "text": "びっくり",
+        "reading": "bikkuri"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "scared",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/scared.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fearful face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "scared"
+      },
+      "vi": {
+        "text": "sợ hãi"
+      },
+      "zh-Hans": {
+        "text": "害怕",
+        "reading": "hàipà"
+      },
+      "ja": {
+        "text": "こわい",
+        "reading": "kowai"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "hello",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hello.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person raising hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hello"
+      },
+      "vi": {
+        "text": "xin chào"
+      },
+      "zh-Hans": {
+        "text": "你好",
+        "reading": "nǐ hǎo"
+      },
+      "ja": {
+        "text": "こんにちは",
+        "reading": "konnichiwa"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "thank-you",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/thank-you.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Folded hands"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "thank you"
+      },
+      "vi": {
+        "text": "cảm ơn"
+      },
+      "zh-Hans": {
+        "text": "谢谢",
+        "reading": "xièxie"
+      },
+      "ja": {
+        "text": "ありがとう",
+        "reading": "arigatou"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "sorry",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sorry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person bowing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sorry"
+      },
+      "vi": {
+        "text": "xin lỗi"
+      },
+      "zh-Hans": {
+        "text": "对不起",
+        "reading": "duìbuqǐ"
+      },
+      "ja": {
+        "text": "ごめんね",
+        "reading": "gomen ne"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "yes",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/yes.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person gesturing ok"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "yes"
+      },
+      "vi": {
+        "text": "vâng"
+      },
+      "zh-Hans": {
+        "text": "是的",
+        "reading": "shì de"
+      },
+      "ja": {
+        "text": "はい",
+        "reading": "hai"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "no",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/no.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person gesturing no"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "no"
+      },
+      "vi": {
+        "text": "không"
+      },
+      "zh-Hans": {
+        "text": "不是",
+        "reading": "bú shì"
+      },
+      "ja": {
+        "text": "いいえ",
+        "reading": "iie"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "good-morning",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/good-morning.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sunrise"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "good morning"
+      },
+      "vi": {
+        "text": "chào buổi sáng"
+      },
+      "zh-Hans": {
+        "text": "早上好",
+        "reading": "zǎoshang hǎo"
+      },
+      "ja": {
+        "text": "おはよう",
+        "reading": "ohayou"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
+  },
+  {
+    "id": "good-night",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/good-night.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Night with stars"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "good night"
+      },
+      "vi": {
+        "text": "chúc ngủ ngon"
+      },
+      "zh-Hans": {
+        "text": "晚安",
+        "reading": "wǎn'ān"
+      },
+      "ja": {
+        "text": "おやすみ",
+        "reading": "oyasumi"
+      }
+    },
+    "addedAt": "2026-09-28",
+    "origin": "seed",
+    "level": "easy"
   }
 ]

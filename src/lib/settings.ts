@@ -20,6 +20,8 @@ export type Settings = {
   memoryPairs: number;
   /** Connect Pairs board size. */
   connectPairs: number;
+  /** Word Builder: words per game. */
+  buildWords: number;
 };
 
 type SettingsStore = Settings & {
@@ -37,6 +39,7 @@ const defaults: Settings = {
   roundSize: 10,
   memoryPairs: 4,
   connectPairs: 4,
+  buildWords: 5,
 };
 
 // Stored only in this browser (localStorage). Nothing is sent to a server.

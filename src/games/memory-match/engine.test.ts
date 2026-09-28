@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { concepts } from "@/content";
 import { seededRng } from "@/lib/core/random";
-import { createMemory, memoryStars, memorySummary, pickPairs, reduceMemory, type MemoryState } from "./engine";
+import { pickDistinct } from "../shared/quiz/deck";
+import { createMemory, memoryStars, memorySummary, reduceMemory, type MemoryState } from "./engine";
 
 const indexOf = (s: MemoryState, id: string, nth = 0) =>
   s.cards.map((c, i) => (c.conceptId === id ? i : -1)).filter((i) => i >= 0)[nth];
@@ -61,7 +62,7 @@ describe("memory match engine", () => {
 
   it("never picks two words that read the same", () => {
     for (let seed = 0; seed < 30; seed++) {
-      const picked = pickPairs(concepts, 20, "en", seededRng(seed));
+      const picked = pickDistinct(concepts, 20, "en", [], seededRng(seed));
       const texts = picked.map((c) => c.terms.en!.text);
       expect(new Set(texts).size).toBe(texts.length);
     }

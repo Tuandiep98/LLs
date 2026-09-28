@@ -64,6 +64,10 @@
     "memory-match": {
       "name": "しんけいすいじゃく",
       "desc": "カードをめくって ペアをさがそう"
+    },
+    "word-builder": {
+      "name": "ことばづくり",
+      "desc": "じゅんばんに タップして ことばを つくろう"
     }
   },
   "setup": {
@@ -77,7 +81,9 @@
     "timer": "1まいの じかん",
     "timerSec": "{n}びょう",
     "timerNone": "むせいげん",
-    "count": "ことばのかず"
+    "count": "ことばのかず",
+    "topicsRecent": "さいきん あそんだ",
+    "topicsAll": "ぜんぶの テーマ"
   },
   "play": {
     "question": "これは なあに？",
@@ -182,7 +188,8 @@
     "play": "あそぶ",
     "connect": "つなぐ",
     "pictures": "おなじえ",
-    "words": "えとことば"
+    "words": "えとことば",
+    "build": "つくる"
   },
   "parents": {
     "title": "保護者の方へ",
@@ -225,5 +232,9 @@
   },
   "footer": {
     "tagline": "ちいさな まなびての ために ❤️ をこめて"
+  },
+  "build": {
+    "prompt": "ことばを つくろう：",
+    "great": "できたね！🎉"
   }
 }

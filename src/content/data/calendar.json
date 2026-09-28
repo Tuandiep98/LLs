@@ -40,8 +40,10 @@
     { "id": "places", "description": "house, school, hospital, park, shop" },
     { "id": "sports", "description": "sports and games" },
     { "id": "music", "description": "musical instruments" },
-    { "id": "shapes-numbers", "description": "shapes and numbers" },
+    { "id": "numbers", "description": "numbers 1-20 (keycap images)" },
+    { "id": "shapes", "description": "shapes (circle, square, triangle, star, heart...)" },
     { "id": "colors", "description": "colors" },
-    { "id": "actions", "description": "everyday verbs a child can act out" }
+    { "id": "actions", "description": "everyday verbs a child can act out" },
+    { "id": "greetings", "description": "short everyday phrases a child says (hello, thank you, please, goodbye...), pos \"phrase\"" }
   ]
 }

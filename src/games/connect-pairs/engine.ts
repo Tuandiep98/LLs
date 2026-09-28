@@ -1,5 +1,3 @@
-import type { Concept } from "@/content/schema";
-import type { Locale } from "@/i18n/config";
 import { shuffle, type Rng } from "@/lib/core/random";
 
 // Connect Pairs: tap a picture on the left, then its matching word on the right.
@@ -151,21 +149,3 @@ export function connectSummary(state: ConnectState) {
   };
 }
 
-/** Picks words for the board; no two may read the same in the learn language. */
-export function pickPairs(
-  pool: Concept[],
-  count: number,
-  learn: Locale,
-  rng: Rng = Math.random,
-): Concept[] {
-  const seen = new Set<string>();
-  const out: Concept[] = [];
-  for (const c of shuffle(pool, rng)) {
-    const text = c.terms[learn]?.text.toLowerCase();
-    if (!text || seen.has(text)) continue;
-    seen.add(text);
-    out.push(c);
-    if (out.length === count) break;
-  }
-  return out;
-}

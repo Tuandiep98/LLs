@@ -18,6 +18,16 @@ export function getTopic(id: string): Topic | undefined {
   return topics.find((t) => t.id === id);
 }
 
+/** Today as YYYY-MM-DD in the device's time zone. */
+export function localDay(d = new Date()): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+/** Seasonal topics whose `featured` window includes `day`. */
+export function featuredTopics(day = localDay()): Topic[] {
+  return topics.filter((t) => t.featured && t.featured.from <= day && day <= t.featured.to);
+}
+
 /** A word belongs to its main topic and to any other topic listed in its tags. */
 export function inTopic(concept: Concept, topicId: string): boolean {
   return concept.topic === topicId || concept.tags.includes(topicId);

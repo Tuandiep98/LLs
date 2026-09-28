@@ -20,9 +20,10 @@ import { ConnectBoard } from "./ConnectBoard";
 import {
   connectSummary,
   PAIR_OPTIONS,
-  pickPairs,
   type ConnectState,
 } from "./engine";
+import { pickDistinct } from "../shared/quiz/deck";
+import { learningState } from "@/lib/storage/record";
 import { connectPairs } from "./manifest";
 
 type Stage =
@@ -54,15 +55,17 @@ export function ConnectPairs() {
     );
   }
 
-  const start = () => {
+  const start = async () => {
     const pool = conceptsFor(learn, native, topic ?? undefined);
     const size = (PAIR_OPTIONS as readonly number[]).includes(pairs)
       ? pairs
       : 4;
-    const picked = pickPairs(
+    const { knownIds } = await learningState(learn);
+    const picked = pickDistinct(
       pool.length >= size ? pool : conceptsFor(learn, native),
       size,
       learn,
+      knownIds,
     );
     // Empty board would never reach "done"; guarded by the topic picker always having 4+ words.
     if (!picked.length) return;

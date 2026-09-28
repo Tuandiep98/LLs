@@ -5,5 +5,6 @@ import { memoryMatch } from "./memory-match/manifest";
 import { pictureGuess } from "./picture-guess/manifest";
 import { trueFalse } from "./true-false/manifest";
 import type { GameManifest } from "./types";
+import { wordBuilder } from "./word-builder/manifest";
 
-export const games: GameManifest[] = [pictureGuess, listenPick, trueFalse, balloonPop, connectPairs, memoryMatch];
+export const games: GameManifest[] = [pictureGuess, listenPick, trueFalse, balloonPop, connectPairs, memoryMatch, wordBuilder];

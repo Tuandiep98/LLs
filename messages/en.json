@@ -64,6 +64,10 @@
     "memory-match": {
       "name": "Memory Match",
       "desc": "Flip cards and find pairs"
+    },
+    "word-builder": {
+      "name": "Word Builder",
+      "desc": "Tap the pieces in order to build the word"
     }
   },
   "setup": {
@@ -77,7 +81,9 @@
     "timer": "Time for each picture",
     "timerSec": "{n}s",
     "timerNone": "No limit",
-    "count": "Number of words"
+    "count": "Number of words",
+    "topicsRecent": "Played recently",
+    "topicsAll": "All topics"
   },
   "play": {
     "question": "What is this?",
@@ -182,7 +188,8 @@
     "play": "Play",
     "connect": "Connect",
     "pictures": "Same pictures",
-    "words": "Picture + word"
+    "words": "Picture + word",
+    "build": "Build"
   },
   "parents": {
     "title": "For grown-ups",
@@ -225,5 +232,9 @@
   },
   "footer": {
     "tagline": "Made with ❤️ for little learners"
+  },
+  "build": {
+    "prompt": "Build the word:",
+    "great": "You built it! 🎉"
   }
 }

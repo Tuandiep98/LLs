@@ -1,5 +1,3 @@
-import type { Concept } from "@/content/schema";
-import type { Locale } from "@/i18n/config";
 import { shuffle, type Rng } from "@/lib/core/random";
 
 // Memory Match: flip two cards, keep them if they show the same word.
@@ -33,19 +31,6 @@ export const PAIR_OPTIONS = [3, 4, 6] as const;
 export const PAIR_POINTS = 100;
 export const STREAK_BONUS = 20;
 
-/** Picks words for the board; in "words" mode no two may read the same (e.g. orange/orange). */
-export function pickPairs(pool: Concept[], pairs: number, learn: Locale, rng: Rng = Math.random): Concept[] {
-  const seen = new Set<string>();
-  const out: Concept[] = [];
-  for (const c of shuffle(pool, rng)) {
-    const text = c.terms[learn]?.text.toLowerCase();
-    if (!text || seen.has(text)) continue;
-    seen.add(text);
-    out.push(c);
-    if (out.length === pairs) break;
-  }
-  return out;
-}
 
 export function createMemory(conceptIds: string[], variant: Variant, rng: Rng = Math.random): MemoryState {
   const cards = conceptIds.flatMap((id): Card[] => [

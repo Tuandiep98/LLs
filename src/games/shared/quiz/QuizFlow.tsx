@@ -7,9 +7,8 @@ import { LangChoices } from "@/components/LangPicker";
 import { conceptsFor, getTopic } from "@/content";
 import type { Concept } from "@/content/schema";
 import type { Locale } from "@/i18n/config";
-import { isKnown, needsReview } from "@/lib/core/leitner";
 import { useSettings } from "@/lib/settings";
-import { db } from "@/lib/storage/db";
+import { learningState } from "@/lib/storage/record";
 import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
 import type { GameManifest } from "../../types";
@@ -79,9 +78,7 @@ export function QuizFlow({ game, Screen, makeRounds = defaultMakeRounds }: Props
   const start = async () => {
     const all = conceptsFor(learn, native);
     const now = Date.now();
-    const progress = await db.progress.where("learn").equals(learn).toArray();
-    const reviewIds = progress.filter((p) => needsReview(p, now)).map((p) => p.conceptId);
-    const knownIds = progress.filter(isKnown).map((p) => p.conceptId);
+    const { reviewIds, knownIds } = await learningState(learn, now);
     const pool = reviewOnly
       ? all.filter((c) => reviewIds.includes(c.id))
       : conceptsFor(learn, native, choice.topic ?? undefined);

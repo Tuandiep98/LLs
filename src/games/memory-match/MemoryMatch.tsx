@@ -10,7 +10,9 @@ import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
 import { Chips, GameShell, ModeCards, StartButton, Step, TopicPicker } from "../shared/SetupParts";
 import { Summary } from "../shared/Summary";
-import { memorySummary, PAIR_OPTIONS, pickPairs, type MemoryState, type Variant } from "./engine";
+import { memorySummary, PAIR_OPTIONS, type MemoryState, type Variant } from "./engine";
+import { pickDistinct } from "../shared/quiz/deck";
+import { learningState } from "@/lib/storage/record";
 import { memoryMatch } from "./manifest";
 import { MemoryBoard } from "./MemoryBoard";
 
@@ -42,10 +44,11 @@ export function MemoryMatch() {
     );
   }
 
-  const start = () => {
+  const start = async () => {
     const pool = conceptsFor(learn, native, topic ?? undefined);
     const size = (PAIR_OPTIONS as readonly number[]).includes(pairs) ? pairs : 4;
-    const picked = pickPairs(pool.length >= size ? pool : conceptsFor(learn, native), size, learn);
+    const { knownIds } = await learningState(learn);
+    const picked = pickDistinct(pool.length >= size ? pool : conceptsFor(learn, native), size, learn, knownIds);
     const now = Date.now();
     setStage({ name: "playing", id: now, conceptIds: picked.map((c) => c.id), startedAt: now });
   };

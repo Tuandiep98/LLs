@@ -22,6 +22,29 @@ export function orderForLearning(pool: Concept[], knownIds: string[] = [], rng: 
 }
 
 /**
+ * Picks `count` words in learning order for a board game (Memory Match, Connect Pairs),
+ * never two that read the same in the learn language (e.g. orange / orange).
+ */
+export function pickDistinct(
+  pool: Concept[],
+  count: number,
+  learn: Locale,
+  knownIds: string[] = [],
+  rng: Rng = Math.random,
+): Concept[] {
+  const seen = new Set<string>();
+  const out: Concept[] = [];
+  for (const c of orderForLearning(pool, knownIds, rng)) {
+    const text = c.terms[learn]?.text.toLowerCase();
+    if (!text || seen.has(text)) continue;
+    seen.add(text);
+    out.push(c);
+    if (out.length === count) break;
+  }
+  return out;
+}
+
+/**
  * Picks `size` words: words that need review first (up to half the deck),
  * then new words in learning order (see `orderForLearning`).
  */

@@ -64,6 +64,10 @@
     "memory-match": {
       "name": "Lật thẻ",
       "desc": "Lật thẻ và tìm cặp giống nhau"
+    },
+    "word-builder": {
+      "name": "Ghép chữ",
+      "desc": "Chạm từng chữ theo đúng thứ tự để ghép thành từ"
     }
   },
   "setup": {
@@ -77,7 +81,9 @@
     "timer": "Thời gian mỗi hình",
     "timerSec": "{n} giây",
     "timerNone": "Không giới hạn",
-    "count": "Số từ"
+    "count": "Số từ",
+    "topicsRecent": "Chơi gần đây",
+    "topicsAll": "Tất cả chủ đề"
   },
   "play": {
     "question": "Đây là gì?",
@@ -182,7 +188,8 @@
     "play": "Chơi",
     "connect": "Nối",
     "pictures": "Hình giống nhau",
-    "words": "Hình và chữ"
+    "words": "Hình và chữ",
+    "build": "Ghép"
   },
   "parents": {
     "title": "Dành cho phụ huynh",
@@ -225,5 +232,9 @@
   },
   "footer": {
     "tagline": "Làm bằng ❤️ cho các bạn nhỏ"
+  },
+  "build": {
+    "prompt": "Ghép từ:",
+    "great": "Bé ghép đúng rồi! 🎉"
   }
 }

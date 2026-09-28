@@ -1,16 +1,11 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { conceptsFor, topics } from "@/content";
+import { conceptsFor, featuredTopics } from "@/content";
 import { Sticker } from "@/games/shared/Sticker";
 import { Link } from "@/i18n/navigation";
 import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
-
-function today() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
 
 /** Seasonal topic banner (topics.json `featured` dates), e.g. Mid-Autumn or Christmas. */
 export function FeaturedTopic() {
@@ -19,8 +14,7 @@ export function FeaturedTopic() {
   const { native, learn } = useLanguagePair();
   if (!mounted || !learn) return null;
 
-  const day = today();
-  const topic = topics.find((x) => x.featured && x.featured.from <= day && day <= x.featured.to);
+  const topic = featuredTopics()[0];
   if (!topic) return null;
   const covers = conceptsFor(learn, native, topic.id).slice(0, 3);
   if (!covers.length) return null;
