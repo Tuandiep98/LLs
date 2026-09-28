@@ -5,8 +5,10 @@ const localeEnum = z.enum(locales);
 
 export const termSchema = z.object({
   text: z.string().min(1),
-  // Pronunciation helper: pinyin, kana reading, IPA...
+  // Latin-letter pronunciation shown under the word: pinyin (zh-Hans), romaji (ja).
   reading: z.string().optional(),
+  // What the voice reads when `text` alone is ambiguous, e.g. ja "あめ" → "飴" (not 雨).
+  tts: z.string().optional(),
   audio: z.string().optional(),
 });
 
@@ -23,6 +25,7 @@ export const conceptSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   topic: z.string(),
   pos: z.enum(["noun", "verb", "adjective", "phrase"]),
+  /** Other topic ids here also list the word in those topics (e.g. pumpkin: autumn + food). */
   tags: z.array(z.string()),
   images: z.array(imageSchema).min(1),
   terms: z.partialRecord(localeEnum, termSchema),

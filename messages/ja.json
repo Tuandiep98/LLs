@@ -94,7 +94,8 @@
   },
   "listen": {
     "prompt": "きいて ただしい えを タップしてね",
-    "replay": "タップして もういちど きく"
+    "replay": "タップして もういちど きく",
+    "noVoice": "この端末にはこの言語の音声がないので、ことばを表示します。"
   },
   "memory": {
     "modePictures": "おなじえ",
@@ -178,7 +179,10 @@
   },
   "modes": {
     "watch": "みる",
-    "play": "あそぶ"
+    "play": "あそぶ",
+    "connect": "つなぐ",
+    "pictures": "おなじえ",
+    "words": "えとことば"
   },
   "parents": {
     "title": "保護者の方へ",
@@ -204,7 +208,9 @@
     "legal": "法的情報",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "credits": "画像クレジット"
+    "credits": "画像クレジット",
+    "showReading": "ピンイン / ローマ字を表示",
+    "showReadingDesc": "中国語と日本語の単語の下にローマ字を表示して、読み方を助けます。"
   },
   "legal": {
     "updated": "最終更新日：{date}",

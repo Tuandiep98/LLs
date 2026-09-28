@@ -92,7 +92,7 @@ Append to `src/content/data/concepts.json`, keeping the same formatting (2-space
     "en": { "text": "moon cake" },
     "vi": { "text": "bánh trung thu" },
     "zh-Hans": { "text": "月饼", "reading": "yuèbǐng" },
-    "ja": { "text": "げっぺい" }
+    "ja": { "text": "げっぺい", "reading": "geppei", "tts": "月餅" }
   },
   "addedAt": "2026-09-29",
   "origin": "ai",
@@ -102,7 +102,11 @@ Append to `src/content/data/concepts.json`, keeping the same formatting (2-space
 
 - `id`: lowercase kebab-case, unique; the image file is `/content/images/<id>.png`.
 - `pos`: `noun`, `verb`, `adjective` or `phrase`. `level`: `easy` (everyday words), `medium`, `hard`.
-- `tags`: the topic id, plus `season:<event-id>` for seasonal words.
+- `tags`: the topic id, plus `season:<event-id>` for seasonal words. Add another existing topic id
+  when the word clearly belongs there too (a seasonal food → `food`, an animal → `animals`); the
+  word then also shows up in that topic's games. No word may repeat inside any topic it is in.
+- `level`: games show `easy` words first and bring in `medium`/`hard` ones once the easy words are
+  learned, so rate honestly — `easy` only for words a 5-year-old uses every day.
 - `addedAt`: today (Asia/Ho_Chi_Minh). `origin`: always `"ai"`.
 
 **Translation quality** (all four languages are required):
@@ -112,7 +116,10 @@ Append to `src/content/data/concepts.json`, keeping the same formatting (2-space
 - `vi`: natural words a Vietnamese parent says to a child, with the usual classifier like the
   existing data ("con mèo", "quả táo", "cái ghế"; colors as "màu đỏ").
 - `zh-Hans`: Simplified Chinese; `reading` = pinyin **with tone marks** (required).
-- `ja`: prefer hiragana/katakana a child can read; if you use kanji, add the kana `reading`.
+- `ja`: `text` in hiragana/katakana a child can read (no kanji). `reading` = Hepburn romaji
+  (required), lowercase, spaces between words ("te o furu"), long katakana vowels with a macron
+  ("kēki"). Add `tts` with the kanji spelling when the kana alone is ambiguous for the voice:
+  homophones (あめ 飴/雨, はな 鼻/花) and one- or two-kana words (は → 歯, め → 目).
 - Each word must mean the same thing in all four languages and match the picture.
 - No word may repeat inside a topic in any language. Max 30 characters.
 

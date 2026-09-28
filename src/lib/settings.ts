@@ -11,6 +11,8 @@ export type Settings = {
   learnLang: Locale | null;
   sound: boolean;
   voice: boolean;
+  /** Show pinyin / romaji under Chinese and Japanese words. */
+  showReading: boolean;
   /** Countdown seconds per word, 0 = no limit. */
   timer: number;
   roundSize: number;
@@ -29,7 +31,9 @@ const defaults: Settings = {
   learnLang: null,
   sound: true,
   voice: true,
-  timer: 5,
+  showReading: true,
+  // Young kids (and anyone reading a new script) need more than a few seconds.
+  timer: 8,
   roundSize: 10,
   memoryPairs: 4,
   connectPairs: 4,

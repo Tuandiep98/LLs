@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/Mascot";
-import { getConcept, termOf } from "@/content";
+import { getConcept, spokenText, termOf } from "@/content";
 import { localeMeta, type Locale } from "@/i18n/config";
 import { Link } from "@/i18n/navigation";
 import { achievements } from "@/lib/achievements";
@@ -88,7 +88,7 @@ export function Summary({
 
   const speakWord = (id: string) => {
     const c = getConcept(id);
-    if (c) say(termOf(c, learn).text, localeMeta[learn].speechLang);
+    if (c) say(spokenText(termOf(c, learn)), localeMeta[learn].speechLang);
   };
 
   return (

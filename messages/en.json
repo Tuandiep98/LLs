@@ -94,7 +94,8 @@
   },
   "listen": {
     "prompt": "Listen and tap the right picture",
-    "replay": "Tap to listen again"
+    "replay": "Tap to listen again",
+    "noVoice": "No voice for this language on this device, so the word is shown."
   },
   "memory": {
     "modePictures": "Same pictures",
@@ -178,7 +179,10 @@
   },
   "modes": {
     "watch": "Watch",
-    "play": "Play"
+    "play": "Play",
+    "connect": "Connect",
+    "pictures": "Same pictures",
+    "words": "Picture + word"
   },
   "parents": {
     "title": "For grown-ups",
@@ -204,7 +208,9 @@
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "credits": "Image credits"
+    "credits": "Image credits",
+    "showReading": "Show pinyin / romaji",
+    "showReadingDesc": "Latin letters under Chinese and Japanese words, to help sound them out."
   },
   "legal": {
     "updated": "Last updated: {date}",

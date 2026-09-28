@@ -3,11 +3,12 @@
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { useEffect, useReducer, useState, type CSSProperties } from "react";
-import { getConcept, termOf } from "@/content";
+import { getConcept, spokenText, termOf } from "@/content";
 import { localeMeta, type Locale } from "@/i18n/config";
 import { useAudio, vibrate } from "@/lib/audio";
 import { burst } from "../shared/confetti";
 import { QuitModal, screenShell } from "../shared/quiz/QuizChrome";
+import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 import { createMemory, reduceMemory, type Card, type MemoryState, type Variant } from "./engine";
 
@@ -68,7 +69,7 @@ export function MemoryBoard({ conceptIds, variant, learn, onFinish, onQuit }: Pr
     if (state.phase !== "playing" || state.open.includes(index) || state.matched.includes(card.conceptId)) return;
     sfx("tap");
     const concept = getConcept(card.conceptId);
-    if (concept) say(termOf(concept, learn).text, speechLang);
+    if (concept) say(spokenText(termOf(concept, learn)), speechLang);
     dispatch({ type: "flip", index });
   };
 
@@ -200,7 +201,7 @@ function MemoryCard({
               <span className={`font-display leading-tight font-extrabold break-words ${long ? "text-lg sm:text-2xl" : "text-2xl sm:text-4xl"}`}>
                 {term.text}
               </span>
-              {term.reading && <span className="text-xs text-ink-soft sm:text-sm">{term.reading}</span>}
+              <Reading term={term} className="text-xs text-ink-soft sm:text-sm" />
             </span>
           )}
           {matched && (

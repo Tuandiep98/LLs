@@ -1,9 +1,9 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useSyncExternalStore } from "react";
 import { useSettings } from "../settings";
 import { playSfx, type Sfx } from "./sfx";
-import { canSpeak, speak } from "./speech";
+import { getVoices, hasVoiceFor, speak, subscribeVoices } from "./speech";
 
 /** Sound helpers that respect the sound/voice settings. */
 export function useAudio() {
@@ -24,8 +24,17 @@ export function useAudio() {
 export { vibrate } from "./sfx";
 export { canSpeak, stopSpeaking } from "./speech";
 
-/** True when words can actually be heard (voice on and supported). */
-export function useCanHear() {
+const NO_VOICES: SpeechSynthesisVoice[] = [];
+
+/** Whether this device has a voice for `lang` (re-checks when voices finish loading). */
+export function useHasVoice(lang: string) {
+  const voices = useSyncExternalStore(subscribeVoices, getVoices, () => NO_VOICES);
+  return hasVoiceFor(lang, voices);
+}
+
+/** True when words in `lang` can actually be heard (voice on and a voice for the language). */
+export function useCanHear(lang: string) {
   const voice = useSettings((s) => s.voice);
-  return voice && canSpeak();
+  const hasVoice = useHasVoice(lang);
+  return voice && hasVoice;
 }

@@ -37,6 +37,11 @@ export function needsReview(p: WordProgress, now: number): boolean {
   return p.box >= 1 && p.box < MAX_BOX && p.due <= now && (p.box === 1 || p.wrong > 0);
 }
 
+/** Answered right several times in a row: new decks favor other words. */
+export function isKnown(p: WordProgress): boolean {
+  return p.box >= 3;
+}
+
 /** A sticker is unlocked the first time the word is answered correctly. */
 export function isUnlocked(p: WordProgress | undefined): boolean {
   return !!p && p.correct > 0;

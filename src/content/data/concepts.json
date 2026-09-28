@@ -26,7 +26,8 @@
         "reading": "māo"
       },
       "ja": {
-        "text": "ねこ"
+        "text": "ねこ",
+        "reading": "neko"
       }
     },
     "addedAt": "2026-09-28",
@@ -60,7 +61,8 @@
         "reading": "gǒu"
       },
       "ja": {
-        "text": "いぬ"
+        "text": "いぬ",
+        "reading": "inu"
       }
     },
     "addedAt": "2026-09-28",
@@ -94,7 +96,8 @@
         "reading": "yú"
       },
       "ja": {
-        "text": "さかな"
+        "text": "さかな",
+        "reading": "sakana"
       }
     },
     "addedAt": "2026-09-28",
@@ -128,7 +131,9 @@
         "reading": "niǎo"
       },
       "ja": {
-        "text": "とり"
+        "text": "とり",
+        "reading": "tori",
+        "tts": "鳥"
       }
     },
     "addedAt": "2026-09-28",
@@ -162,7 +167,8 @@
         "reading": "tùzi"
       },
       "ja": {
-        "text": "うさぎ"
+        "text": "うさぎ",
+        "reading": "usagi"
       }
     },
     "addedAt": "2026-09-28",
@@ -196,7 +202,8 @@
         "reading": "dàxiàng"
       },
       "ja": {
-        "text": "ぞう"
+        "text": "ぞう",
+        "reading": "zou"
       }
     },
     "addedAt": "2026-09-28",
@@ -230,7 +237,8 @@
         "reading": "shīzi"
       },
       "ja": {
-        "text": "ライオン"
+        "text": "ライオン",
+        "reading": "raion"
       }
     },
     "addedAt": "2026-09-28",
@@ -264,7 +272,9 @@
         "reading": "hóuzi"
       },
       "ja": {
-        "text": "さる"
+        "text": "さる",
+        "reading": "saru",
+        "tts": "猿"
       }
     },
     "addedAt": "2026-09-28",
@@ -298,7 +308,9 @@
         "reading": "zhū"
       },
       "ja": {
-        "text": "ぶた"
+        "text": "ぶた",
+        "reading": "buta",
+        "tts": "豚"
       }
     },
     "addedAt": "2026-09-28",
@@ -332,7 +344,9 @@
         "reading": "niú"
       },
       "ja": {
-        "text": "うし"
+        "text": "うし",
+        "reading": "ushi",
+        "tts": "牛"
       }
     },
     "addedAt": "2026-09-28",
@@ -366,7 +380,8 @@
         "reading": "yāzi"
       },
       "ja": {
-        "text": "あひる"
+        "text": "あひる",
+        "reading": "ahiru"
       }
     },
     "addedAt": "2026-09-28",
@@ -400,7 +415,8 @@
         "reading": "qīngwā"
       },
       "ja": {
-        "text": "かえる"
+        "text": "かえる",
+        "reading": "kaeru"
       }
     },
     "addedAt": "2026-09-28",
@@ -434,7 +450,8 @@
         "reading": "píngguǒ"
       },
       "ja": {
-        "text": "りんご"
+        "text": "りんご",
+        "reading": "ringo"
       }
     },
     "addedAt": "2026-09-28",
@@ -468,7 +485,8 @@
         "reading": "xiāngjiāo"
       },
       "ja": {
-        "text": "バナナ"
+        "text": "バナナ",
+        "reading": "banana"
       }
     },
     "addedAt": "2026-09-28",
@@ -502,7 +520,8 @@
         "reading": "chéngzi"
       },
       "ja": {
-        "text": "みかん"
+        "text": "みかん",
+        "reading": "mikan"
       }
     },
     "addedAt": "2026-09-28",
@@ -536,7 +555,8 @@
         "reading": "pútao"
       },
       "ja": {
-        "text": "ぶどう"
+        "text": "ぶどう",
+        "reading": "budou"
       }
     },
     "addedAt": "2026-09-28",
@@ -570,7 +590,8 @@
         "reading": "xīguā"
       },
       "ja": {
-        "text": "すいか"
+        "text": "すいか",
+        "reading": "suika"
       }
     },
     "addedAt": "2026-09-28",
@@ -604,7 +625,8 @@
         "reading": "cǎoméi"
       },
       "ja": {
-        "text": "いちご"
+        "text": "いちご",
+        "reading": "ichigo"
       }
     },
     "addedAt": "2026-09-28",
@@ -638,7 +660,8 @@
         "reading": "miànbāo"
       },
       "ja": {
-        "text": "パン"
+        "text": "パン",
+        "reading": "pan"
       }
     },
     "addedAt": "2026-09-28",
@@ -672,7 +695,8 @@
         "reading": "jīdàn"
       },
       "ja": {
-        "text": "たまご"
+        "text": "たまご",
+        "reading": "tamago"
       }
     },
     "addedAt": "2026-09-28",
@@ -706,7 +730,8 @@
         "reading": "niúnǎi"
       },
       "ja": {
-        "text": "ミルク"
+        "text": "ミルク",
+        "reading": "miruku"
       }
     },
     "addedAt": "2026-09-28",
@@ -740,7 +765,8 @@
         "reading": "dàngāo"
       },
       "ja": {
-        "text": "ケーキ"
+        "text": "ケーキ",
+        "reading": "kēki"
       }
     },
     "addedAt": "2026-09-28",
@@ -774,7 +800,8 @@
         "reading": "mǐfàn"
       },
       "ja": {
-        "text": "ごはん"
+        "text": "ごはん",
+        "reading": "gohan"
       }
     },
     "addedAt": "2026-09-28",
@@ -808,7 +835,8 @@
         "reading": "húluóbo"
       },
       "ja": {
-        "text": "にんじん"
+        "text": "にんじん",
+        "reading": "ninjin"
       }
     },
     "addedAt": "2026-09-28",
@@ -842,7 +870,8 @@
         "reading": "qiú"
       },
       "ja": {
-        "text": "ボール"
+        "text": "ボール",
+        "reading": "bōru"
       }
     },
     "addedAt": "2026-09-28",
@@ -876,7 +905,9 @@
         "reading": "shū"
       },
       "ja": {
-        "text": "ほん"
+        "text": "ほん",
+        "reading": "hon",
+        "tts": "本"
       }
     },
     "addedAt": "2026-09-28",
@@ -910,7 +941,9 @@
         "reading": "qìchē"
       },
       "ja": {
-        "text": "くるま"
+        "text": "くるま",
+        "reading": "kuruma",
+        "tts": "車"
       }
     },
     "addedAt": "2026-09-28",
@@ -940,11 +973,12 @@
         "text": "xe buýt"
       },
       "zh-Hans": {
-        "text": "公共汽车",
-        "reading": "gōnggòng qìchē"
+        "text": "公交车",
+        "reading": "gōngjiāochē"
       },
       "ja": {
-        "text": "バス"
+        "text": "バス",
+        "reading": "basu"
       }
     },
     "addedAt": "2026-09-28",
@@ -978,7 +1012,9 @@
         "reading": "fángzi"
       },
       "ja": {
-        "text": "いえ"
+        "text": "いえ",
+        "reading": "ie",
+        "tts": "家"
       }
     },
     "addedAt": "2026-09-28",
@@ -1012,7 +1048,8 @@
         "reading": "yǐzi"
       },
       "ja": {
-        "text": "いす"
+        "text": "いす",
+        "reading": "isu"
       }
     },
     "addedAt": "2026-09-28",
@@ -1046,7 +1083,8 @@
         "reading": "zhōng"
       },
       "ja": {
-        "text": "とけい"
+        "text": "とけい",
+        "reading": "tokei"
       }
     },
     "addedAt": "2026-09-28",
@@ -1080,7 +1118,9 @@
         "reading": "yǔsǎn"
       },
       "ja": {
-        "text": "かさ"
+        "text": "かさ",
+        "reading": "kasa",
+        "tts": "傘"
       }
     },
     "addedAt": "2026-09-28",
@@ -1114,7 +1154,8 @@
         "reading": "màozi"
       },
       "ja": {
-        "text": "ぼうし"
+        "text": "ぼうし",
+        "reading": "boushi"
       }
     },
     "addedAt": "2026-09-28",
@@ -1148,7 +1189,8 @@
         "reading": "xié"
       },
       "ja": {
-        "text": "くつ"
+        "text": "くつ",
+        "reading": "kutsu"
       }
     },
     "addedAt": "2026-09-28",
@@ -1182,7 +1224,8 @@
         "reading": "tàidí xióng"
       },
       "ja": {
-        "text": "くまのぬいぐるみ"
+        "text": "くまのぬいぐるみ",
+        "reading": "kuma no nuigurumi"
       }
     },
     "addedAt": "2026-09-28",
@@ -1216,7 +1259,8 @@
         "reading": "qiānbǐ"
       },
       "ja": {
-        "text": "えんぴつ"
+        "text": "えんぴつ",
+        "reading": "enpitsu"
       }
     },
     "addedAt": "2026-09-28",
@@ -1250,7 +1294,8 @@
         "reading": "pǎobù"
       },
       "ja": {
-        "text": "はしる"
+        "text": "はしる",
+        "reading": "hashiru"
       }
     },
     "addedAt": "2026-09-28",
@@ -1284,7 +1329,8 @@
         "reading": "yóuyǒng"
       },
       "ja": {
-        "text": "およぐ"
+        "text": "およぐ",
+        "reading": "oyogu"
       }
     },
     "addedAt": "2026-09-28",
@@ -1318,7 +1364,8 @@
         "reading": "qí zìxíngchē"
       },
       "ja": {
-        "text": "じてんしゃにのる"
+        "text": "じてんしゃにのる",
+        "reading": "jitensha ni noru"
       }
     },
     "addedAt": "2026-09-28",
@@ -1352,7 +1399,9 @@
         "reading": "pá"
       },
       "ja": {
-        "text": "のぼる"
+        "text": "のぼる",
+        "reading": "noboru",
+        "tts": "登る"
       }
     },
     "addedAt": "2026-09-28",
@@ -1386,7 +1435,9 @@
         "reading": "shuìjiào"
       },
       "ja": {
-        "text": "ねる"
+        "text": "ねる",
+        "reading": "neru",
+        "tts": "寝る"
       }
     },
     "addedAt": "2026-09-28",
@@ -1420,7 +1471,8 @@
         "reading": "tiàowǔ"
       },
       "ja": {
-        "text": "おどる"
+        "text": "おどる",
+        "reading": "odoru"
       }
     },
     "addedAt": "2026-09-28",
@@ -1454,7 +1506,8 @@
         "reading": "pāishǒu"
       },
       "ja": {
-        "text": "てをたたく"
+        "text": "てをたたく",
+        "reading": "te o tataku"
       }
     },
     "addedAt": "2026-09-28",
@@ -1488,7 +1541,8 @@
         "reading": "huīshǒu"
       },
       "ja": {
-        "text": "てをふる"
+        "text": "てをふる",
+        "reading": "te o furu"
       }
     },
     "addedAt": "2026-09-28",
@@ -1522,7 +1576,8 @@
         "reading": "chànggē"
       },
       "ja": {
-        "text": "うたう"
+        "text": "うたう",
+        "reading": "utau"
       }
     },
     "addedAt": "2026-09-28",
@@ -1556,7 +1611,8 @@
         "reading": "zuòfàn"
       },
       "ja": {
-        "text": "りょうりする"
+        "text": "りょうりする",
+        "reading": "ryouri suru"
       }
     },
     "addedAt": "2026-09-28",
@@ -1590,7 +1646,8 @@
         "reading": "xiào"
       },
       "ja": {
-        "text": "わらう"
+        "text": "わらう",
+        "reading": "warau"
       }
     },
     "addedAt": "2026-09-28",
@@ -1624,7 +1681,9 @@
         "reading": "kū"
       },
       "ja": {
-        "text": "なく"
+        "text": "なく",
+        "reading": "naku",
+        "tts": "泣く"
       }
     },
     "addedAt": "2026-09-28",
@@ -1658,7 +1717,9 @@
         "reading": "hóngsè"
       },
       "ja": {
-        "text": "あか"
+        "text": "あか",
+        "reading": "aka",
+        "tts": "赤"
       }
     },
     "addedAt": "2026-09-28",
@@ -1692,7 +1753,8 @@
         "reading": "chéngsè"
       },
       "ja": {
-        "text": "オレンジ"
+        "text": "オレンジ",
+        "reading": "orenji"
       }
     },
     "addedAt": "2026-09-28",
@@ -1726,7 +1788,8 @@
         "reading": "huángsè"
       },
       "ja": {
-        "text": "きいろ"
+        "text": "きいろ",
+        "reading": "kiiro"
       }
     },
     "addedAt": "2026-09-28",
@@ -1760,7 +1823,8 @@
         "reading": "lǜsè"
       },
       "ja": {
-        "text": "みどり"
+        "text": "みどり",
+        "reading": "midori"
       }
     },
     "addedAt": "2026-09-28",
@@ -1794,7 +1858,9 @@
         "reading": "lánsè"
       },
       "ja": {
-        "text": "あお"
+        "text": "あお",
+        "reading": "ao",
+        "tts": "青"
       }
     },
     "addedAt": "2026-09-28",
@@ -1828,7 +1894,8 @@
         "reading": "zǐsè"
       },
       "ja": {
-        "text": "むらさき"
+        "text": "むらさき",
+        "reading": "murasaki"
       }
     },
     "addedAt": "2026-09-28",
@@ -1862,7 +1929,8 @@
         "reading": "zōngsè"
       },
       "ja": {
-        "text": "ちゃいろ"
+        "text": "ちゃいろ",
+        "reading": "chairo"
       }
     },
     "addedAt": "2026-09-28",
@@ -1896,7 +1964,9 @@
         "reading": "hēisè"
       },
       "ja": {
-        "text": "くろ"
+        "text": "くろ",
+        "reading": "kuro",
+        "tts": "黒"
       }
     },
     "addedAt": "2026-09-28",
@@ -1930,7 +2000,9 @@
         "reading": "báisè"
       },
       "ja": {
-        "text": "しろ"
+        "text": "しろ",
+        "reading": "shiro",
+        "tts": "白"
       }
     },
     "addedAt": "2026-09-28",
@@ -1965,7 +2037,9 @@
         "reading": "shùyè"
       },
       "ja": {
-        "text": "はっぱ"
+        "text": "はっぱ",
+        "reading": "happa",
+        "tts": "葉っぱ"
       }
     },
     "addedAt": "2026-09-28",
@@ -1978,6 +2052,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "food",
       "season:autumn"
     ],
     "images": [
@@ -2000,7 +2075,8 @@
         "reading": "mógū"
       },
       "ja": {
-        "text": "きのこ"
+        "text": "きのこ",
+        "reading": "kinoko"
       }
     },
     "addedAt": "2026-09-28",
@@ -2013,6 +2089,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "animals",
       "season:autumn"
     ],
     "images": [
@@ -2035,7 +2112,8 @@
         "reading": "sōngshǔ"
       },
       "ja": {
-        "text": "りす"
+        "text": "りす",
+        "reading": "risu"
       }
     },
     "addedAt": "2026-09-28",
@@ -2048,6 +2126,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "food",
       "season:autumn"
     ],
     "images": [
@@ -2070,7 +2149,8 @@
         "reading": "yùmǐ"
       },
       "ja": {
-        "text": "とうもろこし"
+        "text": "とうもろこし",
+        "reading": "toumorokoshi"
       }
     },
     "addedAt": "2026-09-28",
@@ -2083,6 +2163,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "food",
       "season:autumn"
     ],
     "images": [
@@ -2105,7 +2186,9 @@
         "reading": "lí"
       },
       "ja": {
-        "text": "なし"
+        "text": "なし",
+        "reading": "nashi",
+        "tts": "梨"
       }
     },
     "addedAt": "2026-09-28",
@@ -2140,7 +2223,8 @@
         "reading": "lánzi"
       },
       "ja": {
-        "text": "かご"
+        "text": "かご",
+        "reading": "kago"
       }
     },
     "addedAt": "2026-09-28",
@@ -2175,7 +2259,8 @@
         "reading": "wéijīn"
       },
       "ja": {
-        "text": "マフラー"
+        "text": "マフラー",
+        "reading": "mafurā"
       }
     },
     "addedAt": "2026-09-28",
@@ -2210,7 +2295,9 @@
         "reading": "fēngzheng"
       },
       "ja": {
-        "text": "たこ"
+        "text": "たこ",
+        "reading": "tako",
+        "tts": "凧"
       }
     },
     "addedAt": "2026-09-28",
@@ -2223,6 +2310,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "food",
       "season:halloween"
     ],
     "images": [
@@ -2245,7 +2333,8 @@
         "reading": "nánguā"
       },
       "ja": {
-        "text": "かぼちゃ"
+        "text": "かぼちゃ",
+        "reading": "kabocha"
       }
     },
     "addedAt": "2026-09-28",
@@ -2276,11 +2365,12 @@
         "text": "con ma"
       },
       "zh-Hans": {
-        "text": "小幽灵",
-        "reading": "xiǎo yōulíng"
+        "text": "幽灵",
+        "reading": "yōulíng"
       },
       "ja": {
-        "text": "おばけ"
+        "text": "おばけ",
+        "reading": "obake"
       }
     },
     "addedAt": "2026-09-28",
@@ -2293,6 +2383,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "animals",
       "season:halloween"
     ],
     "images": [
@@ -2315,7 +2406,9 @@
         "reading": "biānfú"
       },
       "ja": {
-        "text": "こうもり"
+        "text": "こうもり",
+        "reading": "koumori",
+        "tts": "蝙蝠"
       }
     },
     "addedAt": "2026-09-28",
@@ -2328,6 +2421,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "animals",
       "season:halloween"
     ],
     "images": [
@@ -2350,7 +2444,8 @@
         "reading": "māotóuyīng"
       },
       "ja": {
-        "text": "ふくろう"
+        "text": "ふくろう",
+        "reading": "fukurou"
       }
     },
     "addedAt": "2026-09-28",
@@ -2363,6 +2458,7 @@
     "pos": "noun",
     "tags": [
       "autumn",
+      "food",
       "season:halloween"
     ],
     "images": [
@@ -2385,7 +2481,9 @@
         "reading": "tángguǒ"
       },
       "ja": {
-        "text": "あめ"
+        "text": "あめ",
+        "reading": "ame",
+        "tts": "飴"
       }
     },
     "addedAt": "2026-09-28",
@@ -2420,7 +2518,9 @@
         "reading": "yuèliàng"
       },
       "ja": {
-        "text": "つき"
+        "text": "つき",
+        "reading": "tsuki",
+        "tts": "月"
       }
     },
     "addedAt": "2026-09-28",
@@ -2454,7 +2554,9 @@
         "reading": "ěrduo"
       },
       "ja": {
-        "text": "みみ"
+        "text": "みみ",
+        "reading": "mimi",
+        "tts": "耳"
       }
     },
     "addedAt": "2026-09-28",
@@ -2488,7 +2590,9 @@
         "reading": "yǎnjīng"
       },
       "ja": {
-        "text": "め"
+        "text": "め",
+        "reading": "me",
+        "tts": "目"
       }
     },
     "addedAt": "2026-09-28",
@@ -2522,7 +2626,9 @@
         "reading": "bízi"
       },
       "ja": {
-        "text": "はな"
+        "text": "はな",
+        "reading": "hana",
+        "tts": "鼻"
       }
     },
     "addedAt": "2026-09-28",
@@ -2556,7 +2662,9 @@
         "reading": "zuǐba"
       },
       "ja": {
-        "text": "くち"
+        "text": "くち",
+        "reading": "kuchi",
+        "tts": "口"
       }
     },
     "addedAt": "2026-09-28",
@@ -2590,7 +2698,9 @@
         "reading": "yáchǐ"
       },
       "ja": {
-        "text": "は"
+        "text": "は",
+        "reading": "ha",
+        "tts": "歯"
       }
     },
     "addedAt": "2026-09-28",
@@ -2624,7 +2734,9 @@
         "reading": "shétou"
       },
       "ja": {
-        "text": "した"
+        "text": "した",
+        "reading": "shita",
+        "tts": "舌"
       }
     },
     "addedAt": "2026-09-28",
@@ -2658,7 +2770,9 @@
         "reading": "shǒu"
       },
       "ja": {
-        "text": "て"
+        "text": "て",
+        "reading": "te",
+        "tts": "手"
       }
     },
     "addedAt": "2026-09-28",
@@ -2692,7 +2806,9 @@
         "reading": "jiǎo"
       },
       "ja": {
-        "text": "あし"
+        "text": "あし",
+        "reading": "ashi",
+        "tts": "足"
       }
     },
     "addedAt": "2026-09-28",
@@ -2726,7 +2842,8 @@
         "reading": "zǒulù"
       },
       "ja": {
-        "text": "あるく"
+        "text": "あるく",
+        "reading": "aruku"
       }
     },
     "addedAt": "2026-09-28",
@@ -2760,7 +2877,9 @@
         "reading": "zhànlì"
       },
       "ja": {
-        "text": "たつ"
+        "text": "たつ",
+        "reading": "tatsu",
+        "tts": "立つ"
       }
     },
     "addedAt": "2026-09-28",
@@ -2794,7 +2913,8 @@
         "reading": "yōngbào"
       },
       "ja": {
-        "text": "だきしめる"
+        "text": "ぎゅっとする",
+        "reading": "gyutto suru"
       }
     },
     "addedAt": "2026-09-28",
@@ -2828,7 +2948,9 @@
         "reading": "xiězì"
       },
       "ja": {
-        "text": "かく"
+        "text": "かく",
+        "reading": "kaku",
+        "tts": "書く"
       }
     },
     "addedAt": "2026-09-28",

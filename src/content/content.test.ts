@@ -3,8 +3,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+import { games } from "@/games/registry";
 import { locales } from "@/i18n/config";
-import { concepts, topics } from ".";
+import { concepts, inTopic, topics } from ".";
 import blocklist from "./data/blocklist.json";
 import calendarJson from "./data/calendar.json";
 import catalogJson from "./data/fluent-catalog.json";
@@ -12,6 +13,8 @@ import { calendarSchema } from "./schema";
 
 const MAX_TEXT_LENGTH = 30;
 const MAX_NEW_PER_DAY = 30;
+// ~370 bytes per word minified: ~3,000 words. Gzipped this is still ~200 KB.
+const MAX_CONTENT_KB = 1200;
 
 const catalog = new Set((catalogJson as { name: string }[]).map((e) => e.name));
 
@@ -56,6 +59,24 @@ describe("content", () => {
       expect(c.terms["zh-Hans"]?.reading, `${c.id} pinyin`).toBeTruthy();
   });
 
+  it("gives Japanese words a romaji reading", () => {
+    for (const c of concepts)
+      expect(c.terms.ja?.reading ?? "", `${c.id} romaji`).toMatch(/^[a-zāīūēō' ]+$/);
+  });
+
+  it("only lists existing topics in tags", () => {
+    const topicIds = new Set(topics.map((t) => t.id));
+    for (const c of concepts)
+      for (const tag of c.tags)
+        expect(tag.startsWith("season:") || topicIds.has(tag), `${c.id} tag ${tag}`).toBe(true);
+  });
+
+  // Every word ships to the browser with the app. Past this size, load content per topic instead.
+  it(`keeps word data under ${MAX_CONTENT_KB} KB`, () => {
+    const kb = JSON.stringify(concepts).length / 1024;
+    expect(kb).toBeLessThan(MAX_CONTENT_KB);
+  });
+
   it("never uses blocked words", () => {
     for (const c of concepts)
       for (const l of locales) {
@@ -86,7 +107,7 @@ describe("content", () => {
     for (const t of topics)
       for (const l of locales) {
         const texts = concepts
-          .filter((c) => c.topic === t.id)
+          .filter((c) => inTopic(c, t.id))
           .map((c) => c.terms[l]?.text.toLowerCase());
         const dupes = texts.filter((x, i) => texts.indexOf(x) !== i);
         expect(dupes, `${t.id}/${l}`).toEqual([]);
@@ -120,5 +141,14 @@ describe("messages", () => {
   it("every locale has the same keys as English", () => {
     const en = keys(load("en")).sort();
     for (const l of locales) expect(keys(load(l)).sort(), l).toEqual(en);
+  });
+
+  // Session history shows `modes.<mode>` for every saved game.
+  it("names every game and game mode", () => {
+    const en = new Set(keys(load("en")));
+    for (const g of games) {
+      expect(en.has(`games.${g.id}.name`), g.id).toBe(true);
+      for (const m of g.modes) expect(en.has(`modes.${m}`), `${g.id} mode ${m}`).toBe(true);
+    }
   });
 });

@@ -11,6 +11,7 @@ import { NextButton, QuitModal, QuizTopBar, screenShell, useFeedbackText } from 
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
+import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 
 /**
@@ -20,7 +21,7 @@ import { Sticker } from "../shared/Sticker";
  */
 export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFinish, onQuit }: QuizScreenProps) {
   const t = useTranslations();
-  const prompt = useSpokenPrompt(() => localeMeta[learn].speechLang);
+  const prompt = useSpokenPrompt(localeMeta[learn].speechLang);
   const { speaking, read } = prompt;
   const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTimerReady: prompt.isTimerReady });
   const { state, round, concept, learnTerm, lastResult, remaining } = session;
@@ -28,7 +29,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
   const shownConcept = round ? getConcept(round.shown ?? round.conceptId) : undefined;
   const shownTerm = shownConcept ? termOf(shownConcept, learn) : undefined;
 
-  useReadOnQuestion(prompt, state.phase === "question", state.index, shownTerm?.text);
+  useReadOnQuestion(prompt, state.phase === "question", state.index, shownTerm);
 
   if (!round || !concept || !learnTerm || !shownTerm) return null;
   const revealed = state.phase === "reveal";
@@ -111,6 +112,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
                     <p className="font-display text-3xl leading-tight font-extrabold break-words sm:text-4xl">
                       {shownTerm.text}
                     </p>
+                    <Reading term={shownTerm} className="block text-lg font-bold text-ink-soft" />
                   </>
                 ) : (
                   <motion.div initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
@@ -125,7 +127,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
                       {learnTerm.text}
                     </p>
                     <p className="text-ink-soft">
-                      {learnTerm.reading && <span className="mr-2">{learnTerm.reading}</span>}
+                      <Reading term={learnTerm} className="mr-2" />
                       {localeMeta[native].flag} {nativeTerm.text}
                     </p>
                   </motion.div>
@@ -133,7 +135,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
               </div>
               <motion.button
                 type="button"
-                onClick={() => read(state.index, revealed ? learnTerm.text : shownTerm.text)}
+                onClick={() => read(state.index, revealed ? learnTerm : shownTerm)}
                 className="btn-chunky btn-icon shrink-0 bg-sky"
                 animate={speaking ? { scale: [1, 1.1, 1] } : { scale: 1 }}
                 transition={speaking ? { repeat: Infinity, duration: 0.8 } : undefined}

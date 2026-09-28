@@ -9,15 +9,37 @@ export type Round = {
   shown?: string;
 };
 
-/** Picks `size` words, putting words that need review first (up to half the deck). */
-export function buildDeck(pool: Concept[], size: number, reviewIds: string[], rng: Rng = Math.random): Concept[] {
+const LEVEL_RANK = { easy: 0, medium: 1, hard: 2 } as const;
+
+/**
+ * Shuffled, then easy words first and words the kid already knows last,
+ * so harder words come in once the easy ones are learned.
+ */
+export function orderForLearning(pool: Concept[], knownIds: string[] = [], rng: Rng = Math.random): Concept[] {
+  const known = new Set(knownIds);
+  const rank = (c: Concept) => (known.has(c.id) ? 10 : 0) + LEVEL_RANK[c.level ?? "easy"];
+  return shuffle(pool, rng).sort((a, b) => rank(a) - rank(b));
+}
+
+/**
+ * Picks `size` words: words that need review first (up to half the deck),
+ * then new words in learning order (see `orderForLearning`).
+ */
+export function buildDeck(
+  pool: Concept[],
+  size: number,
+  reviewIds: string[],
+  knownIds: string[] = [],
+  rng: Rng = Math.random,
+): Concept[] {
   const review = new Set(reviewIds);
   const due = shuffle(
     pool.filter((c) => review.has(c.id)),
     rng,
   ).slice(0, Math.ceil(size / 2));
-  const rest = shuffle(
+  const rest = orderForLearning(
     pool.filter((c) => !due.includes(c)),
+    knownIds,
     rng,
   );
   return shuffle([...due, ...rest].slice(0, size), rng);

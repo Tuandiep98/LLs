@@ -5,11 +5,13 @@ import { useTranslations } from "next-intl";
 import { Mascot, type MascotMood } from "@/components/Mascot";
 import { getConcept, termOf } from "@/content";
 import { localeMeta } from "@/i18n/config";
+import { useSettings } from "@/lib/settings";
 import { CountdownRing } from "../shared/CountdownRing";
 import { NextButton, QuitModal, QuizTopBar, screenShell, useFeedbackText } from "../shared/quiz/QuizChrome";
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
+import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 
 /**
@@ -19,14 +21,15 @@ import { Sticker } from "../shared/Sticker";
  */
 export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish, onQuit }: QuizScreenProps) {
   const t = useTranslations();
-  const prompt = useSpokenPrompt(() => localeMeta[learn].speechLang);
+  const prompt = useSpokenPrompt(localeMeta[learn].speechLang);
   const { canHear, speaking, read: play } = prompt;
+  const voiceOn = useSettings((s) => s.voice);
   const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTimerReady: prompt.isTimerReady });
   const { state, round, concept, learnTerm, lastResult, remaining } = session;
   const feedback = useFeedbackText(session);
   const ready = prompt.isTimerReady(state.index);
 
-  useReadOnQuestion(prompt, state.phase === "question", state.index, learnTerm?.text);
+  useReadOnQuestion(prompt, state.phase === "question", state.index, learnTerm);
 
   if (!round || !concept || !learnTerm) return null;
   const nativeTerm = termOf(concept, native);
@@ -43,7 +46,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
           <div className="card-chunky relative flex items-center gap-4 p-4">
             <motion.button
               type="button"
-              onClick={() => play(state.index, learnTerm.text)}
+              onClick={() => play(state.index, learnTerm)}
               className="btn-chunky h-24 w-24 shrink-0 rounded-full bg-sky p-0 text-5xl sm:h-28 sm:w-28"
               animate={speaking ? { scale: [1, 1.08, 1] } : { scale: 1 }}
               transition={speaking ? { repeat: Infinity, duration: 0.8 } : undefined}
@@ -56,7 +59,11 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
                 <>
                   <p className="font-display text-xl leading-tight font-extrabold sm:text-2xl">{t("listen.prompt")}</p>
                   {!canHear && (
-                    <p className="font-display mt-1 text-3xl font-extrabold break-words">{learnTerm.text}</p>
+                    <>
+                      <p className="font-display mt-1 text-3xl font-extrabold break-words">{learnTerm.text}</p>
+                      <Reading term={learnTerm} className="block text-lg font-bold text-ink-soft" />
+                      {voiceOn && <p className="text-sm text-ink-soft">{t("listen.noVoice")}</p>}
+                    </>
                   )}
                   {canHear && <p className="text-sm text-ink-soft">{t("listen.replay")}</p>}
                 </>
@@ -67,7 +74,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
                   )}
                   <p className="font-display text-3xl leading-tight font-extrabold break-words">{learnTerm.text}</p>
                   <p className="text-ink-soft">
-                    {learnTerm.reading && <span className="mr-2">{learnTerm.reading}</span>}
+                    <Reading term={learnTerm} className="mr-2" />
                     {localeMeta[native].flag} {nativeTerm.text}
                   </p>
                 </motion.div>

@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Mascot, type MascotMood } from "@/components/Mascot";
-import { getConcept, termOf } from "@/content";
+import { getConcept, spokenText, termOf } from "@/content";
 import { localeMeta } from "@/i18n/config";
 import { useAudio } from "@/lib/audio";
 import { CountdownRing } from "../shared/CountdownRing";
@@ -16,6 +16,7 @@ import {
 } from "../shared/quiz/QuizChrome";
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
+import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 
 /** Picture Guess: see a picture, find the word (or just watch in watch mode). */
@@ -130,16 +131,14 @@ export function GameScreen({
                       {learnTerm.text}
                     </p>
                     <p className="text-ink-soft">
-                      {learnTerm.reading && (
-                        <span className="mr-2">{learnTerm.reading}</span>
-                      )}
+                      <Reading term={learnTerm} className="mr-2" />
                       {localeMeta[native].flag} {nativeTerm.text}
                     </p>
                   </div>
                   <button
                     type="button"
                     className="btn-chunky btn-icon bg-sky"
-                    onClick={() => say(learnTerm.text, speechLang)}
+                    onClick={() => say(spokenText(learnTerm), speechLang)}
                     aria-label={t("common.listen")}
                   >
                     🔊
@@ -154,7 +153,8 @@ export function GameScreen({
               {round.options.map((id) => {
                 const option = getConcept(id);
                 if (!option) return null;
-                const text = termOf(option, learn).text;
+                const term = termOf(option, learn);
+                const text = term.text;
                 const isAnswer = id === round.conceptId;
                 const chosen = lastResult?.choiceId === id;
                 const revealed = state.phase === "reveal";
@@ -188,12 +188,15 @@ export function GameScreen({
                       {revealed && chosen && !isAnswer && (
                         <span aria-hidden>✗</span>
                       )}
-                      {text}
+                      <span className="flex flex-col items-center leading-tight">
+                        {text}
+                        <Reading term={term} className="text-sm font-bold opacity-75 sm:text-base" />
+                      </span>
                     </button>
                     <button
                       type="button"
                       className="absolute top-1/2 right-2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-black/10 text-lg"
-                      onClick={() => say(text, speechLang)}
+                      onClick={() => say(spokenText(term), speechLang)}
                       aria-label={`${t("common.listen")}: ${text}`}
                     >
                       🔊

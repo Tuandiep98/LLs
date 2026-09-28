@@ -94,7 +94,8 @@
   },
   "listen": {
     "prompt": "Nghe và chạm vào hình đúng",
-    "replay": "Chạm để nghe lại"
+    "replay": "Chạm để nghe lại",
+    "noVoice": "Máy chưa có giọng đọc cho ngôn ngữ này nên từ được hiện ra."
   },
   "memory": {
     "modePictures": "Hình giống nhau",
@@ -178,7 +179,10 @@
   },
   "modes": {
     "watch": "Xem",
-    "play": "Chơi"
+    "play": "Chơi",
+    "connect": "Nối",
+    "pictures": "Hình giống nhau",
+    "words": "Hình và chữ"
   },
   "parents": {
     "title": "Dành cho phụ huynh",
@@ -204,7 +208,9 @@
     "legal": "Pháp lý",
     "privacy": "Chính sách quyền riêng tư",
     "terms": "Điều khoản sử dụng",
-    "credits": "Nguồn hình ảnh"
+    "credits": "Nguồn hình ảnh",
+    "showReading": "Hiện pinyin / romaji",
+    "showReadingDesc": "Chữ Latin dưới từ tiếng Trung và tiếng Nhật để bé đánh vần theo."
   },
   "legal": {
     "updated": "Cập nhật lần cuối: {date}",

@@ -11,6 +11,7 @@ import { NextButton, QuitModal, QuizTopBar, screenShell, useFeedbackText } from 
 import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
+import { Reading } from "../shared/Reading";
 import { Balloon } from "./Balloon";
 
 const COLORS = ["var(--orange)", "var(--sky)", "var(--yellow)", "var(--grape)", "var(--green)", "var(--red)"];
@@ -22,11 +23,11 @@ const RISE_SECONDS = 8;
  */
 export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish, onQuit }: QuizScreenProps) {
   const t = useTranslations();
-  const prompt = useSpokenPrompt(() => localeMeta[learn].speechLang);
+  const prompt = useSpokenPrompt(localeMeta[learn].speechLang);
   const session = useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTimerReady: prompt.isTimerReady });
   const { state, round, concept, learnTerm, lastResult, remaining, halted } = session;
   const feedback = useFeedbackText(session);
-  useReadOnQuestion(prompt, state.phase === "question", state.index, learnTerm?.text);
+  useReadOnQuestion(prompt, state.phase === "question", state.index, learnTerm);
 
   // Per-round random speeds and starting heights, so balloons don't move in lockstep.
   const lanes = useMemo(
@@ -57,7 +58,7 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
       <div className="card-chunky relative flex items-center gap-3 p-3 sm:p-4">
         <motion.button
           type="button"
-          onClick={() => prompt.read(state.index, learnTerm.text)}
+          onClick={() => prompt.read(state.index, learnTerm)}
           className="btn-chunky h-16 w-16 shrink-0 rounded-full bg-sky p-0 text-3xl sm:h-20 sm:w-20 sm:text-4xl"
           animate={prompt.speaking ? { scale: [1, 1.08, 1] } : { scale: 1 }}
           transition={prompt.speaking ? { repeat: Infinity, duration: 0.8 } : undefined}
@@ -70,7 +71,9 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
             <>
               <p className="font-display text-lg leading-tight font-extrabold sm:text-2xl">{t("balloon.prompt")}</p>
               {!prompt.canHear && (
-                <p className="font-display text-2xl font-extrabold break-words sm:text-3xl">{learnTerm.text}</p>
+                <p className="font-display text-2xl font-extrabold break-words sm:text-3xl">
+                  {learnTerm.text} <Reading term={learnTerm} className="text-base font-bold text-ink-soft" />
+                </p>
               )}
             </>
           ) : (
@@ -80,7 +83,7 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
               )}
               <p className="font-display text-2xl leading-tight font-extrabold break-words sm:text-3xl">{learnTerm.text}</p>
               <p className="text-sm text-ink-soft">
-                {learnTerm.reading && <span className="mr-2">{learnTerm.reading}</span>}
+                <Reading term={learnTerm} className="mr-2" />
                 {localeMeta[native].flag} {nativeTerm.text}
               </p>
             </motion.div>

@@ -7,7 +7,7 @@ import { Modal } from "@/components/Modal";
 import { ThemeSegment } from "@/components/ThemeToggle";
 import { localeMeta, locales, type Locale } from "@/i18n/config";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
-import { canSpeak } from "@/lib/audio";
+import { useHasVoice } from "@/lib/audio";
 import { speak } from "@/lib/audio/speech";
 import { useSettings } from "@/lib/settings";
 import { clearAllData } from "@/lib/storage/db";
@@ -21,21 +21,17 @@ export function ParentSettings() {
   const router = useRouter();
   const pathname = usePathname();
   const { native, learn } = useLanguagePair();
-  const { sound, voice, set } = useSettings();
+  const { sound, voice, showReading, set } = useSettings();
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [cleared, setCleared] = useState(false);
-  const [voiceMissing, setVoiceMissing] = useState(false);
+  const hasVoice = useHasVoice(learn ? localeMeta[learn].speechLang : "");
 
   if (!mounted) return null;
 
   const switchUi = (l: Locale) => router.replace(pathname, { locale: l });
 
   const testVoice = () => {
-    if (!learn) return;
-    const lang = localeMeta[learn].speechLang;
-    const hasVoice = canSpeak() && window.speechSynthesis.getVoices().some((v) => v.lang.replace("_", "-").startsWith(lang.split("-")[0]));
-    setVoiceMissing(!hasVoice);
-    speak(localeMeta[learn].nativeName, lang);
+    if (learn) speak(localeMeta[learn].nativeName, localeMeta[learn].speechLang);
   };
 
   return (
@@ -72,7 +68,15 @@ export function ParentSettings() {
         <button type="button" className="btn-chunky min-h-14 w-fit bg-surface text-base text-ink" onClick={testVoice}>
           🔊 {t("voiceTest")}
         </button>
-        {voiceMissing && <p className="text-sm text-ink-soft">{t("voiceMissing")}</p>}
+        {learn && !hasVoice && <p className="text-sm text-ink-soft">{t("voiceMissing")}</p>}
+        <Toggle
+          label={t("showReading")}
+          on={showReading}
+          onChange={(v) => set({ showReading: v })}
+          onText={t("on")}
+          offText={t("off")}
+        />
+        <p className="-mt-2 text-sm text-ink-soft">{t("showReadingDesc")}</p>
       </Section>
 
       <Section title={t("data")}>

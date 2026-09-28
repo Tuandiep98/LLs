@@ -2,7 +2,7 @@
 
 import { useAnimationControls } from "motion/react";
 import { useEffect, useReducer, useRef, useState } from "react";
-import { getConcept, termOf } from "@/content";
+import { getConcept, spokenText, termOf } from "@/content";
 import { localeMeta, type Locale } from "@/i18n/config";
 import { useAudio, vibrate } from "@/lib/audio";
 import { burst } from "../confetti";
@@ -59,7 +59,7 @@ export function useQuizSession({ mode, rounds, timeLimit, learn, onFinish, isTim
   // Reveal: say the word and give feedback.
   useEffect(() => {
     if (state.phase !== "reveal" || !learnTerm) return;
-    const speakLater = window.setTimeout(() => say(learnTerm.text, speechLang), 250);
+    const speakLater = window.setTimeout(() => say(spokenText(learnTerm), speechLang), 250);
     if (mode === "play") {
       if (state.results.at(-1)?.correct) {
         sfx("correct");

@@ -2,7 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { useFormatter, useTranslations } from "next-intl";
-import { conceptsFor, termOf, topics } from "@/content";
+import { conceptsFor, spokenText, termOf, topics } from "@/content";
 import { localeMeta } from "@/i18n/config";
 import { achievements, dayStreak } from "@/lib/achievements";
 import { useAudio } from "@/lib/audio";
@@ -78,7 +78,7 @@ export function StickerBook() {
                     key={c.id}
                     type="button"
                     disabled={!open}
-                    onClick={() => say(text, localeMeta[learn].speechLang)}
+                    onClick={() => say(spokenText(termOf(c, learn)), localeMeta[learn].speechLang)}
                     className="flex flex-col items-center gap-1 rounded-2xl p-1 disabled:cursor-default"
                     aria-label={open ? text : t("progress.locked")}
                   >

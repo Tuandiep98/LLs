@@ -1,21 +1,29 @@
 import { describe, expect, it } from "vitest";
 import { concepts, conceptsFor } from "@/content";
 import { seededRng } from "@/lib/core/random";
-import { buildDeck, buildOptions, buildTrueFalseRounds, trueFalseChoice } from "./deck";
+import { buildDeck, buildOptions, buildTrueFalseRounds, orderForLearning, trueFalseChoice } from "./deck";
 
 const all = conceptsFor("en", "vi");
 
 describe("deck", () => {
   it("builds a deck of the requested size without duplicates", () => {
-    const deck = buildDeck(all, 10, [], seededRng(1));
+    const deck = buildDeck(all, 10, [], [], seededRng(1));
     expect(deck).toHaveLength(10);
     expect(new Set(deck.map((c) => c.id)).size).toBe(10);
   });
 
   it("puts review words in the deck first", () => {
     const review = ["cat", "dog", "apple"];
-    const deck = buildDeck(all, 10, review, seededRng(2));
+    const deck = buildDeck(all, 10, review, [], seededRng(2));
     for (const id of review) expect(deck.map((c) => c.id)).toContain(id);
+  });
+
+  it("orders easy words first and known words last", () => {
+    const ordered = orderForLearning(all, ["cat"], seededRng(7));
+    const firstMedium = ordered.findIndex((c) => c.level === "medium");
+    const lastEasy = ordered.findLastIndex((c) => c.level !== "medium" && c.id !== "cat");
+    expect(lastEasy).toBeLessThan(firstMedium);
+    expect(ordered.at(-1)?.id).toBe("cat");
   });
 
   it("builds 4 options with the answer, same topic, and no duplicate texts", () => {
@@ -33,7 +41,7 @@ describe("deck", () => {
 
 describe("true or false rounds", () => {
   it("shows either the answer or a same-topic distractor, and maps yes/no to options", () => {
-    const deck = buildDeck(all, 15, [], seededRng(5));
+    const deck = buildDeck(all, 15, [], [], seededRng(5));
     const rounds = buildTrueFalseRounds(deck, all, "en", seededRng(6));
     let shownRight = 0;
     for (const r of rounds) {

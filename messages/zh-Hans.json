@@ -94,7 +94,8 @@
   },
   "listen": {
     "prompt": "听一听，点出正确的图片",
-    "replay": "点一下再听一遍"
+    "replay": "点一下再听一遍",
+    "noVoice": "此设备没有该语言的语音，所以直接显示单词。"
   },
   "memory": {
     "modePictures": "相同图片",
@@ -178,7 +179,10 @@
   },
   "modes": {
     "watch": "观看",
-    "play": "游戏"
+    "play": "游戏",
+    "connect": "连线",
+    "pictures": "相同图片",
+    "words": "图片配单词"
   },
   "parents": {
     "title": "家长专区",
@@ -204,7 +208,9 @@
     "legal": "法律信息",
     "privacy": "隐私政策",
     "terms": "使用条款",
-    "credits": "图片来源"
+    "credits": "图片来源",
+    "showReading": "显示拼音 / 罗马字",
+    "showReadingDesc": "在中文和日文单词下面显示拉丁字母，帮助孩子读出来。"
   },
   "legal": {
     "updated": "最后更新：{date}",

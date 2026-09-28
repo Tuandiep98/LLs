@@ -7,7 +7,7 @@ import { LangChoices } from "@/components/LangPicker";
 import { conceptsFor, getTopic } from "@/content";
 import type { Concept } from "@/content/schema";
 import type { Locale } from "@/i18n/config";
-import { needsReview } from "@/lib/core/leitner";
+import { isKnown, needsReview } from "@/lib/core/leitner";
 import { useSettings } from "@/lib/settings";
 import { db } from "@/lib/storage/db";
 import { useLanguagePair } from "@/lib/useLearnLang";
@@ -81,10 +81,11 @@ export function QuizFlow({ game, Screen, makeRounds = defaultMakeRounds }: Props
     const now = Date.now();
     const progress = await db.progress.where("learn").equals(learn).toArray();
     const reviewIds = progress.filter((p) => needsReview(p, now)).map((p) => p.conceptId);
+    const knownIds = progress.filter(isKnown).map((p) => p.conceptId);
     const pool = reviewOnly
       ? all.filter((c) => reviewIds.includes(c.id))
       : conceptsFor(learn, native, choice.topic ?? undefined);
-    const deck = buildDeck(pool.length ? pool : all, roundSize, reviewIds);
+    const deck = buildDeck(pool.length ? pool : all, roundSize, reviewIds, knownIds);
     const rounds = makeRounds(deck, all, learn, choice.mode);
     setStage({ name: "playing", id: now, rounds, startedAt: now });
   };

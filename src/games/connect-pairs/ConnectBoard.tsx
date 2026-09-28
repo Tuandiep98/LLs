@@ -3,11 +3,12 @@
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { useEffect, useReducer, useState } from "react";
-import { getConcept, termOf } from "@/content";
+import { getConcept, spokenText, termOf } from "@/content";
 import { localeMeta, type Locale } from "@/i18n/config";
 import { useAudio, vibrate } from "@/lib/audio";
 import { burst } from "../shared/confetti";
 import { QuitModal, screenShell } from "../shared/quiz/QuizChrome";
+import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 import { createConnect, reduceConnect, type ConnectState } from "./engine";
 
@@ -59,7 +60,7 @@ export function ConnectBoard({ conceptIds, learn, onFinish, onQuit }: Props) {
     if (state.phase !== "playing" || state.matched.includes(id)) return;
     sfx("tap");
     const concept = getConcept(id);
-    if (concept) say(termOf(concept, learn).text, speechLang);
+    if (concept) say(spokenText(termOf(concept, learn)), speechLang);
     dispatch({ type: "tapLeft", index });
   };
 
@@ -151,9 +152,10 @@ export function ConnectBoard({ conceptIds, learn, onFinish, onQuit }: Props) {
                   disabled={matched}
                   onClick={() => tapRight(i)}
                   animate={wrong ? { x: [0, -8, 8, -5, 5, 0] } : matched ? { scale: [1, 1.05, 1] } : { scale: 1 }}
-                  className={`btn-chunky h-16 w-full px-2 text-base leading-tight break-words disabled:opacity-70 sm:h-20 sm:text-lg ${tone}`}
+                  className={`btn-chunky h-16 w-full flex-col gap-0 px-2 text-base leading-tight break-words disabled:opacity-70 sm:h-20 sm:text-lg ${tone}`}
                 >
                   {termOf(concept, learn).text}
+                  <Reading term={termOf(concept, learn)} className="text-xs font-bold opacity-75 sm:text-sm" />
                 </motion.button>
                 {matched && (
                   <span

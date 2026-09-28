@@ -18,14 +18,24 @@ export function getTopic(id: string): Topic | undefined {
   return topics.find((t) => t.id === id);
 }
 
+/** A word belongs to its main topic and to any other topic listed in its tags. */
+export function inTopic(concept: Concept, topicId: string): boolean {
+  return concept.topic === topicId || concept.tags.includes(topicId);
+}
+
 /** Concepts usable for a language pair (both sides translated). */
 export function conceptsFor(learn: Locale, native: Locale, topicId?: string): Concept[] {
   return concepts.filter(
     (c) =>
-      (!topicId || c.topic === topicId) && c.terms[learn] !== undefined && c.terms[native] !== undefined,
+      (!topicId || inTopic(c, topicId)) && c.terms[learn] !== undefined && c.terms[native] !== undefined,
   );
 }
 
 export function termOf(concept: Concept, locale: Locale): Term {
   return concept.terms[locale] ?? concept.terms.en ?? { text: concept.id };
+}
+
+/** The text to read aloud for a term. */
+export function spokenText(term: Term): string {
+  return term.tts ?? term.text;
 }
