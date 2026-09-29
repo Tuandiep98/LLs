@@ -156,5 +156,27 @@
       "zh-Hans": "交通工具",
       "ja": "のりもの"
     }
+  },
+  {
+    "id": "shapes",
+    "icon": "🔺",
+    "color": "red",
+    "names": {
+      "en": "Shapes",
+      "vi": "Hình dạng",
+      "zh-Hans": "形状",
+      "ja": "かたち"
+    }
+  },
+  {
+    "id": "clothes",
+    "icon": "👕",
+    "color": "grape",
+    "names": {
+      "en": "Clothes",
+      "vi": "Quần áo",
+      "zh-Hans": "衣服",
+      "ja": "ふく"
+    }
   }
 ]

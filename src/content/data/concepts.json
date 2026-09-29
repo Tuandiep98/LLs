@@ -5221,5 +5221,888 @@
     "addedAt": "2026-09-29",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "circle",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/circle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hollow red circle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "circle"
+      },
+      "vi": {
+        "text": "hình tròn"
+      },
+      "zh-Hans": {
+        "text": "圆形",
+        "reading": "yuánxíng"
+      },
+      "ja": {
+        "text": "まる",
+        "reading": "maru",
+        "tts": "丸"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "square",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/square.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Blue square"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "square"
+      },
+      "vi": {
+        "text": "hình vuông"
+      },
+      "zh-Hans": {
+        "text": "正方形",
+        "reading": "zhèngfāngxíng"
+      },
+      "ja": {
+        "text": "しかく",
+        "reading": "shikaku",
+        "tts": "四角"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "triangle",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/triangle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Red triangle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "triangle"
+      },
+      "vi": {
+        "text": "hình tam giác"
+      },
+      "zh-Hans": {
+        "text": "三角形",
+        "reading": "sānjiǎoxíng"
+      },
+      "ja": {
+        "text": "さんかく",
+        "reading": "sankaku",
+        "tts": "三角"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "heart",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/heart.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Red heart"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "heart"
+      },
+      "vi": {
+        "text": "hình trái tim"
+      },
+      "zh-Hans": {
+        "text": "心形",
+        "reading": "xīnxíng"
+      },
+      "ja": {
+        "text": "ハート",
+        "reading": "haato"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "diamond",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/diamond.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Large orange diamond"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "diamond"
+      },
+      "vi": {
+        "text": "hình thoi"
+      },
+      "zh-Hans": {
+        "text": "菱形",
+        "reading": "língxíng"
+      },
+      "ja": {
+        "text": "ひしがた",
+        "reading": "hishigata",
+        "tts": "菱形"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "t-shirt",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/t-shirt.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "T-shirt"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "t-shirt"
+      },
+      "vi": {
+        "text": "áo phông"
+      },
+      "zh-Hans": {
+        "text": "T恤",
+        "reading": "T xù"
+      },
+      "ja": {
+        "text": "ティーシャツ",
+        "reading": "tīshatsu"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "socks",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/socks.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Socks"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "socks"
+      },
+      "vi": {
+        "text": "đôi tất"
+      },
+      "zh-Hans": {
+        "text": "袜子",
+        "reading": "wàzi"
+      },
+      "ja": {
+        "text": "くつした",
+        "reading": "kutsushita"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "dress",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dress.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dress"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dress"
+      },
+      "vi": {
+        "text": "cái váy"
+      },
+      "zh-Hans": {
+        "text": "连衣裙",
+        "reading": "liányīqún"
+      },
+      "ja": {
+        "text": "ワンピース",
+        "reading": "wanpīsu"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "coat",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/coat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Coat"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "coat"
+      },
+      "vi": {
+        "text": "áo khoác"
+      },
+      "zh-Hans": {
+        "text": "外套",
+        "reading": "wàitào"
+      },
+      "ja": {
+        "text": "コート",
+        "reading": "kōto"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "gloves",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/gloves.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Gloves"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "gloves"
+      },
+      "vi": {
+        "text": "đôi găng tay"
+      },
+      "zh-Hans": {
+        "text": "手套",
+        "reading": "shǒutào"
+      },
+      "ja": {
+        "text": "てぶくろ",
+        "reading": "tebukuro"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "boots",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/boots.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Womans boot"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "boots"
+      },
+      "vi": {
+        "text": "đôi ủng"
+      },
+      "zh-Hans": {
+        "text": "靴子",
+        "reading": "xuēzi"
+      },
+      "ja": {
+        "text": "ブーツ",
+        "reading": "būtsu"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tie",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tie.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Necktie"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tie"
+      },
+      "vi": {
+        "text": "cà vạt"
+      },
+      "zh-Hans": {
+        "text": "领带",
+        "reading": "lǐngdài"
+      },
+      "ja": {
+        "text": "ネクタイ",
+        "reading": "nekutai"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "swimsuit",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/swimsuit.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "One-piece swimsuit"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "swimsuit"
+      },
+      "vi": {
+        "text": "đồ bơi"
+      },
+      "zh-Hans": {
+        "text": "泳衣",
+        "reading": "yǒngyī"
+      },
+      "ja": {
+        "text": "みずぎ",
+        "reading": "mizugi"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ship",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ship.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Passenger ship"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ship"
+      },
+      "vi": {
+        "text": "tàu thủy"
+      },
+      "zh-Hans": {
+        "text": "轮船",
+        "reading": "lúnchuán"
+      },
+      "ja": {
+        "text": "きゃくせん",
+        "reading": "kyakusen"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "scooter",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/scooter.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Kick scooter"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "scooter"
+      },
+      "vi": {
+        "text": "xe scooter"
+      },
+      "zh-Hans": {
+        "text": "滑板车",
+        "reading": "huábǎnchē"
+      },
+      "ja": {
+        "text": "キックボード",
+        "reading": "kikkubōdo"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tractor",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tractor.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tractor"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tractor"
+      },
+      "vi": {
+        "text": "máy kéo"
+      },
+      "zh-Hans": {
+        "text": "拖拉机",
+        "reading": "tuōlājī"
+      },
+      "ja": {
+        "text": "トラクター",
+        "reading": "torakutā"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "taxi",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/taxi.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Taxi"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "taxi"
+      },
+      "vi": {
+        "text": "xe taxi"
+      },
+      "zh-Hans": {
+        "text": "出租车",
+        "reading": "chūzūchē"
+      },
+      "ja": {
+        "text": "タクシー",
+        "reading": "takushī"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "fire-truck",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fire-truck.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fire engine"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fire truck"
+      },
+      "vi": {
+        "text": "xe cứu hỏa"
+      },
+      "zh-Hans": {
+        "text": "消防车",
+        "reading": "xiāofángchē"
+      },
+      "ja": {
+        "text": "しょうぼうしゃ",
+        "reading": "shōbōsha"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "canoe",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/canoe.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Canoe"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "canoe"
+      },
+      "vi": {
+        "text": "xuồng"
+      },
+      "zh-Hans": {
+        "text": "独木舟",
+        "reading": "dúmùzhōu"
+      },
+      "ja": {
+        "text": "カヌー",
+        "reading": "kanū"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pufferfish",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pufferfish.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Blowfish"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pufferfish"
+      },
+      "vi": {
+        "text": "cá nóc"
+      },
+      "zh-Hans": {
+        "text": "河豚",
+        "reading": "hétún"
+      },
+      "ja": {
+        "text": "ふぐ",
+        "reading": "fugu",
+        "tts": "河豚"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "lobster",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lobster.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lobster"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lobster"
+      },
+      "vi": {
+        "text": "con tôm hùm"
+      },
+      "zh-Hans": {
+        "text": "龙虾",
+        "reading": "lóngxiā"
+      },
+      "ja": {
+        "text": "ロブスター",
+        "reading": "robusutā"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "shark",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shark.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shark"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shark"
+      },
+      "vi": {
+        "text": "cá mập"
+      },
+      "zh-Hans": {
+        "text": "鲨鱼",
+        "reading": "shāyú"
+      },
+      "ja": {
+        "text": "さめ",
+        "reading": "same",
+        "tts": "鮫"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "squid",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/squid.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Squid"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "squid"
+      },
+      "vi": {
+        "text": "con mực"
+      },
+      "zh-Hans": {
+        "text": "鱿鱼",
+        "reading": "yóuyú"
+      },
+      "ja": {
+        "text": "いか",
+        "reading": "ika",
+        "tts": "烏賊"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "penguin",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/penguin.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Penguin"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "penguin"
+      },
+      "vi": {
+        "text": "chim cánh cụt"
+      },
+      "zh-Hans": {
+        "text": "企鹅",
+        "reading": "qǐ'é"
+      },
+      "ja": {
+        "text": "ペンギン",
+        "reading": "pengin"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sunset",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sunset.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sunset"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sunset"
+      },
+      "vi": {
+        "text": "mặt trời lặn"
+      },
+      "zh-Hans": {
+        "text": "日落",
+        "reading": "rìluò"
+      },
+      "ja": {
+        "text": "ゆうやけ",
+        "reading": "yūyake",
+        "tts": "夕焼け"
+      }
+    },
+    "addedAt": "2026-09-30",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
