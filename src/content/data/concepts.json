@@ -6104,5 +6104,883 @@
     "addedAt": "2026-09-30",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "butterfly",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/butterfly.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Butterfly"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "butterfly"
+      },
+      "vi": {
+        "text": "con bướm"
+      },
+      "zh-Hans": {
+        "text": "蝴蝶",
+        "reading": "húdié"
+      },
+      "ja": {
+        "text": "ちょう",
+        "reading": "chō",
+        "tts": "蝶"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bee",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bee.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Honeybee"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bee"
+      },
+      "vi": {
+        "text": "con ong"
+      },
+      "zh-Hans": {
+        "text": "蜜蜂",
+        "reading": "mìfēng"
+      },
+      "ja": {
+        "text": "はち",
+        "reading": "hachi",
+        "tts": "蜂"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ladybug",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ladybug.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lady beetle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ladybug"
+      },
+      "vi": {
+        "text": "bọ rùa"
+      },
+      "zh-Hans": {
+        "text": "瓢虫",
+        "reading": "piáochóng"
+      },
+      "ja": {
+        "text": "てんとうむし",
+        "reading": "tentōmushi"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "beetle",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/beetle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Beetle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "beetle"
+      },
+      "vi": {
+        "text": "bọ cánh cứng"
+      },
+      "zh-Hans": {
+        "text": "甲虫",
+        "reading": "jiǎchóng"
+      },
+      "ja": {
+        "text": "こがねむし",
+        "reading": "koganemushi"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "grasshopper",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/grasshopper.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cricket"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "grasshopper"
+      },
+      "vi": {
+        "text": "con châu chấu"
+      },
+      "zh-Hans": {
+        "text": "蚱蜢",
+        "reading": "zhàměng"
+      },
+      "ja": {
+        "text": "ばった",
+        "reading": "batta"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "snail",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/snail.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Snail"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "snail"
+      },
+      "vi": {
+        "text": "con ốc sên"
+      },
+      "zh-Hans": {
+        "text": "蜗牛",
+        "reading": "wōniú"
+      },
+      "ja": {
+        "text": "かたつむり",
+        "reading": "katatsumuri"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "worm",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/worm.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Worm"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "worm"
+      },
+      "vi": {
+        "text": "con giun"
+      },
+      "zh-Hans": {
+        "text": "蚯蚓",
+        "reading": "qiūyǐn"
+      },
+      "ja": {
+        "text": "みみず",
+        "reading": "mimizu"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "piano",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/piano.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Musical keyboard"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "piano"
+      },
+      "vi": {
+        "text": "đàn piano"
+      },
+      "zh-Hans": {
+        "text": "钢琴",
+        "reading": "gāngqín"
+      },
+      "ja": {
+        "text": "ピアノ",
+        "reading": "piano"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "guitar",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/guitar.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Guitar"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "guitar"
+      },
+      "vi": {
+        "text": "đàn guitar"
+      },
+      "zh-Hans": {
+        "text": "吉他",
+        "reading": "jítā"
+      },
+      "ja": {
+        "text": "ギター",
+        "reading": "gitā"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "drum",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/drum.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Drum"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "drum"
+      },
+      "vi": {
+        "text": "cái trống"
+      },
+      "zh-Hans": {
+        "text": "鼓",
+        "reading": "gǔ"
+      },
+      "ja": {
+        "text": "たいこ",
+        "reading": "taiko"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "violin",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/violin.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Violin"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "violin"
+      },
+      "vi": {
+        "text": "đàn violin"
+      },
+      "zh-Hans": {
+        "text": "小提琴",
+        "reading": "xiǎotíqín"
+      },
+      "ja": {
+        "text": "バイオリン",
+        "reading": "baiorin"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "trumpet",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/trumpet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Trumpet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "trumpet"
+      },
+      "vi": {
+        "text": "kèn trumpet"
+      },
+      "zh-Hans": {
+        "text": "小号",
+        "reading": "xiǎohào"
+      },
+      "ja": {
+        "text": "トランペット",
+        "reading": "toranpetto"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "recorder",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/recorder.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flute"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "recorder"
+      },
+      "vi": {
+        "text": "sáo dọc"
+      },
+      "zh-Hans": {
+        "text": "竖笛",
+        "reading": "shùdí"
+      },
+      "ja": {
+        "text": "リコーダー",
+        "reading": "rikōdā"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "microphone",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/microphone.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Microphone"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "microphone"
+      },
+      "vi": {
+        "text": "micro"
+      },
+      "zh-Hans": {
+        "text": "麦克风",
+        "reading": "màikèfēng"
+      },
+      "ja": {
+        "text": "マイク",
+        "reading": "maiku"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "maracas",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/maracas.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Maracas"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "maracas"
+      },
+      "vi": {
+        "text": "lục lạc"
+      },
+      "zh-Hans": {
+        "text": "沙锤",
+        "reading": "shāchuí"
+      },
+      "ja": {
+        "text": "マラカス",
+        "reading": "marakasu"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "glasses",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/glasses.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Glasses"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "glasses"
+      },
+      "vi": {
+        "text": "cái kính"
+      },
+      "zh-Hans": {
+        "text": "眼镜",
+        "reading": "yǎnjìng"
+      },
+      "ja": {
+        "text": "めがね",
+        "reading": "megane"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flip-flops",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/flip-flops.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Thong sandal"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "flip-flops"
+      },
+      "vi": {
+        "text": "dép tông"
+      },
+      "zh-Hans": {
+        "text": "人字拖",
+        "reading": "rénzìtuō"
+      },
+      "ja": {
+        "text": "ビーチサンダル",
+        "reading": "bīchi sandaru"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "backpack",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/backpack.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Backpack"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "backpack"
+      },
+      "vi": {
+        "text": "cái ba lô"
+      },
+      "zh-Hans": {
+        "text": "背包",
+        "reading": "bēibāo"
+      },
+      "ja": {
+        "text": "リュック",
+        "reading": "ryukku"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "goggles",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/goggles.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Goggles"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "goggles"
+      },
+      "vi": {
+        "text": "kính bơi"
+      },
+      "zh-Hans": {
+        "text": "护目镜",
+        "reading": "hùmùjìng"
+      },
+      "ja": {
+        "text": "ゴーグル",
+        "reading": "gōguru"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "crown",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/crown.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Crown"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "crown"
+      },
+      "vi": {
+        "text": "vương miện"
+      },
+      "zh-Hans": {
+        "text": "皇冠",
+        "reading": "huángguān"
+      },
+      "ja": {
+        "text": "かんむり",
+        "reading": "kanmuri",
+        "tts": "冠"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "good-job",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/good-job.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Thumbs up"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "good job"
+      },
+      "vi": {
+        "text": "giỏi lắm"
+      },
+      "zh-Hans": {
+        "text": "做得好",
+        "reading": "zuò de hǎo"
+      },
+      "ja": {
+        "text": "よくできました",
+        "reading": "yoku dekimashita"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hooray",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hooray.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Raising hands"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hooray"
+      },
+      "vi": {
+        "text": "hoan hô"
+      },
+      "zh-Hans": {
+        "text": "万岁",
+        "reading": "wànsuì"
+      },
+      "ja": {
+        "text": "ばんざい",
+        "reading": "banzai"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "okay",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/okay.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ok hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "okay"
+      },
+      "vi": {
+        "text": "được rồi"
+      },
+      "zh-Hans": {
+        "text": "好的",
+        "reading": "hǎo de"
+      },
+      "ja": {
+        "text": "いいよ",
+        "reading": "ii yo"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "nice-to-meet-you",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/nice-to-meet-you.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Handshake"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "nice to meet you"
+      },
+      "vi": {
+        "text": "rất vui được gặp bạn"
+      },
+      "zh-Hans": {
+        "text": "很高兴认识你",
+        "reading": "hěn gāoxìng rènshi nǐ"
+      },
+      "ja": {
+        "text": "はじめまして",
+        "reading": "hajimemashite"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "banjo",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/banjo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Banjo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "banjo"
+      },
+      "vi": {
+        "text": "đàn banjo"
+      },
+      "zh-Hans": {
+        "text": "班卓琴",
+        "reading": "bānzhuōqín"
+      },
+      "ja": {
+        "text": "バンジョー",
+        "reading": "banjō"
+      }
+    },
+    "addedAt": "2026-10-01",
+    "origin": "ai",
+    "level": "medium"
   }
 ]

@@ -178,5 +178,27 @@
       "zh-Hans": "衣服",
       "ja": "ふく"
     }
+  },
+  {
+    "id": "insects",
+    "icon": "🐛",
+    "color": "green",
+    "names": {
+      "en": "Insects",
+      "vi": "Côn trùng",
+      "zh-Hans": "昆虫",
+      "ja": "むし"
+    }
+  },
+  {
+    "id": "music",
+    "icon": "🎵",
+    "color": "red",
+    "names": {
+      "en": "Music",
+      "vi": "Âm nhạc",
+      "zh-Hans": "音乐",
+      "ja": "おんがく"
+    }
   }
 ]
