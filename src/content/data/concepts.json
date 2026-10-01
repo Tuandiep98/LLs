@@ -6982,5 +6982,958 @@
     "addedAt": "2026-10-01",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "tree",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tree.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Deciduous tree"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tree"
+      },
+      "vi": {
+        "text": "cây"
+      },
+      "zh-Hans": {
+        "text": "树",
+        "reading": "shù"
+      },
+      "ja": {
+        "text": "き",
+        "reading": "ki",
+        "tts": "木"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flower",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/flower.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Blossom"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "flower"
+      },
+      "vi": {
+        "text": "bông hoa"
+      },
+      "zh-Hans": {
+        "text": "花",
+        "reading": "huā"
+      },
+      "ja": {
+        "text": "はな",
+        "reading": "hana",
+        "tts": "花"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sunflower",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sunflower.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sunflower"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sunflower"
+      },
+      "vi": {
+        "text": "hoa hướng dương"
+      },
+      "zh-Hans": {
+        "text": "向日葵",
+        "reading": "xiàngrìkuí"
+      },
+      "ja": {
+        "text": "ひまわり",
+        "reading": "himawari"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "mountain",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mountain.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mountain"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mountain"
+      },
+      "vi": {
+        "text": "núi"
+      },
+      "zh-Hans": {
+        "text": "山",
+        "reading": "shān"
+      },
+      "ja": {
+        "text": "やま",
+        "reading": "yama"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "rock",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rock.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rock"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rock"
+      },
+      "vi": {
+        "text": "hòn đá"
+      },
+      "zh-Hans": {
+        "text": "石头",
+        "reading": "shítou"
+      },
+      "ja": {
+        "text": "いし",
+        "reading": "ishi",
+        "tts": "石"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "volcano",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/volcano.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Volcano"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "volcano"
+      },
+      "vi": {
+        "text": "núi lửa"
+      },
+      "zh-Hans": {
+        "text": "火山",
+        "reading": "huǒshān"
+      },
+      "ja": {
+        "text": "かざん",
+        "reading": "kazan"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "palm-tree",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/palm-tree.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Palm tree"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "palm tree"
+      },
+      "vi": {
+        "text": "cây dừa"
+      },
+      "zh-Hans": {
+        "text": "椰子树",
+        "reading": "yēzishù"
+      },
+      "ja": {
+        "text": "やしのき",
+        "reading": "yashi no ki",
+        "tts": "ヤシの木"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sprout",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sprout.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Seedling"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sprout"
+      },
+      "vi": {
+        "text": "cây non"
+      },
+      "zh-Hans": {
+        "text": "幼苗",
+        "reading": "yòumiáo"
+      },
+      "ja": {
+        "text": "め",
+        "reading": "me",
+        "tts": "芽"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "school",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/school.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "School"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "school"
+      },
+      "vi": {
+        "text": "trường học"
+      },
+      "zh-Hans": {
+        "text": "学校",
+        "reading": "xuéxiào"
+      },
+      "ja": {
+        "text": "がっこう",
+        "reading": "gakkou"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hospital",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hospital.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hospital"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hospital"
+      },
+      "vi": {
+        "text": "bệnh viện"
+      },
+      "zh-Hans": {
+        "text": "医院",
+        "reading": "yīyuàn"
+      },
+      "ja": {
+        "text": "びょういん",
+        "reading": "byouin"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "playground",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/playground.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Playground slide"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "playground"
+      },
+      "vi": {
+        "text": "sân chơi"
+      },
+      "zh-Hans": {
+        "text": "游乐场",
+        "reading": "yóulèchǎng"
+      },
+      "ja": {
+        "text": "あそびば",
+        "reading": "asobiba"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "shop",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shop.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Convenience store"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shop"
+      },
+      "vi": {
+        "text": "cửa hàng"
+      },
+      "zh-Hans": {
+        "text": "商店",
+        "reading": "shāngdiàn"
+      },
+      "ja": {
+        "text": "おみせ",
+        "reading": "omise"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "post-office",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/post-office.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Post office"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "post office"
+      },
+      "vi": {
+        "text": "bưu điện"
+      },
+      "zh-Hans": {
+        "text": "邮局",
+        "reading": "yóujú"
+      },
+      "ja": {
+        "text": "ゆうびんきょく",
+        "reading": "yuubinkyoku"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hotel",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hotel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hotel"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hotel"
+      },
+      "vi": {
+        "text": "khách sạn"
+      },
+      "zh-Hans": {
+        "text": "酒店",
+        "reading": "jiǔdiàn"
+      },
+      "ja": {
+        "text": "ホテル",
+        "reading": "hoteru"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ant",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ant.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ant"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ant"
+      },
+      "vi": {
+        "text": "con kiến"
+      },
+      "zh-Hans": {
+        "text": "蚂蚁",
+        "reading": "mǎyǐ"
+      },
+      "ja": {
+        "text": "あり",
+        "reading": "ari"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "arm",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/arm.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flexed biceps"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "arm"
+      },
+      "vi": {
+        "text": "cánh tay"
+      },
+      "zh-Hans": {
+        "text": "手臂",
+        "reading": "shǒubì"
+      },
+      "ja": {
+        "text": "うで",
+        "reading": "ude"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "excited",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/excited.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Partying face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "excited"
+      },
+      "vi": {
+        "text": "hào hứng"
+      },
+      "zh-Hans": {
+        "text": "兴奋",
+        "reading": "xīngfèn"
+      },
+      "ja": {
+        "text": "わくわく",
+        "reading": "wakuwaku"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bored",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bored.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Yawning face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bored"
+      },
+      "vi": {
+        "text": "buồn chán"
+      },
+      "zh-Hans": {
+        "text": "无聊",
+        "reading": "wúliáo"
+      },
+      "ja": {
+        "text": "たいくつ",
+        "reading": "taikutsu"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hot",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hot.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hot face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hot"
+      },
+      "vi": {
+        "text": "nóng"
+      },
+      "zh-Hans": {
+        "text": "热",
+        "reading": "rè"
+      },
+      "ja": {
+        "text": "あつい",
+        "reading": "atsui",
+        "tts": "暑い"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cold",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cold.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cold face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cold"
+      },
+      "vi": {
+        "text": "lạnh"
+      },
+      "zh-Hans": {
+        "text": "冷",
+        "reading": "lěng"
+      },
+      "ja": {
+        "text": "さむい",
+        "reading": "samui"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "silly",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/silly.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Zany face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "silly"
+      },
+      "vi": {
+        "text": "ngốc nghếch"
+      },
+      "zh-Hans": {
+        "text": "搞笑",
+        "reading": "gǎoxiào"
+      },
+      "ja": {
+        "text": "おかしい",
+        "reading": "okashii"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "shy",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flushed face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shy"
+      },
+      "vi": {
+        "text": "xấu hổ"
+      },
+      "zh-Hans": {
+        "text": "害羞",
+        "reading": "hàixiū"
+      },
+      "ja": {
+        "text": "はずかしい",
+        "reading": "hazukashii"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "saxophone",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/saxophone.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Saxophone"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "saxophone"
+      },
+      "vi": {
+        "text": "kèn saxophone"
+      },
+      "zh-Hans": {
+        "text": "萨克斯",
+        "reading": "sàkèsī"
+      },
+      "ja": {
+        "text": "サックス",
+        "reading": "sakkusu"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "accordion",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/accordion.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Accordion"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "accordion"
+      },
+      "vi": {
+        "text": "đàn accordion"
+      },
+      "zh-Hans": {
+        "text": "手风琴",
+        "reading": "shǒufēngqín"
+      },
+      "ja": {
+        "text": "アコーディオン",
+        "reading": "akōdion"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bell",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bell.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bell"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bell"
+      },
+      "vi": {
+        "text": "cái chuông"
+      },
+      "zh-Hans": {
+        "text": "铃铛",
+        "reading": "língdang"
+      },
+      "ja": {
+        "text": "すず",
+        "reading": "suzu",
+        "tts": "鈴"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "please",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/please.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pleading face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "please"
+      },
+      "vi": {
+        "text": "làm ơn"
+      },
+      "zh-Hans": {
+        "text": "请",
+        "reading": "qǐng"
+      },
+      "ja": {
+        "text": "おねがいします",
+        "reading": "onegai shimasu"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "star-shape",
+    "topic": "shapes",
+    "pos": "noun",
+    "tags": [
+      "shapes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/star-shape.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Eight-pointed star"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "star"
+      },
+      "vi": {
+        "text": "hình sao"
+      },
+      "zh-Hans": {
+        "text": "星形",
+        "reading": "xīngxíng"
+      },
+      "ja": {
+        "text": "ほしがた",
+        "reading": "hoshigata",
+        "tts": "星形"
+      }
+    },
+    "addedAt": "2026-10-02",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
