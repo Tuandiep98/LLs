@@ -200,5 +200,27 @@
       "zh-Hans": "音乐",
       "ja": "おんがく"
     }
+  },
+  {
+    "id": "nature",
+    "icon": "🌳",
+    "color": "green",
+    "names": {
+      "en": "Nature",
+      "vi": "Thiên nhiên",
+      "zh-Hans": "自然",
+      "ja": "しぜん"
+    }
+  },
+  {
+    "id": "places",
+    "icon": "🏘️",
+    "color": "orange",
+    "names": {
+      "en": "Places",
+      "vi": "Địa điểm",
+      "zh-Hans": "地方",
+      "ja": "ばしょ"
+    }
   }
 ]
