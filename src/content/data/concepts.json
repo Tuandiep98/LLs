@@ -7935,5 +7935,891 @@
     "addedAt": "2026-10-02",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "crayon",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/crayon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Crayon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "crayon"
+      },
+      "vi": {
+        "text": "bút sáp màu"
+      },
+      "zh-Hans": {
+        "text": "蜡笔",
+        "reading": "làbǐ"
+      },
+      "ja": {
+        "text": "くれよん",
+        "reading": "kureyon"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "scissors",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/scissors.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Scissors"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "scissors"
+      },
+      "vi": {
+        "text": "cái kéo"
+      },
+      "zh-Hans": {
+        "text": "剪刀",
+        "reading": "jiǎndāo"
+      },
+      "ja": {
+        "text": "はさみ",
+        "reading": "hasami"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "notebook",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/notebook.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Notebook"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "notebook"
+      },
+      "vi": {
+        "text": "quyển vở"
+      },
+      "zh-Hans": {
+        "text": "本子",
+        "reading": "běnzi"
+      },
+      "ja": {
+        "text": "ノート",
+        "reading": "nōto"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ruler",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ruler.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Straight ruler"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ruler"
+      },
+      "vi": {
+        "text": "cái thước"
+      },
+      "zh-Hans": {
+        "text": "尺子",
+        "reading": "chǐzi"
+      },
+      "ja": {
+        "text": "ものさし",
+        "reading": "monosashi"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "paintbrush",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/paintbrush.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Paintbrush"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "paintbrush"
+      },
+      "vi": {
+        "text": "cái cọ vẽ"
+      },
+      "zh-Hans": {
+        "text": "画笔",
+        "reading": "huàbǐ"
+      },
+      "ja": {
+        "text": "ふで",
+        "reading": "fude",
+        "tts": "筆"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "globe",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/globe.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Globe with meridians"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "globe"
+      },
+      "vi": {
+        "text": "quả địa cầu"
+      },
+      "zh-Hans": {
+        "text": "地球仪",
+        "reading": "dìqiúyí"
+      },
+      "ja": {
+        "text": "ちきゅうぎ",
+        "reading": "chikyuugi",
+        "tts": "地球儀"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "graduation-cap",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/graduation-cap.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Graduation cap"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "graduation cap"
+      },
+      "vi": {
+        "text": "mũ tốt nghiệp"
+      },
+      "zh-Hans": {
+        "text": "学士帽",
+        "reading": "xuéshìmào"
+      },
+      "ja": {
+        "text": "がくしぼう",
+        "reading": "gakushibou",
+        "tts": "学士帽"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "basketball",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/basketball.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Basketball"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "basketball"
+      },
+      "vi": {
+        "text": "bóng rổ"
+      },
+      "zh-Hans": {
+        "text": "篮球",
+        "reading": "lánqiú"
+      },
+      "ja": {
+        "text": "バスケ",
+        "reading": "basuke"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "baseball",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/baseball.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Baseball"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "baseball"
+      },
+      "vi": {
+        "text": "bóng chày"
+      },
+      "zh-Hans": {
+        "text": "棒球",
+        "reading": "bàngqiú"
+      },
+      "ja": {
+        "text": "やきゅう",
+        "reading": "yakyuu",
+        "tts": "野球"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tennis",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tennis.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tennis"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tennis"
+      },
+      "vi": {
+        "text": "quần vợt"
+      },
+      "zh-Hans": {
+        "text": "网球",
+        "reading": "wǎngqiú"
+      },
+      "ja": {
+        "text": "テニス",
+        "reading": "tenisu"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "badminton",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/badminton.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Badminton"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "badminton"
+      },
+      "vi": {
+        "text": "cầu lông"
+      },
+      "zh-Hans": {
+        "text": "羽毛球",
+        "reading": "yǔmáoqiú"
+      },
+      "ja": {
+        "text": "バドミントン",
+        "reading": "badominton"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "volleyball",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/volleyball.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Volleyball"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "volleyball"
+      },
+      "vi": {
+        "text": "bóng chuyền"
+      },
+      "zh-Hans": {
+        "text": "排球",
+        "reading": "páiqiú"
+      },
+      "ja": {
+        "text": "バレーボール",
+        "reading": "barēbōru"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ping-pong",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ping-pong.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ping pong"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ping pong"
+      },
+      "vi": {
+        "text": "bóng bàn"
+      },
+      "zh-Hans": {
+        "text": "乒乓球",
+        "reading": "pīngpāngqiú"
+      },
+      "ja": {
+        "text": "たっきゅう",
+        "reading": "takkyuu",
+        "tts": "卓球"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "ice-skate",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ice-skate.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ice skate"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ice skate"
+      },
+      "vi": {
+        "text": "giày trượt băng"
+      },
+      "zh-Hans": {
+        "text": "冰鞋",
+        "reading": "bīngxié"
+      },
+      "ja": {
+        "text": "スケートぐつ",
+        "reading": "sukētogutsu"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "tent",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tent.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tent"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tent"
+      },
+      "vi": {
+        "text": "cái lều"
+      },
+      "zh-Hans": {
+        "text": "帐篷",
+        "reading": "zhàngpeng"
+      },
+      "ja": {
+        "text": "テント",
+        "reading": "tento"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "castle",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/castle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Castle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "castle"
+      },
+      "vi": {
+        "text": "lâu đài"
+      },
+      "zh-Hans": {
+        "text": "城堡",
+        "reading": "chéngbǎo"
+      },
+      "ja": {
+        "text": "おしろ",
+        "reading": "oshiro",
+        "tts": "お城"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "fountain",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fountain.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fountain"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fountain"
+      },
+      "vi": {
+        "text": "đài phun nước"
+      },
+      "zh-Hans": {
+        "text": "喷泉",
+        "reading": "pēnquán"
+      },
+      "ja": {
+        "text": "ふんすい",
+        "reading": "funsui",
+        "tts": "噴水"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bus-stop",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bus-stop.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bus stop"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bus stop"
+      },
+      "vi": {
+        "text": "trạm xe buýt"
+      },
+      "zh-Hans": {
+        "text": "公交车站",
+        "reading": "gōngjiāochēzhàn"
+      },
+      "ja": {
+        "text": "バスてい",
+        "reading": "basutei"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "stadium",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/stadium.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Stadium"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "stadium"
+      },
+      "vi": {
+        "text": "sân vận động"
+      },
+      "zh-Hans": {
+        "text": "体育场",
+        "reading": "tǐyùchǎng"
+      },
+      "ja": {
+        "text": "スタジアム",
+        "reading": "sutajiamu"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cactus",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cactus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cactus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cactus"
+      },
+      "vi": {
+        "text": "cây xương rồng"
+      },
+      "zh-Hans": {
+        "text": "仙人掌",
+        "reading": "xiānrénzhǎng"
+      },
+      "ja": {
+        "text": "サボテン",
+        "reading": "saboten"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "potted-plant",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/potted-plant.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Potted plant"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "potted plant"
+      },
+      "vi": {
+        "text": "chậu cây"
+      },
+      "zh-Hans": {
+        "text": "盆栽",
+        "reading": "pénzāi"
+      },
+      "ja": {
+        "text": "はちうえ",
+        "reading": "hachiue",
+        "tts": "鉢植え"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "four-leaf-clover",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/four-leaf-clover.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Four leaf clover"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "four-leaf clover"
+      },
+      "vi": {
+        "text": "cỏ bốn lá"
+      },
+      "zh-Hans": {
+        "text": "四叶草",
+        "reading": "sìyècǎo"
+      },
+      "ja": {
+        "text": "よつばのクローバー",
+        "reading": "yotsuba no kurōbā"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "seashell",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/seashell.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Spiral shell"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "seashell"
+      },
+      "vi": {
+        "text": "vỏ ốc"
+      },
+      "zh-Hans": {
+        "text": "贝壳",
+        "reading": "bèiké"
+      },
+      "ja": {
+        "text": "かいがら",
+        "reading": "kaigara",
+        "tts": "貝殻"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "coral",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/coral.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Coral"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "coral"
+      },
+      "vi": {
+        "text": "san hô"
+      },
+      "zh-Hans": {
+        "text": "珊瑚",
+        "reading": "shānhú"
+      },
+      "ja": {
+        "text": "さんご",
+        "reading": "sango",
+        "tts": "珊瑚"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "spider",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/spider.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Spider"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "spider"
+      },
+      "vi": {
+        "text": "con nhện"
+      },
+      "zh-Hans": {
+        "text": "蜘蛛",
+        "reading": "zhīzhū"
+      },
+      "ja": {
+        "text": "くも",
+        "reading": "kumo",
+        "tts": "蜘蛛"
+      }
+    },
+    "addedAt": "2026-10-03",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
