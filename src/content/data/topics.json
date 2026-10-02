@@ -222,5 +222,27 @@
       "zh-Hans": "地方",
       "ja": "ばしょ"
     }
+  },
+  {
+    "id": "school",
+    "icon": "✏️",
+    "color": "yellow",
+    "names": {
+      "en": "School Things",
+      "vi": "Đồ dùng học tập",
+      "zh-Hans": "学习用品",
+      "ja": "がくようひん"
+    }
+  },
+  {
+    "id": "sports",
+    "icon": "🏀",
+    "color": "orange",
+    "names": {
+      "en": "Sports",
+      "vi": "Thể thao",
+      "zh-Hans": "运动",
+      "ja": "スポーツ"
+    }
   }
 ]
