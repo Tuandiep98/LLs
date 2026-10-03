@@ -8821,5 +8821,886 @@
     "addedAt": "2026-10-03",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "abacus",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/abacus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Abacus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "abacus"
+      },
+      "vi": {
+        "text": "cái bàn tính"
+      },
+      "zh-Hans": {
+        "text": "算盘",
+        "reading": "suànpán"
+      },
+      "ja": {
+        "text": "そろばん",
+        "reading": "soroban"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "pen",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pen.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pen"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pen"
+      },
+      "vi": {
+        "text": "bút mực"
+      },
+      "zh-Hans": {
+        "text": "圆珠笔",
+        "reading": "yuánzhūbǐ"
+      },
+      "ja": {
+        "text": "ペン",
+        "reading": "pen"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "american-football",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/american-football.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "American football"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "american football"
+      },
+      "vi": {
+        "text": "bóng bầu dục Mỹ"
+      },
+      "zh-Hans": {
+        "text": "美式足球",
+        "reading": "měishì zúqiú"
+      },
+      "ja": {
+        "text": "アメフト",
+        "reading": "amefuto"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bowling",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bowling.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bowling"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bowling"
+      },
+      "vi": {
+        "text": "bowling"
+      },
+      "zh-Hans": {
+        "text": "保龄球",
+        "reading": "bǎolíngqiú"
+      },
+      "ja": {
+        "text": "ボウリング",
+        "reading": "bōringu"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "ice-hockey",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ice-hockey.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ice hockey"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ice hockey"
+      },
+      "vi": {
+        "text": "khúc côn cầu trên băng"
+      },
+      "zh-Hans": {
+        "text": "冰球",
+        "reading": "bīngqiú"
+      },
+      "ja": {
+        "text": "アイスホッケー",
+        "reading": "aisu hokkē"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "skiing",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/skiing.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Skier"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "skiing"
+      },
+      "vi": {
+        "text": "trượt tuyết"
+      },
+      "zh-Hans": {
+        "text": "滑雪",
+        "reading": "huáxuě"
+      },
+      "ja": {
+        "text": "スキー",
+        "reading": "sukī"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sled",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sled.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sled"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sled"
+      },
+      "vi": {
+        "text": "xe trượt tuyết"
+      },
+      "zh-Hans": {
+        "text": "雪橇",
+        "reading": "xuěqiāo"
+      },
+      "ja": {
+        "text": "そり",
+        "reading": "sori",
+        "tts": "橇"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "brain",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/brain.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Brain"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "brain"
+      },
+      "vi": {
+        "text": "não"
+      },
+      "zh-Hans": {
+        "text": "大脑",
+        "reading": "dànǎo"
+      },
+      "ja": {
+        "text": "のう",
+        "reading": "nou",
+        "tts": "脳"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "mosquito",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mosquito.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mosquito"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mosquito"
+      },
+      "vi": {
+        "text": "con muỗi"
+      },
+      "zh-Hans": {
+        "text": "蚊子",
+        "reading": "wénzi"
+      },
+      "ja": {
+        "text": "か",
+        "reading": "ka",
+        "tts": "蚊"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "fly",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fly.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fly"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fly"
+      },
+      "vi": {
+        "text": "con ruồi"
+      },
+      "zh-Hans": {
+        "text": "苍蝇",
+        "reading": "cāngyíng"
+      },
+      "ja": {
+        "text": "はえ",
+        "reading": "hae",
+        "tts": "蝿"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bear",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bear.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bear"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bear"
+      },
+      "vi": {
+        "text": "con gấu"
+      },
+      "zh-Hans": {
+        "text": "熊",
+        "reading": "xióng"
+      },
+      "ja": {
+        "text": "くま",
+        "reading": "kuma",
+        "tts": "熊"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "giraffe",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/giraffe.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Giraffe"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "giraffe"
+      },
+      "vi": {
+        "text": "con hươu cao cổ"
+      },
+      "zh-Hans": {
+        "text": "长颈鹿",
+        "reading": "chángjǐnglù"
+      },
+      "ja": {
+        "text": "キリン",
+        "reading": "kirin"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "panda",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/panda.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Panda"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "panda"
+      },
+      "vi": {
+        "text": "con gấu trúc"
+      },
+      "zh-Hans": {
+        "text": "熊猫",
+        "reading": "xióngmāo"
+      },
+      "ja": {
+        "text": "パンダ",
+        "reading": "panda"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "zebra",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/zebra.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Zebra"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "zebra"
+      },
+      "vi": {
+        "text": "con ngựa vằn"
+      },
+      "zh-Hans": {
+        "text": "斑马",
+        "reading": "bānmǎ"
+      },
+      "ja": {
+        "text": "しまうま",
+        "reading": "shimauma"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "horse",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/horse.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Horse"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "horse"
+      },
+      "vi": {
+        "text": "con ngựa"
+      },
+      "zh-Hans": {
+        "text": "马",
+        "reading": "mǎ"
+      },
+      "ja": {
+        "text": "うま",
+        "reading": "uma",
+        "tts": "馬"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "gray",
+    "topic": "colors",
+    "pos": "adjective",
+    "tags": [
+      "colors"
+    ],
+    "images": [
+      {
+        "src": "/content/images/gray.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Grey heart"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "gray"
+      },
+      "vi": {
+        "text": "màu xám"
+      },
+      "zh-Hans": {
+        "text": "灰色",
+        "reading": "huīsè"
+      },
+      "ja": {
+        "text": "はいいろ",
+        "reading": "haiiro"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "zero",
+    "topic": "numbers",
+    "pos": "noun",
+    "tags": [
+      "numbers"
+    ],
+    "images": [
+      {
+        "src": "/content/images/zero.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Keycap 0"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "zero"
+      },
+      "vi": {
+        "text": "số không"
+      },
+      "zh-Hans": {
+        "text": "零",
+        "reading": "líng"
+      },
+      "ja": {
+        "text": "ゼロ",
+        "reading": "zero"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "comet",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/comet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Comet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "comet"
+      },
+      "vi": {
+        "text": "sao chổi"
+      },
+      "zh-Hans": {
+        "text": "彗星",
+        "reading": "huìxīng"
+      },
+      "ja": {
+        "text": "ほうきぼし",
+        "reading": "houkiboshi"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "thermometer",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/thermometer.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Thermometer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "thermometer"
+      },
+      "vi": {
+        "text": "cái nhiệt kế"
+      },
+      "zh-Hans": {
+        "text": "温度计",
+        "reading": "wēndùjì"
+      },
+      "ja": {
+        "text": "おんどけい",
+        "reading": "ondokei"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "pilot",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pilot.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pilot"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pilot"
+      },
+      "vi": {
+        "text": "phi công"
+      },
+      "zh-Hans": {
+        "text": "飞行员",
+        "reading": "fēixíngyuán"
+      },
+      "ja": {
+        "text": "パイロット",
+        "reading": "pairotto"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bank",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bank.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bank"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bank"
+      },
+      "vi": {
+        "text": "ngân hàng"
+      },
+      "zh-Hans": {
+        "text": "银行",
+        "reading": "yínháng"
+      },
+      "ja": {
+        "text": "ぎんこう",
+        "reading": "ginkou"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "factory",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/factory.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Factory"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "factory"
+      },
+      "vi": {
+        "text": "nhà máy"
+      },
+      "zh-Hans": {
+        "text": "工厂",
+        "reading": "gōngchǎng"
+      },
+      "ja": {
+        "text": "こうじょう",
+        "reading": "koujou"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "computer",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/computer.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Desktop computer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "computer"
+      },
+      "vi": {
+        "text": "máy tính"
+      },
+      "zh-Hans": {
+        "text": "电脑",
+        "reading": "diànnǎo"
+      },
+      "ja": {
+        "text": "パソコン",
+        "reading": "pasokon"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "mechanic",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mechanic.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mechanic"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mechanic"
+      },
+      "vi": {
+        "text": "thợ sửa xe"
+      },
+      "zh-Hans": {
+        "text": "修理工",
+        "reading": "xiūlǐgōng"
+      },
+      "ja": {
+        "text": "しゅうりこう",
+        "reading": "shuurikou"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "kangaroo",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/kangaroo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Kangaroo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "kangaroo"
+      },
+      "vi": {
+        "text": "con chuột túi"
+      },
+      "zh-Hans": {
+        "text": "袋鼠",
+        "reading": "dàishǔ"
+      },
+      "ja": {
+        "text": "カンガルー",
+        "reading": "kangaruu"
+      }
+    },
+    "addedAt": "2026-10-04",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
