@@ -9702,5 +9702,924 @@
     "addedAt": "2026-10-04",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "lungs",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lungs.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lungs"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lungs"
+      },
+      "vi": {
+        "text": "phổi"
+      },
+      "zh-Hans": {
+        "text": "肺",
+        "reading": "fèi"
+      },
+      "ja": {
+        "text": "はい",
+        "reading": "hai",
+        "tts": "肺"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "rose",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rose.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rose"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rose"
+      },
+      "vi": {
+        "text": "hoa hồng"
+      },
+      "zh-Hans": {
+        "text": "玫瑰",
+        "reading": "méiguī"
+      },
+      "ja": {
+        "text": "ばら",
+        "reading": "bara"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tulip",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tulip.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tulip"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tulip"
+      },
+      "vi": {
+        "text": "hoa tulip"
+      },
+      "zh-Hans": {
+        "text": "郁金香",
+        "reading": "yùjīnxiāng"
+      },
+      "ja": {
+        "text": "チューリップ",
+        "reading": "chūrippu"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "water",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/water.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Droplet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "water"
+      },
+      "vi": {
+        "text": "nước"
+      },
+      "zh-Hans": {
+        "text": "水",
+        "reading": "shuǐ"
+      },
+      "ja": {
+        "text": "みず",
+        "reading": "mizu",
+        "tts": "水"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "musical-note",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/musical-note.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Musical note"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "musical note"
+      },
+      "vi": {
+        "text": "nốt nhạc"
+      },
+      "zh-Hans": {
+        "text": "音符",
+        "reading": "yīnfú"
+      },
+      "ja": {
+        "text": "おんぷ",
+        "reading": "onpu",
+        "tts": "音符"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "builder",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/builder.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Construction worker"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "builder"
+      },
+      "vi": {
+        "text": "thợ xây"
+      },
+      "zh-Hans": {
+        "text": "建筑工人",
+        "reading": "jiànzhù gōngrén"
+      },
+      "ja": {
+        "text": "だいくさん",
+        "reading": "daikusan",
+        "tts": "大工さん"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "artist",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/artist.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Artist"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "artist"
+      },
+      "vi": {
+        "text": "họa sĩ"
+      },
+      "zh-Hans": {
+        "text": "画家",
+        "reading": "huàjiā"
+      },
+      "ja": {
+        "text": "がか",
+        "reading": "gaka",
+        "tts": "画家"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "scientist",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/scientist.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Scientist"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "scientist"
+      },
+      "vi": {
+        "text": "nhà khoa học"
+      },
+      "zh-Hans": {
+        "text": "科学家",
+        "reading": "kēxuéjiā"
+      },
+      "ja": {
+        "text": "かがくしゃ",
+        "reading": "kagakusha",
+        "tts": "科学者"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "astronaut",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/astronaut.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Astronaut"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "astronaut"
+      },
+      "vi": {
+        "text": "phi hành gia"
+      },
+      "zh-Hans": {
+        "text": "宇航员",
+        "reading": "yǔhángyuán"
+      },
+      "ja": {
+        "text": "うちゅうひこうし",
+        "reading": "uchūhikōshi",
+        "tts": "宇宙飛行士"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "rocket",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rocket.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rocket"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rocket"
+      },
+      "vi": {
+        "text": "tên lửa"
+      },
+      "zh-Hans": {
+        "text": "火箭",
+        "reading": "huǒjiàn"
+      },
+      "ja": {
+        "text": "ロケット",
+        "reading": "roketto"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "police-car",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/police-car.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Police car"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "police car"
+      },
+      "vi": {
+        "text": "xe cảnh sát"
+      },
+      "zh-Hans": {
+        "text": "警车",
+        "reading": "jǐngchē"
+      },
+      "ja": {
+        "text": "パトカー",
+        "reading": "patokā"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "skateboard",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/skateboard.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Skateboard"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "skateboard"
+      },
+      "vi": {
+        "text": "ván trượt"
+      },
+      "zh-Hans": {
+        "text": "滑板",
+        "reading": "huábǎn"
+      },
+      "ja": {
+        "text": "スケートボード",
+        "reading": "sukēto bōdo"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pizza",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pizza.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pizza"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pizza"
+      },
+      "vi": {
+        "text": "bánh pizza"
+      },
+      "zh-Hans": {
+        "text": "披萨",
+        "reading": "pīsà"
+      },
+      "ja": {
+        "text": "ピザ",
+        "reading": "piza"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hamburger",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hamburger.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hamburger"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hamburger"
+      },
+      "vi": {
+        "text": "bánh hamburger"
+      },
+      "zh-Hans": {
+        "text": "汉堡",
+        "reading": "hànbǎo"
+      },
+      "ja": {
+        "text": "ハンバーガー",
+        "reading": "hanbāgā"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ice-cream",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ice-cream.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ice cream"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ice cream"
+      },
+      "vi": {
+        "text": "kem"
+      },
+      "zh-Hans": {
+        "text": "冰淇淋",
+        "reading": "bīngqílín"
+      },
+      "ja": {
+        "text": "アイスクリーム",
+        "reading": "aisu kurīmu"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sandwich",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sandwich.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sandwich"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sandwich"
+      },
+      "vi": {
+        "text": "bánh sandwich"
+      },
+      "zh-Hans": {
+        "text": "三明治",
+        "reading": "sānmíngzhì"
+      },
+      "ja": {
+        "text": "サンドイッチ",
+        "reading": "sandoicchi"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pineapple",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pineapple.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Pineapple"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pineapple"
+      },
+      "vi": {
+        "text": "quả dứa"
+      },
+      "zh-Hans": {
+        "text": "菠萝",
+        "reading": "bōluó"
+      },
+      "ja": {
+        "text": "パイナップル",
+        "reading": "painappuru"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tomato",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tomato.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tomato"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tomato"
+      },
+      "vi": {
+        "text": "quả cà chua"
+      },
+      "zh-Hans": {
+        "text": "西红柿",
+        "reading": "xīhóngshì"
+      },
+      "ja": {
+        "text": "トマト",
+        "reading": "tomato"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "yo-yo",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/yo-yo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Yo-yo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "yo-yo"
+      },
+      "vi": {
+        "text": "cái yoyo"
+      },
+      "zh-Hans": {
+        "text": "溜溜球",
+        "reading": "liūliūqiú"
+      },
+      "ja": {
+        "text": "ヨーヨー",
+        "reading": "yōyō"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "balloon",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/balloon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Balloon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "balloon"
+      },
+      "vi": {
+        "text": "quả bóng bay"
+      },
+      "zh-Hans": {
+        "text": "气球",
+        "reading": "qìqiú"
+      },
+      "ja": {
+        "text": "ふうせん",
+        "reading": "fūsen",
+        "tts": "風船"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "rugby",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rugby.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rugby football"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rugby"
+      },
+      "vi": {
+        "text": "bóng bầu dục"
+      },
+      "zh-Hans": {
+        "text": "橄榄球",
+        "reading": "gǎnlǎnqiú"
+      },
+      "ja": {
+        "text": "ラグビー",
+        "reading": "ragubī"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "jeans",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/jeans.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Jeans"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "jeans"
+      },
+      "vi": {
+        "text": "quần jeans"
+      },
+      "zh-Hans": {
+        "text": "牛仔裤",
+        "reading": "niúzǎikù"
+      },
+      "ja": {
+        "text": "ジーンズ",
+        "reading": "jīnzu"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "fox",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fox.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fox"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fox"
+      },
+      "vi": {
+        "text": "con cáo"
+      },
+      "zh-Hans": {
+        "text": "狐狸",
+        "reading": "húli"
+      },
+      "ja": {
+        "text": "きつね",
+        "reading": "kitsune"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "deer",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/deer.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Deer"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "deer"
+      },
+      "vi": {
+        "text": "con nai"
+      },
+      "zh-Hans": {
+        "text": "鹿",
+        "reading": "lù"
+      },
+      "ja": {
+        "text": "しか",
+        "reading": "shika",
+        "tts": "鹿"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hedgehog",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hedgehog.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hedgehog"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hedgehog"
+      },
+      "vi": {
+        "text": "con nhím"
+      },
+      "zh-Hans": {
+        "text": "刺猬",
+        "reading": "cìwei"
+      },
+      "ja": {
+        "text": "はりねずみ",
+        "reading": "harinezumi"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "snowman",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/snowman.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Snowman"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "snowman"
+      },
+      "vi": {
+        "text": "người tuyết"
+      },
+      "zh-Hans": {
+        "text": "雪人",
+        "reading": "xuěrén"
+      },
+      "ja": {
+        "text": "ゆきだるま",
+        "reading": "yukidaruma"
+      }
+    },
+    "addedAt": "2026-10-05",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
