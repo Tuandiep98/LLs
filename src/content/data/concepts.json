@@ -10621,5 +10621,888 @@
     "addedAt": "2026-10-05",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "caterpillar",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/caterpillar.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bug"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "caterpillar"
+      },
+      "vi": {
+        "text": "sâu bướm"
+      },
+      "zh-Hans": {
+        "text": "毛毛虫",
+        "reading": "máomáochóng"
+      },
+      "ja": {
+        "text": "あおむし",
+        "reading": "aomushi"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "shooting-star",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shooting-star.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shooting star"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shooting star"
+      },
+      "vi": {
+        "text": "sao băng"
+      },
+      "zh-Hans": {
+        "text": "流星",
+        "reading": "liúxīng"
+      },
+      "ja": {
+        "text": "りゅうせい",
+        "reading": "ryūsei"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "beach",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/beach.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Beach with umbrella"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "beach"
+      },
+      "vi": {
+        "text": "bãi biển"
+      },
+      "zh-Hans": {
+        "text": "海滩",
+        "reading": "hǎitān"
+      },
+      "ja": {
+        "text": "ビーチ",
+        "reading": "bīchi"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ferris-wheel",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ferris-wheel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ferris wheel"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ferris wheel"
+      },
+      "vi": {
+        "text": "vòng đu quay"
+      },
+      "zh-Hans": {
+        "text": "摩天轮",
+        "reading": "mótiānlún"
+      },
+      "ja": {
+        "text": "かんらんしゃ",
+        "reading": "kanransha",
+        "tts": "観覧車"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "roller-coaster",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/roller-coaster.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Roller coaster"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "roller coaster"
+      },
+      "vi": {
+        "text": "tàu lượn siêu tốc"
+      },
+      "zh-Hans": {
+        "text": "过山车",
+        "reading": "guòshānchē"
+      },
+      "ja": {
+        "text": "ジェットコースター",
+        "reading": "jetto kōsutā"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "shorts",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/shorts.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shorts"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "shorts"
+      },
+      "vi": {
+        "text": "quần short"
+      },
+      "zh-Hans": {
+        "text": "短裤",
+        "reading": "duǎnkù"
+      },
+      "ja": {
+        "text": "はんズボン",
+        "reading": "han zubon",
+        "tts": "半ズボン"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flying-disc",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/flying-disc.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flying disc"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "flying disc"
+      },
+      "vi": {
+        "text": "đĩa bay"
+      },
+      "zh-Hans": {
+        "text": "飞盘",
+        "reading": "fēipán"
+      },
+      "ja": {
+        "text": "フライングディスク",
+        "reading": "furaingu disuku"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "field-hockey",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/field-hockey.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Field hockey"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "field hockey"
+      },
+      "vi": {
+        "text": "khúc côn cầu trên cỏ"
+      },
+      "zh-Hans": {
+        "text": "曲棍球",
+        "reading": "qūgùnqiú"
+      },
+      "ja": {
+        "text": "フィールドホッケー",
+        "reading": "fīrudo hokkē"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "golf",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/golf.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Woman golfing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "golf"
+      },
+      "vi": {
+        "text": "golf"
+      },
+      "zh-Hans": {
+        "text": "高尔夫",
+        "reading": "gāo'ěrfū"
+      },
+      "ja": {
+        "text": "ゴルフ",
+        "reading": "gorufu"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "surfing",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/surfing.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person surfing"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "surfing"
+      },
+      "vi": {
+        "text": "lướt sóng"
+      },
+      "zh-Hans": {
+        "text": "冲浪",
+        "reading": "chōnglàng"
+      },
+      "ja": {
+        "text": "サーフィン",
+        "reading": "sāfin"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cartwheel",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cartwheel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person cartwheeling"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cartwheel"
+      },
+      "vi": {
+        "text": "lộn cầu vồng"
+      },
+      "zh-Hans": {
+        "text": "侧手翻",
+        "reading": "cèshǒufān"
+      },
+      "ja": {
+        "text": "そくてん",
+        "reading": "sokuten",
+        "tts": "側転"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "otter",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/otter.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Otter"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "otter"
+      },
+      "vi": {
+        "text": "rái cá"
+      },
+      "zh-Hans": {
+        "text": "水獭",
+        "reading": "shuǐtǎ"
+      },
+      "ja": {
+        "text": "かわうそ",
+        "reading": "kawauso"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "candle",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/candle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Candle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "candle"
+      },
+      "vi": {
+        "text": "cây nến"
+      },
+      "zh-Hans": {
+        "text": "蜡烛",
+        "reading": "làzhú"
+      },
+      "ja": {
+        "text": "ろうそく",
+        "reading": "rōsoku"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "mirror",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mirror.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mirror"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mirror"
+      },
+      "vi": {
+        "text": "cái gương"
+      },
+      "zh-Hans": {
+        "text": "镜子",
+        "reading": "jìngzi"
+      },
+      "ja": {
+        "text": "かがみ",
+        "reading": "kagami"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "phone",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/phone.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Telephone"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "phone"
+      },
+      "vi": {
+        "text": "điện thoại"
+      },
+      "zh-Hans": {
+        "text": "电话",
+        "reading": "diànhuà"
+      },
+      "ja": {
+        "text": "でんわ",
+        "reading": "denwa"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "toothbrush",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/toothbrush.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Toothbrush"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "toothbrush"
+      },
+      "vi": {
+        "text": "bàn chải đánh răng"
+      },
+      "zh-Hans": {
+        "text": "牙刷",
+        "reading": "yáshuā"
+      },
+      "ja": {
+        "text": "はブラシ",
+        "reading": "ha burashi",
+        "tts": "歯ブラシ"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bed",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bed.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bed"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bed"
+      },
+      "vi": {
+        "text": "cái giường"
+      },
+      "zh-Hans": {
+        "text": "床",
+        "reading": "chuáng"
+      },
+      "ja": {
+        "text": "ベッド",
+        "reading": "beddo"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "key",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/key.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Key"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "key"
+      },
+      "vi": {
+        "text": "chìa khóa"
+      },
+      "zh-Hans": {
+        "text": "钥匙",
+        "reading": "yàoshi"
+      },
+      "ja": {
+        "text": "かぎ",
+        "reading": "kagi",
+        "tts": "鍵"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "gift",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/gift.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Wrapped gift"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "gift"
+      },
+      "vi": {
+        "text": "món quà"
+      },
+      "zh-Hans": {
+        "text": "礼物",
+        "reading": "lǐwù"
+      },
+      "ja": {
+        "text": "プレゼント",
+        "reading": "purezento"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bow",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ribbon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bow"
+      },
+      "vi": {
+        "text": "nơ"
+      },
+      "zh-Hans": {
+        "text": "蝴蝶结",
+        "reading": "húdié jié"
+      },
+      "ja": {
+        "text": "リボン",
+        "reading": "ribon"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "watch",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/watch.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Watch"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "watch"
+      },
+      "vi": {
+        "text": "đồng hồ đeo tay"
+      },
+      "zh-Hans": {
+        "text": "手表",
+        "reading": "shǒubiǎo"
+      },
+      "ja": {
+        "text": "うでどけい",
+        "reading": "ude dokei",
+        "tts": "腕時計"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hibiscus",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hibiscus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hibiscus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hibiscus"
+      },
+      "vi": {
+        "text": "hoa dâm bụt"
+      },
+      "zh-Hans": {
+        "text": "木槿花",
+        "reading": "mùjǐnhuā"
+      },
+      "ja": {
+        "text": "ハイビスカス",
+        "reading": "haibisukasu"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cherry-blossom",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cherry-blossom.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cherry blossom"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cherry blossom"
+      },
+      "vi": {
+        "text": "hoa anh đào"
+      },
+      "zh-Hans": {
+        "text": "樱花",
+        "reading": "yīnghuā"
+      },
+      "ja": {
+        "text": "さくら",
+        "reading": "sakura"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pine-tree",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/pine-tree.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Evergreen tree"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "pine tree"
+      },
+      "vi": {
+        "text": "cây thông"
+      },
+      "zh-Hans": {
+        "text": "松树",
+        "reading": "sōngshù"
+      },
+      "ja": {
+        "text": "まつのき",
+        "reading": "matsu no ki",
+        "tts": "松の木"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ocean-wave",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ocean-wave.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Water wave"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ocean wave"
+      },
+      "vi": {
+        "text": "sóng biển"
+      },
+      "zh-Hans": {
+        "text": "海浪",
+        "reading": "hǎilàng"
+      },
+      "ja": {
+        "text": "なみ",
+        "reading": "nami",
+        "tts": "波"
+      }
+    },
+    "addedAt": "2026-10-06",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
