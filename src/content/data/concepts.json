@@ -11504,5 +11504,921 @@
     "addedAt": "2026-10-06",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "disappointed",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/disappointed.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Disappointed face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "disappointed"
+      },
+      "vi": {
+        "text": "thất vọng"
+      },
+      "zh-Hans": {
+        "text": "失望",
+        "reading": "shīwàng"
+      },
+      "ja": {
+        "text": "がっかり",
+        "reading": "gakkari"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "quiet",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/quiet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Shushing face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "quiet"
+      },
+      "vi": {
+        "text": "suỵt"
+      },
+      "zh-Hans": {
+        "text": "嘘",
+        "reading": "xū"
+      },
+      "ja": {
+        "text": "シー",
+        "reading": "shī"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "wink",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wink.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Winking face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wink"
+      },
+      "vi": {
+        "text": "nháy mắt"
+      },
+      "zh-Hans": {
+        "text": "眨眼",
+        "reading": "zhǎyǎn"
+      },
+      "ja": {
+        "text": "ウインクする",
+        "reading": "uinku suru"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sneeze",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sneeze.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sneezing face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sneeze"
+      },
+      "vi": {
+        "text": "hắt hơi"
+      },
+      "zh-Hans": {
+        "text": "打喷嚏",
+        "reading": "dǎ pēntì"
+      },
+      "ja": {
+        "text": "くしゃみする",
+        "reading": "kushami suru"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "think",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/think.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Thinking face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "think"
+      },
+      "vi": {
+        "text": "suy nghĩ"
+      },
+      "zh-Hans": {
+        "text": "想",
+        "reading": "xiǎng"
+      },
+      "ja": {
+        "text": "かんがえる",
+        "reading": "kangaeru"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "firefighter",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/firefighter.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Firefighter"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "firefighter"
+      },
+      "vi": {
+        "text": "lính cứu hỏa"
+      },
+      "zh-Hans": {
+        "text": "消防员",
+        "reading": "xiāofángyuán"
+      },
+      "ja": {
+        "text": "しょうぼうし",
+        "reading": "shouboushi"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "student",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/student.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Student"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "student"
+      },
+      "vi": {
+        "text": "học sinh"
+      },
+      "zh-Hans": {
+        "text": "学生",
+        "reading": "xuésheng"
+      },
+      "ja": {
+        "text": "がくせい",
+        "reading": "gakusei"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "tropical-fish",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tropical-fish.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tropical fish"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tropical fish"
+      },
+      "vi": {
+        "text": "cá nhiệt đới"
+      },
+      "zh-Hans": {
+        "text": "热带鱼",
+        "reading": "rèdài yú"
+      },
+      "ja": {
+        "text": "ねったいぎょ",
+        "reading": "nettaigyo"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "oyster",
+    "topic": "sea-animals",
+    "pos": "noun",
+    "tags": [
+      "sea-animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/oyster.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Oyster"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "oyster"
+      },
+      "vi": {
+        "text": "con hàu"
+      },
+      "zh-Hans": {
+        "text": "牡蛎",
+        "reading": "mǔlì"
+      },
+      "ja": {
+        "text": "かき",
+        "reading": "kaki",
+        "tts": "牡蠣"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "circus",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/circus.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Circus tent"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "circus"
+      },
+      "vi": {
+        "text": "rạp xiếc"
+      },
+      "zh-Hans": {
+        "text": "马戏团",
+        "reading": "mǎxìtuán"
+      },
+      "ja": {
+        "text": "サーカス",
+        "reading": "sākasu"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "carousel",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/carousel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Carousel horse"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "carousel"
+      },
+      "vi": {
+        "text": "vòng quay ngựa gỗ"
+      },
+      "zh-Hans": {
+        "text": "旋转木马",
+        "reading": "xuánzhuǎn mùmǎ"
+      },
+      "ja": {
+        "text": "かいてんもくば",
+        "reading": "kaitenmokuba",
+        "tts": "回転木馬"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "desert",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/desert.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Desert"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "desert"
+      },
+      "vi": {
+        "text": "sa mạc"
+      },
+      "zh-Hans": {
+        "text": "沙漠",
+        "reading": "shāmò"
+      },
+      "ja": {
+        "text": "さばく",
+        "reading": "sabaku",
+        "tts": "砂漠"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "nest",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/nest.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Nest with eggs"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "nest"
+      },
+      "vi": {
+        "text": "tổ chim"
+      },
+      "zh-Hans": {
+        "text": "鸟窝",
+        "reading": "niǎowō"
+      },
+      "ja": {
+        "text": "とりのす",
+        "reading": "tori no su",
+        "tts": "鳥の巣"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "feather",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/feather.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Feather"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "feather"
+      },
+      "vi": {
+        "text": "lông chim"
+      },
+      "zh-Hans": {
+        "text": "羽毛",
+        "reading": "yǔmáo"
+      },
+      "ja": {
+        "text": "はね",
+        "reading": "hane",
+        "tts": "羽"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "race-car",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/race-car.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Racing car"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "race car"
+      },
+      "vi": {
+        "text": "xe đua"
+      },
+      "zh-Hans": {
+        "text": "赛车",
+        "reading": "sàichē"
+      },
+      "ja": {
+        "text": "レースカー",
+        "reading": "rēsukā"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cable-car",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cable-car.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Aerial tramway"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cable car"
+      },
+      "vi": {
+        "text": "cáp treo"
+      },
+      "zh-Hans": {
+        "text": "缆车",
+        "reading": "lǎnchē"
+      },
+      "ja": {
+        "text": "ロープウェイ",
+        "reading": "rōpuwei"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "roller-skate",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/roller-skate.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Roller skate"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "roller skate"
+      },
+      "vi": {
+        "text": "giày patin"
+      },
+      "zh-Hans": {
+        "text": "轮滑鞋",
+        "reading": "lúnhuá xié"
+      },
+      "ja": {
+        "text": "ローラースケート",
+        "reading": "rōrā sukēto"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "fog",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fog.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fog"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fog"
+      },
+      "vi": {
+        "text": "sương mù"
+      },
+      "zh-Hans": {
+        "text": "雾",
+        "reading": "wù"
+      },
+      "ja": {
+        "text": "きり",
+        "reading": "kiri",
+        "tts": "霧"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "avocado",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/avocado.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Avocado"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "avocado"
+      },
+      "vi": {
+        "text": "quả bơ"
+      },
+      "zh-Hans": {
+        "text": "牛油果",
+        "reading": "niúyóuguǒ"
+      },
+      "ja": {
+        "text": "アボカド",
+        "reading": "abokado"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "mango",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mango.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Mango"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mango"
+      },
+      "vi": {
+        "text": "quả xoài"
+      },
+      "zh-Hans": {
+        "text": "芒果",
+        "reading": "mángguǒ"
+      },
+      "ja": {
+        "text": "マンゴー",
+        "reading": "mangō"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "lemon",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lemon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lemon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lemon"
+      },
+      "vi": {
+        "text": "quả chanh"
+      },
+      "zh-Hans": {
+        "text": "柠檬",
+        "reading": "níngméng"
+      },
+      "ja": {
+        "text": "レモン",
+        "reading": "remon"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "kiwi",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/kiwi.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Kiwi fruit"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "kiwi"
+      },
+      "vi": {
+        "text": "quả kiwi"
+      },
+      "zh-Hans": {
+        "text": "猕猴桃",
+        "reading": "míhóutáo"
+      },
+      "ja": {
+        "text": "キウイ",
+        "reading": "kiui"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "melon",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/melon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Melon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "melon"
+      },
+      "vi": {
+        "text": "quả dưa lưới"
+      },
+      "zh-Hans": {
+        "text": "甜瓜",
+        "reading": "tiánguā"
+      },
+      "ja": {
+        "text": "メロン",
+        "reading": "meron"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "broccoli",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/broccoli.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Broccoli"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "broccoli"
+      },
+      "vi": {
+        "text": "bông cải xanh"
+      },
+      "zh-Hans": {
+        "text": "西兰花",
+        "reading": "xīlánhuā"
+      },
+      "ja": {
+        "text": "ブロッコリー",
+        "reading": "burokkorī"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cucumber",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cucumber.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cucumber"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cucumber"
+      },
+      "vi": {
+        "text": "quả dưa chuột"
+      },
+      "zh-Hans": {
+        "text": "黄瓜",
+        "reading": "huángguā"
+      },
+      "ja": {
+        "text": "きゅうり",
+        "reading": "kyuuri"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "potato",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/potato.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Potato"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "potato"
+      },
+      "vi": {
+        "text": "củ khoai tây"
+      },
+      "zh-Hans": {
+        "text": "土豆",
+        "reading": "tǔdòu"
+      },
+      "ja": {
+        "text": "じゃがいも",
+        "reading": "jagaimo"
+      }
+    },
+    "addedAt": "2026-10-07",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
