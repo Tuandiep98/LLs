@@ -12420,5 +12420,924 @@
     "addedAt": "2026-10-07",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "bouquet",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature",
+      "season:teachers-day-vn"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bouquet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bouquet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bouquet"
+      },
+      "vi": {
+        "text": "bó hoa"
+      },
+      "zh-Hans": {
+        "text": "花束",
+        "reading": "huāshù"
+      },
+      "ja": {
+        "text": "はなたば",
+        "reading": "hanataba",
+        "tts": "花束"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bone",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bone.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bone"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bone"
+      },
+      "vi": {
+        "text": "xương"
+      },
+      "zh-Hans": {
+        "text": "骨头",
+        "reading": "gǔtou"
+      },
+      "ja": {
+        "text": "ほね",
+        "reading": "hone",
+        "tts": "骨"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "trophy",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/trophy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Trophy"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "trophy"
+      },
+      "vi": {
+        "text": "cái cúp"
+      },
+      "zh-Hans": {
+        "text": "奖杯",
+        "reading": "jiǎngbēi"
+      },
+      "ja": {
+        "text": "トロフィー",
+        "reading": "torofī"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "telescope",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/telescope.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Telescope"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "telescope"
+      },
+      "vi": {
+        "text": "kính viễn vọng"
+      },
+      "zh-Hans": {
+        "text": "望远镜",
+        "reading": "wàngyuǎnjìng"
+      },
+      "ja": {
+        "text": "ぼうえんきょう",
+        "reading": "bouenkyou",
+        "tts": "望遠鏡"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "microscope",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/microscope.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Microscope"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "microscope"
+      },
+      "vi": {
+        "text": "kính hiển vi"
+      },
+      "zh-Hans": {
+        "text": "显微镜",
+        "reading": "xiǎnwēijìng"
+      },
+      "ja": {
+        "text": "けんびきょう",
+        "reading": "kenbikyou",
+        "tts": "顕微鏡"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "medal",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/medal.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sports medal"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "medal"
+      },
+      "vi": {
+        "text": "huy chương"
+      },
+      "zh-Hans": {
+        "text": "奖牌",
+        "reading": "jiǎngpái"
+      },
+      "ja": {
+        "text": "メダル",
+        "reading": "medaru"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "snowboarding",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/snowboarding.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Snowboarder"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "snowboarding"
+      },
+      "vi": {
+        "text": "trượt ván tuyết"
+      },
+      "zh-Hans": {
+        "text": "单板滑雪",
+        "reading": "dānbǎn huáxuě"
+      },
+      "ja": {
+        "text": "スノーボード",
+        "reading": "sunōbōdo"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "parachute",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/parachute.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Parachute"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "parachute"
+      },
+      "vi": {
+        "text": "dù nhảy"
+      },
+      "zh-Hans": {
+        "text": "降落伞",
+        "reading": "jiàngluòsǎn"
+      },
+      "ja": {
+        "text": "パラシュート",
+        "reading": "parashūto"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "koala",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/koala.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Koala"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "koala"
+      },
+      "vi": {
+        "text": "con gấu koala"
+      },
+      "zh-Hans": {
+        "text": "考拉",
+        "reading": "kǎolā"
+      },
+      "ja": {
+        "text": "コアラ",
+        "reading": "koara"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "raccoon",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/raccoon.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Raccoon"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "raccoon"
+      },
+      "vi": {
+        "text": "con gấu mèo"
+      },
+      "zh-Hans": {
+        "text": "浣熊",
+        "reading": "huànxióng"
+      },
+      "ja": {
+        "text": "アライグマ",
+        "reading": "araiguma"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hamster",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hamster.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hamster"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hamster"
+      },
+      "vi": {
+        "text": "con chuột hamster"
+      },
+      "zh-Hans": {
+        "text": "仓鼠",
+        "reading": "cāngshǔ"
+      },
+      "ja": {
+        "text": "ハムスター",
+        "reading": "hamusutā"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "goat",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/goat.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Goat"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "goat"
+      },
+      "vi": {
+        "text": "con dê"
+      },
+      "zh-Hans": {
+        "text": "山羊",
+        "reading": "shānyáng"
+      },
+      "ja": {
+        "text": "やぎ",
+        "reading": "yagi"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sheep",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sheep.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ewe"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sheep"
+      },
+      "vi": {
+        "text": "con cừu"
+      },
+      "zh-Hans": {
+        "text": "羊",
+        "reading": "yáng"
+      },
+      "ja": {
+        "text": "ひつじ",
+        "reading": "hitsuji"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "donkey",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/donkey.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Donkey"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "donkey"
+      },
+      "vi": {
+        "text": "con lừa"
+      },
+      "zh-Hans": {
+        "text": "驴",
+        "reading": "lǘ"
+      },
+      "ja": {
+        "text": "ロバ",
+        "reading": "roba"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hippo",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hippo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hippopotamus"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hippo"
+      },
+      "vi": {
+        "text": "con hà mã"
+      },
+      "zh-Hans": {
+        "text": "河马",
+        "reading": "hémǎ"
+      },
+      "ja": {
+        "text": "カバ",
+        "reading": "kaba"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "camel",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/camel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Camel"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "camel"
+      },
+      "vi": {
+        "text": "con lạc đà"
+      },
+      "zh-Hans": {
+        "text": "骆驼",
+        "reading": "luòtuo"
+      },
+      "ja": {
+        "text": "ラクダ",
+        "reading": "rakuda"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "polar-bear",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/polar-bear.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Polar bear"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "polar bear"
+      },
+      "vi": {
+        "text": "con gấu trắng"
+      },
+      "zh-Hans": {
+        "text": "北极熊",
+        "reading": "běijíxióng"
+      },
+      "ja": {
+        "text": "ホッキョクグマ",
+        "reading": "hokkyokuguma"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "turkey",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/turkey.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Turkey"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "turkey"
+      },
+      "vi": {
+        "text": "con gà tây"
+      },
+      "zh-Hans": {
+        "text": "火鸡",
+        "reading": "huǒjī"
+      },
+      "ja": {
+        "text": "しちめんちょう",
+        "reading": "shichimenchou",
+        "tts": "七面鳥"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "parrot",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/parrot.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Parrot"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "parrot"
+      },
+      "vi": {
+        "text": "con vẹt"
+      },
+      "zh-Hans": {
+        "text": "鹦鹉",
+        "reading": "yīngwǔ"
+      },
+      "ja": {
+        "text": "オウム",
+        "reading": "ōmu"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "peacock",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/peacock.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Peacock"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "peacock"
+      },
+      "vi": {
+        "text": "con công"
+      },
+      "zh-Hans": {
+        "text": "孔雀",
+        "reading": "kǒngquè"
+      },
+      "ja": {
+        "text": "クジャク",
+        "reading": "kujaku"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "eagle",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/eagle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Eagle"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "eagle"
+      },
+      "vi": {
+        "text": "con chim ưng"
+      },
+      "zh-Hans": {
+        "text": "老鹰",
+        "reading": "lǎoyīng"
+      },
+      "ja": {
+        "text": "ワシ",
+        "reading": "washi"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "island",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/island.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Desert island"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "island"
+      },
+      "vi": {
+        "text": "hòn đảo"
+      },
+      "zh-Hans": {
+        "text": "岛",
+        "reading": "dǎo"
+      },
+      "ja": {
+        "text": "しま",
+        "reading": "shima",
+        "tts": "島"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tram",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tram.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Tram"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tram"
+      },
+      "vi": {
+        "text": "xe điện"
+      },
+      "zh-Hans": {
+        "text": "有轨电车",
+        "reading": "yǒuguǐ diànchē"
+      },
+      "ja": {
+        "text": "トラム",
+        "reading": "toramu"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flashlight",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/flashlight.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flashlight"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "flashlight"
+      },
+      "vi": {
+        "text": "cái đèn pin"
+      },
+      "zh-Hans": {
+        "text": "手电筒",
+        "reading": "shǒudiàntǒng"
+      },
+      "ja": {
+        "text": "かいちゅうでんとう",
+        "reading": "kaichuu dentou",
+        "tts": "懐中電灯"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "magnifying-glass",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/magnifying-glass.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Magnifying glass tilted left"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "magnifying glass"
+      },
+      "vi": {
+        "text": "cái kính lúp"
+      },
+      "zh-Hans": {
+        "text": "放大镜",
+        "reading": "fàngdàjìng"
+      },
+      "ja": {
+        "text": "むしめがね",
+        "reading": "mushi megane",
+        "tts": "虫眼鏡"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "compass",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/compass.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Compass"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "compass"
+      },
+      "vi": {
+        "text": "la bàn"
+      },
+      "zh-Hans": {
+        "text": "指南针",
+        "reading": "zhǐnánzhēn"
+      },
+      "ja": {
+        "text": "コンパス",
+        "reading": "konpasu"
+      }
+    },
+    "addedAt": "2026-10-08",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
