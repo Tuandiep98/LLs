@@ -13339,5 +13339,923 @@
     "addedAt": "2026-10-08",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "paperclip",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/paperclip.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Paperclip"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "paperclip"
+      },
+      "vi": {
+        "text": "cái kẹp giấy"
+      },
+      "zh-Hans": {
+        "text": "回形针",
+        "reading": "huíxíngzhēn"
+      },
+      "ja": {
+        "text": "クリップ",
+        "reading": "kurippu"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "folder",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/folder.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "File folder"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "folder"
+      },
+      "vi": {
+        "text": "cái bìa hồ sơ"
+      },
+      "zh-Hans": {
+        "text": "文件夹",
+        "reading": "wénjiànjiā"
+      },
+      "ja": {
+        "text": "フォルダー",
+        "reading": "forudā"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "clipboard",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/clipboard.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Clipboard"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "clipboard"
+      },
+      "vi": {
+        "text": "cái bảng kẹp giấy"
+      },
+      "zh-Hans": {
+        "text": "写字板",
+        "reading": "xiězibǎn"
+      },
+      "ja": {
+        "text": "クリップボード",
+        "reading": "kurippubōdo"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "calendar",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/calendar.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Calendar"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "calendar"
+      },
+      "vi": {
+        "text": "cuốn lịch"
+      },
+      "zh-Hans": {
+        "text": "日历",
+        "reading": "rìlì"
+      },
+      "ja": {
+        "text": "カレンダー",
+        "reading": "karendā"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "leg",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/leg.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Leg"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "leg"
+      },
+      "vi": {
+        "text": "cái chân"
+      },
+      "zh-Hans": {
+        "text": "腿",
+        "reading": "tuǐ"
+      },
+      "ja": {
+        "text": "あんよ",
+        "reading": "anyo"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "finger",
+    "topic": "body",
+    "pos": "noun",
+    "tags": [
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/finger.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Index pointing up"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "finger"
+      },
+      "vi": {
+        "text": "ngón tay"
+      },
+      "zh-Hans": {
+        "text": "手指",
+        "reading": "shǒuzhǐ"
+      },
+      "ja": {
+        "text": "ゆび",
+        "reading": "yubi",
+        "tts": "指"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "headphones",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/headphones.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Headphone"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "headphones"
+      },
+      "vi": {
+        "text": "cái tai nghe"
+      },
+      "zh-Hans": {
+        "text": "耳机",
+        "reading": "ěrjī"
+      },
+      "ja": {
+        "text": "ヘッドホン",
+        "reading": "heddohon"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "radio",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/radio.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Radio"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "radio"
+      },
+      "vi": {
+        "text": "cái đài"
+      },
+      "zh-Hans": {
+        "text": "收音机",
+        "reading": "shōuyīnjī"
+      },
+      "ja": {
+        "text": "ラジオ",
+        "reading": "rajio"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "megaphone",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/megaphone.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Loudspeaker"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "megaphone"
+      },
+      "vi": {
+        "text": "cái loa cầm tay"
+      },
+      "zh-Hans": {
+        "text": "扩音器",
+        "reading": "kuòyīnqì"
+      },
+      "ja": {
+        "text": "メガホン",
+        "reading": "megahon"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "ring",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ring.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ring"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ring"
+      },
+      "vi": {
+        "text": "cái nhẫn"
+      },
+      "zh-Hans": {
+        "text": "戒指",
+        "reading": "jièzhi"
+      },
+      "ja": {
+        "text": "ゆびわ",
+        "reading": "yubiwa"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "safety-vest",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/safety-vest.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Safety vest"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "safety vest"
+      },
+      "vi": {
+        "text": "áo phản quang"
+      },
+      "zh-Hans": {
+        "text": "反光背心",
+        "reading": "fǎnguāng bèixīn"
+      },
+      "ja": {
+        "text": "あんぜんベスト",
+        "reading": "anzen besuto"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sunglasses",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sunglasses.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sunglasses"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sunglasses"
+      },
+      "vi": {
+        "text": "kính mát"
+      },
+      "zh-Hans": {
+        "text": "太阳镜",
+        "reading": "tàiyángjìng"
+      },
+      "ja": {
+        "text": "サングラス",
+        "reading": "sangurasu"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "elevator",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places",
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/elevator.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Elevator"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "elevator"
+      },
+      "vi": {
+        "text": "thang máy"
+      },
+      "zh-Hans": {
+        "text": "电梯",
+        "reading": "diàntī"
+      },
+      "ja": {
+        "text": "エレベーター",
+        "reading": "erebētā"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bridge",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bridge.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bridge at night"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bridge"
+      },
+      "vi": {
+        "text": "cây cầu"
+      },
+      "zh-Hans": {
+        "text": "桥",
+        "reading": "qiáo"
+      },
+      "ja": {
+        "text": "はし",
+        "reading": "hashi",
+        "tts": "橋"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "door",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places",
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/door.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Door"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "door"
+      },
+      "vi": {
+        "text": "cái cửa"
+      },
+      "zh-Hans": {
+        "text": "门",
+        "reading": "mén"
+      },
+      "ja": {
+        "text": "ドア",
+        "reading": "doa"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chef",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people",
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/chef.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Woman cook"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "chef"
+      },
+      "vi": {
+        "text": "đầu bếp"
+      },
+      "zh-Hans": {
+        "text": "厨师",
+        "reading": "chúshī"
+      },
+      "ja": {
+        "text": "コック",
+        "reading": "kokku"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "factory-worker",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/factory-worker.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Factory worker"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "factory worker"
+      },
+      "vi": {
+        "text": "công nhân nhà máy"
+      },
+      "zh-Hans": {
+        "text": "工厂工人",
+        "reading": "gōngchǎng gōngrén"
+      },
+      "ja": {
+        "text": "こうじょうのひと",
+        "reading": "kōjō no hito"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "subway",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/subway.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Metro"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "subway"
+      },
+      "vi": {
+        "text": "tàu điện ngầm"
+      },
+      "zh-Hans": {
+        "text": "地铁",
+        "reading": "dìtiě"
+      },
+      "ja": {
+        "text": "ちかてつ",
+        "reading": "chikatetsu"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "tuk-tuk",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tuk-tuk.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Auto rickshaw"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tuk-tuk"
+      },
+      "vi": {
+        "text": "xe tuk tuk"
+      },
+      "zh-Hans": {
+        "text": "嘟嘟车",
+        "reading": "dūdūchē"
+      },
+      "ja": {
+        "text": "トゥクトゥク",
+        "reading": "tukutuku"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "congratulations",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/congratulations.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Party popper"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "congratulations"
+      },
+      "vi": {
+        "text": "chúc mừng"
+      },
+      "zh-Hans": {
+        "text": "恭喜",
+        "reading": "gōngxǐ"
+      },
+      "ja": {
+        "text": "おめでとう",
+        "reading": "omedetō"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "puzzle",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/puzzle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Puzzle piece"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "puzzle"
+      },
+      "vi": {
+        "text": "tranh ghép hình"
+      },
+      "zh-Hans": {
+        "text": "拼图",
+        "reading": "pīntú"
+      },
+      "ja": {
+        "text": "パズル",
+        "reading": "pazuru"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "soap",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things",
+      "body"
+    ],
+    "images": [
+      {
+        "src": "/content/images/soap.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Soap"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "soap"
+      },
+      "vi": {
+        "text": "cục xà phòng"
+      },
+      "zh-Hans": {
+        "text": "肥皂",
+        "reading": "féizào"
+      },
+      "ja": {
+        "text": "せっけん",
+        "reading": "sekken"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "battery",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/battery.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Battery"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "battery"
+      },
+      "vi": {
+        "text": "cục pin"
+      },
+      "zh-Hans": {
+        "text": "电池",
+        "reading": "diànchí"
+      },
+      "ja": {
+        "text": "でんち",
+        "reading": "denchi"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bathtub",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bathtub.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Bathtub"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bathtub"
+      },
+      "vi": {
+        "text": "cái bồn tắm"
+      },
+      "zh-Hans": {
+        "text": "浴缸",
+        "reading": "yùgāng"
+      },
+      "ja": {
+        "text": "おふろ",
+        "reading": "ofuro",
+        "tts": "お風呂"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "light-bulb",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/light-bulb.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Light bulb"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "light bulb"
+      },
+      "vi": {
+        "text": "cái bóng đèn"
+      },
+      "zh-Hans": {
+        "text": "灯泡",
+        "reading": "dēngpào"
+      },
+      "ja": {
+        "text": "でんきゅう",
+        "reading": "denkyū"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "envelope",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school",
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/envelope.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Envelope"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "envelope"
+      },
+      "vi": {
+        "text": "cái phong bì"
+      },
+      "zh-Hans": {
+        "text": "信封",
+        "reading": "xìnfēng"
+      },
+      "ja": {
+        "text": "ふうとう",
+        "reading": "fūtō"
+      }
+    },
+    "addedAt": "2026-10-09",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
