@@ -14257,5 +14257,880 @@
     "addedAt": "2026-10-09",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "planet",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/planet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ringed planet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "planet"
+      },
+      "vi": {
+        "text": "hành tinh"
+      },
+      "zh-Hans": {
+        "text": "行星",
+        "reading": "xíngxīng"
+      },
+      "ja": {
+        "text": "わくせい",
+        "reading": "wakusei"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "relieved",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/relieved.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Relieved face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "relieved"
+      },
+      "vi": {
+        "text": "nhẹ nhõm"
+      },
+      "zh-Hans": {
+        "text": "放心",
+        "reading": "fàngxīn"
+      },
+      "ja": {
+        "text": "ほっとした",
+        "reading": "hotto shita"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sick",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sick.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Face with medical mask"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sick"
+      },
+      "vi": {
+        "text": "bị ốm"
+      },
+      "zh-Hans": {
+        "text": "生病",
+        "reading": "shēngbìng"
+      },
+      "ja": {
+        "text": "びょうき",
+        "reading": "byouki"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hungry",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hungry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Drooling face"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hungry"
+      },
+      "vi": {
+        "text": "đói"
+      },
+      "zh-Hans": {
+        "text": "饿",
+        "reading": "è"
+      },
+      "ja": {
+        "text": "おなかがすいた",
+        "reading": "onaka ga suita"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "park",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/park.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "National park"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "park"
+      },
+      "vi": {
+        "text": "công viên"
+      },
+      "zh-Hans": {
+        "text": "公园",
+        "reading": "gōngyuán"
+      },
+      "ja": {
+        "text": "こうえん",
+        "reading": "kouen"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "palette",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/palette.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Artist palette"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "palette"
+      },
+      "vi": {
+        "text": "bảng pha màu"
+      },
+      "zh-Hans": {
+        "text": "调色板",
+        "reading": "tiáosèbǎn"
+      },
+      "ja": {
+        "text": "パレット",
+        "reading": "paretto"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cheese",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cheese.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cheese wedge"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cheese"
+      },
+      "vi": {
+        "text": "phô mai"
+      },
+      "zh-Hans": {
+        "text": "奶酪",
+        "reading": "nǎilào"
+      },
+      "ja": {
+        "text": "チーズ",
+        "reading": "chīzu"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cookie",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cookie.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cookie"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cookie"
+      },
+      "vi": {
+        "text": "bánh quy"
+      },
+      "zh-Hans": {
+        "text": "饼干",
+        "reading": "bǐnggān"
+      },
+      "ja": {
+        "text": "クッキー",
+        "reading": "kukkī"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "popcorn",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/popcorn.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Popcorn"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "popcorn"
+      },
+      "vi": {
+        "text": "bắp rang bơ"
+      },
+      "zh-Hans": {
+        "text": "爆米花",
+        "reading": "bàomǐhuā"
+      },
+      "ja": {
+        "text": "ポップコーン",
+        "reading": "poppukōn"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cherries",
+    "topic": "food",
+    "pos": "noun",
+    "tags": [
+      "food"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cherries.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cherries"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cherries"
+      },
+      "vi": {
+        "text": "quả cherry"
+      },
+      "zh-Hans": {
+        "text": "樱桃",
+        "reading": "yīngtáo"
+      },
+      "ja": {
+        "text": "さくらんぼ",
+        "reading": "sakuranbo"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "high-five",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": [
+      "greetings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/high-five.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rightwards pushing hand"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "high five"
+      },
+      "vi": {
+        "text": "đập tay"
+      },
+      "zh-Hans": {
+        "text": "击掌",
+        "reading": "jī zhǎng"
+      },
+      "ja": {
+        "text": "ハイタッチ",
+        "reading": "haitacchi"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bag",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": [
+      "clothes"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bag.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Handbag"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bag"
+      },
+      "vi": {
+        "text": "cái túi"
+      },
+      "zh-Hans": {
+        "text": "包",
+        "reading": "bāo"
+      },
+      "ja": {
+        "text": "バッグ",
+        "reading": "baggu"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "camera",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/camera.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Camera"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "camera"
+      },
+      "vi": {
+        "text": "máy ảnh"
+      },
+      "zh-Hans": {
+        "text": "照相机",
+        "reading": "zhàoxiàngjī"
+      },
+      "ja": {
+        "text": "カメラ",
+        "reading": "kamera"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tv",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/tv.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Television"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "tv"
+      },
+      "vi": {
+        "text": "cái tivi"
+      },
+      "zh-Hans": {
+        "text": "电视",
+        "reading": "diànshì"
+      },
+      "ja": {
+        "text": "テレビ",
+        "reading": "terebi"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "toilet",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/toilet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Toilet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "toilet"
+      },
+      "vi": {
+        "text": "cái bồn cầu"
+      },
+      "zh-Hans": {
+        "text": "马桶",
+        "reading": "mǎtǒng"
+      },
+      "ja": {
+        "text": "トイレ",
+        "reading": "toire"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "stop-sign",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/stop-sign.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Stop sign"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "stop sign"
+      },
+      "vi": {
+        "text": "biển báo dừng"
+      },
+      "zh-Hans": {
+        "text": "停止标志",
+        "reading": "tíngzhǐbiāozhì"
+      },
+      "ja": {
+        "text": "とまれのかんばん",
+        "reading": "tomare no kanban"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "dice",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dice.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Game die"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dice"
+      },
+      "vi": {
+        "text": "xúc xắc"
+      },
+      "zh-Hans": {
+        "text": "骰子",
+        "reading": "tóuzi"
+      },
+      "ja": {
+        "text": "サイコロ",
+        "reading": "saikoro"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "ticket",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ticket.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ticket"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ticket"
+      },
+      "vi": {
+        "text": "tấm vé"
+      },
+      "zh-Hans": {
+        "text": "票",
+        "reading": "piào"
+      },
+      "ja": {
+        "text": "チケット",
+        "reading": "chiketto"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "detective",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/detective.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Detective"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "detective"
+      },
+      "vi": {
+        "text": "thám tử"
+      },
+      "zh-Hans": {
+        "text": "侦探",
+        "reading": "zhēntàn"
+      },
+      "ja": {
+        "text": "たんてい",
+        "reading": "tantei"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "superhero",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/superhero.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person superhero"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "superhero"
+      },
+      "vi": {
+        "text": "siêu nhân"
+      },
+      "zh-Hans": {
+        "text": "超人",
+        "reading": "chāorén"
+      },
+      "ja": {
+        "text": "ヒーロー",
+        "reading": "hīrō"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "karate",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/karate.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Martial arts uniform"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "karate"
+      },
+      "vi": {
+        "text": "karate"
+      },
+      "zh-Hans": {
+        "text": "空手道",
+        "reading": "kōngshǒudào"
+      },
+      "ja": {
+        "text": "からて",
+        "reading": "karate"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "goal",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/goal.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Goal net"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "goal"
+      },
+      "vi": {
+        "text": "khung thành"
+      },
+      "zh-Hans": {
+        "text": "球门",
+        "reading": "qiúmén"
+      },
+      "ja": {
+        "text": "ゴール",
+        "reading": "gōru"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "fishing-rod",
+    "topic": "things",
+    "pos": "noun",
+    "tags": [
+      "things"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fishing-rod.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fishing pole"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fishing rod"
+      },
+      "vi": {
+        "text": "cần câu cá"
+      },
+      "zh-Hans": {
+        "text": "钓鱼竿",
+        "reading": "diàoyúgān"
+      },
+      "ja": {
+        "text": "つりざお",
+        "reading": "tsurizao"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "goose",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/goose.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Goose"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "goose"
+      },
+      "vi": {
+        "text": "con ngỗng"
+      },
+      "zh-Hans": {
+        "text": "鹅",
+        "reading": "é"
+      },
+      "ja": {
+        "text": "がちょう",
+        "reading": "gachou"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "rooster",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rooster.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rooster"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rooster"
+      },
+      "vi": {
+        "text": "con gà trống"
+      },
+      "zh-Hans": {
+        "text": "公鸡",
+        "reading": "gōngjī"
+      },
+      "ja": {
+        "text": "おんどり",
+        "reading": "ondori"
+      }
+    },
+    "addedAt": "2026-10-10",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
