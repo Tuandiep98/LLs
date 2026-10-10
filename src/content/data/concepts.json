@@ -15132,5 +15132,881 @@
     "addedAt": "2026-10-10",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "badger",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/badger.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Badger"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "badger"
+      },
+      "vi": {
+        "text": "con lửng"
+      },
+      "zh-Hans": {
+        "text": "獾",
+        "reading": "huān"
+      },
+      "ja": {
+        "text": "アナグマ",
+        "reading": "anaguma"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "beaver",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/beaver.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Beaver"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "beaver"
+      },
+      "vi": {
+        "text": "con hải ly"
+      },
+      "zh-Hans": {
+        "text": "河狸",
+        "reading": "hélí"
+      },
+      "ja": {
+        "text": "ビーバー",
+        "reading": "bībā"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "chicken",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/chicken.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Chicken"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "chicken"
+      },
+      "vi": {
+        "text": "con gà"
+      },
+      "zh-Hans": {
+        "text": "鸡",
+        "reading": "jī"
+      },
+      "ja": {
+        "text": "にわとり",
+        "reading": "niwatori"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "crocodile",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/crocodile.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Crocodile"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "crocodile"
+      },
+      "vi": {
+        "text": "con cá sấu"
+      },
+      "zh-Hans": {
+        "text": "鳄鱼",
+        "reading": "èyú"
+      },
+      "ja": {
+        "text": "ワニ",
+        "reading": "wani"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "dove",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dove.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dove"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dove"
+      },
+      "vi": {
+        "text": "chim bồ câu"
+      },
+      "zh-Hans": {
+        "text": "鸽子",
+        "reading": "gēzi"
+      },
+      "ja": {
+        "text": "はと",
+        "reading": "hato",
+        "tts": "鳩"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flamingo",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/flamingo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Flamingo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "flamingo"
+      },
+      "vi": {
+        "text": "con hồng hạc"
+      },
+      "zh-Hans": {
+        "text": "火烈鸟",
+        "reading": "huǒlièniǎo"
+      },
+      "ja": {
+        "text": "フラミンゴ",
+        "reading": "furamingo"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "gorilla",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/gorilla.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Gorilla"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "gorilla"
+      },
+      "vi": {
+        "text": "con khỉ đột"
+      },
+      "zh-Hans": {
+        "text": "大猩猩",
+        "reading": "dàxīngxīng"
+      },
+      "ja": {
+        "text": "ゴリラ",
+        "reading": "gorira"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "leopard",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/leopard.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Leopard"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "leopard"
+      },
+      "vi": {
+        "text": "con báo"
+      },
+      "zh-Hans": {
+        "text": "豹",
+        "reading": "bào"
+      },
+      "ja": {
+        "text": "ヒョウ",
+        "reading": "hyou"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "lizard",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/lizard.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Lizard"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "lizard"
+      },
+      "vi": {
+        "text": "con thằn lằn"
+      },
+      "zh-Hans": {
+        "text": "蜥蜴",
+        "reading": "xīyì"
+      },
+      "ja": {
+        "text": "とかげ",
+        "reading": "tokage"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "llama",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/llama.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Llama"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "llama"
+      },
+      "vi": {
+        "text": "con lạc đà không bướu"
+      },
+      "zh-Hans": {
+        "text": "美洲驼",
+        "reading": "měizhōutuó"
+      },
+      "ja": {
+        "text": "ラマ",
+        "reading": "rama"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "moose",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/moose.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Moose"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "moose"
+      },
+      "vi": {
+        "text": "con nai sừng tấm"
+      },
+      "zh-Hans": {
+        "text": "驼鹿",
+        "reading": "tuólù"
+      },
+      "ja": {
+        "text": "ヘラジカ",
+        "reading": "herajika"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "orangutan",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/orangutan.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Orangutan"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "orangutan"
+      },
+      "vi": {
+        "text": "con đười đười"
+      },
+      "zh-Hans": {
+        "text": "猩猩",
+        "reading": "xīngxīng"
+      },
+      "ja": {
+        "text": "オランウータン",
+        "reading": "oranūtan"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "rhino",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/rhino.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Rhinoceros"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "rhino"
+      },
+      "vi": {
+        "text": "con tê giác"
+      },
+      "zh-Hans": {
+        "text": "犀牛",
+        "reading": "xīniú"
+      },
+      "ja": {
+        "text": "サイ",
+        "reading": "sai"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "skunk",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/skunk.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Skunk"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "skunk"
+      },
+      "vi": {
+        "text": "con chồn hôi"
+      },
+      "zh-Hans": {
+        "text": "臭鼬",
+        "reading": "chòuyòu"
+      },
+      "ja": {
+        "text": "スカンク",
+        "reading": "sukanku"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sloth",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sloth.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sloth"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sloth"
+      },
+      "vi": {
+        "text": "con lười"
+      },
+      "zh-Hans": {
+        "text": "树懒",
+        "reading": "shùlǎn"
+      },
+      "ja": {
+        "text": "ナマケモノ",
+        "reading": "namakemono"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "swan",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/swan.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Swan"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "swan"
+      },
+      "vi": {
+        "text": "con thiên nga"
+      },
+      "zh-Hans": {
+        "text": "天鹅",
+        "reading": "tiān'é"
+      },
+      "ja": {
+        "text": "はくちょう",
+        "reading": "hakuchou"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "buffalo",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/buffalo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Water buffalo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "buffalo"
+      },
+      "vi": {
+        "text": "con trâu"
+      },
+      "zh-Hans": {
+        "text": "水牛",
+        "reading": "shuǐniú"
+      },
+      "ja": {
+        "text": "すいぎゅう",
+        "reading": "suigyuu"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "wolf",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wolf.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Wolf"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wolf"
+      },
+      "vi": {
+        "text": "con sói"
+      },
+      "zh-Hans": {
+        "text": "狼",
+        "reading": "láng"
+      },
+      "ja": {
+        "text": "おおかみ",
+        "reading": "ookami"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "wild-boar",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wild-boar.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Boar"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wild boar"
+      },
+      "vi": {
+        "text": "con lợn rừng"
+      },
+      "zh-Hans": {
+        "text": "野猪",
+        "reading": "yězhū"
+      },
+      "ja": {
+        "text": "イノシシ",
+        "reading": "inoshishi"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "crow",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/crow.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Blackbird"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "crow"
+      },
+      "vi": {
+        "text": "con quạ"
+      },
+      "zh-Hans": {
+        "text": "乌鸦",
+        "reading": "wūyā"
+      },
+      "ja": {
+        "text": "カラス",
+        "reading": "karasu"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "milky-way",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/milky-way.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Milky way"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "milky way"
+      },
+      "vi": {
+        "text": "dải ngân hà"
+      },
+      "zh-Hans": {
+        "text": "银河",
+        "reading": "yínhé"
+      },
+      "ja": {
+        "text": "あまのがわ",
+        "reading": "amanogawa"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "dizzy",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dizzy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dizzy"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dizzy"
+      },
+      "vi": {
+        "text": "chóng mặt"
+      },
+      "zh-Hans": {
+        "text": "晕",
+        "reading": "yùn"
+      },
+      "ja": {
+        "text": "めまい",
+        "reading": "memai"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "mailbox",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/mailbox.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Postbox"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "mailbox"
+      },
+      "vi": {
+        "text": "hộp thư"
+      },
+      "zh-Hans": {
+        "text": "邮箱",
+        "reading": "yóuxiāng"
+      },
+      "ja": {
+        "text": "ポスト",
+        "reading": "posuto"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chick",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/chick.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Baby chick"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "chick"
+      },
+      "vi": {
+        "text": "gà con"
+      },
+      "zh-Hans": {
+        "text": "小鸡",
+        "reading": "xiǎojī"
+      },
+      "ja": {
+        "text": "ひよこ",
+        "reading": "hiyoko"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "dodo",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": [
+      "animals"
+    ],
+    "images": [
+      {
+        "src": "/content/images/dodo.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Dodo"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "dodo"
+      },
+      "vi": {
+        "text": "chim dodo"
+      },
+      "zh-Hans": {
+        "text": "渡渡鸟",
+        "reading": "dùdùniǎo"
+      },
+      "ja": {
+        "text": "ドードー",
+        "reading": "dōdō"
+      }
+    },
+    "addedAt": "2026-10-11",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
