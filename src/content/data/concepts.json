@@ -16008,5 +16008,900 @@
     "addedAt": "2026-10-11",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "satellite",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/satellite.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Satellite"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "satellite"
+      },
+      "vi": {
+        "text": "vệ tinh"
+      },
+      "zh-Hans": {
+        "text": "卫星",
+        "reading": "wèixīng"
+      },
+      "ja": {
+        "text": "えいせい",
+        "reading": "eisei",
+        "tts": "衛星"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "fireworks",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/fireworks.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fireworks"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "fireworks"
+      },
+      "vi": {
+        "text": "pháo hoa"
+      },
+      "zh-Hans": {
+        "text": "烟花",
+        "reading": "yānhuā"
+      },
+      "ja": {
+        "text": "はなび",
+        "reading": "hanabi",
+        "tts": "花火"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cloudy",
+    "topic": "weather-sky",
+    "pos": "adjective",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cloudy.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Sun behind cloud"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cloudy"
+      },
+      "vi": {
+        "text": "nhiều mây"
+      },
+      "zh-Hans": {
+        "text": "多云",
+        "reading": "duōyún"
+      },
+      "ja": {
+        "text": "くもり",
+        "reading": "kumori",
+        "tts": "曇り"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "earth",
+    "topic": "weather-sky",
+    "pos": "noun",
+    "tags": [
+      "weather-sky"
+    ],
+    "images": [
+      {
+        "src": "/content/images/earth.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Globe showing americas"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "earth"
+      },
+      "vi": {
+        "text": "trái đất"
+      },
+      "zh-Hans": {
+        "text": "地球",
+        "reading": "dìqiú"
+      },
+      "ja": {
+        "text": "ちきゅう",
+        "reading": "chikyuu",
+        "tts": "地球"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ferry",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": [
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/ferry.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Ferry"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "ferry"
+      },
+      "vi": {
+        "text": "phà"
+      },
+      "zh-Hans": {
+        "text": "渡轮",
+        "reading": "dùlún"
+      },
+      "ja": {
+        "text": "フェリー",
+        "reading": "ferī"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "feed",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/feed.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person feeding baby"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "feed"
+      },
+      "vi": {
+        "text": "cho ăn"
+      },
+      "zh-Hans": {
+        "text": "喂食",
+        "reading": "wèishí"
+      },
+      "ja": {
+        "text": "たべさせる",
+        "reading": "tabesaseru",
+        "tts": "食べさせる"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "juggle",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/juggle.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person juggling"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "juggle"
+      },
+      "vi": {
+        "text": "tung hứng"
+      },
+      "zh-Hans": {
+        "text": "玩杂耍",
+        "reading": "wán záshuǎ"
+      },
+      "ja": {
+        "text": "ジャグリングする",
+        "reading": "jaguringu suru"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "kneel",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/kneel.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person kneeling"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "kneel"
+      },
+      "vi": {
+        "text": "quỳ xuống"
+      },
+      "zh-Hans": {
+        "text": "跪下",
+        "reading": "guìxià"
+      },
+      "ja": {
+        "text": "ひざまずく",
+        "reading": "hizamazuku",
+        "tts": "膝まずく"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bounce",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions",
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/bounce.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person bouncing ball"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "bounce"
+      },
+      "vi": {
+        "text": "nảy bóng"
+      },
+      "zh-Hans": {
+        "text": "拍球",
+        "reading": "pāiqiú"
+      },
+      "ja": {
+        "text": "ボールをつく",
+        "reading": "bōru o tsuku",
+        "tts": "ボールを突く"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "point",
+    "topic": "actions",
+    "pos": "verb",
+    "tags": [
+      "actions"
+    ],
+    "images": [
+      {
+        "src": "/content/images/point.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Backhand index pointing right"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "point"
+      },
+      "vi": {
+        "text": "chỉ tay"
+      },
+      "zh-Hans": {
+        "text": "指",
+        "reading": "zhǐ"
+      },
+      "ja": {
+        "text": "ゆびさす",
+        "reading": "yubisasu",
+        "tts": "指差す"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "strong",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": [
+      "feelings"
+    ],
+    "images": [
+      {
+        "src": "/content/images/strong.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Person lifting weights"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "strong"
+      },
+      "vi": {
+        "text": "mạnh mẽ"
+      },
+      "zh-Hans": {
+        "text": "强壮",
+        "reading": "qiángzhuàng"
+      },
+      "ja": {
+        "text": "つよい",
+        "reading": "tsuyoi",
+        "tts": "強い"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "judge",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/judge.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Judge"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "judge"
+      },
+      "vi": {
+        "text": "thẩm phán"
+      },
+      "zh-Hans": {
+        "text": "法官",
+        "reading": "fǎguān"
+      },
+      "ja": {
+        "text": "さいばんかん",
+        "reading": "saibankan",
+        "tts": "裁判官"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "office-worker",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": [
+      "family-people"
+    ],
+    "images": [
+      {
+        "src": "/content/images/office-worker.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Office worker"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "office worker"
+      },
+      "vi": {
+        "text": "nhân viên văn phòng"
+      },
+      "zh-Hans": {
+        "text": "职员",
+        "reading": "zhíyuán"
+      },
+      "ja": {
+        "text": "かいしゃいん",
+        "reading": "kaishain",
+        "tts": "会社員"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hut",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hut.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hut"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hut"
+      },
+      "vi": {
+        "text": "cái chòi"
+      },
+      "zh-Hans": {
+        "text": "小屋",
+        "reading": "xiǎowū"
+      },
+      "ja": {
+        "text": "こや",
+        "reading": "koya",
+        "tts": "小屋"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "gas-station",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places",
+      "vehicles"
+    ],
+    "images": [
+      {
+        "src": "/content/images/gas-station.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Fuel pump"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "gas station"
+      },
+      "vi": {
+        "text": "cây xăng"
+      },
+      "zh-Hans": {
+        "text": "加油站",
+        "reading": "jiāyóuzhàn"
+      },
+      "ja": {
+        "text": "ガソリンスタンド",
+        "reading": "gasorin sutando"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "construction-site",
+    "topic": "places",
+    "pos": "noun",
+    "tags": [
+      "places"
+    ],
+    "images": [
+      {
+        "src": "/content/images/construction-site.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Building construction"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "construction site"
+      },
+      "vi": {
+        "text": "công trường"
+      },
+      "zh-Hans": {
+        "text": "工地",
+        "reading": "gōngdì"
+      },
+      "ja": {
+        "text": "こうじげんば",
+        "reading": "kouji genba",
+        "tts": "工事現場"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sheet-music",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/sheet-music.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Musical score"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "sheet music"
+      },
+      "vi": {
+        "text": "bản nhạc"
+      },
+      "zh-Hans": {
+        "text": "乐谱",
+        "reading": "yuèpǔ"
+      },
+      "ja": {
+        "text": "がくふ",
+        "reading": "gakufu",
+        "tts": "楽譜"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "wind-chime",
+    "topic": "music",
+    "pos": "noun",
+    "tags": [
+      "music"
+    ],
+    "images": [
+      {
+        "src": "/content/images/wind-chime.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Wind chime"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "wind chime"
+      },
+      "vi": {
+        "text": "chuông gió"
+      },
+      "zh-Hans": {
+        "text": "风铃",
+        "reading": "fēnglíng"
+      },
+      "ja": {
+        "text": "ふうりん",
+        "reading": "fuurin",
+        "tts": "風鈴"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hyacinth",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": [
+      "nature"
+    ],
+    "images": [
+      {
+        "src": "/content/images/hyacinth.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Hyacinth"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "hyacinth"
+      },
+      "vi": {
+        "text": "hoa dạ lan hương"
+      },
+      "zh-Hans": {
+        "text": "风信子",
+        "reading": "fēngxìnzǐ"
+      },
+      "ja": {
+        "text": "ヒヤシンス",
+        "reading": "hiyashinsu"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "painting",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/painting.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Framed picture"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "painting"
+      },
+      "vi": {
+        "text": "bức tranh"
+      },
+      "zh-Hans": {
+        "text": "画",
+        "reading": "huà"
+      },
+      "ja": {
+        "text": "え",
+        "reading": "e",
+        "tts": "絵"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "diving-mask",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/diving-mask.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Diving mask"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "diving mask"
+      },
+      "vi": {
+        "text": "kính lặn"
+      },
+      "zh-Hans": {
+        "text": "潜水镜",
+        "reading": "qiánshuǐjìng"
+      },
+      "ja": {
+        "text": "ダイビングマスク",
+        "reading": "daibingu masuku"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "spider-web",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/spider-web.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Spider web"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "spider web"
+      },
+      "vi": {
+        "text": "mạng nhện"
+      },
+      "zh-Hans": {
+        "text": "蜘蛛网",
+        "reading": "zhīzhūwǎng"
+      },
+      "ja": {
+        "text": "くものす",
+        "reading": "kumo no su",
+        "tts": "蜘蛛の巣"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "cockroach",
+    "topic": "insects",
+    "pos": "noun",
+    "tags": [
+      "insects"
+    ],
+    "images": [
+      {
+        "src": "/content/images/cockroach.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Cockroach"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "cockroach"
+      },
+      "vi": {
+        "text": "con gián"
+      },
+      "zh-Hans": {
+        "text": "蟑螂",
+        "reading": "zhāngláng"
+      },
+      "ja": {
+        "text": "ゴキブリ",
+        "reading": "gokiburi"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "stopwatch",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": [
+      "sports"
+    ],
+    "images": [
+      {
+        "src": "/content/images/stopwatch.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Stopwatch"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "stopwatch"
+      },
+      "vi": {
+        "text": "đồng hồ bấm giờ"
+      },
+      "zh-Hans": {
+        "text": "秒表",
+        "reading": "miǎobiǎo"
+      },
+      "ja": {
+        "text": "ストップウォッチ",
+        "reading": "sutoppuwotchi"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "magnet",
+    "topic": "school",
+    "pos": "noun",
+    "tags": [
+      "school"
+    ],
+    "images": [
+      {
+        "src": "/content/images/magnet.png",
+        "kind": "sticker",
+        "source": "fluent-emoji",
+        "sourceRef": "Magnet"
+      }
+    ],
+    "terms": {
+      "en": {
+        "text": "magnet"
+      },
+      "vi": {
+        "text": "nam châm"
+      },
+      "zh-Hans": {
+        "text": "磁铁",
+        "reading": "cítiě"
+      },
+      "ja": {
+        "text": "じしゃく",
+        "reading": "jishaku",
+        "tts": "磁石"
+      }
+    },
+    "addedAt": "2026-10-12",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
