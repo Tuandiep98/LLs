@@ -16903,5 +16903,455 @@
     "addedAt": "2026-10-12",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "footprints",
+    "topic": "body",
+    "pos": "noun",
+    "tags": ["body"],
+    "images": [
+      { "src": "/content/images/footprints.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Footprints" }
+    ],
+    "terms": {
+      "en": { "text": "footprints" },
+      "vi": { "text": "dấu chân" },
+      "zh-Hans": { "text": "脚印", "reading": "jiǎoyìn" },
+      "ja": { "text": "あしあと", "reading": "ashiato", "tts": "足跡" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "traffic-light",
+    "topic": "places",
+    "pos": "noun",
+    "tags": ["places"],
+    "images": [
+      { "src": "/content/images/traffic-light.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Horizontal traffic light" }
+    ],
+    "terms": {
+      "en": { "text": "traffic light" },
+      "vi": { "text": "cái đèn giao thông" },
+      "zh-Hans": { "text": "红绿灯", "reading": "hónglǜdēng" },
+      "ja": { "text": "しんごう", "reading": "shingou", "tts": "信号" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "city",
+    "topic": "places",
+    "pos": "noun",
+    "tags": ["places"],
+    "images": [
+      { "src": "/content/images/city.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Cityscape" }
+    ],
+    "terms": {
+      "en": { "text": "city" },
+      "vi": { "text": "thành phố" },
+      "zh-Hans": { "text": "城市", "reading": "chéngshì" },
+      "ja": { "text": "まち", "reading": "machi", "tts": "街" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "office",
+    "topic": "places",
+    "pos": "noun",
+    "tags": ["places"],
+    "images": [
+      { "src": "/content/images/office.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Office building" }
+    ],
+    "terms": {
+      "en": { "text": "office" },
+      "vi": { "text": "văn phòng" },
+      "zh-Hans": { "text": "办公室", "reading": "bàngōngshì" },
+      "ja": { "text": "オフィス", "reading": "ofisu" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "map",
+    "topic": "school",
+    "pos": "noun",
+    "tags": ["school"],
+    "images": [
+      { "src": "/content/images/map.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "World map" }
+    ],
+    "terms": {
+      "en": { "text": "map" },
+      "vi": { "text": "bản đồ" },
+      "zh-Hans": { "text": "地图", "reading": "dìtú" },
+      "ja": { "text": "ちず", "reading": "chizu", "tts": "地図" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "top-hat",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": ["clothes"],
+    "images": [
+      { "src": "/content/images/top-hat.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Top hat" }
+    ],
+    "terms": {
+      "en": { "text": "top hat" },
+      "vi": { "text": "cái mũ chóp cao" },
+      "zh-Hans": { "text": "大礼帽", "reading": "dàlǐmào" },
+      "ja": { "text": "シルクハット", "reading": "shirukuhatto" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "juice",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/juice.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Beverage box" }
+    ],
+    "terms": {
+      "en": { "text": "juice" },
+      "vi": { "text": "nước ép" },
+      "zh-Hans": { "text": "果汁", "reading": "guǒzhī" },
+      "ja": { "text": "ジュース", "reading": "jūsu" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "blueberries",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/blueberries.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Blueberries" }
+    ],
+    "terms": {
+      "en": { "text": "blueberries" },
+      "vi": { "text": "quả việt quất" },
+      "zh-Hans": { "text": "蓝莓", "reading": "lánméi" },
+      "ja": { "text": "ブルーベリー", "reading": "burūberī" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "doughnut",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/doughnut.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Doughnut" }
+    ],
+    "terms": {
+      "en": { "text": "doughnut" },
+      "vi": { "text": "bánh donut" },
+      "zh-Hans": { "text": "甜甜圈", "reading": "tiántiánquān" },
+      "ja": { "text": "ドーナツ", "reading": "dōnatsu" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "french-fries",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/french-fries.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "French fries" }
+    ],
+    "terms": {
+      "en": { "text": "french fries" },
+      "vi": { "text": "khoai tây chiên" },
+      "zh-Hans": { "text": "薯条", "reading": "shǔtiáo" },
+      "ja": { "text": "フライドポテト", "reading": "furaidopoteto" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pancakes",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/pancakes.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Pancakes" }
+    ],
+    "terms": {
+      "en": { "text": "pancakes" },
+      "vi": { "text": "bánh kếp" },
+      "zh-Hans": { "text": "松饼", "reading": "sōngbǐng" },
+      "ja": { "text": "パンケーキ", "reading": "pankēki" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "peach",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/peach.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Peach" }
+    ],
+    "terms": {
+      "en": { "text": "peach" },
+      "vi": { "text": "quả đào" },
+      "zh-Hans": { "text": "桃子", "reading": "táozi" },
+      "ja": { "text": "もも", "reading": "momo", "tts": "桃" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "peas",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/peas.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Pea pod" }
+    ],
+    "terms": {
+      "en": { "text": "peas" },
+      "vi": { "text": "đậu Hà Lan" },
+      "zh-Hans": { "text": "豌豆", "reading": "wāndòu" },
+      "ja": { "text": "グリーンピース", "reading": "gurīnpīsu" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sweet-potato",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/sweet-potato.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Roasted sweet potato" }
+    ],
+    "terms": {
+      "en": { "text": "sweet potato" },
+      "vi": { "text": "khoai lang" },
+      "zh-Hans": { "text": "红薯", "reading": "hóngshǔ" },
+      "ja": { "text": "さつまいも", "reading": "satsumaimo" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "spaghetti",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/spaghetti.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Spaghetti" }
+    ],
+    "terms": {
+      "en": { "text": "spaghetti" },
+      "vi": { "text": "mì Ý" },
+      "zh-Hans": { "text": "意大利面", "reading": "yìdàlìmiàn" },
+      "ja": { "text": "スパゲッティ", "reading": "supagetti" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "laptop",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/laptop.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Laptop" }
+    ],
+    "terms": {
+      "en": { "text": "laptop" },
+      "vi": { "text": "máy tính xách tay" },
+      "zh-Hans": { "text": "笔记本电脑", "reading": "bǐjìběn diànnǎo" },
+      "ja": { "text": "ノートパソコン", "reading": "nōto pasokon" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "printer",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/printer.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Printer" }
+    ],
+    "terms": {
+      "en": { "text": "printer" },
+      "vi": { "text": "máy in" },
+      "zh-Hans": { "text": "打印机", "reading": "dǎyìnjī" },
+      "ja": { "text": "プリンター", "reading": "purintā" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "trash-can",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/trash-can.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Wastebasket" }
+    ],
+    "terms": {
+      "en": { "text": "trash can" },
+      "vi": { "text": "cái thùng rác" },
+      "zh-Hans": { "text": "垃圾桶", "reading": "lājītǒng" },
+      "ja": { "text": "ごみばこ", "reading": "gomibako", "tts": "ごみ箱" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "broom",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/broom.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Broom" }
+    ],
+    "terms": {
+      "en": { "text": "broom" },
+      "vi": { "text": "cái chổi" },
+      "zh-Hans": { "text": "扫帚", "reading": "sàozhǒu" },
+      "ja": { "text": "ほうき", "reading": "houki", "tts": "箒" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bucket",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/bucket.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Bucket" }
+    ],
+    "terms": {
+      "en": { "text": "bucket" },
+      "vi": { "text": "cái xô" },
+      "zh-Hans": { "text": "水桶", "reading": "shuǐtǒng" },
+      "ja": { "text": "バケツ", "reading": "baketsu" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hammer",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/hammer.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Hammer" }
+    ],
+    "terms": {
+      "en": { "text": "hammer" },
+      "vi": { "text": "cái búa" },
+      "zh-Hans": { "text": "锤子", "reading": "chuízi" },
+      "ja": { "text": "トンカチ", "reading": "tonkachi" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "ladder",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/ladder.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Ladder" }
+    ],
+    "terms": {
+      "en": { "text": "ladder" },
+      "vi": { "text": "cái thang" },
+      "zh-Hans": { "text": "梯子", "reading": "tīzi" },
+      "ja": { "text": "はしご", "reading": "hashigo", "tts": "梯子" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "shopping-cart",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/shopping-cart.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Shopping cart" }
+    ],
+    "terms": {
+      "en": { "text": "shopping cart" },
+      "vi": { "text": "xe đẩy hàng" },
+      "zh-Hans": { "text": "购物车", "reading": "gòuwùchē" },
+      "ja": { "text": "ショッピングカート", "reading": "shoppingu kāto" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "spoon",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/spoon.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Spoon" }
+    ],
+    "terms": {
+      "en": { "text": "spoon" },
+      "vi": { "text": "cái thìa" },
+      "zh-Hans": { "text": "勺子", "reading": "sháozi" },
+      "ja": { "text": "スプーン", "reading": "supūn" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chopsticks",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/chopsticks.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Chopsticks" }
+    ],
+    "terms": {
+      "en": { "text": "chopsticks" },
+      "vi": { "text": "đôi đũa" },
+      "zh-Hans": { "text": "筷子", "reading": "kuàizi" },
+      "ja": { "text": "はし", "reading": "hashi", "tts": "箸" }
+    },
+    "addedAt": "2026-10-13",
+    "origin": "ai",
+    "level": "easy"
   }
 ]
