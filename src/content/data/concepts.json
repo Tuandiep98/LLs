@@ -17353,5 +17353,491 @@
     "addedAt": "2026-10-13",
     "origin": "ai",
     "level": "easy"
+  },
+  {
+    "id": "good-luck",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": ["greetings"],
+    "images": [
+      { "src": "/content/images/good-luck.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Crossed fingers" }
+    ],
+    "terms": {
+      "en": { "text": "good luck" },
+      "vi": { "text": "chúc may mắn" },
+      "zh-Hans": { "text": "祝你好运", "reading": "zhù nǐ hǎoyùn" },
+      "ja": { "text": "がんばってね", "reading": "ganbatte ne" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bookmark",
+    "topic": "school",
+    "pos": "noun",
+    "tags": ["school"],
+    "images": [
+      { "src": "/content/images/bookmark.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Bookmark" }
+    ],
+    "terms": {
+      "en": { "text": "bookmark" },
+      "vi": { "text": "cái đánh dấu sách" },
+      "zh-Hans": { "text": "书签", "reading": "shūqiān" },
+      "ja": { "text": "しおり", "reading": "shiori" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pushpin",
+    "topic": "school",
+    "pos": "noun",
+    "tags": ["school"],
+    "images": [
+      { "src": "/content/images/pushpin.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Pushpin" }
+    ],
+    "terms": {
+      "en": { "text": "pushpin" },
+      "vi": { "text": "cái đinh bấm" },
+      "zh-Hans": { "text": "图钉", "reading": "túdīng" },
+      "ja": { "text": "がびょう", "reading": "gabyō", "tts": "画鋲" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "kimono",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": ["clothes"],
+    "images": [
+      { "src": "/content/images/kimono.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Kimono" }
+    ],
+    "terms": {
+      "en": { "text": "kimono" },
+      "vi": { "text": "áo kimono" },
+      "zh-Hans": { "text": "和服", "reading": "héfú" },
+      "ja": { "text": "きもの", "reading": "kimono" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "ballet-shoes",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": ["clothes"],
+    "images": [
+      { "src": "/content/images/ballet-shoes.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Ballet shoes" }
+    ],
+    "terms": {
+      "en": { "text": "ballet shoes" },
+      "vi": { "text": "giày múa ba lê" },
+      "zh-Hans": { "text": "芭蕾舞鞋", "reading": "bāléiwǔxié" },
+      "ja": { "text": "バレエシューズ", "reading": "barē shūzu" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hand-fan",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": ["clothes"],
+    "images": [
+      { "src": "/content/images/hand-fan.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Folding hand fan" }
+    ],
+    "terms": {
+      "en": { "text": "hand fan" },
+      "vi": { "text": "cái quạt tay" },
+      "zh-Hans": { "text": "扇子", "reading": "shànzi" },
+      "ja": { "text": "せんす", "reading": "sensu", "tts": "扇子" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "train-station",
+    "topic": "places",
+    "pos": "noun",
+    "tags": ["places"],
+    "images": [
+      { "src": "/content/images/train-station.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Station" }
+    ],
+    "terms": {
+      "en": { "text": "train station" },
+      "vi": { "text": "nhà ga" },
+      "zh-Hans": { "text": "火车站", "reading": "huǒchēzhàn" },
+      "ja": { "text": "えき", "reading": "eki", "tts": "駅" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "pickup-truck",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": ["vehicles"],
+    "images": [
+      { "src": "/content/images/pickup-truck.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Pickup truck" }
+    ],
+    "terms": {
+      "en": { "text": "pickup truck" },
+      "vi": { "text": "xe bán tải" },
+      "zh-Hans": { "text": "皮卡车", "reading": "píkǎchē" },
+      "ja": { "text": "ピックアップトラック", "reading": "pikkuappu torakku" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "flying-saucer",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": ["vehicles"],
+    "images": [
+      { "src": "/content/images/flying-saucer.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Flying saucer" }
+    ],
+    "terms": {
+      "en": { "text": "flying saucer" },
+      "vi": { "text": "đĩa bay" },
+      "zh-Hans": { "text": "飞碟", "reading": "fēidié" },
+      "ja": { "text": "ユーフォー", "reading": "yūfō" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "hot-springs",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": ["nature"],
+    "images": [
+      { "src": "/content/images/hot-springs.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Hot springs" }
+    ],
+    "terms": {
+      "en": { "text": "hot springs" },
+      "vi": { "text": "suối nước nóng" },
+      "zh-Hans": { "text": "温泉", "reading": "wēnquán" },
+      "ja": { "text": "おんせん", "reading": "onsen", "tts": "温泉" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "programmer",
+    "topic": "family-people",
+    "pos": "noun",
+    "tags": ["family-people"],
+    "images": [
+      { "src": "/content/images/programmer.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Technologist" }
+    ],
+    "terms": {
+      "en": { "text": "programmer" },
+      "vi": { "text": "lập trình viên" },
+      "zh-Hans": { "text": "程序员", "reading": "chéngxùyuán" },
+      "ja": { "text": "プログラマー", "reading": "puroguramā" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "keyboard",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/keyboard.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Keyboard" }
+    ],
+    "terms": {
+      "en": { "text": "keyboard" },
+      "vi": { "text": "bàn phím" },
+      "zh-Hans": { "text": "键盘", "reading": "jiànpán" },
+      "ja": { "text": "キーボード", "reading": "kībōdo" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "robot",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/robot.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Robot" }
+    ],
+    "terms": {
+      "en": { "text": "robot" },
+      "vi": { "text": "rô bốt" },
+      "zh-Hans": { "text": "机器人", "reading": "jīqìrén" },
+      "ja": { "text": "ロボット", "reading": "robotto" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "magic-wand",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/magic-wand.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Magic wand" }
+    ],
+    "terms": {
+      "en": { "text": "magic wand" },
+      "vi": { "text": "cây đũa phép" },
+      "zh-Hans": { "text": "魔法棒", "reading": "mófǎbàng" },
+      "ja": { "text": "まほうのぼう", "reading": "mahō no bō", "tts": "魔法の棒" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "video-game",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/video-game.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Joystick" }
+    ],
+    "terms": {
+      "en": { "text": "video game" },
+      "vi": { "text": "trò chơi điện tử" },
+      "zh-Hans": { "text": "电子游戏", "reading": "diànzǐ yóuxì" },
+      "ja": { "text": "テレビゲーム", "reading": "terebi gēmu" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "wheel",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/wheel.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Wheel" }
+    ],
+    "terms": {
+      "en": { "text": "wheel" },
+      "vi": { "text": "cái bánh xe" },
+      "zh-Hans": { "text": "车轮", "reading": "chēlún" },
+      "ja": { "text": "しゃりん", "reading": "sharin", "tts": "車輪" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "suitcase",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/suitcase.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Luggage" }
+    ],
+    "terms": {
+      "en": { "text": "suitcase" },
+      "vi": { "text": "cái vali" },
+      "zh-Hans": { "text": "行李箱", "reading": "xínglixiāng" },
+      "ja": { "text": "スーツケース", "reading": "sūtsukēsu" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "sponge",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/sponge.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Sponge" }
+    ],
+    "terms": {
+      "en": { "text": "sponge" },
+      "vi": { "text": "miếng bọt biển" },
+      "zh-Hans": { "text": "海绵", "reading": "hǎimián" },
+      "ja": { "text": "スポンジ", "reading": "suponji" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "gem",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/gem.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Gem stone" }
+    ],
+    "terms": {
+      "en": { "text": "gem" },
+      "vi": { "text": "viên đá quý" },
+      "zh-Hans": { "text": "宝石", "reading": "bǎoshí" },
+      "ja": { "text": "ほうせき", "reading": "hōseki", "tts": "宝石" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "coin",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/coin.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Coin" }
+    ],
+    "terms": {
+      "en": { "text": "coin" },
+      "vi": { "text": "đồng xu" },
+      "zh-Hans": { "text": "硬币", "reading": "yìngbì" },
+      "ja": { "text": "コイン", "reading": "koin" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "hourglass",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/hourglass.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Hourglass not done" }
+    ],
+    "terms": {
+      "en": { "text": "hourglass" },
+      "vi": { "text": "cái đồng hồ cát" },
+      "zh-Hans": { "text": "沙漏", "reading": "shālòu" },
+      "ja": { "text": "すなどけい", "reading": "sunadokei", "tts": "砂時計" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "mouse",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": ["animals"],
+    "images": [
+      { "src": "/content/images/mouse.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Mouse" }
+    ],
+    "terms": {
+      "en": { "text": "mouse" },
+      "vi": { "text": "con chuột" },
+      "zh-Hans": { "text": "老鼠", "reading": "lǎoshǔ" },
+      "ja": { "text": "ねずみ", "reading": "nezumi" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "tiger",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": ["animals"],
+    "images": [
+      { "src": "/content/images/tiger.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Tiger" }
+    ],
+    "terms": {
+      "en": { "text": "tiger" },
+      "vi": { "text": "con hổ" },
+      "zh-Hans": { "text": "老虎", "reading": "lǎohǔ" },
+      "ja": { "text": "とら", "reading": "tora" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "snake",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": ["animals"],
+    "images": [
+      { "src": "/content/images/snake.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Snake" }
+    ],
+    "terms": {
+      "en": { "text": "snake" },
+      "vi": { "text": "con rắn" },
+      "zh-Hans": { "text": "蛇", "reading": "shé" },
+      "ja": { "text": "へび", "reading": "hebi" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "dinosaur",
+    "topic": "animals",
+    "pos": "noun",
+    "tags": ["animals"],
+    "images": [
+      { "src": "/content/images/dinosaur.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "T-rex" }
+    ],
+    "terms": {
+      "en": { "text": "dinosaur" },
+      "vi": { "text": "con khủng long" },
+      "zh-Hans": { "text": "恐龙", "reading": "kǒnglóng" },
+      "ja": { "text": "きょうりゅう", "reading": "kyōryū" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chess",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": ["sports"],
+    "images": [
+      { "src": "/content/images/chess.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Chess pawn" }
+    ],
+    "terms": {
+      "en": { "text": "chess" },
+      "vi": { "text": "cờ vua" },
+      "zh-Hans": { "text": "国际象棋", "reading": "guójì xiàngqí" },
+      "ja": { "text": "チェス", "reading": "chesu" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "skis",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": ["sports"],
+    "images": [
+      { "src": "/content/images/skis.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Skis" }
+    ],
+    "terms": {
+      "en": { "text": "skis" },
+      "vi": { "text": "ván trượt tuyết" },
+      "zh-Hans": { "text": "滑雪板", "reading": "huáxuěbǎn" },
+      "ja": { "text": "スキーいた", "reading": "sukī ita", "tts": "スキー板" }
+    },
+    "addedAt": "2026-10-14",
+    "origin": "ai",
+    "level": "medium"
   }
 ]
