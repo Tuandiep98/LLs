@@ -11,6 +11,7 @@ import { QuitModal, screenShell } from "../shared/quiz/QuizChrome";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 import { createConnect, reduceConnect, type ConnectState } from "./engine";
+import { Icon } from "@/components/Icon";
 
 const HIDE_AFTER_MS = 900;
 const FINISH_AFTER_MS = 900;
@@ -81,7 +82,7 @@ export function ConnectBoard({ conceptIds, learn, onFinish, onQuit }: Props) {
           onClick={() => setQuitOpen(true)}
           aria-label={t("nav.close")}
         >
-          ✕
+          <Icon name="close" />
         </button>
         <div className="flex flex-1 flex-wrap items-center justify-center gap-1.5" aria-label={t("memory.found")}>
           {conceptIds.map((id) => (
@@ -131,7 +132,7 @@ export function ConnectBoard({ conceptIds, learn, onFinish, onQuit }: Props) {
                     className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full border-[3px] border-outline bg-correct text-sm"
                     aria-hidden
                   >
-                    ✓
+                    <Icon name="check" />
                   </span>
                 )}
               </div>
@@ -162,7 +163,7 @@ export function ConnectBoard({ conceptIds, learn, onFinish, onQuit }: Props) {
                     className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full border-[3px] border-outline bg-correct text-sm"
                     aria-hidden
                   >
-                    ✓
+                    <Icon name="check" />
                   </span>
                 )}
               </div>

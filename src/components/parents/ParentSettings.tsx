@@ -13,6 +13,8 @@ import { useSettings } from "@/lib/settings";
 import { clearAllData } from "@/lib/storage/db";
 import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
+import { Flag } from "@/components/Flag";
+import { Icon } from "@/components/Icon";
 
 export function ParentSettings() {
   const t = useTranslations("parents");
@@ -36,7 +38,9 @@ export function ParentSettings() {
 
   return (
     <div className="flex flex-col gap-6 pt-2 pb-4">
-      <h1 className="text-3xl font-extrabold sm:text-4xl">⚙️ {t("title")}</h1>
+      <h1 className="flex items-center gap-2 text-3xl font-extrabold sm:text-4xl">
+        <Icon name="settings" className="h-9 w-9 sm:h-11 sm:w-11" /> {t("title")}
+      </h1>
 
       <Section title={t("uiLanguage")}>
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
@@ -48,7 +52,7 @@ export function ParentSettings() {
               aria-pressed={native === l}
               className={`btn-chunky min-h-14 px-2 text-base ${native === l ? "bg-sky" : "bg-surface text-ink"}`}
             >
-              {localeMeta[l].flag} {localeMeta[l].nativeName}
+              <Flag locale={l} className="h-6 w-8 shrink-0 rounded-md border-2 border-outline" /> {localeMeta[l].nativeName}
             </button>
           ))}
         </div>
@@ -66,7 +70,7 @@ export function ParentSettings() {
         <Toggle label={t("sound")} on={sound} onChange={(v) => set({ sound: v })} onText={t("on")} offText={t("off")} />
         <Toggle label={t("voice")} on={voice} onChange={(v) => set({ voice: v })} onText={t("on")} offText={t("off")} />
         <button type="button" className="btn-chunky min-h-14 w-fit bg-surface text-base text-ink" onClick={testVoice}>
-          🔊 {t("voiceTest")}
+          <Icon name="speaker" /> {t("voiceTest")}
         </button>
         {learn && !hasVoice && <p className="text-sm text-ink-soft">{t("voiceMissing")}</p>}
         <Toggle
@@ -82,9 +86,9 @@ export function ParentSettings() {
       <Section title={t("data")}>
         <p className="text-ink-soft">{t("dataDesc")}</p>
         <button type="button" className="btn-chunky min-h-14 w-fit bg-red text-base" onClick={() => setConfirmOpen(true)}>
-          🗑️ {t("clearData")}
+          <Icon name="trash" /> {t("clearData")}
         </button>
-        {cleared && <p className="font-bold text-correct">✓ {t("cleared")}</p>}
+        {cleared && <p className="font-bold text-correct"><Icon name="check" className="inline h-[1em] w-[1em] align-[-0.12em]" /> {t("cleared")}</p>}
       </Section>
 
       <Section title={t("support")}>
@@ -109,7 +113,7 @@ export function ParentSettings() {
         <p className="mb-5 text-center">{t("clearConfirm")}</p>
         <div className="grid grid-cols-2 gap-3">
           <button type="button" className="btn-chunky bg-surface text-base text-ink" onClick={() => setConfirmOpen(false)}>
-            ✕
+            <Icon name="close" />
           </button>
           <button
             type="button"
@@ -120,7 +124,7 @@ export function ParentSettings() {
               setCleared(true);
             }}
           >
-            🗑️ {t("clearData")}
+            <Icon name="trash" /> {t("clearData")}
           </button>
         </div>
       </Modal>

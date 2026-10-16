@@ -2,10 +2,12 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { useTranslations } from "next-intl";
+import { Icon } from "@/components/Icon";
 import { Link } from "@/i18n/navigation";
 import { needsReview } from "@/lib/core/leitner";
 import { db } from "@/lib/storage/db";
 import { useLanguagePair } from "@/lib/useLearnLang";
+import { PlayBubble } from "./FeaturedTopic";
 
 export function ReviewBanner() {
   const t = useTranslations("home");
@@ -21,18 +23,19 @@ export function ReviewBanner() {
   return (
     <Link
       href={{ pathname: "/games/picture-guess", query: { review: "1" } }}
-      className="card-chunky flex items-center gap-3 bg-yellow p-4 text-on-color active:translate-y-1"
+      className="card-chunky card-press group flex items-center gap-3 bg-yellow p-3 text-on-color sm:gap-4 sm:p-4"
     >
-      <span className="text-4xl" aria-hidden>
-        🔁
+      <span
+        className="flex h-14 w-14 shrink-0 -rotate-6 items-center justify-center rounded-2xl border-[3px] border-outline bg-sky text-3xl sm:h-16 sm:w-16"
+        aria-hidden
+      >
+        <Icon name="replay" />
       </span>
       <span className="flex flex-col">
         <span className="font-display text-xl font-extrabold">{t("review", { count })}</span>
         <span className="text-sm">{t("reviewHint")}</span>
       </span>
-      <span className="ml-auto text-3xl" aria-hidden>
-        ▶
-      </span>
+      <PlayBubble />
     </Link>
   );
 }

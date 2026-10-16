@@ -11,6 +11,7 @@ import { QuitModal, screenShell } from "../shared/quiz/QuizChrome";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 import { createMemory, reduceMemory, type Card, type MemoryState, type Variant } from "./engine";
+import { Icon } from "@/components/Icon";
 
 const HIDE_AFTER_MS = 1100;
 const FINISH_AFTER_MS = 900;
@@ -91,7 +92,7 @@ export function MemoryBoard({ conceptIds, variant, learn, onFinish, onQuit }: Pr
           onClick={() => setQuitOpen(true)}
           aria-label={t("nav.close")}
         >
-          ✕
+          <Icon name="close" />
         </button>
         <div className="flex flex-1 flex-wrap items-center justify-center gap-1.5" aria-label={t("memory.found")}>
           {conceptIds.map((id, i) => (
@@ -209,7 +210,7 @@ function MemoryCard({
               className="absolute -top-2 -right-2 flex h-8 w-8 items-center justify-center rounded-full border-[3px] border-outline bg-correct text-base"
               aria-hidden
             >
-              ✓
+              <Icon name="check" />
             </span>
           )}
         </span>

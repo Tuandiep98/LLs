@@ -13,6 +13,8 @@ import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
 import { Reading } from "../shared/Reading";
 import { Balloon } from "./Balloon";
+import { Icon } from "@/components/Icon";
+import { Flag } from "@/components/Flag";
 
 const COLORS = ["var(--orange)", "var(--sky)", "var(--yellow)", "var(--grape)", "var(--green)", "var(--red)"];
 const RISE_SECONDS = 8;
@@ -64,7 +66,7 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
           transition={prompt.speaking ? { repeat: Infinity, duration: 0.8 } : undefined}
           aria-label={t("listen.replay")}
         >
-          🔊
+          <Icon name="speaker" />
         </motion.button>
         <div className={`min-w-0 flex-1 ${timeLimit > 0 ? "pr-8 sm:pr-0" : ""}`} aria-live="polite">
           {!revealed ? (
@@ -84,7 +86,7 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
               <p className="font-display text-2xl leading-tight font-extrabold break-words sm:text-3xl">{learnTerm.text}</p>
               <p className="text-sm text-ink-soft">
                 <Reading term={learnTerm} className="mr-2" />
-                {localeMeta[native].flag} {nativeTerm.text}
+                <Flag locale={native} /> {nativeTerm.text}
               </p>
             </motion.div>
           )}
@@ -149,7 +151,7 @@ export function BalloonScreen({ mode, rounds, timeLimit, learn, native, onFinish
                   <Balloon concept={option} color={lane.color} />
                   {revealed && isAnswer && (
                     <span className="absolute -top-2 -right-2 flex h-9 w-9 items-center justify-center rounded-full border-[3px] border-outline bg-correct text-lg" aria-hidden>
-                      ✓
+                      <Icon name="check" />
                     </span>
                   )}
                 </motion.button>

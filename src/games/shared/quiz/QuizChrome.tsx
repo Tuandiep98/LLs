@@ -5,6 +5,7 @@ import { Mascot } from "@/components/Mascot";
 import { Modal } from "@/components/Modal";
 import type { GameState } from "./engine";
 import { REVEAL_MS, type QuizSession } from "./useQuizSession";
+import { Icon } from "@/components/Icon";
 
 /** Close button, progress dots and score. */
 export function QuizTopBar({ session }: { session: QuizSession }) {
@@ -18,7 +19,7 @@ export function QuizTopBar({ session }: { session: QuizSession }) {
         onClick={() => session.setQuitOpen(true)}
         aria-label={t("nav.close")}
       >
-        ✕
+        <Icon name="close" />
       </button>
       <ProgressDots state={state} />
       {state.mode === "play" && (
@@ -78,7 +79,7 @@ export function NextButton({ session }: { session: QuizSession }) {
           aria-hidden
         />
       )}
-      <span className="relative">{t("next")} ➜</span>
+      <span className="relative">{t("next")} <Icon name="arrow" className="inline h-[1em] w-[1em] align-[-0.12em]" /></span>
     </button>
   );
 }

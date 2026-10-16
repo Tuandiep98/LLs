@@ -3,7 +3,7 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { useFormatter, useTranslations } from "next-intl";
 import { conceptsFor, spokenText, termOf, topics } from "@/content";
-import { localeMeta } from "@/i18n/config";
+import { isLocale, localeMeta } from "@/i18n/config";
 import { achievements, dayStreak } from "@/lib/achievements";
 import { useAudio } from "@/lib/audio";
 import { isUnlocked } from "@/lib/core/leitner";
@@ -11,6 +11,8 @@ import { db } from "@/lib/storage/db";
 import { useLanguagePair } from "@/lib/useLearnLang";
 import { useMounted } from "@/lib/useMounted";
 import { Sticker } from "@/games/shared/Sticker";
+import { Flag } from "@/components/Flag";
+import { Icon } from "@/components/Icon";
 
 export function StickerBook() {
   const t = useTranslations();
@@ -43,9 +45,11 @@ export function StickerBook() {
   return (
     <div className="flex flex-col gap-8 pt-2">
       <div className="flex flex-wrap items-end justify-between gap-3">
-        <h1 className="text-3xl font-extrabold sm:text-4xl">📒 {t("progress.title")}</h1>
+        <h1 className="flex items-center gap-2 text-3xl font-extrabold sm:text-4xl">
+          <Icon name="book" className="h-9 w-9 sm:h-11 sm:w-11" /> {t("progress.title")}
+        </h1>
         <p className="font-display text-xl font-bold">
-          {localeMeta[learn].flag} {t("progress.stickers", { n: unlocked.size, total: all.length })}
+          <Flag locale={learn} /> {t("progress.stickers", { n: unlocked.size, total: all.length })}
         </p>
       </div>
 
@@ -127,7 +131,7 @@ export function StickerBook() {
                   </span>
                   <span className="text-sm text-ink-soft">
                     {format.dateTime(s.startedAt, { dateStyle: "medium", timeStyle: "short" })} ·{" "}
-                    {localeMeta[s.learn as keyof typeof localeMeta]?.flag}
+                    {isLocale(s.learn) && <Flag locale={s.learn} />}
                   </span>
                 </span>
                 {s.mode === "play" && (

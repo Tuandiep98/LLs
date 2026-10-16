@@ -12,6 +12,7 @@ import { useAudio } from "@/lib/audio";
 import { recordSession, type AnswerRecord, type SessionOutcome } from "@/lib/storage/record";
 import { celebrate } from "./confetti";
 import { Sticker } from "./Sticker";
+import { Icon } from "@/components/Icon";
 
 export type SessionResult = {
   total: number;
@@ -180,7 +181,7 @@ export function Summary({
                   >
                     <Sticker concept={c} className="h-10 w-10" />
                     <span className="font-bold">{termOf(c, learn).text}</span>
-                    <span aria-hidden>🔊</span>
+                    <Icon name="speaker" />
                   </button>
                 )
               );
@@ -191,10 +192,10 @@ export function Summary({
 
       <div className="grid w-full grid-cols-1 gap-3 pt-2 sm:grid-cols-2">
         <button type="button" onClick={onPlayAgain} className="btn-chunky bg-green">
-          🔁 {t("summary.playAgain")}
+          <Icon name="replay" /> {t("summary.playAgain")}
         </button>
         <Link href="/" className="btn-chunky bg-surface text-ink">
-          🏠 {t("summary.home")}
+          <Icon name="home" /> {t("summary.home")}
         </Link>
       </div>
     </div>

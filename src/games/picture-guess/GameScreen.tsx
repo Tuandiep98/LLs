@@ -4,7 +4,6 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Mascot, type MascotMood } from "@/components/Mascot";
 import { getConcept, spokenText, termOf } from "@/content";
-import { localeMeta } from "@/i18n/config";
 import { useAudio } from "@/lib/audio";
 import { CountdownRing } from "../shared/CountdownRing";
 import {
@@ -18,6 +17,8 @@ import type { QuizScreenProps } from "../shared/quiz/QuizFlow";
 import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
+import { Icon } from "@/components/Icon";
+import { Flag } from "@/components/Flag";
 
 /** Picture Guess: see a picture, find the word (or just watch in watch mode). */
 export function GameScreen({
@@ -132,7 +133,7 @@ export function GameScreen({
                     </p>
                     <p className="text-ink-soft">
                       <Reading term={learnTerm} className="mr-2" />
-                      {localeMeta[native].flag} {nativeTerm.text}
+                      <Flag locale={native} /> {nativeTerm.text}
                     </p>
                   </div>
                   <button
@@ -141,7 +142,7 @@ export function GameScreen({
                     onClick={() => say(spokenText(learnTerm), speechLang)}
                     aria-label={t("common.listen")}
                   >
-                    🔊
+                    <Icon name="speaker" />
                   </button>
                 </motion.div>
               )}
@@ -184,9 +185,9 @@ export function GameScreen({
                       onClick={(e) => session.answer(id, e.timeStamp)}
                       className={`btn-chunky min-h-20 w-full pr-12 text-xl break-words sm:min-h-24 sm:text-2xl ${tone} disabled:opacity-100`}
                     >
-                      {revealed && isAnswer && <span aria-hidden>✓</span>}
+                      {revealed && isAnswer && <Icon name="check" />}
                       {revealed && chosen && !isAnswer && (
-                        <span aria-hidden>✗</span>
+                        <Icon name="cross" />
                       )}
                       <span className="flex flex-col items-center leading-tight">
                         {text}
@@ -199,7 +200,7 @@ export function GameScreen({
                       onClick={() => say(spokenText(term), speechLang)}
                       aria-label={`${t("common.listen")}: ${text}`}
                     >
-                      🔊
+                      <Icon name="speaker" />
                     </button>
                   </motion.div>
                 );
@@ -214,7 +215,7 @@ export function GameScreen({
                 disabled={state.index === 0}
                 aria-label={t("common.prev")}
               >
-                ⏮
+                <Icon name="prev" />
               </button>
               <button
                 type="button"
@@ -222,7 +223,7 @@ export function GameScreen({
                 onClick={() => setPaused((p) => !p)}
                 aria-label={paused ? t("common.play") : t("common.pause")}
               >
-                {paused ? "▶" : "⏸"}
+                <Icon name={paused ? "play" : "pause"} />
               </button>
               <button
                 type="button"
@@ -230,7 +231,7 @@ export function GameScreen({
                 onClick={() => dispatch({ type: "next" })}
                 aria-label={t("common.next")}
               >
-                ⏭
+                <Icon name="next" />
               </button>
             </div>
           )}

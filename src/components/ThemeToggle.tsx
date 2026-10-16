@@ -4,9 +4,10 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { applyThemePref, readThemePref, type ThemePref } from "@/lib/settings";
 import { useMounted } from "@/lib/useMounted";
+import { Icon, type IconName } from "./Icon";
 
 const ORDER: ThemePref[] = ["auto", "light", "dark"];
-const ICON: Record<ThemePref, string> = { auto: "🌓", light: "☀️", dark: "🌙" };
+const ICON: Record<ThemePref, IconName> = { auto: "auto", light: "sun", dark: "moon" };
 
 export function useThemePref() {
   const mounted = useMounted();
@@ -26,12 +27,12 @@ export function ThemeToggle() {
   return (
     <button
       type="button"
-      className="btn-chunky btn-icon btn-header bg-surface"
+      className="btn-chunky btn-icon btn-header bg-surface text-ink"
       onClick={() => setPref(next)}
       aria-label={`${t("label")}: ${t(pref)}`}
       title={`${t("label")}: ${t(pref)}`}
     >
-      <span aria-hidden>{ICON[pref]}</span>
+      <Icon name={ICON[pref]} className="h-7 w-7 sm:h-8 sm:w-8" />
     </button>
   );
 }
@@ -49,7 +50,7 @@ export function ThemeSegment() {
           aria-pressed={pref === p}
           className={`btn-chunky min-h-14 px-2 text-base ${pref === p ? "bg-sky" : "bg-surface text-ink"}`}
         >
-          {ICON[p]} {t(p)}
+          <Icon name={ICON[p]} className="h-7 w-7" /> {t(p)}
         </button>
       ))}
     </div>

@@ -12,6 +12,8 @@ import { QuitModal, screenShell } from "../shared/quiz/QuizChrome";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
 import { createBuild, HINT_AFTER, nextTile, reduceBuild, wordLayout, type BuildRound, type BuildState } from "./engine";
+import { Icon } from "@/components/Icon";
+import { Flag } from "@/components/Flag";
 
 const HIDE_AFTER_MS = 700;
 const NEXT_AFTER_MS = 1600;
@@ -96,7 +98,7 @@ export function BuildBoard({ rounds, learn, native, onFinish, onQuit }: Props) {
           onClick={() => setQuitOpen(true)}
           aria-label={t("nav.close")}
         >
-          ✕
+          <Icon name="close" />
         </button>
         <div className="flex flex-1 flex-wrap items-center justify-center gap-1.5">
           {state.rounds.map((r, i) => (
@@ -142,7 +144,7 @@ export function BuildBoard({ rounds, learn, native, onFinish, onQuit }: Props) {
               onClick={() => say(spokenText(term), speechLang)}
               aria-label={t("common.listen")}
             >
-              🔊
+              <Icon name="speaker" />
             </button>
           </div>
           <div className="flex items-center justify-center gap-2 text-ink-soft">
@@ -155,7 +157,7 @@ export function BuildBoard({ rounds, learn, native, onFinish, onQuit }: Props) {
                   {t("build.prompt")}{" "}
                   <span className="whitespace-nowrap">
                     <Reading term={term} className="mr-1 text-ink" />
-                    {localeMeta[native].flag} {termOf(concept, native).text}
+                    <Flag locale={native} /> {termOf(concept, native).text}
                   </span>
                 </>
               )}

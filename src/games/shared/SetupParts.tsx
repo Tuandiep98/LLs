@@ -10,6 +10,7 @@ import { Link } from "@/i18n/navigation";
 import { db } from "@/lib/storage/db";
 import { Sticker } from "./Sticker";
 import { groupTopics } from "./topicGroups";
+import { Icon } from "@/components/Icon";
 
 /** Page frame for a game's setup screen: back button + title. */
 export function GameShell({ title, children }: { title: string; children: ReactNode }) {
@@ -18,7 +19,7 @@ export function GameShell({ title, children }: { title: string; children: ReactN
     <div className="mx-auto w-full max-w-5xl px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
       <div className="mb-5 flex items-center gap-3">
         <Link href="/" className="btn-chunky btn-icon bg-surface text-ink" aria-label={t("back")}>
-          ←
+          <Icon name="back" />
         </Link>
         <h1 className="text-3xl font-extrabold sm:text-4xl">{title}</h1>
       </div>
@@ -40,7 +41,7 @@ export function StartButton({ onClick }: { onClick: () => void }) {
   const t = useTranslations("common");
   return (
     <button type="button" onClick={onClick} className="btn-chunky mx-auto min-h-20 w-full max-w-sm bg-green text-3xl">
-      ▶ {t("start")}
+      <Icon name="play" /> {t("start")}
     </button>
   );
 }

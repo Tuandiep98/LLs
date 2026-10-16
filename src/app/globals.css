@@ -191,6 +191,42 @@ h3,
     box-shadow: 0 6px 0 var(--outline);
   }
 
+  /* Pressable card (banners): sinks onto its shadow like the chunky buttons */
+  .card-press {
+    transition:
+      transform 80ms ease,
+      box-shadow 80ms ease;
+  }
+  .card-press:active {
+    transform: translateY(5px);
+    box-shadow: 0 1px 0 var(--outline);
+  }
+
+  /* Home greeting: a sky bubble in the corner; on wider screens a green hill under Lala */
+  .hero-card {
+    background:
+      radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--sky) 18%, transparent) 0 7rem, transparent 7rem),
+      var(--surface);
+  }
+  @media (min-width: 640px) {
+    .hero-card {
+      background:
+        radial-gradient(
+          ellipse 16rem 4.5rem at 9.5rem 100%,
+          color-mix(in srgb, var(--green) 35%, transparent) 98%,
+          transparent 100%
+        ),
+        radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--sky) 18%, transparent) 0 10rem, transparent 10rem),
+        var(--surface);
+    }
+  }
+
+  /* Light confetti dots on colored banners */
+  .pattern-dots {
+    background-image: radial-gradient(rgb(255 255 255 / 0.28) 2px, transparent 2.5px);
+    background-size: 18px 18px;
+  }
+
   /* Die-cut sticker look for transparent PNGs */
   .sticker {
     filter: drop-shadow(3px 0 0 var(--sticker-edge))
@@ -231,6 +267,19 @@ h3,
 }
 .animate-wiggle {
   animation: wiggle 2.4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.animate-float {
+  animation: float 2.6s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

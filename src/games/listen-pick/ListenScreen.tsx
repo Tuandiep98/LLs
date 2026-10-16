@@ -13,6 +13,8 @@ import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
+import { Icon } from "@/components/Icon";
+import { Flag } from "@/components/Flag";
 
 /**
  * Listen & Pick: hear a word, tap the matching picture. Made for kids who
@@ -52,7 +54,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
               transition={speaking ? { repeat: Infinity, duration: 0.8 } : undefined}
               aria-label={t("listen.replay")}
             >
-              🔊
+              <Icon name="speaker" />
             </motion.button>
             <div className="min-w-0 flex-1" aria-live="polite">
               {!revealed ? (
@@ -75,7 +77,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
                   <p className="font-display text-3xl leading-tight font-extrabold break-words">{learnTerm.text}</p>
                   <p className="text-ink-soft">
                     <Reading term={learnTerm} className="mr-2" />
-                    {localeMeta[native].flag} {nativeTerm.text}
+                    <Flag locale={native} /> {nativeTerm.text}
                   </p>
                 </motion.div>
               )}
@@ -128,7 +130,7 @@ export function ListenScreen({ mode, rounds, timeLimit, learn, native, onFinish,
                   )}
                   {revealed && (isAnswer || chosen) && (
                     <span className="absolute -top-3 -right-3 flex h-10 w-10 items-center justify-center rounded-full border-[3px] border-outline bg-surface text-xl text-ink" aria-hidden>
-                      {isAnswer ? "✓" : "✗"}
+                      <Icon name={isAnswer ? "check" : "cross"} />
                     </span>
                   )}
                 </motion.button>

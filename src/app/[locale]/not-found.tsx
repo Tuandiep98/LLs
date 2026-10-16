@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Mascot } from "@/components/Mascot";
 import { Link } from "@/i18n/navigation";
+import { Icon } from "@/components/Icon";
 
 export default function NotFound() {
   const t = useTranslations("nav");
@@ -9,7 +10,7 @@ export default function NotFound() {
       <Mascot mood="oops" className="w-48" />
       <h1 className="text-5xl font-extrabold">404</h1>
       <Link href="/" className="btn-chunky bg-yellow">
-        🏠 {t("home")}
+        <Icon name="home" /> {t("home")}
       </Link>
     </main>
   );

@@ -13,6 +13,8 @@ import { useQuizSession } from "../shared/quiz/useQuizSession";
 import { useReadOnQuestion, useSpokenPrompt } from "../shared/quiz/useSpokenPrompt";
 import { Reading } from "../shared/Reading";
 import { Sticker } from "../shared/Sticker";
+import { Icon } from "@/components/Icon";
+import { Flag } from "@/components/Flag";
 
 /**
  * True or False: a picture and a word (read aloud). Is it the right word?
@@ -68,7 +70,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
         className={`btn-chunky relative min-h-28 flex-1 flex-col gap-0 py-3 disabled:opacity-100 sm:min-h-32 ${tone}`}
       >
         <span className="text-6xl leading-none" aria-hidden>
-          {yes ? "✓" : "✗"}
+          <Icon name={yes ? "check" : "cross"} />
         </span>
         <span className="text-xl">{yes ? t("tf.yes") : t("tf.no")}</span>
       </motion.button>
@@ -128,7 +130,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
                     </p>
                     <p className="text-ink-soft">
                       <Reading term={learnTerm} className="mr-2" />
-                      {localeMeta[native].flag} {nativeTerm.text}
+                      <Flag locale={native} /> {nativeTerm.text}
                     </p>
                   </motion.div>
                 )}
@@ -141,7 +143,7 @@ export function TrueFalseScreen({ mode, rounds, timeLimit, learn, native, onFini
                 transition={speaking ? { repeat: Infinity, duration: 0.8 } : undefined}
                 aria-label={t("common.listen")}
               >
-                🔊
+                <Icon name="speaker" />
               </motion.button>
             </div>
           </div>
