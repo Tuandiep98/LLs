@@ -147,41 +147,10 @@
     "dayStreak": "{n, plural, one {# day} other {# days}} in a row",
     "gamesPlayed": "Games played",
     "totalScore": "Total points",
-    "locked": "Not yet unlocked"
-  },
-  "badges": {
-    "first-game": {
-      "name": "First game",
-      "desc": "Finish your first game"
-    },
-    "perfect": {
-      "name": "Perfect!",
-      "desc": "Get every answer right (5+ words)"
-    },
-    "streak-5": {
-      "name": "On fire",
-      "desc": "5 right answers in a row"
-    },
-    "games-10": {
-      "name": "Game fan",
-      "desc": "Play 10 games"
-    },
-    "stickers-10": {
-      "name": "Collector",
-      "desc": "Collect 10 stickers"
-    },
-    "stickers-30": {
-      "name": "Super collector",
-      "desc": "Collect 30 stickers"
-    },
-    "topic-master": {
-      "name": "Topic master",
-      "desc": "Collect every sticker in a topic"
-    },
-    "daily-3": {
-      "name": "3 days in a row",
-      "desc": "Play 3 days in a row"
-    }
+    "locked": "Not yet unlocked",
+    "showAll": "See all ({n})",
+    "showLess": "Show less",
+    "collected": "Stickers collected"
   },
   "modes": {
     "watch": "Watch",

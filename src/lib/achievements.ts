@@ -1,33 +1,42 @@
-// Badges. Each check receives aggregate stats; add a badge by adding an entry.
+// Badges live in src/content/data/badges.json (the nightly content routine may add some);
+// this file only decides when one is earned.
+import type { Badge } from "@/content/schema";
+
 export type Stats = {
   sessions: number;
   lastSession: { mode: string; total: number; correct: number; bestStreak: number } | null;
   bestStreakEver: number;
   stickers: number;
+  /** Stickers per topic (a word counts for its main topic and its tagged topics). */
+  topicStickers: Record<string, number>;
   topicsCompleted: number;
   dayStreak: number;
 };
 
-export type Achievement = { id: string; icon: string; check: (s: Stats) => boolean };
-
-export const achievements: Achievement[] = [
-  { id: "first-game", icon: "🎉", check: (s) => s.sessions >= 1 },
-  {
-    id: "perfect",
-    icon: "🌟",
-    check: (s) =>
-      !!s.lastSession &&
-      s.lastSession.mode === "play" &&
-      s.lastSession.total >= 5 &&
-      s.lastSession.correct === s.lastSession.total,
-  },
-  { id: "streak-5", icon: "🔥", check: (s) => s.bestStreakEver >= 5 },
-  { id: "games-10", icon: "🏅", check: (s) => s.sessions >= 10 },
-  { id: "stickers-10", icon: "📒", check: (s) => s.stickers >= 10 },
-  { id: "stickers-30", icon: "📚", check: (s) => s.stickers >= 30 },
-  { id: "topic-master", icon: "👑", check: (s) => s.topicsCompleted >= 1 },
-  { id: "daily-3", icon: "📅", check: (s) => s.dayStreak >= 3 },
-];
+export function badgeEarned(badge: Badge, s: Stats): boolean {
+  const rule = badge.rule;
+  switch (rule.type) {
+    case "sessions":
+      return s.sessions >= rule.min;
+    case "dayStreak":
+      return s.dayStreak >= rule.min;
+    case "bestStreak":
+      return s.bestStreakEver >= rule.min;
+    case "perfect":
+      return (
+        !!s.lastSession &&
+        s.lastSession.mode === "play" &&
+        s.lastSession.total >= rule.min &&
+        s.lastSession.correct === s.lastSession.total
+      );
+    case "stickers":
+      return s.stickers >= rule.min;
+    case "topicsCompleted":
+      return s.topicsCompleted >= rule.min;
+    case "topicStickers":
+      return (s.topicStickers[rule.topic] ?? 0) >= rule.min;
+  }
+}
 
 function dayKey(ts: number) {
   const d = new Date(ts);

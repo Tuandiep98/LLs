@@ -147,41 +147,10 @@
     "dayStreak": "{n}にち れんぞく",
     "gamesPlayed": "あそんだ かいすう",
     "totalScore": "ごうけい てんすう",
-    "locked": "まだ ひみつ"
-  },
-  "badges": {
-    "first-game": {
-      "name": "はじめての ゲーム",
-      "desc": "はじめて ゲームを おわらせる"
-    },
-    "perfect": {
-      "name": "パーフェクト！",
-      "desc": "ぜんぶ せいかい（5もん いじょう）"
-    },
-    "streak-5": {
-      "name": "もえてる！",
-      "desc": "5もん れんぞく せいかい"
-    },
-    "games-10": {
-      "name": "ゲームだいすき",
-      "desc": "10かい あそぶ"
-    },
-    "stickers-10": {
-      "name": "コレクター",
-      "desc": "シールを 10まい あつめる"
-    },
-    "stickers-30": {
-      "name": "スーパーコレクター",
-      "desc": "シールを 30まい あつめる"
-    },
-    "topic-master": {
-      "name": "テーママスター",
-      "desc": "1つのテーマの シールを ぜんぶ あつめる"
-    },
-    "daily-3": {
-      "name": "3にち れんぞく",
-      "desc": "3にち れんぞくで あそぶ"
-    }
+    "locked": "まだ ひみつ",
+    "showAll": "ぜんぶ みる（{n}）",
+    "showLess": "とじる",
+    "collected": "あつめた シール"
   },
   "modes": {
     "watch": "みる",

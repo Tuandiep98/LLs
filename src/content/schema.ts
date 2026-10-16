@@ -48,6 +48,32 @@ export const topicSchema = z.object({
   featured: z.object({ from: z.iso.date(), to: z.iso.date() }).optional(),
 });
 
+/**
+ * How a badge is earned. Everything is counted for the language being learned, except
+ * `sessions` and `dayStreak` (all games). `perfect`: a played game of at least `min` words, all right.
+ */
+export const badgeRuleSchema = z.discriminatedUnion("type", [
+  z.object({ type: z.literal("sessions"), min: z.int().min(1) }),
+  z.object({ type: z.literal("dayStreak"), min: z.int().min(2) }),
+  z.object({ type: z.literal("bestStreak"), min: z.int().min(3) }),
+  z.object({ type: z.literal("perfect"), min: z.int().min(5) }),
+  z.object({ type: z.literal("stickers"), min: z.int().min(5) }),
+  z.object({ type: z.literal("topicsCompleted"), min: z.int().min(1) }),
+  /** Collect `min` stickers of one topic (counts words tagged with the topic too). */
+  z.object({ type: z.literal("topicStickers"), topic: z.string(), min: z.int().min(4) }),
+]);
+
+export const badgeSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  icon: z.string().min(1),
+  rule: badgeRuleSchema,
+  names: z.record(localeEnum, z.string().min(1)),
+  descs: z.record(localeEnum, z.string().min(1)),
+  /** Date the badge was added (YYYY-MM-DD); required for routine-added badges. */
+  addedAt: z.iso.date().optional(),
+  origin: z.enum(["seed", "ai"]).optional(),
+});
+
 /** Seasonal events and holidays the content routine plans themes around. */
 export const calendarSchema = z.object({
   events: z.array(
@@ -69,3 +95,5 @@ export type Term = z.infer<typeof termSchema>;
 export type Concept = z.infer<typeof conceptSchema>;
 export type Topic = z.infer<typeof topicSchema>;
 export type TopicColor = Topic["color"];
+export type Badge = z.infer<typeof badgeSchema>;
+export type BadgeRule = z.infer<typeof badgeRuleSchema>;

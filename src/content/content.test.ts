@@ -5,7 +5,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { games } from "@/games/registry";
 import { locales } from "@/i18n/config";
-import { concepts, inTopic, topics } from ".";
+import { badges, concepts, inTopic, topics } from ".";
 import blocklist from "./data/blocklist.json";
 import calendarJson from "./data/calendar.json";
 import catalogJson from "./data/fluent-catalog.json";
@@ -15,6 +15,12 @@ const MAX_TEXT_LENGTH = 30;
 const MAX_NEW_PER_DAY = 30;
 // ~370 bytes per word minified: ~3,000 words. Gzipped this is still ~200 KB.
 const MAX_CONTENT_KB = 1200;
+
+// Badges: enough to keep kids going, few enough that each one still feels special.
+const MAX_BADGES = 40;
+const MAX_NEW_BADGES_PER_DAY = 2;
+const MAX_BADGE_NAME = 24;
+const MAX_BADGE_DESC = 60;
 
 const catalog = new Set((catalogJson as { name: string }[]).map((e) => e.name));
 
@@ -127,6 +133,57 @@ describe("content", () => {
     for (const t of topics)
       if (t.featured) expect(t.featured.from <= t.featured.to, t.id).toBe(true);
     expect(() => calendarSchema.parse(calendarJson)).not.toThrow();
+  });
+});
+
+describe("badges", () => {
+  it(`has at most ${MAX_BADGES} badges with unique ids and rules`, () => {
+    expect(badges.length).toBeLessThanOrEqual(MAX_BADGES);
+    expect(new Set(badges.map((b) => b.id)).size).toBe(badges.length);
+    const rules = badges.map((b) => JSON.stringify(b.rule));
+    expect(rules.filter((r, i) => rules.indexOf(r) !== i)).toEqual([]);
+  });
+
+  it(`adds at most ${MAX_NEW_BADGES_PER_DAY} badges per day`, () => {
+    const perDay = new Map<string, number>();
+    for (const b of badges)
+      if (b.origin === "ai") {
+        expect(b.addedAt, `${b.id} addedAt`).toBeTruthy();
+        perDay.set(b.addedAt!, (perDay.get(b.addedAt!) ?? 0) + 1);
+      }
+    for (const [day, n] of perDay) expect(n, day).toBeLessThanOrEqual(MAX_NEW_BADGES_PER_DAY);
+  });
+
+  it("only has badges a kid can actually earn", () => {
+    const topicIds = new Set(topics.map((t) => t.id));
+    for (const b of badges) {
+      const r = b.rule;
+      if (r.type === "topicStickers") {
+        expect(topicIds.has(r.topic), `${b.id} topic ${r.topic}`).toBe(true);
+        const size = concepts.filter((c) => inTopic(c, r.topic)).length;
+        expect(r.min, `${b.id}: ${r.topic} has only ${size} words`).toBeLessThanOrEqual(size);
+      }
+      if (r.type === "stickers") expect(r.min, b.id).toBeLessThanOrEqual(concepts.length);
+      if (r.type === "topicsCompleted") expect(r.min, b.id).toBeLessThanOrEqual(topics.length);
+    }
+  });
+
+  it("has one emoji icon and short, safe names in every language", () => {
+    const segmenter = new Intl.Segmenter();
+    for (const b of badges) {
+      expect([...segmenter.segment(b.icon)].length, `${b.id} icon`).toBe(1);
+      expect(b.icon, `${b.id} icon`).toMatch(/\p{Extended_Pictographic}/u);
+      for (const l of locales) {
+        const name = b.names[l] ?? "";
+        const desc = b.descs[l] ?? "";
+        expect(name.trim(), `${b.id}/${l} name`).toBeTruthy();
+        expect(desc.trim(), `${b.id}/${l} desc`).toBeTruthy();
+        expect(name.length, `${b.id}/${l} name too long`).toBeLessThanOrEqual(MAX_BADGE_NAME);
+        expect(desc.length, `${b.id}/${l} desc too long`).toBeLessThanOrEqual(MAX_BADGE_DESC);
+        for (const text of [name, desc])
+          expect(containsBlockedWord(text, l), `${b.id}/${l}`).toBeUndefined();
+      }
+    }
   });
 });
 

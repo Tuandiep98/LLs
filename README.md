@@ -60,7 +60,7 @@ src/lib/
   settings.ts                   settings (localStorage) + theme
   storage/                      IndexedDB: sessions, word progress, badges
   core/leitner.ts               review boxes ("words to practice")
-  achievements.ts               badges
+  achievements.ts               when a badge is earned (badges: content/data/badges.json)
   audio/                        text-to-speech + synthesized sound effects
 public/content/images/          sticker images (Fluent Emoji, MIT)
 ```
@@ -101,12 +101,13 @@ catalog images, duplicates, topic sizes, daily limit); it also runs in `npm test
 
 **Nightly content routine:** a Claude Code routine runs every night at 02:00 (Asia/Ho_Chi_Minh),
 follows [`docs/content-routine.md`](docs/content-routine.md), adds 25–30 seasonal/core words,
-passes all checks and merges automatically. Manage it at https://claude.ai/code/routines.
+adds 0–2 badges when the new content earns one, passes all checks and merges automatically. Manage it at https://claude.ai/code/routines.
 
 Content data files:
 
 - `concepts.json` / `topics.json` — words and topics (`featured` dates show a seasonal banner)
 - `calendar.json` — seasons and holidays the routine plans around, plus core topics
+- `badges.json` — badges: icon, rule (`stickers`, `topicStickers`, `sessions`, `dayStreak`, …), names in 4 languages
 - `blocklist.json` — banned words (4 languages) and banned/limited image groups
 - `fluent-catalog.json` — allowed Fluent Emoji images (rebuild: `node scripts/build-fluent-catalog.mjs`)
 

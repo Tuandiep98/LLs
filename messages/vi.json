@@ -147,41 +147,10 @@
     "dayStreak": "{n} ngày liên tiếp",
     "gamesPlayed": "Số lượt chơi",
     "totalScore": "Tổng điểm",
-    "locked": "Chưa mở khoá"
-  },
-  "badges": {
-    "first-game": {
-      "name": "Lượt đầu tiên",
-      "desc": "Chơi xong lượt đầu tiên"
-    },
-    "perfect": {
-      "name": "Hoàn hảo!",
-      "desc": "Trả lời đúng tất cả (từ 5 từ trở lên)"
-    },
-    "streak-5": {
-      "name": "Bùng cháy",
-      "desc": "Đúng 5 câu liên tiếp"
-    },
-    "games-10": {
-      "name": "Chăm chỉ",
-      "desc": "Chơi 10 lượt"
-    },
-    "stickers-10": {
-      "name": "Nhà sưu tầm",
-      "desc": "Sưu tầm 10 sticker"
-    },
-    "stickers-30": {
-      "name": "Siêu sưu tầm",
-      "desc": "Sưu tầm 30 sticker"
-    },
-    "topic-master": {
-      "name": "Vua chủ đề",
-      "desc": "Sưu tầm đủ sticker của một chủ đề"
-    },
-    "daily-3": {
-      "name": "3 ngày liền",
-      "desc": "Chơi 3 ngày liên tiếp"
-    }
+    "locked": "Chưa mở khoá",
+    "showAll": "Xem tất cả ({n})",
+    "showLess": "Thu gọn",
+    "collected": "Sticker đã sưu tầm"
   },
   "modes": {
     "watch": "Xem",

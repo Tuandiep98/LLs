@@ -1,0 +1,319 @@
+[
+  {
+    "id": "first-game",
+    "icon": "🎉",
+    "rule": {
+      "type": "sessions",
+      "min": 1
+    },
+    "names": {
+      "en": "First game",
+      "vi": "Lượt đầu tiên",
+      "zh-Hans": "第一局",
+      "ja": "はじめての ゲーム"
+    },
+    "descs": {
+      "en": "Finish your first game",
+      "vi": "Chơi xong lượt đầu tiên",
+      "zh-Hans": "完成第一局游戏",
+      "ja": "はじめて ゲームを おわらせる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "perfect",
+    "icon": "🌟",
+    "rule": {
+      "type": "perfect",
+      "min": 5
+    },
+    "names": {
+      "en": "Perfect!",
+      "vi": "Hoàn hảo!",
+      "zh-Hans": "全对！",
+      "ja": "パーフェクト！"
+    },
+    "descs": {
+      "en": "Get every answer right (5+ words)",
+      "vi": "Trả lời đúng tất cả (từ 5 từ trở lên)",
+      "zh-Hans": "全部答对（至少 5 个词）",
+      "ja": "ぜんぶ せいかい（5もん いじょう）"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "streak-5",
+    "icon": "🔥",
+    "rule": {
+      "type": "bestStreak",
+      "min": 5
+    },
+    "names": {
+      "en": "On fire",
+      "vi": "Bùng cháy",
+      "zh-Hans": "火力全开",
+      "ja": "もえてる！"
+    },
+    "descs": {
+      "en": "5 right answers in a row",
+      "vi": "Đúng 5 câu liên tiếp",
+      "zh-Hans": "连续答对 5 个",
+      "ja": "5もん れんぞく せいかい"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "games-10",
+    "icon": "🏅",
+    "rule": {
+      "type": "sessions",
+      "min": 10
+    },
+    "names": {
+      "en": "Game fan",
+      "vi": "Chăm chỉ",
+      "zh-Hans": "游戏达人",
+      "ja": "ゲームだいすき"
+    },
+    "descs": {
+      "en": "Play 10 games",
+      "vi": "Chơi 10 lượt",
+      "zh-Hans": "玩 10 局",
+      "ja": "10かい あそぶ"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "stickers-10",
+    "icon": "📒",
+    "rule": {
+      "type": "stickers",
+      "min": 10
+    },
+    "names": {
+      "en": "Collector",
+      "vi": "Nhà sưu tầm",
+      "zh-Hans": "收藏家",
+      "ja": "コレクター"
+    },
+    "descs": {
+      "en": "Collect 10 stickers",
+      "vi": "Sưu tầm 10 sticker",
+      "zh-Hans": "收集 10 张贴纸",
+      "ja": "シールを 10まい あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "stickers-30",
+    "icon": "📚",
+    "rule": {
+      "type": "stickers",
+      "min": 30
+    },
+    "names": {
+      "en": "Super collector",
+      "vi": "Siêu sưu tầm",
+      "zh-Hans": "超级收藏家",
+      "ja": "スーパーコレクター"
+    },
+    "descs": {
+      "en": "Collect 30 stickers",
+      "vi": "Sưu tầm 30 sticker",
+      "zh-Hans": "收集 30 张贴纸",
+      "ja": "シールを 30まい あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "topic-master",
+    "icon": "👑",
+    "rule": {
+      "type": "topicsCompleted",
+      "min": 1
+    },
+    "names": {
+      "en": "Topic master",
+      "vi": "Vua chủ đề",
+      "zh-Hans": "主题大师",
+      "ja": "テーママスター"
+    },
+    "descs": {
+      "en": "Collect every sticker in a topic",
+      "vi": "Sưu tầm đủ sticker của một chủ đề",
+      "zh-Hans": "收集一个主题的全部贴纸",
+      "ja": "1つのテーマの シールを ぜんぶ あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "daily-3",
+    "icon": "📅",
+    "rule": {
+      "type": "dayStreak",
+      "min": 3
+    },
+    "names": {
+      "en": "3 days in a row",
+      "vi": "3 ngày liền",
+      "zh-Hans": "连续 3 天",
+      "ja": "3にち れんぞく"
+    },
+    "descs": {
+      "en": "Play 3 days in a row",
+      "vi": "Chơi 3 ngày liên tiếp",
+      "zh-Hans": "连续 3 天玩游戏",
+      "ja": "3にち れんぞくで あそぶ"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "stickers-50",
+    "icon": "🎒",
+    "rule": {
+      "type": "stickers",
+      "min": 50
+    },
+    "names": {
+      "en": "Big collector",
+      "vi": "Túi sticker to",
+      "zh-Hans": "贴纸大收藏家",
+      "ja": "シール めいじん"
+    },
+    "descs": {
+      "en": "Collect 50 stickers",
+      "vi": "Sưu tầm 50 sticker",
+      "zh-Hans": "收集50张贴纸",
+      "ja": "シールを 50まい あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "stickers-100",
+    "icon": "🏆",
+    "rule": {
+      "type": "stickers",
+      "min": 100
+    },
+    "names": {
+      "en": "Sticker champion",
+      "vi": "Vô địch sticker",
+      "zh-Hans": "贴纸冠军",
+      "ja": "シール チャンピオン"
+    },
+    "descs": {
+      "en": "Collect 100 stickers",
+      "vi": "Sưu tầm 100 sticker",
+      "zh-Hans": "收集100张贴纸",
+      "ja": "シールを 100まい あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "games-25",
+    "icon": "🎈",
+    "rule": {
+      "type": "sessions",
+      "min": 25
+    },
+    "names": {
+      "en": "Play buddy",
+      "vi": "Bạn chơi chăm",
+      "zh-Hans": "游戏小伙伴",
+      "ja": "あそび なかま"
+    },
+    "descs": {
+      "en": "Play 25 games",
+      "vi": "Chơi 25 lượt",
+      "zh-Hans": "玩25局",
+      "ja": "25かい あそぶ"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "daily-7",
+    "icon": "🌈",
+    "rule": {
+      "type": "dayStreak",
+      "min": 7
+    },
+    "names": {
+      "en": "A whole week!",
+      "vi": "Trọn một tuần!",
+      "zh-Hans": "整整一周！",
+      "ja": "まるまる 1しゅうかん！"
+    },
+    "descs": {
+      "en": "Play 7 days in a row",
+      "vi": "Chơi 7 ngày liên tiếp",
+      "zh-Hans": "连续7天玩游戏",
+      "ja": "7にち つづけて あそぶ"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "streak-10",
+    "icon": "🚀",
+    "rule": {
+      "type": "bestStreak",
+      "min": 10
+    },
+    "names": {
+      "en": "Rocket",
+      "vi": "Tên lửa",
+      "zh-Hans": "小火箭",
+      "ja": "ロケット"
+    },
+    "descs": {
+      "en": "Get 10 answers right in a row",
+      "vi": "Đúng 10 câu liên tiếp",
+      "zh-Hans": "连续答对10题",
+      "ja": "10もん つづけて せいかい"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "animal-friend",
+    "icon": "🐾",
+    "rule": {
+      "type": "topicStickers",
+      "topic": "animals",
+      "min": 10
+    },
+    "names": {
+      "en": "Animal friend",
+      "vi": "Bạn của muông thú",
+      "zh-Hans": "动物好朋友",
+      "ja": "どうぶつの ともだち"
+    },
+    "descs": {
+      "en": "Collect 10 animal stickers",
+      "vi": "Sưu tầm 10 sticker động vật",
+      "zh-Hans": "收集10张动物贴纸",
+      "ja": "どうぶつの シールを 10まい あつめる"
+    },
+    "origin": "seed"
+  },
+  {
+    "id": "little-chef",
+    "icon": "🧁",
+    "rule": {
+      "type": "topicStickers",
+      "topic": "food",
+      "min": 10
+    },
+    "names": {
+      "en": "Little chef",
+      "vi": "Đầu bếp nhí",
+      "zh-Hans": "小厨师",
+      "ja": "ちいさな シェフ"
+    },
+    "descs": {
+      "en": "Collect 10 food stickers",
+      "vi": "Sưu tầm 10 sticker đồ ăn",
+      "zh-Hans": "收集10张食物贴纸",
+      "ja": "たべものの シールを 10まい あつめる"
+    },
+    "origin": "seed"
+  }
+]

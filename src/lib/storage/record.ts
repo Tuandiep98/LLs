@@ -1,7 +1,7 @@
 "use client";
 
-import { concepts } from "@/content";
-import { achievements, dayStreak, type Stats } from "../achievements";
+import { badges, concepts, inTopic, topics } from "@/content";
+import { badgeEarned, dayStreak, type Stats } from "../achievements";
 import { applyAnswer, emptyProgress, isKnown, isUnlocked, needsReview } from "../core/leitner";
 import { db, type SessionRecord } from "./db";
 
@@ -44,8 +44,8 @@ export async function recordSession(
 
     const stats = await computeStats(session.learn, now, session);
     const owned = new Set((await db.achievements.toArray()).map((a) => a.id));
-    const newAchievements = achievements
-      .filter((a) => !owned.has(a.id) && a.check(stats))
+    const newAchievements = badges
+      .filter((b) => !owned.has(b.id) && badgeEarned(b, stats))
       .map((a) => a.id);
     await db.achievements.bulkPut(newAchievements.map((id) => ({ id, unlockedAt: now })));
 
@@ -60,12 +60,16 @@ async function computeStats(learn: string, now: number, last: Omit<SessionRecord
   const byTopic = new Map<string, string[]>();
   for (const c of concepts) byTopic.set(c.topic, [...(byTopic.get(c.topic) ?? []), c.id]);
   const topicsCompleted = [...byTopic.values()].filter((ids) => ids.every((id) => unlocked.has(id))).length;
+  const topicStickers = Object.fromEntries(
+    topics.map((t) => [t.id, concepts.filter((c) => unlocked.has(c.id) && inTopic(c, t.id)).length]),
+  );
 
   return {
     sessions: sessions.length,
     lastSession: last,
     bestStreakEver: Math.max(0, ...sessions.map((s) => s.bestStreak)),
     stickers: unlocked.size,
+    topicStickers,
     topicsCompleted,
     dayStreak: dayStreak(
       sessions.map((s) => s.startedAt),

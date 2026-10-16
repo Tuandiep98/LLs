@@ -355,3 +355,28 @@ h3,
     top: var(--static-top);
   }
 }
+
+/* Collapsed badge list shows just its first row: pair with grid-cols-2 sm:grid-cols-4 */
+.peek-2-4 > :nth-child(n + 3) {
+  display: none;
+}
+@media (min-width: 640px) {
+  .peek-2-4 > :nth-child(-n + 4) {
+    display: block;
+  }
+}
+
+/* Two rows of topic cards: grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 */
+.peek-2-3-4x2 > :nth-child(n + 5) {
+  display: none;
+}
+@media (min-width: 640px) {
+  .peek-2-3-4x2 > :nth-child(-n + 6) {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .peek-2-3-4x2 > :nth-child(-n + 8) {
+    display: block;
+  }
+}

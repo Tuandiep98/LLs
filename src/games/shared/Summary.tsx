@@ -4,10 +4,9 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/Mascot";
-import { getConcept, spokenText, termOf } from "@/content";
+import { badges, getConcept, spokenText, termOf } from "@/content";
 import { localeMeta, type Locale } from "@/i18n/config";
 import { Link } from "@/i18n/navigation";
-import { achievements } from "@/lib/achievements";
 import { useAudio } from "@/lib/audio";
 import { recordSession, type AnswerRecord, type SessionOutcome } from "@/lib/storage/record";
 import { celebrate } from "./confetti";
@@ -153,14 +152,18 @@ export function Summary({
         <section className="w-full">
           <h2 className="mb-2 text-2xl font-extrabold">{t("summary.newBadges")}</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            {outcome.newAchievements.map((id) => (
-              <div key={id} className="card-chunky flex items-center gap-2 bg-yellow px-4 py-2 text-on-color">
-                <span className="text-3xl" aria-hidden>
-                  {achievements.find((a) => a.id === id)?.icon}
-                </span>
-                <span className="font-display text-lg font-bold">{t(`badges.${id}.name`)}</span>
-              </div>
-            ))}
+            {outcome.newAchievements.map((id) => {
+              const badge = badges.find((b) => b.id === id);
+              if (!badge) return null;
+              return (
+                <div key={id} className="card-chunky flex items-center gap-2 bg-yellow px-4 py-2 text-on-color">
+                  <span className="text-3xl" aria-hidden>
+                    {badge.icon}
+                  </span>
+                  <span className="font-display text-lg font-bold">{badge.names[native]}</span>
+                </div>
+              );
+            })}
           </div>
         </section>
       )}

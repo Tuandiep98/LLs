@@ -1,12 +1,14 @@
 import { z } from "zod";
 import type { Locale } from "@/i18n/config";
+import badgesJson from "./data/badges.json";
 import conceptsJson from "./data/concepts.json";
 import topicsJson from "./data/topics.json";
-import { conceptSchema, topicSchema, type Concept, type Term, type Topic } from "./schema";
+import { badgeSchema, conceptSchema, topicSchema, type Badge, type Concept, type Term, type Topic } from "./schema";
 
 // Content is validated once at load, so bad data fails the build instead of a game.
 export const topics: Topic[] = z.array(topicSchema).parse(topicsJson);
 export const concepts: Concept[] = z.array(conceptSchema).parse(conceptsJson);
+export const badges: Badge[] = z.array(badgeSchema).parse(badgesJson);
 
 const conceptById = new Map(concepts.map((c) => [c.id, c]));
 

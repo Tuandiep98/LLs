@@ -10,13 +10,15 @@ so you are the only reviewer. When in doubt, leave a word out: fewer good words 
 ## Goal
 
 Add **25–30 new words** per night (never more than 30) with pictures and translations in all
-supported languages: `en`, `vi`, `zh-Hans`, `ja`.
+supported languages: `en`, `vi`, `zh-Hans`, `ja`. When the new content earns one, also add
+**0–2 badges** (most nights 0 or 1) so kids get a new goal now and then — never a flood of them.
 
 ## Hard rules
 
 1. Only change these files:
    - `src/content/data/concepts.json`
    - `src/content/data/topics.json`
+   - `src/content/data/badges.json` (add new badges only, see step 4b)
    - `public/content/images/*.png` (downloaded by `npm run images`)
 2. Never edit tests, the blocklist, the image catalog, scripts, app code or this file, and never weaken a check.
    If a check fails, fix or remove the word.
@@ -146,6 +148,49 @@ Append to `src/content/data/concepts.json`, keeping the same formatting (2-space
   add words to it and update `featured` to the new window.
 - A topic needs at least 4 words (games need 4 answer choices).
 
+### 4b. Badges (0–2 per night)
+
+Badges live in `src/content/data/badges.json`. Kids see them in the sticker book and win them
+after a game. Add one **only** when one of these is true, otherwise add none:
+
+1. **Topic badge** — a topic has **12 or more words** (count with the command in step 2, words
+   tagged with the topic count too) and no `topicStickers` badge yet. Goal: about half its words,
+   rounded down to a multiple of 5, at least 5 (e.g. 26 words → 10).
+2. **Milestone badge** — the next step of a ladder whose previous step exists, only when the
+   content is big enough to reach it comfortably:
+   - `stickers`: 10 → 30 → 50 → 100 → 200 → 400 (total words at least twice the goal)
+   - `sessions`: 1 → 10 → 25 → 50 → 100
+   - `dayStreak`: 3 → 7 → 14 → 30
+   - `bestStreak`: 5 → 10 → 15
+   - `topicsCompleted`: 1 → 3 → 5
+
+Prefer a badge for a seasonal topic you just filled, then a core topic, then milestones.
+Never more than 2 a night, never more than 40 in total (the content check enforces both).
+
+```json
+{
+  "id": "animal-friend",
+  "icon": "🐾",
+  "rule": { "type": "topicStickers", "topic": "animals", "min": 10 },
+  "names": { "en": "Animal friend", "vi": "Bạn của muông thú", "zh-Hans": "动物好朋友", "ja": "どうぶつの ともだち" },
+  "descs": {
+    "en": "Collect 10 animal stickers",
+    "vi": "Sưu tầm 10 sticker động vật",
+    "zh-Hans": "收集10张动物贴纸",
+    "ja": "どうぶつの シールを 10まい あつめる"
+  },
+  "addedAt": "2026-10-17",
+  "origin": "ai"
+}
+```
+
+- `rule.type`: `topicStickers` (needs `topic`), `stickers`, `sessions`, `dayStreak`, `bestStreak`,
+  `perfect` or `topicsCompleted`; `min` is the goal. No two badges may have the same rule.
+- `icon`: one cheerful emoji that matches the topic or goal (no flags, nothing from the rule 3 list).
+- `names` (max 24 characters) praise the kid; `descs` (max 60) say exactly how to earn it, in the
+  same words a parent would use. Japanese in kana, like the words. All four languages required.
+- Append only. Never change or remove an existing badge: kids may already own it.
+
 ### 5. Check
 
 ```bash
@@ -168,17 +213,21 @@ For **every** new word, answer yes to all of these, or remove it:
 - Are all four translations correct, natural and the same meaning?
 - Is it free of brands, characters, religion and politics?
 
+For every new badge: is it reachable with today's content, is the goal clear to a 5-year-old,
+and does it match one of the two reasons in step 4b?
+
 ### 7. Publish
 
 ```bash
 git checkout -b content/<today>
 git add src/content/data public/content/images
-git commit -m "Content: +<N> words (<themes>)"
+git commit -m "Content: +<N> words (<themes>)"   # add ", +<M> badges" when you added badges
 git push -u origin content/<today>
 ```
 
-Open a pull request titled `Content: +<N> words (<themes>)`. The description lists every word
-as a table (id, en, vi, zh-Hans, ja, image, topic) plus the themes chosen and why. Then merge it
+Open a pull request with the commit title. The description lists every word
+as a table (id, en, vi, zh-Hans, ja, image, topic), every new badge (id, icon, rule, en, vi),
+plus the themes chosen and why. Then merge it
 (squash) and delete the branch — all checks have passed and merging deploys the site.
 
 If you cannot open or merge a pull request (no GitHub CLI or permission), rebase on the latest
@@ -187,5 +236,5 @@ lint, tests and the build once more before publishing.
 
 ### 8. Report
 
-Finish with a short report: date, themes, number of words added, new topics, the
+Finish with a short report: date, themes, number of words added, new topics, new badges, the
 pull request or commit link, unused catalog images left, and anything you skipped and why.

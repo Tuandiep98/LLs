@@ -147,41 +147,10 @@
     "dayStreak": "连续 {n} 天",
     "gamesPlayed": "游戏次数",
     "totalScore": "总分",
-    "locked": "尚未解锁"
-  },
-  "badges": {
-    "first-game": {
-      "name": "第一局",
-      "desc": "完成第一局游戏"
-    },
-    "perfect": {
-      "name": "全对！",
-      "desc": "全部答对（至少 5 个词）"
-    },
-    "streak-5": {
-      "name": "火力全开",
-      "desc": "连续答对 5 个"
-    },
-    "games-10": {
-      "name": "游戏达人",
-      "desc": "玩 10 局"
-    },
-    "stickers-10": {
-      "name": "收藏家",
-      "desc": "收集 10 张贴纸"
-    },
-    "stickers-30": {
-      "name": "超级收藏家",
-      "desc": "收集 30 张贴纸"
-    },
-    "topic-master": {
-      "name": "主题大师",
-      "desc": "收集一个主题的全部贴纸"
-    },
-    "daily-3": {
-      "name": "连续 3 天",
-      "desc": "连续 3 天玩游戏"
-    }
+    "locked": "尚未解锁",
+    "showAll": "查看全部（{n}）",
+    "showLess": "收起",
+    "collected": "已收集的贴纸"
   },
   "modes": {
     "watch": "观看",
