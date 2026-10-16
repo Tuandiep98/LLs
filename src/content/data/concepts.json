@@ -18757,5 +18757,509 @@
     "addedAt": "2026-10-16",
     "origin": "ai",
     "level": "medium"
+  },
+  {
+    "id": "calm",
+    "topic": "feelings",
+    "pos": "adjective",
+    "tags": ["feelings"],
+    "images": [
+      { "src": "/content/images/calm.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Neutral face" }
+    ],
+    "terms": {
+      "en": { "text": "calm" },
+      "vi": { "text": "bình tĩnh" },
+      "zh-Hans": { "text": "平静", "reading": "píngjìng" },
+      "ja": { "text": "おだやか", "reading": "odayaka" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "i-love-you",
+    "topic": "greetings",
+    "pos": "phrase",
+    "tags": ["greetings"],
+    "images": [
+      { "src": "/content/images/i-love-you.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Heart hands" }
+    ],
+    "terms": {
+      "en": { "text": "i love you" },
+      "vi": { "text": "yêu bạn" },
+      "zh-Hans": { "text": "我爱你", "reading": "wǒ ài nǐ" },
+      "ja": { "text": "だいすき", "reading": "daisuki" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bullet-train",
+    "topic": "vehicles",
+    "pos": "noun",
+    "tags": ["vehicles"],
+    "images": [
+      { "src": "/content/images/bullet-train.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Bullet train" }
+    ],
+    "terms": {
+      "en": { "text": "bullet train" },
+      "vi": { "text": "tàu cao tốc" },
+      "zh-Hans": { "text": "高铁", "reading": "gāotiě" },
+      "ja": { "text": "しんかんせん", "reading": "shinkansen" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "chestnut",
+    "topic": "nature",
+    "pos": "noun",
+    "tags": ["nature","food"],
+    "images": [
+      { "src": "/content/images/chestnut.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Chestnut" }
+    ],
+    "terms": {
+      "en": { "text": "chestnut" },
+      "vi": { "text": "hạt dẻ" },
+      "zh-Hans": { "text": "栗子", "reading": "lìzi" },
+      "ja": { "text": "くり", "reading": "kuri" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "sari",
+    "topic": "clothes",
+    "pos": "noun",
+    "tags": ["clothes"],
+    "images": [
+      { "src": "/content/images/sari.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Sari" }
+    ],
+    "terms": {
+      "en": { "text": "sari" },
+      "vi": { "text": "bộ sari" },
+      "zh-Hans": { "text": "纱丽", "reading": "shālì" },
+      "ja": { "text": "サリー", "reading": "sarī" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "lacrosse",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": ["sports"],
+    "images": [
+      { "src": "/content/images/lacrosse.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Lacrosse" }
+    ],
+    "terms": {
+      "en": { "text": "lacrosse" },
+      "vi": { "text": "lacrosse" },
+      "zh-Hans": { "text": "长曲棍球", "reading": "cháng qūgùnqiú" },
+      "ja": { "text": "ラクロス", "reading": "rakurosu" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "cricket",
+    "topic": "sports",
+    "pos": "noun",
+    "tags": ["sports"],
+    "images": [
+      { "src": "/content/images/cricket.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Cricket game" }
+    ],
+    "terms": {
+      "en": { "text": "cricket" },
+      "vi": { "text": "cricket" },
+      "zh-Hans": { "text": "板球", "reading": "bǎnqiú" },
+      "ja": { "text": "クリケット", "reading": "kuriketto" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "pinata",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/pinata.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Piñata" }
+    ],
+    "terms": {
+      "en": { "text": "piñata" },
+      "vi": { "text": "piñata" },
+      "zh-Hans": { "text": "皮纳塔", "reading": "pínàtǎ" },
+      "ja": { "text": "ピニャータ", "reading": "piniāta" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "confetti",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/confetti.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Confetti ball" }
+    ],
+    "terms": {
+      "en": { "text": "confetti" },
+      "vi": { "text": "confetti" },
+      "zh-Hans": { "text": "彩纸", "reading": "cǎizhǐ" },
+      "ja": { "text": "かみふぶき", "reading": "kamifubuki" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "teapot",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/teapot.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Teapot" }
+    ],
+    "terms": {
+      "en": { "text": "teapot" },
+      "vi": { "text": "ấm trà" },
+      "zh-Hans": { "text": "茶壶", "reading": "cháhú" },
+      "ja": { "text": "きゅうす", "reading": "kyuusu" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "bandage",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/bandage.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Adhesive bandage" }
+    ],
+    "terms": {
+      "en": { "text": "bandage" },
+      "vi": { "text": "băng cá nhân" },
+      "zh-Hans": { "text": "创可贴", "reading": "chuàngkětiē" },
+      "ja": { "text": "ばんそうこう", "reading": "bansoukou" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "boomerang",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/boomerang.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Boomerang" }
+    ],
+    "terms": {
+      "en": { "text": "boomerang" },
+      "vi": { "text": "cây boomerang" },
+      "zh-Hans": { "text": "回旋镖", "reading": "huíxuánbiāo" },
+      "ja": { "text": "ブーメラン", "reading": "būmeran" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "stethoscope",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/stethoscope.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Stethoscope" }
+    ],
+    "terms": {
+      "en": { "text": "stethoscope" },
+      "vi": { "text": "ống nghe" },
+      "zh-Hans": { "text": "听诊器", "reading": "tīngzhěnqì" },
+      "ja": { "text": "ちょうしんき", "reading": "choushinki" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "lunch-box",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things","school"],
+    "images": [
+      { "src": "/content/images/lunch-box.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Bento box" }
+    ],
+    "terms": {
+      "en": { "text": "lunch box" },
+      "vi": { "text": "hộp cơm" },
+      "zh-Hans": { "text": "饭盒", "reading": "fànhé" },
+      "ja": { "text": "おべんとう", "reading": "obentou" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "yarn",
+    "topic": "things",
+    "pos": "noun",
+    "tags": ["things"],
+    "images": [
+      { "src": "/content/images/yarn.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Yarn" }
+    ],
+    "terms": {
+      "en": { "text": "yarn" },
+      "vi": { "text": "cuộn len" },
+      "zh-Hans": { "text": "毛线", "reading": "máoxiàn" },
+      "ja": { "text": "けいと", "reading": "keito" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "bacon",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/bacon.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Bacon" }
+    ],
+    "terms": {
+      "en": { "text": "bacon" },
+      "vi": { "text": "thịt xông khói" },
+      "zh-Hans": { "text": "培根", "reading": "péigēn" },
+      "ja": { "text": "ベーコン", "reading": "bēkon" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "baguette",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/baguette.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Baguette bread" }
+    ],
+    "terms": {
+      "en": { "text": "baguette" },
+      "vi": { "text": "bánh mì Pháp" },
+      "zh-Hans": { "text": "法棍", "reading": "fǎgùn" },
+      "ja": { "text": "フランスパン", "reading": "furansu pan" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "burrito",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/burrito.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Burrito" }
+    ],
+    "terms": {
+      "en": { "text": "burrito" },
+      "vi": { "text": "burrito" },
+      "zh-Hans": { "text": "墨西哥卷饼", "reading": "mòxīgē juǎnbǐng" },
+      "ja": { "text": "ブリトー", "reading": "buritō" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "butter",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/butter.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Butter" }
+    ],
+    "terms": {
+      "en": { "text": "butter" },
+      "vi": { "text": "bơ" },
+      "zh-Hans": { "text": "黄油", "reading": "huángyóu" },
+      "ja": { "text": "バター", "reading": "batā" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chocolate",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/chocolate.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Chocolate bar" }
+    ],
+    "terms": {
+      "en": { "text": "chocolate" },
+      "vi": { "text": "sô cô la" },
+      "zh-Hans": { "text": "巧克力", "reading": "qiǎokèlì" },
+      "ja": { "text": "チョコレート", "reading": "chokorēto" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "curry",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/curry.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Curry rice" }
+    ],
+    "terms": {
+      "en": { "text": "curry" },
+      "vi": { "text": "cà ri" },
+      "zh-Hans": { "text": "咖喱", "reading": "gālí" },
+      "ja": { "text": "カレー", "reading": "karē" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "salad",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/salad.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Green salad" }
+    ],
+    "terms": {
+      "en": { "text": "salad" },
+      "vi": { "text": "xà lách trộn" },
+      "zh-Hans": { "text": "沙拉", "reading": "shālā" },
+      "ja": { "text": "サラダ", "reading": "sarada" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "chili-pepper",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/chili-pepper.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Hot pepper" }
+    ],
+    "terms": {
+      "en": { "text": "chili pepper" },
+      "vi": { "text": "ớt" },
+      "zh-Hans": { "text": "辣椒", "reading": "làjiāo" },
+      "ja": { "text": "とうがらし", "reading": "tougarashi" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "drumstick",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/drumstick.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Poultry leg" }
+    ],
+    "terms": {
+      "en": { "text": "drumstick" },
+      "vi": { "text": "đùi gà" },
+      "zh-Hans": { "text": "鸡腿", "reading": "jītuǐ" },
+      "ja": { "text": "ドラムスティック", "reading": "doramu sutikku" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "rice-ball",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/rice-ball.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Rice ball" }
+    ],
+    "terms": {
+      "en": { "text": "rice ball" },
+      "vi": { "text": "cơm nắm" },
+      "zh-Hans": { "text": "饭团", "reading": "fàntuán" },
+      "ja": { "text": "おにぎり", "reading": "onigiri" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "medium"
+  },
+  {
+    "id": "noodles",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/noodles.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Steaming bowl" }
+    ],
+    "terms": {
+      "en": { "text": "noodles" },
+      "vi": { "text": "sợi mì" },
+      "zh-Hans": { "text": "面条", "reading": "miàntiáo" },
+      "ja": { "text": "めん", "reading": "men", "tts": "麺" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "salt",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/salt.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Salt" }
+    ],
+    "terms": {
+      "en": { "text": "salt" },
+      "vi": { "text": "muối" },
+      "zh-Hans": { "text": "盐", "reading": "yán" },
+      "ja": { "text": "しお", "reading": "shio", "tts": "塩" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
+  },
+  {
+    "id": "shaved-ice",
+    "topic": "food",
+    "pos": "noun",
+    "tags": ["food"],
+    "images": [
+      { "src": "/content/images/shaved-ice.png", "kind": "sticker", "source": "fluent-emoji", "sourceRef": "Shaved ice" }
+    ],
+    "terms": {
+      "en": { "text": "shaved ice" },
+      "vi": { "text": "đá bào" },
+      "zh-Hans": { "text": "刨冰", "reading": "bàobīng" },
+      "ja": { "text": "かきごおり", "reading": "kakigoori" }
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai",
+    "level": "easy"
   }
 ]

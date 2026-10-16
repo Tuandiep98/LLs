@@ -315,5 +315,28 @@
       "ja": "たべものの シールを 10まい あつめる"
     },
     "origin": "seed"
+  },
+  {
+    "id": "thing-finder",
+    "icon": "📦",
+    "rule": {
+      "type": "topicStickers",
+      "topic": "things",
+      "min": 35
+    },
+    "names": {
+      "en": "Thing finder",
+      "vi": "Vua đồ vật",
+      "zh-Hans": "物品高手",
+      "ja": "もののはかせ"
+    },
+    "descs": {
+      "en": "Collect 35 thing stickers",
+      "vi": "Sưu tầm 35 sticker đồ vật",
+      "zh-Hans": "收集35张物品贴纸",
+      "ja": "もののシールを 35まい あつめる"
+    },
+    "addedAt": "2026-10-17",
+    "origin": "ai"
   }
 ]
